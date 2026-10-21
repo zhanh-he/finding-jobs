@@ -1,0 +1,146 @@
+{
+  "checked": 20,
+  "all_pass": true,
+  "checks": [
+    {
+      "role": "spotify_generative_audio",
+      "format": ".pdf",
+      "status": 200,
+      "bytes": 61689,
+      "sha256_matches_disk": true
+    },
+    {
+      "role": "spotify_generative_audio",
+      "format": ".docx",
+      "status": 200,
+      "bytes": 38421,
+      "sha256_matches_disk": true
+    },
+    {
+      "role": "spotify_generative_audio",
+      "format": ".txt",
+      "status": 200,
+      "bytes": 3620,
+      "sha256_matches_disk": true
+    },
+    {
+      "role": "spotify_generative_audio",
+      "format": ".txt",
+      "status": 200,
+      "bytes": 2252,
+      "sha256_matches_disk": true
+    },
+    {
+      "role": "spotify_generative_audio",
+      "format": ".csv",
+      "status": 200,
+      "bytes": 7369,
+      "sha256_matches_disk": true
+    },
+    {
+      "role": "cambridge_GT51091",
+      "format": ".pdf",
+      "status": 200,
+      "bytes": 71664,
+      "sha256_matches_disk": true
+    },
+    {
+      "role": "cambridge_GT51091",
+      "format": ".docx",
+      "status": 200,
+      "bytes": 38981,
+      "sha256_matches_disk": true
+    },
+    {
+      "role": "cambridge_GT51091",
+      "format": ".txt",
+      "status": 200,
+      "bytes": 4796,
+      "sha256_matches_disk": true
+    },
+    {
+      "role": "cambridge_GT51091",
+      "format": ".txt",
+      "status": 200,
+      "bytes": 2878,
+      "sha256_matches_disk": true
+    },
+    {
+      "role": "cambridge_GT51091",
+      "format": ".csv",
+      "status": 200,
+      "bytes": 9463,
+      "sha256_matches_disk": true
+    },
+    {
+      "role": "elevenlabs_research_engineer",
+      "format": ".pdf",
+      "status": 200,
+      "bytes": 65118,
+      "sha256_matches_disk": true
+    },
+    {
+      "role": "elevenlabs_research_engineer",
+      "format": ".docx",
+      "status": 200,
+      "bytes": 38363,
+      "sha256_matches_disk": true
+    },
+    {
+      "role": "elevenlabs_research_engineer",
+      "format": ".txt",
+      "status": 200,
+      "bytes": 3379,
+      "sha256_matches_disk": true
+    },
+    {
+      "role": "elevenlabs_research_engineer",
+      "format": ".txt",
+      "status": 200,
+      "bytes": 1744,
+      "sha256_matches_disk": true
+    },
+    {
+      "role": "elevenlabs_research_engineer",
+      "format": ".csv",
+      "status": 200,
+      "bytes": 3370,
+      "sha256_matches_disk": true
+    },
+    {
+      "role": "apple_speech",
+      "format": ".pdf",
+      "status": 200,
+      "bytes": 64127,
+      "sha256_matches_disk": true
+    },
+    {
+      "role": "apple_speech",
+      "format": ".docx",
+      "status": 200,
+      "bytes": 38417,
+      "sha256_matches_disk": true
+    },
+    {
+      "role": "apple_speech",
+      "format": ".txt",
+      "status": 200,
+      "bytes": 3492,
+      "sha256_matches_disk": true
+    },
+    {
+      "role": "apple_speech",
+      "format": ".txt",
+      "status": 200,
+      "bytes": 2076,
+      "sha256_matches_disk": true
+    },
+    {
+      "role": "apple_speech",
+      "format": ".csv",
+      "status": 200,
+      "bytes": 12097,
+      "sha256_matches_disk": true
+    }
+  ]
+}

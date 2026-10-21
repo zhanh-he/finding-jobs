@@ -1,0 +1,15 @@
+Musician Directed Expressive Transformation Across Instruments
+
+How can a generative music system support an expert musician’s expressive decisions while preserving control over what changes? I propose to investigate models that transform musical dynamics across instruments, connecting audio and symbolic representations with musician-defined constraints.
+
+My starting point is research on MIDI velocity estimation, score-informed refinement and differentiable renderer proxies. These methods offer a concrete setting in which to study a broader problem: a model can produce a plausible interpretation without producing the interpretation its user intended. The project will examine which controls musicians find meaningful, how those controls can be represented computationally, and how their usefulness can be evaluated beyond predictive accuracy.
+
+In year one, I would work with musicians and CMS colleagues to define a small set of performance and arrangement tasks. Interviews and prototype sessions would inform controllable dimensions, such as phrase-level dynamic shape, local emphasis and the preservation of selected passages. I would establish reproducible baselines using appropriately licensed data and separate evaluation sets for modelling, rendering and user-facing tasks. Data collection and participant work would proceed only with the required permissions and ethics approval.
+
+In years two and three, I would develop models that translate these controls into editable expressive transformations. Score-informed conditioning and renderer-aware supervision would provide initial approaches. The research would test explicit preservation constraints, uncertainty when transferring between instruments, and adaptation to individual preferences. Ablations would examine whether improvements arise from the control representation, the learning objective or the renderer. A smaller symbolic model would remain a practical alternative if audio-model scale or data access limited progress.
+
+In year four, the focus would move to collaborative creative tasks. Studies would compare manual editing, unconstrained model suggestions and constrained assistance. Musical quality, perceived control, revision effort and the ability to realise an intended interpretation would be measured separately. Study design would be developed with music psychology expertise, using pilot results to refine tasks, sampling and analysis. This would help identify cases where attractive output reduces rather than increases a musician’s agency.
+
+In year five, I would consolidate the methods into a documented research toolkit and publish the findings, including negative results and limits to generalisation. Subject to rights and consent, code, evaluation protocols and suitable examples would be shared to support reproducibility and student projects.
+
+The intended contribution is a testable account of how expressive controls, learning objectives and evaluation interact in musician-facing AI. CMS provides a setting in which computational methods can be developed alongside musical practice and critical examination of what counts as useful creative assistance.

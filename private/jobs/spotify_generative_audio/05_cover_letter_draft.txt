@@ -1,0 +1,16 @@
+21 October 2026
+
+Dear Hiring Team,
+
+I am applying for the Research Scientist – Generative Audio role in Spotify’s Artist-First AI Music Lab. My work combines music-generation post-training, audio and symbolic music research, and perceptual evaluation. I am particularly interested in using preference alignment and musical control to support listening experiences that respect artists’ creative choices.
+
+In my research internship at Huawei, which began in June 2026, My work has included DPO/GRPO-based post-training for music-generation models, music-specific rewards, rollout workflows, and human-preference data collection and analysis. This provides a direct connection to the role’s post-training focus. I would welcome the opportunity to discuss my individual contribution and evaluation approach within the appropriate confidentiality boundaries.
+
+At Dolby, I developed music-generation models using U-Net, VAE and masked Transformer architectures and designed and conducted professional listening tests. My doctoral research at the University of Western Australia focuses on musical dynamics, including multi-task estimation of dynamics and metrical structure, score-informed MIDI-velocity refinement, and cross-instrument adaptation with differentiable SoundFont proxies. These projects have trained me to connect model design with musical expression and to examine the relationship between objective evaluation and perceived quality. My work on joint dynamics and metrical-structure estimation was published at ICASSP 2026.
+
+Spotify’s emphasis on artist participation, attribution and compensation is a strong reason for my interest. I would bring music-domain knowledge and post-training experience to the team while developing further expertise in its diffusion and flow-matching research. My teaching and honours co-supervision experience has also helped me explain signal-processing and machine-learning ideas to different audiences.
+
+I have completed my PhD defense and expect my graduation certificate in November 2026; the formal award date remains to be confirmed. I would welcome discussion of the role’s qualification and start-date requirements. Thank you for considering my application.
+
+Yours sincerely,
+Zhanhong He

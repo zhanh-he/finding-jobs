@@ -1,0 +1,23 @@
+<!doctype html><html lang="zh-CN"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><meta name="robots" content="noindex,nofollow"><meta name="referrer" content="no-referrer"><title>07_interview_10_questions · 音频 AI 求职复核</title><link rel="stylesheet" href="../../assets/style.css"></head><body><a class="skip" href="#main">跳到正文</a><header><nav aria-label="主导航"><a href="../../index.html" class="brand">音频 AI · 求职复核</a><a href="../../shared/cross_role_comparison.html">跨岗结论</a><a href="../../shared/visa_routes_official_evidence.html">签证证据</a><a href="../../shared/all_questions.html">待确认问题</a></nav></header><main id="main" class="document"><h1>Spotify：10个最可能面试问题与真实回答结构</h1>
+<p>2026-10-21；题目是基于JD推断，不是Spotify内部题库。默认英文面试，以下中文组织答案。官方FAQ说明通常有招聘人员、团队及跨业务交流，可能使用远程技术工具；本岗位具体轮次和考题未知。<a href="https://www.lifeatspotify.com/start-your-journey/faq">官方招聘FAQ</a></p>
+<h2>1. 你在音乐后训练项目中到底亲自负责了什么？</h2>
+<p>回答：用60秒说明任务与边界→自己的reward/data/rollout/loss模块→为何选择该方法→客观+听测验证→一次失败及改变。依据：PDF p2；D P040–P042。要补：个人commit/设计决策及经批准的结果。不能声称全模型负责人、六个月已完成、内网代码可公开或合作方工作均由自己实现。不要泄露内部模型名、规模、数据或训练细节。</p>
+<h2>2. DPO和GRPO有什么不同，什么情况下会选择其一？</h2>
+<p>结构：先从偏好对与在线采样/组内相对奖励的训练设定讲起→写各自关键loss和梯度路径→解释reference/KL、reward噪声、偏差和成本→音乐中的偏好标注/奖励可投机问题→回到本人确实使用的设置。依据同上。准备理论推导，但明确未确认本人实现的分支；不能说做过PPO/KTO或完整RLHF栈，只因JD列了这些词。</p>
+<h2>3. 如何发现music reward被模型利用，且如何修正？</h2>
+<p>结构：描述可观察失败（重复、高响度、仅优化某特征等作为假设示例）→盲听+分组/对抗样本→独立指标与人工偏好一致性→约束/多目标与消融→保留集。依据D P042和P050支持reward/听测经历；具体失败例子须用户确认。不得把假设诊断写成Huawei真实事件，不提供未验证收益数字。</p>
+<h2>4. 如何把你的后训练经验迁移到diffusion或flow音频模型？</h2>
+<p>结构：先诚实区分自己已有的音乐模型后训练和待补的连续音频经验→定义基础生成目标、条件、采样路径→说明偏好训练需要可比较的输出/似然或代理目标→提出小规模受控实验→评价质量、控制和多样性。依据：D P041–P042/P049。无直接diffusion/flow项目证据；不能从U-Net架构推断“我训练过diffusion”。理论准备可引用原始论文，但不是工作经历。</p>
+<h2>5. 音乐控制中，如何验证控制是有效的，同时保留内容？</h2>
+<p>结构：把目标参数、应保留属性和不可变条件分开→用velocity/score conditioning/cross-instrument作为已有案例→构造内容保留与控制响应评估→盲听→失败域。依据：PDF pp1–2；D P028–P038。不能声称实现stem replacement、text-guided编辑或真正人声vocoder。明确MIDI表现控制与音频编辑的技术差异。</p>
+<h2>6. 如何设计可信的音乐听测？</h2>
+<p>结构：研究问题→有授权的刺激与条件匹配→随机化/盲法→专家/普通听者定义→样本与重复测量→统计和不确定性→指标不一致时的解释。依据：D P038/P050。当前没有人数、招募、伦理流程或统计方法，回答自己实际步骤与建议方案须分开；不要编显著性或胜率。</p>
+<h2>7. 请写一个Python/PyTorch/NumPy的数据或loss实现并找bug。</h2>
+<p>结构：先说明shape/dtype/采样与mask→最小正确实现→边界和梯度检查→数值稳定→profile后向量化。可用D P035的Bark specific-loudness重实现讲数据流。NumPy熟练度尚未独立证明；先练习broadcasting、indexing、stability和PyTorch转换，不能在口头或Resume自称强NumPy而无法演示。</p>
+<h2>8. 如何管理大规模实验，避免把算力浪费在错误结论？</h2>
+<p>结构：提出假设/最小基线→数据隔离和泄漏检查→smoke run→固定预算和配置→失败可恢复/checkpoint→指标与听测→追踪和复现。用已有研究实验思路作证据，D P035/P041/P049。公开repo含训练脚本仅是线索，尚未运行；不声称多节点、分布式、GPU集群、CI/生产MLOps经验。可以说会如何设计，但明确这是方案。</p>
+<h2>9. 给一个把复杂研究问题讲给非专家并协作推进的例子。</h2>
+<p>结构：选真实UWA教学/共同指导或Dolby听测合作→对方需要什么→如何用声音/图例解释→收到了什么反馈→如何调整。依据D P045–P047/P050。确认具体对话与结果，不伪造PM/设计/商业stakeholder经历，不把合著自动写成自己领导多职能团队。</p>
+<h2>10. 为什么Artist-First AI Music Lab，你最初三个月会做什么？</h2>
+<p>结构：从已声明的artist participation/rights原则与个人表达控制动机连接→第一月理解模型/合法数据/评价基线→第二月小型reward或preference failure study→第三月与团队评估能否扩大→记录限制。依据：官方JD与2025-10-16机构公告；个人方法证据D P028–P050。三个月计划是提议而非已承诺路线；不得暗示知道未公开路线图、已获授权使用商业音乐、或与团队成员有私人关系。</p>
+<p>共同结尾准备：如被问正式博士/签证/到岗，如实说已答辩、11月预期证书、award待确认，需要合适UK工作移民路径；具体最早开始待本人确认。生活/伴侣安排不进入专业答题。</p></main><footer>公开发布材料 · 申请草稿未提交 · 核查截至2026-10-21 · private目录不提供访问保护 · 相对路径静态站点 · 无追踪脚本或外部字体</footer></body></html>

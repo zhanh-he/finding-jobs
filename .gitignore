@@ -1,0 +1,14 @@
+# Published materials are intentionally tracked only after scope confirmation.
+.git/
+_site/
+work/
+logs/
+__pycache__/
+.DS_Store
+*.log
+*.zip
+.env
+.env.*
+*.pem
+*.key
+credentials*

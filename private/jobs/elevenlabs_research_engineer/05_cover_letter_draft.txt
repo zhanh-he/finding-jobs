@@ -1,0 +1,14 @@
+Dear Research Hiring Team,
+
+I am applying for the Research Engineer position at ElevenLabs. My work combines music-model post-training, audio and symbolic music modeling, and human evaluation. I am particularly interested in how improvements to a model can be demonstrated through reliable benchmarks and perceptual evidence.
+
+In my research internship at Huawei, I have worked on DPO and GRPO for music-model post-training, music-oriented reward signals, and human-preference data collection and analysis. At Dolby Laboratories, I developed music generative models using U-Net, VAE and masked Transformer architectures, and designed and conducted professional listening tests. These experiences have made evaluation design a central part of how I approach model development.
+
+My public research projects offer concrete examples of implementation and experimentation. They include a PyTorch Bark-scale specific-loudness extractor and multitask piano-dynamics model, cross-instrument velocity estimation through differentiable SoundFont proxies, and U-Net-based MIDI velocity generation. They reflect an interest in finding useful supervision and testing whether a method captures musically meaningful behavior. I would welcome the opportunity to discuss my individual contributions, experimental decisions and the limitations of these approaches.
+
+I have completed my PhD defense at the University of Western Australia and expect my graduation certificate in November 2026; formal award is pending confirmation. I am interested in contributing my audio research background while developing the broader engineering depth required for rigorous model improvement across tasks.
+
+Thank you for considering my application.
+
+Kind regards,
+Zhanhong He

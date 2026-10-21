@@ -1,0 +1,70 @@
+ZHANHONG HE
+Music and Audio Machine Learning Researcher
+zhanh.he@research.uwa.edu.au
+https://github.com/zhanh-he/ | https://www.linkedin.com/in/zhanhong-he/
+
+RESEARCH PROFILE
+Music and audio machine learning researcher working on expressive musical dynamics, audio-symbolic modelling and music generation. Research includes MIDI velocity estimation, score-informed refinement, multitask learning and perceptual evaluation. Industrial research experience at Dolby and Huawei complements university teaching and project co-supervision. Interested in tools that give musicians understandable control over musical expression.
+
+EDUCATION
+University of Western Australia
+PhD research in Electrical and Electronic Engineering | February 2022–present
+Doctoral defense completed; graduation certificate expected November 2026. Formal award date pending confirmation.
+Research focus: musical dynamics, audio and symbolic music processing, and machine learning.
+University International Fee Scholarship; University Postgraduate Awards; 2026 UWA Data Institute Award.
+
+University of Western Australia
+BSc (Honours) in Engineering Science | October 2018–December 2021
+First Class Honours; GPA 7/7; WAM 87.7/100.
+Honours thesis: Improving Spectrogram-based Music Source Separation using Phase Information.
+
+SELECTED RESEARCH
+Expressive dynamics across instruments
+• Developed research on adapting a piano-pretrained MIDI velocity estimator to other instruments using differentiable SoundFont proxies and audio-loudness supervision.
+• Investigated supervision that reduces reliance on note-level velocity labels in non-piano recordings.
+
+Score-informed velocity refinement
+• Developed a Transformer correction approach using score onset and frame information to refine velocity estimates from piano transcription models.
+
+Joint dynamics and musical structure modelling
+• Developed a multitask CRNN for piano dynamic markings, beats, downbeats and structural changes.
+• Reimplemented a Bark-scale specific-loudness feature extractor in PyTorch for musical audio analysis.
+
+MIDI expression generation and listening evaluation
+• Adapted a U-Net image-colourisation approach to predict per-note MIDI velocity.
+• Designed a listening test conducted with support from professional listeners at Dolby.
+
+RESEARCH EXPERIENCE
+Huawei Hongkong Research Centre — Research Intern, full time
+Appointment commencing June 2026; six-month appointment
+• Conducted research on music-model post-training and human-preference evaluation.
+
+Dolby Laboratories, Sydney — Research Intern, full time | May–September 2024
+• Developed music-generation models using U-Net, VAE and masked Transformer architectures.
+• Designed and conducted professional listening tests to evaluate generated musical expression.
+
+Great Bay University — Visiting Student Researcher, part time
+Appointment commencing March 2026; three-month appointment
+• Explored pretrained music models, including MERT, and agentic workflows for music information retrieval research.
+
+TEACHING AND COLLABORATION
+University of Western Australia — Tutor and Lab Facilitator, part time | February 2023–December 2025
+• Supported ELEC4404 Signal Processing and GENG2000 Engineering Practices.
+• Co-supervised CITS4011 Computer Science Honours projects and final-year designs.
+• Collaborated with researchers across music, signal processing and machine learning through the projects and publications listed here.
+
+SELECTED PUBLICATIONS AND PREPRINTS
+Zhanhong He, Hanyu Meng, Defeng (David) Huang and Roberto Togneri. Joint Estimation of Piano Dynamics and Metrical Structure with a Multi-Task Multi-Scale Network. IEEE ICASSP, 2026. DOI: 10.1109/ICASSP55912.2026.11460839.
+
+Zhanhong He, Hanyu Meng, David Defeng Huang and Roberto Togneri. Beyond Piano: Cross-Instrument MIDI Velocity Estimation via Differentiable SoundFont Proxies. Preprint, arXiv:2608.08985, 2026.
+
+Zhanhong He, David Cooper, Defeng Huang and Roberto Togneri. Filling MIDI Velocity using U-Net Image Colorizer. Preprint, arXiv:2508.07751, 2025.
+
+MUSIC PRACTICE AND INTERACTIVE SYSTEMS
+• UWA Conservatorium of Music coursework in electronic music, music generation and ensemble performance, 2023; composition and mixing with Ableton Live, and participation in a public ensemble concert.
+• Built a coursework HMM system for piano and environmental-sound generation using Max/MSP with Ableton Live.
+• Built an Arduino-based theremin with a MIDI interface, programmed in C, at a Physical Interaction Design for Music workshop, 2023.
+
+TECHNICAL SKILLS
+Python and PyTorch; CRNN, Transformer, U-Net and VAE research; audio and symbolic music processing; MIDI; perceptual evaluation; Ableton Live and Max/MSP.
+Languages: English (fluent); Chinese and Cantonese (native).

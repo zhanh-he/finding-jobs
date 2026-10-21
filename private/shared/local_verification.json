@@ -1,0 +1,45 @@
+{
+  "private_links": {
+    "html_pages": 46,
+    "relative_links": 402,
+    "failures": []
+  },
+  "public_links": {
+    "html_pages": 5,
+    "relative_links": 39,
+    "failures": []
+  },
+  "public_unexpected_files": [],
+  "public_source_privacy_findings": [],
+  "score_checks": [
+    {
+      "role": "spotify_generative_audio",
+      "computed_score": 78.0,
+      "reported_score": 78.0,
+      "coverage": 60,
+      "pass": true
+    },
+    {
+      "role": "cambridge_GT51091",
+      "computed_score": 82.14285714285714,
+      "reported_score": 82.1,
+      "coverage": 70,
+      "pass": true
+    },
+    {
+      "role": "elevenlabs_research_engineer",
+      "computed_score": 79.66666666666667,
+      "reported_score": 79.67,
+      "coverage": 60,
+      "pass": true
+    },
+    {
+      "role": "apple_speech",
+      "computed_score": 75.33333333333333,
+      "reported_score": 75.33,
+      "coverage": 60,
+      "pass": true
+    }
+  ],
+  "pass": true
+}

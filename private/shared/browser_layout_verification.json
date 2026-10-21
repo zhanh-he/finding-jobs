@@ -1,0 +1,85 @@
+{
+  "layouts": [
+    {
+      "role": "home",
+      "size": "desktop",
+      "client": 1425,
+      "heading": "音乐与音频 AI求职第二阶段复核",
+      "scrollWidth": 1425
+    },
+    {
+      "role": "cambridge_GT51091",
+      "size": "desktop",
+      "client": 1425,
+      "heading": "University of Cambridge",
+      "scrollWidth": 1425
+    },
+    {
+      "role": "spotify_generative_audio",
+      "size": "desktop",
+      "client": 1425,
+      "heading": "Spotify",
+      "scrollWidth": 1425
+    },
+    {
+      "role": "elevenlabs_research_engineer",
+      "size": "desktop",
+      "client": 1425,
+      "heading": "ElevenLabs",
+      "scrollWidth": 1425
+    },
+    {
+      "role": "apple_speech",
+      "size": "desktop",
+      "client": 1425,
+      "heading": "Apple",
+      "scrollWidth": 1425
+    },
+    {
+      "role": "home",
+      "size": "mobile",
+      "client": 375,
+      "heading": "音乐与音频 AI求职第二阶段复核",
+      "scrollWidth": 375
+    },
+    {
+      "role": "cambridge_GT51091",
+      "size": "mobile",
+      "client": 375,
+      "heading": "University of Cambridge",
+      "scrollWidth": 375
+    },
+    {
+      "role": "spotify_generative_audio",
+      "size": "mobile",
+      "client": 375,
+      "heading": "Spotify",
+      "scrollWidth": 375
+    },
+    {
+      "role": "elevenlabs_research_engineer",
+      "size": "mobile",
+      "client": 375,
+      "heading": "ElevenLabs",
+      "scrollWidth": 375
+    },
+    {
+      "role": "apple_speech",
+      "size": "mobile",
+      "client": 375,
+      "heading": "Apple",
+      "scrollWidth": 375
+    }
+  ],
+  "matrix": {
+    "client": 375,
+    "scrollWidth": 375,
+    "tables": [
+      {
+        "client": 333,
+        "scroll": 860
+      }
+    ]
+  },
+  "pass": true
+}

@@ -1,0 +1,118 @@
+{
+  "id": "spotify_generative_audio",
+  "title": "Research Scientist – Generative Audio",
+  "institution": "Spotify",
+  "url": "https://www.lifeatspotify.com/jobs/research-scientist-generative-audio-2",
+  "checked_date": "2026-10-21",
+  "decision": "有条件申请",
+  "grade": "C（核心条件待核；有B潜力）",
+  "score": 78.0,
+  "coverage_percent": 60,
+  "score_dimensions": {
+    "research": {
+      "weight": 20,
+      "score": 88
+    },
+    "technical": {
+      "weight": 20,
+      "score": 76
+    },
+    "academic": {
+      "weight": 10,
+      "score": 80
+    },
+    "engineering": {
+      "weight": 10,
+      "score": 60
+    },
+    "location_lifestyle": {
+      "weight": 25,
+      "score": null,
+      "cohabitation_score": null,
+      "location_contract_preference_score": null
+    },
+    "salary_development": {
+      "weight": 10,
+      "score": null
+    },
+    "interview_competitiveness": {
+      "weight": 5,
+      "score": null
+    }
+  },
+  "summary_zh": "后训练DPO/GRPO、音乐奖励与专业听测是直接切口。暂定78.0仅覆盖60%；博士正式授予/入职条件、UK用工路线和个人后训练深度是核心关卡，不能继承首轮87.7。",
+  "strengths": [
+    "Huawei音乐模型DPO/GRPO、奖励和偏好数据",
+    "Dolby生成模型与专业听测",
+    "ICASSP2026论文由官方程序及UWA机构库确认",
+    "audio-symbolic音乐表现控制研究"
+  ],
+  "gaps": [
+    "正式PhD award与招聘方接受时点待核",
+    "diffusion/flow、NumPy和规模实验未证明",
+    "个人贡献、可披露指标与保密批准待补",
+    "UK实体、本岗位CoS/GT机制、薪资/出勤未披露"
+  ],
+  "actions": [
+    "Cambridge当日截止先处理，其后Spotify",
+    "确认博士状态与本人最早开始日",
+    "准备可披露的后训练贡献/评价/失败案例卡",
+    "用户授权前不联系、不投递、不上传或公开"
+  ],
+  "salary": "未披露；未编市场估值；薪资发展=null",
+  "contract": "Permanent；London/Stockholm；EMEA须有Spotify工作地点，核心时段与实际出勤待确认",
+  "visa": "官方2026-10-20 sponsor register已确认Spotify Limited为A-rating/Skilled Worker持牌；实际雇佣法人和本岗位CoS仍未知。Research GT peer review值得证据盘点，appointment/UKRI不推定，digital另审。",
+  "source_status": "2026-10-21官方JD可读取且有Apply入口；无公开截止/薪资。本轮已只读核原CV哈希。",
+  "downloads": [
+    {
+      "label": "Resume DOCX",
+      "path": "03_tailored_resume_Zhanhong_He_Spotify_Research_Scientist_Generative_Audio_20261021_v1.docx",
+      "status": "created_and_visually_verified"
+    },
+    {
+      "label": "Resume PDF",
+      "path": "03_tailored_resume_Zhanhong_He_Spotify_Research_Scientist_Generative_Audio_20261021_v1.pdf",
+      "status": "created_and_visually_verified"
+    },
+    {
+      "label": "Resume TXT",
+      "path": "03_tailored_resume_Zhanhong_He_Spotify_Research_Scientist_Generative_Audio_20261021_v1.txt",
+      "status": "text_draft"
+    },
+    {
+      "label": "Cover Letter TXT",
+      "path": "05_cover_letter_draft.txt",
+      "status": "local_draft"
+    }
+  ],
+  "interview_competitiveness_qualitative": "方向适配较强；现有可证明材料为中等、有条件竞争力，无概率估计。",
+  "publication_checks": [
+    {
+      "item": "ICASSP2026 Joint Estimation",
+      "status": "official conference programme + UWA Published 2026 confirmed",
+      "url": "https://research-repository.uwa.edu.au/en/publications/joint-estimation-of-piano-dynamics-and-metrical-structure-with-a--2/"
+    },
+    {
+      "item": "Beyond Piano ISMIR2026",
+      "status": "author arXiv says accepted; proceedings not independently confirmed",
+      "url": "https://arxiv.org/abs/2608.08985"
+    },
+    {
+      "item": "SMC2026 Score-Informed",
+      "status": "CV conference vs GitHub submitted inconsistency; resume uses research project",
+      "url": "https://github.com/zhanh-he/score-informed-amt"
+    }
+  ],
+  "sponsor_register": {
+    "organisation": "Spotify Limited",
+    "town_city": "London",
+    "type_rating": "Worker (A rating)",
+    "route": "Skilled Worker",
+    "register_date": "2026-10-20",
+    "read_date": "2026-10-21",
+    "source_url": "https://assets.publishing.service.gov.uk/media/6ad71d3d67af5c09d047985e/SP_-_Worker_and_Temporary_Worker_Web_Register_-_2026-10-20.csv",
+    "source_sha256": "20b3f0ddd20fdd6b4654df6444293c55116ad5d4fd3f457376bdb64e85b7b97e",
+    "actual_employing_entity": "unknown",
+    "role_sponsorship": "not_stated"
+  }
+}

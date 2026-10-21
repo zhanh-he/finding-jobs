@@ -1,0 +1,10 @@
+# ElevenLabs 逐岗位英国工作路线
+
+2026-10-21核查。已知用户需要英国工作移民路线，优先GT、后备SW；当前国籍、居住地、既往身份未知。global remote不等于英国工作许可。
+
+- Academic/research GT appointment：公司Research Engineer头衔不能证明合资格研究机构、岗位条件与HR招聘程序；目前未建立该渠道。UKRI须核实批准host、认可funder、具体grant、角色工时与剩余合同；现无材料。
+- Fellowship：未核实本人持认可fellowship。Peer review promise可按研究轨迹盘点，但英国领域权威推荐、个人贡献与影响待补；无offer不自动阻塞该分支，亦不代表一定合格。
+- Digital technology GT：需独立证明获认可的潜力/领导力和规定证据。音乐AI方向及入职知名AI公司本身不够；研究成果可相关，但产品/商业影响与推荐证据未知。不能把该promise5年与研究类promise3年混淆。
+- Skilled Worker：官方register有Eleven Labs Ltd持牌条目（共用表有下载日期/原行）；仍需确认本岗位实际法人、愿发本人CoS、SOC、salary/hours/适用门槛和英语。不能以持牌写成岗位保证支持。
+
+资格、处理时间、费用、ILR合并与改革见 [官方证据比较](../../shared/visa_routes_official_evidence.md)。GT不需要雇主CoS；SW需具体雇主CoS。研究GT当前一般3年合资格居留可申请ILR，SW一般5年；均非毕业起算或自动获永居。不要对个人成功率作数值估计。

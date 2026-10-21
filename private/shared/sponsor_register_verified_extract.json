@@ -1,0 +1,36 @@
+{
+  "source_url": "https://assets.publishing.service.gov.uk/media/6ad71d3d67af5c09d047985e/SP_-_Worker_and_Temporary_Worker_Web_Register_-_2026-10-20.csv",
+  "read_date": "2026-10-21",
+  "sha256": "20b3f0ddd20fdd6b4654df6444293c55116ad5d4fd3f457376bdb64e85b7b97e",
+  "register_date": "2026-10-20",
+  "rows": [
+    {
+      "Organisation Name": "Apple Europe Limited",
+      "Town/City": "London",
+      "County": "",
+      "Type & Rating": "Worker (A rating)",
+      "Route": "Skilled Worker"
+    },
+    {
+      "Organisation Name": "Eleven Labs Ltd",
+      "Town/City": "London",
+      "County": "",
+      "Type & Rating": "Worker (A rating)",
+      "Route": "Skilled Worker"
+    },
+    {
+      "Organisation Name": "Spotify Limited",
+      "Town/City": "London",
+      "County": "",
+      "Type & Rating": "Worker (A rating)",
+      "Route": "Skilled Worker"
+    },
+    {
+      "Organisation Name": "The University of Cambridge",
+      "Town/City": "Cambridge",
+      "County": "Cambridgeshire",
+      "Type & Rating": "Worker (A rating)",
+      "Route": "Skilled Worker"
+    }
+  ]
+}

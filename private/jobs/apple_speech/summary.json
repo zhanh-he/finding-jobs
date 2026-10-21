@@ -1,0 +1,65 @@
+{
+  "id": "apple_speech",
+  "title": "Generative AI Research Engineer, Siri Speech",
+  "institution": "Apple",
+  "url": "https://jobs.apple.com/en-gb/details/200688766/generative-ai-research-engineer-siri-speech",
+  "decision": "有条件申请",
+  "grade": "B",
+  "score": 75.33,
+  "coverage_percent": 60,
+  "score_dimensions": {
+    "research": 79,
+    "technical": 75,
+    "academic": 82,
+    "engineering": 62,
+    "location": null,
+    "salary_development": null,
+    "interview": null
+  },
+  "location_subscores": {
+    "london_cohabitation": null,
+    "other_location_contract": null
+  },
+  "summary_zh": "早期职业定位与音频表现研究有合理迁移；TTS与端侧实践未证明，关键是可检查Python/PyTorch实现和真实学习动机。",
+  "strengths": [
+    "Transformer/VAE与PyTorch项目",
+    "音乐动态、时序和听测可迁移",
+    "工业研究实习及已核实ICASSP2026"
+  ],
+  "gaps": [
+    "TTS/alignment/speaker/guided inference未证明",
+    "clean scalable训练推理库与edge经验/兴趣待核",
+    "薪资、合同、到岗与本岗CoS未知"
+  ],
+  "actions": [
+    "核本人可公开代码与个人贡献",
+    "确认语音端侧动机与正式award时点",
+    "用户核稿后重新核开放状态并决定提交"
+  ],
+  "salary": "未公布",
+  "contract": "35h/week；合同期限和remote/到岗频率未披露",
+  "visa": "Apple Europe Limited登记持SW牌；200688766实际法人/CoS未知。研究GT各快通道未建立；peer review/digital独立审查。",
+  "source_status": "主代理正常IAB完整JD已读取并本地捕获；观察时有Submit CV；本子任务已读该捕获",
+  "downloads": [
+    {
+      "label": "Resume DOCX",
+      "path": "03_tailored_resume_Zhanhong_He_Apple_Generative_AI_Research_Engineer_Siri_Speech_20261021_v1.docx",
+      "status": "created_and_visually_verified"
+    },
+    {
+      "label": "Resume PDF",
+      "path": "03_tailored_resume_Zhanhong_He_Apple_Generative_AI_Research_Engineer_Siri_Speech_20261021_v1.pdf",
+      "status": "created_and_visually_verified"
+    },
+    {
+      "label": "Resume TXT",
+      "path": "03_tailored_resume_Zhanhong_He_Apple_Generative_AI_Research_Engineer_Siri_Speech_20261021_v1.txt",
+      "status": "text_draft"
+    },
+    {
+      "label": "Cover Letter TXT",
+      "path": "05_cover_letter_draft.txt",
+      "status": "local_draft"
+    }
+  ]
+}

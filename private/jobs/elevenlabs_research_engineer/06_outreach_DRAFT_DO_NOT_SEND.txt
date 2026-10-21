@@ -1,0 +1,16 @@
+DRAFT - DO NOT SEND
+Recipient: Research recruiting contact to be confirmed through the official vacancy
+Subject: Research Engineer - music post-training and audio evaluation background
+
+Dear Research Recruiting Team,
+
+I am preparing an application for the Research Engineer role. My background includes music-model post-training with DPO/GRPO, PyTorch audio research, and perceptual evaluation during research internships at Huawei and Dolby.
+
+Could you clarify whether PhD research is considered within the preferred three years of AI experience, and whether this vacancy can support UK-based employment and Skilled Worker sponsorship? I would also appreciate guidance on the team's current research focus and expected start date.
+
+Thank you for your time.
+
+Kind regards,
+Zhanhong He
+
+Local draft only. No email address has been guessed, no attachment uploaded, and no message or Gmail draft created.

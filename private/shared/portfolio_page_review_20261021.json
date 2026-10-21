@@ -1,0 +1,22 @@
+{
+  "review_date": "2026-10-21",
+  "url": "https://zhanh-he.github.io/RL-paper-reading/demos/#lyrics",
+  "title": "Music Post-Training Lab | Experiments",
+  "access": "ordinary Codex in-app browser; general web fetch failed; no bypass",
+  "observed": [
+    "Lyrics2song GRPO experiment display",
+    "baseline/checkpoint comparisons",
+    "separate validation/test protocols",
+    "A/B audio controls and waveform/mel displays",
+    "current WildSongBench view contains incomplete coverage and withheld aggregate results"
+  ],
+  "candidate_attribution": "User describes the page as their work; individual component ownership not yet mapped",
+  "not_done": [
+    "No training or benchmark execution",
+    "No audio or checkpoint download",
+    "No code-quality audit",
+    "No independent performance or listening evaluation",
+    "No determination of employer disclosure permission"
+  ],
+  "application_use": "Template prefill only; not added to CV or public-safe demo; no new score or performance claims"
+}

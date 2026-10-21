@@ -1,0 +1,40 @@
+项目贡献填写模板（两个项目分别填一份；Huawei可不选）
+
+候选A：Lyrics2song GRPO / Music Post-Training Lab
+作品链接：https://zhanh-he.github.io/RL-paper-reading/demos/#lyrics
+背景：歌词条件音乐生成后训练，baseline/checkpoint对照、验证与测试协议、A/B音频展示。
+
+候选B：Piano dynamics and metrical structure / ICASSP2026
+代码：https://github.com/zhanh-he/piano-dynamic-estimation
+背景：multitask CRNN、音乐动态与节拍/结构、PyTorch Bark-scale loudness特征。
+也可以换成其他本人更熟悉的公开研究项目。
+
+【每项目只填六项】
+1. 问题（一句话）：
+2. 我的具体贡献（两三项；已有系统/合作者负责什么）：
+3. 本人实际使用且可公开的方法/工具：
+4. 最有说服力的一项结果：
+   有数字：指标、baseline、验证/测试条件、覆盖范围、数值。
+   无数字：实际完成功能、已记录发现或失败案例；可写尚未系统评估。
+5. 直接支持上述贡献/结果的证据链接（没有公开代码可写暂无）：
+6. 一项局限与使用边界：
+   局限：
+   可写入申请：
+   不能对外写出：
+
+【英文Resume】
+Implemented [specific component] for [problem], using [confirmed methods/tools] to [observable capability].
+
+Evaluated [system] against [baseline] on [held-out evaluation and coverage], achieving [verified result] measured by [metric].
+
+Developed [prototype/pipeline] for [specific task] and documented [actual comparisons or failure cases], with examples available at [demo link].
+
+【60秒面试】
+The project addressed [problem]. My responsibility was [personal contribution], while [existing-system or collaborator contribution] came from [source]. I implemented [specific work] and evaluated it using [actual procedure]. The evidence currently supports [bounded conclusion]. One limitation is [limitation]; my next experiment would test [future work].
+
+【Huawei保密回应】
+I can discuss my role and the general research approach while keeping proprietary data, model details and internal results confidential. I can use my public research projects to explain my implementation and evaluation work.
+
+不要将网页全部结果或团队贡献归为个人，也不要将固定验证分数写成完整独立测试/听感提升。网页公开不等于雇主批准再次传播；不需要提供任何不能披露的信息。
+
+毕业不再作为本模板的前置问题；沿用已答辩、预计2026年11月获证，不补写已正式授予。

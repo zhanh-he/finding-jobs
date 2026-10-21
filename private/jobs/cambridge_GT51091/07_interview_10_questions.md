@@ -1,0 +1,49 @@
+# Cambridge最可能的10个面试问题
+
+这是按真实JD和候选人证据准备的讨论题，不是泄露题库。每题先给英文题目，再给中文回答结构、可用证据及不能声称的部分。面试计划2026-10-30，subject to change；未确认形式、时长或要求presentation。
+
+## 1 What would you investigate over five years and why does it belong at CMS
+
+结构：一句研究问题（音乐人如何控制跨乐器表达变换）→三项可证伪问题→第一年最小实验→后续模型与用户研究→资源/伦理/失败路径。证据：PDF pp1–2，P028–P038；新proposal只作未来计划。解释CMS的音乐与计算协作如何补自己的短板，不泛称靠名气。不能称已经有Cambridge合作、招募渠道、经费或健康效益。
+
+## 2 How would you distinguish musician empowerment from automation
+
+结构：定义任务中的决定权→让音乐人固定不改的音符/片段/参数→模型提供可撤销建议→把满意度、控制感、编辑负担分开测→讨论高听感却低agency的反例。证据：MIDI velocity只改变表达参数的研究和听测（P036–P038）。不能把以往听测称为已验证agency，也不能替所有音乐人定义创作目标。
+
+## 3 Explain your cross instrument velocity method and its failure modes
+
+结构：标签稀缺→piano pretraining→renderer proxy如何给梯度→用何种录音/音色做适配→如何检查对乐器/渲染器的过拟合→选择基线和消融。证据P028–P030；公开arXiv2608.08985可作方法阅读。准备本人实施/共同作者部分和一项失败。不能无确认搬用合著组的所有贡献，不能报CV没有而本人未核的增益。
+
+## 4 Why use a score informed Transformer and what could go wrong with alignment
+
+结构：输入score onset/frame→纠正哪类velocity误差→与无score、不同转录器对比→对score/音频错配、演奏时间偏移、缺失音符的鲁棒性→区分结构辅助和信息泄漏。证据P031–P032。不能把SMC发表状态说成已独立确认；可以把研究项目讲清楚。不能宣称已解决一般audio-score alignment。
+
+## 5 How would you design a convincing listening and musician study
+
+结构：区分问题（expressiveness/quality/agency）→对照、随机化/盲法/顺序平衡→受试者水平与重复测量→先做小规模pilot和power规划→报告不确定性/负面结果→伦理、同意、数据权利。证据P038/P050确有专业听测；具体样本、统计方法、伦理和本人职责须预先确认。不能说既往已做某标准协议、已显著改善或已有临床研究经验。
+
+## 6 What did you personally contribute at Dolby and Huawei
+
+结构：各选一个可披露问题→明确我的设计/实现/评价与团队的工作→可讲的技术取舍→结果/限制→移交及复现。证据P040–P042/P048–P050。Huawei先说明保密范围，避免讲内部模型/数据/奖励设计；不能把六个月计划当已完成，也不能说已部署产品。证据缺数字就用可核事实，不临时发明规模。
+
+## 7 How would you collaborate with musicologists or psychologists whose methods differ from yours
+
+结构：共同定义术语与音乐任务→保留各学科评价标准→用小pilot解决分歧→记录模型限制→分工与署名。真实例子可从Dolby专业听测（P050）、共同作者（P028–P038）或教学共同指导（P047）选，需用户补具体分歧。不能把coauthorship当证明自己领导所有跨学科团队，更不能声称已做music psychology研究。
+
+## 8 How do you plan resources and manage a project when experiments fail
+
+结构：问题优先级→数据/许可/算力依赖→简单baseline→实验记录和停止条件→里程碑与风险备选→与PI沟通。证据是研究活动P028–P042，正式资源规划/预算证据缺失，必须补真实案例。不能虚称申请经费、管理GPU集群或分布式训练。可坦诚说哪些需要主管指导。
+
+## 9 What would you teach and how would you support student research
+
+结构：以“从声学特征到可控音乐表达”为一段课→学习目标、一个可运行baseline、失败分析练习、可访问材料→反馈和评估→共同指导边界。证据UWA ELEC4404/GENG2000和Honours共同指导P045–P047。不能说已独立设计或主讲Music-AI课程；不能把新教学计划写成过去成绩。说明愿参与Faculty工作，但行政意愿需本人真实确认。
+
+## 10 What are your doctoral completion and practical start arrangements
+
+结构：已完成defense；certificate预计Nov2026；正式award/剩余corrections/学校完成信/最早full-time仍在确认→给出准确可提供的文件→希望按岗位Jan2027或之后安排。移民另说明需要合法UK工作路线、GT优先SW后备，需HR按具体岗位确认。不能说已有PhD、UK right to work、GT已合格或今天就可到岗；不需要解释伴侣/家庭。
+
+## 面试前应练的三份可展示证据
+
+1. 一个不保密项目的5分钟讲解：输入、目标、baseline、自己写的部分、一个失败、可核结果。
+2. 一个公开可分享研究样本与最多一页贡献说明，和CV/引用完全一致。
+3. 一张五年计划图及第一年最小实验，备好计算/数据不可得时的替代路线。

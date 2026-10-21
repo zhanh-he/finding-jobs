@@ -1,0 +1,37 @@
+{
+  "checks": [
+    {
+      "role": "spotify_generative_audio",
+      "pages": 2,
+      "txt_docx_content_equal_normalized": true,
+      "txt_pdf_content_equal_normalized": true,
+      "visual_review": "all pages inspected; borders/orphaned headings corrected; latest rendering passed",
+      "pdf_bytes": 61689
+    },
+    {
+      "role": "cambridge_GT51091",
+      "pages": 2,
+      "txt_docx_content_equal_normalized": true,
+      "txt_pdf_content_equal_normalized": true,
+      "visual_review": "all pages inspected; borders/orphaned headings corrected; latest rendering passed",
+      "pdf_bytes": 71664
+    },
+    {
+      "role": "elevenlabs_research_engineer",
+      "pages": 2,
+      "txt_docx_content_equal_normalized": true,
+      "txt_pdf_content_equal_normalized": true,
+      "visual_review": "all pages inspected; borders/orphaned headings corrected; latest rendering passed",
+      "pdf_bytes": 65118
+    },
+    {
+      "role": "apple_speech",
+      "pages": 2,
+      "txt_docx_content_equal_normalized": true,
+      "txt_pdf_content_equal_normalized": true,
+      "visual_review": "all pages inspected; borders/orphaned headings corrected; latest rendering passed",
+      "pdf_bytes": 64127
+    }
+  ],
+  "all_pass": true
+}

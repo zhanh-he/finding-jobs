@@ -1,0 +1,53 @@
+Zhanhong He
+Music and Audio Machine Learning Researcher
+zhanh.he@research.uwa.edu.au | github.com/zhanh-he | linkedin.com/in/zhanhong-he
+
+PROFILE
+Music and audio ML researcher with experience in music-model post-training, generative modeling and perceptual evaluation. Research spans expressive musical dynamics, audio-symbolic conditioning and transferable supervision. Research internships at Huawei and Dolby complement public PyTorch research projects.
+
+RESEARCH EXPERIENCE
+Research Intern | Huawei Hong Kong Research Centre | Started Jun 2026
+- Applied DPO and GRPO in music-model post-training and contributed to rollout workflows.
+- Developed music-oriented reward signals and contributed to human-preference data collection and analysis.
+
+Research Intern | Dolby Laboratories, Sydney | May-Sep 2024
+- Developed music generative models using U-Net, VAE and masked Transformer architectures.
+- Designed and conducted professional listening tests to evaluate musical expression and model outputs.
+
+Visiting Student Researcher, part time | Great Bay University | Started Mar 2026
+- Explored pretrained music representations, including MERT, and agentic research workflows for music information retrieval.
+
+SELECTED RESEARCH AND CODE
+Piano dynamics and metrical structure
+- Developed a multitask CRNN for dynamic markings, beats, downbeats and structural changes.
+- Reimplemented a Bark-scale specific-loudness feature extractor in PyTorch.
+- Code: github.com/zhanh-he/piano-dynamic-estimation
+
+Cross-instrument MIDI velocity estimation
+- Adapted piano-pretrained velocity estimation to other instruments using differentiable SoundFont proxies and audio-loudness supervision, reducing dependence on paired velocity labels.
+- Project repository: github.com/zhanh-he/sfproxy-velocity-estimation
+
+MIDI velocity generation and score-conditioned refinement
+- Adapted an image-colorization U-Net to fill per-note MIDI velocity and designed listening tests with professional listeners.
+- Developed a score-informed Transformer correction module for velocity estimates from piano transcription systems.
+- Code: github.com/zhanh-he/midi-velocity-colorizer
+- Code: github.com/zhanh-he/score-informed-amt
+
+EDUCATION
+PhD research in Electrical and Electronic Engineering | University of Western Australia | Feb 2022-present
+Defense completed; graduation certificate expected November 2026. Formal award pending confirmation.
+Research focus: musical dynamics, multitask learning and audio-symbolic music processing.
+
+BSc Honours in Engineering Science | University of Western Australia | 2018-2021
+First Class Honours | GPA 7/7 | WAM 87.7/100
+Thesis: Improving Spectrogram-based Music Source Separation using Phase Information.
+
+SELECTED PUBLICATION
+He, Z., Meng, H., Huang, D. and Togneri, R. Joint Estimation of Piano Dynamics and Metrical Structure with a Multi-Task Multi-Scale Network. ICASSP 2026. DOI: 10.1109/ICASSP55912.2026.11460839.
+
+TECHNICAL SKILLS
+Python, PyTorch, TensorFlow; MATLAB. Music generation, music information retrieval, audio-symbolic modeling, preference-based post-training and perceptual evaluation. Ableton Live, Max/MSP and MuseScore. Basic C/C++.
+
+TEACHING AND COLLABORATION
+Tutor and Lab Facilitator | University of Western Australia | Feb 2023-Dec 2025
+- Taught signal processing and engineering practice; co-supervised computer science honours projects.

@@ -1,0 +1,12 @@
+{
+  "family_from_session_instructions": "GPT-6",
+  "local_turn_context_config": {
+    "model": "gpt-6.1-sol",
+    "effort": "ultra",
+    "summary": "detailed"
+  },
+  "evidence": "This chat local rollout turn_context; only model and effort keys read, no unrelated conversation contents.",
+  "verified_date": "2026-10-21",
+  "interpretation": "Configured model/effort record, not backend implementation audit or claim of switching models. No external cloud chat created.",
+  "new_task_creation": false
+}

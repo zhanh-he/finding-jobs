@@ -1,0 +1,61 @@
+{
+  "id": "elevenlabs_research_engineer",
+  "title": "Research Engineer",
+  "institution": "ElevenLabs",
+  "url": "https://elevenlabs.io/careers/3d650946-5ac2-4729-9ae4-129c43fcd0b5/research-engineer",
+  "decision": "有条件申请",
+  "grade": "B",
+  "score": 79.67,
+  "coverage_percent": 60,
+  "score_dimensions": {
+    "research": 85,
+    "technical": 78,
+    "academic": 90,
+    "engineering": 62,
+    "location": null,
+    "salary_development": null,
+    "interview": null
+  },
+  "summary_zh": "没有指定学历硬门槛；用后训练、公开模型实现和严格评估竞争。作品可检查程度和UK雇佣机制决定可行性。",
+  "strengths": [
+    "DPO/GRPO与奖励/偏好数据直接相关",
+    "音乐生成与人类听测",
+    "公开PyTorch研究项目"
+  ],
+  "gaps": [
+    "工程复现与个人贡献待核",
+    "UK实体和岗位担保待HR确认",
+    "薪酬、合同期限、具体模态未披露"
+  ],
+  "actions": [
+    "先审两份公开作品与可披露边界",
+    "确认UK雇佣/签证机制",
+    "用户核稿后再决定提交"
+  ],
+  "salary": "未公布",
+  "contract": "Full time；期限未公布；global remote/London office可选",
+  "visa": "研究GT资格未建立；peer review/digital GT需证据；SW实际岗位CoS待HR",
+  "source_status": "完整公开JD已独立读取；Apply now观察时存在",
+  "downloads": [
+    {
+      "label": "Resume DOCX",
+      "path": "03_tailored_resume_Zhanhong_He_ElevenLabs_Research_Engineer_20261021_v1.docx",
+      "status": "created_and_visually_verified"
+    },
+    {
+      "label": "Resume PDF",
+      "path": "03_tailored_resume_Zhanhong_He_ElevenLabs_Research_Engineer_20261021_v1.pdf",
+      "status": "created_and_visually_verified"
+    },
+    {
+      "label": "Resume TXT",
+      "path": "03_tailored_resume_Zhanhong_He_ElevenLabs_Research_Engineer_20261021_v1.txt",
+      "status": "text_draft"
+    },
+    {
+      "label": "Cover Letter TXT",
+      "path": "05_cover_letter_draft.txt",
+      "status": "local_draft"
+    }
+  ]
+}

@@ -1,0 +1,25 @@
+{
+  "checked_date": "2026-10-21",
+  "url": "https://github.com/zhanh-he/sfproxy-velocity-estimation",
+  "early_observation": {
+    "method": "web search_query using exact Beyond Piano / Differentiable SoundFont title; returned github.com primary-source extracted search result; no direct open of this repository by this subagent",
+    "reported_crawl_age": "2 months ago",
+    "reported_commits": 1,
+    "reported_tree": "README.md only in returned result",
+    "reported_readme_meaning_zh": "安装/训练/推理说明将随公开代码release补充",
+    "evidence_limit": "search-cache snapshot; not proof of current tree and not an immutable archived source capture"
+  },
+  "newer_observation_from_parent": {
+    "method": "parent same-day web open of exact same GitHub URL",
+    "reported_commits": 3,
+    "reported_directories": [
+      "diff-sfproxy",
+      "diff-synth",
+      "score_hpt",
+      "scripts",
+      "tests"
+    ],
+    "priority": "prefer current directly opened source over older search cache"
+  },
+  "qa_resolution": "withdraw claim that current repository has no code; optionally label Project repository; neither source proves code quality, successful reproduction, or candidate ownership without review"
+}

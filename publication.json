@@ -1,0 +1,28 @@
+{
+  "repository": "https://github.com/zhanh-he/finding-jobs",
+  "visibility": "public",
+  "pages_url": "https://zhanh-he.github.io/finding-jobs/",
+  "approved_date": "2026-10-21",
+  "approval": "Direct user confirmation: 全部公开，包括上述字段",
+  "approved_fields": [
+    "name",
+    "candidate email and profiles",
+    "full tailored resumes and letters",
+    "visa requirements and ILR analysis",
+    "partner/London cohabitation preferences",
+    "application history",
+    "unpublished manuscript status",
+    "referee names and emails",
+    "research reports, matrices and screenshots"
+  ],
+  "excluded": [
+    "original CV source files",
+    "credentials",
+    "local absolute filesystem paths",
+    "private recordings and model weights",
+    "local run logs and scratch files"
+  ],
+  "applications_submitted": false,
+  "emails_sent": false,
+  "private_directory_is_access_control": false
+}

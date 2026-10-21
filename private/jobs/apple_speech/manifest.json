@@ -1,0 +1,167 @@
+{
+  "role": "apple_speech",
+  "checked_date": "2026-10-21",
+  "materials_status": "drafts_complete_and_local_QA_passed",
+  "application_status": "not_submitted_pending_user_facts_and_final_review",
+  "decision": "有条件申请",
+  "grade": "B",
+  "score": 75.33,
+  "coverage_percent": 60,
+  "matrix_rows": 27,
+  "resume_formats": [
+    "TXT",
+    "DOCX",
+    "PDF"
+  ],
+  "resume_pages": 2,
+  "resume_content_and_visual_qa": "passed; every page inspected",
+  "website_desktop_mobile_qa": "passed 1440x1000 and 390x844; no global horizontal overflow",
+  "source_cv_unchanged": true,
+  "open_gates": [
+    "TTS/alignment/speaker/guided inference未证明",
+    "clean scalable训练推理库与edge经验/兴趣待核",
+    "薪资、合同、到岗与本岗CoS未知"
+  ],
+  "external_actions": {
+    "emails_sent": false,
+    "gmail_drafts_created": false,
+    "applications_submitted": false,
+    "uploads": false,
+    "repository_created": false,
+    "pushed": "planned_after_local_verification",
+    "website_published": "planned_after_local_verification"
+  },
+  "files": [
+    {
+      "path": "01_independent_fit_report.html",
+      "bytes": 6734,
+      "sha256": "28d3e313b1f85fdde0b96ef55f4f19a0e2e03113c011c1f48f092964356915b7"
+    },
+    {
+      "path": "01_independent_fit_report.md",
+      "bytes": 5288,
+      "sha256": "c144a02a2c3b8f62b32bcad6b2b7e942afb562a3052b2058b4e9a9220568e7e8"
+    },
+    {
+      "path": "02_requirement_evidence_matrix.csv",
+      "bytes": 12069,
+      "sha256": "df9bdfee6bde4f34c98d79841a42b27776bf74f06bcec1c0106ca6a3e7078af5"
+    },
+    {
+      "path": "02_requirement_evidence_matrix.html",
+      "bytes": 12437,
+      "sha256": "9b7736467e08c9ac4a6800ee772860459260c521d7a96031d0830677e7663a51"
+    },
+    {
+      "path": "02_requirement_evidence_matrix.md",
+      "bytes": 10343,
+      "sha256": "59539f21a9c2bd77fd228cd4957145260256cfd2b8a326c8bdd7db95beaf1c9a"
+    },
+    {
+      "path": "03_tailored_resume_Zhanhong_He_Apple_Generative_AI_Research_Engineer_Siri_Speech_20261021_v1.docx",
+      "bytes": 38417,
+      "sha256": "0d0838db4ed70a6d93199c0fd12303e5831b12020c396eaeabc758df2182abbc"
+    },
+    {
+      "path": "03_tailored_resume_Zhanhong_He_Apple_Generative_AI_Research_Engineer_Siri_Speech_20261021_v1.pdf",
+      "bytes": 64127,
+      "sha256": "f44cd2b5c282825a4c5f27bfa93143bd682860903b1f29393bb6f2651ee2f345"
+    },
+    {
+      "path": "03_tailored_resume_Zhanhong_He_Apple_Generative_AI_Research_Engineer_Siri_Speech_20261021_v1.txt",
+      "bytes": 3492,
+      "sha256": "b86c0d7751b1cde4424e79eff093ac46f75020415e33e0e748f5c47f7d81d321"
+    },
+    {
+      "path": "04_resume_change_log.html",
+      "bytes": 4753,
+      "sha256": "8c730a6acb22f70d72fe870a7c06864574c14a6c393e4d8a6dee016f569bd869"
+    },
+    {
+      "path": "04_resume_change_log.md",
+      "bytes": 3228,
+      "sha256": "19b3d86a0a4f39b5bc3c2da6106e0068c6a689796cdd69d676cdbd8d55ae9c12"
+    },
+    {
+      "path": "05_cover_letter_draft.txt",
+      "bytes": 2076,
+      "sha256": "8498c55d1152a95e028f44c5b2bef4e70ce0ea5755452f31da4c5df6a2d62f2d"
+    },
+    {
+      "path": "06_outreach_DRAFT_DO_NOT_SEND.txt",
+      "bytes": 905,
+      "sha256": "7ccfa800dd527db45c97c1e8f41e4468c4a8a6f7deae95d834cab8790907d04b"
+    },
+    {
+      "path": "07_interview_10_questions.html",
+      "bytes": 6258,
+      "sha256": "debddfb0faaa7c1f9ab744c24d6ed1720379be177ff692732d1378ae84acd1a9"
+    },
+    {
+      "path": "07_interview_10_questions.md",
+      "bytes": 5056,
+      "sha256": "2784408be36c6d437c65faa5ad3c9cc078800531124f431ab3873c56cbc1d947"
+    },
+    {
+      "path": "08_salary_career_and_transferability.html",
+      "bytes": 4569,
+      "sha256": "a7cfcb782ca60ee087b4d16aa6d56205095996f83eca8f8d3a065fbe8981ebb5"
+    },
+    {
+      "path": "08_salary_career_and_transferability.md",
+      "bytes": 3458,
+      "sha256": "2228bc4a2ce60e06863fec40d800c41cd0ba1dc58e8a8d671953d256b75493d1"
+    },
+    {
+      "path": "09_application_decision_and_deadline_plan.html",
+      "bytes": 4062,
+      "sha256": "276d7ac15587cc2165387c0855a52a75133c33ed49ee2ff3a4aa50652339a862"
+    },
+    {
+      "path": "09_application_decision_and_deadline_plan.md",
+      "bytes": 2771,
+      "sha256": "ab318e46472b7393a1edde1d94c746c4f8a08f7162a46072fb02109c5f576a4b"
+    },
+    {
+      "path": "10_sources_and_open_questions.html",
+      "bytes": 4873,
+      "sha256": "28ce6aceda26db4079fbcf9696fefcea8648caf644df99bae775bd989e5225e5"
+    },
+    {
+      "path": "10_sources_and_open_questions.md",
+      "bytes": 3484,
+      "sha256": "84c5f296f0d3b913e62992e7152b8317b6949ebbd36cc9d395ca691121db0c74"
+    },
+    {
+      "path": "11_visa_route_analysis.html",
+      "bytes": 4201,
+      "sha256": "d36fb121bd806f7d017e30d06ca24e77df52c97cb48000d81ac71844478e9ce6"
+    },
+    {
+      "path": "11_visa_route_analysis.md",
+      "bytes": 2899,
+      "sha256": "578fff395f75dd8c254a7476fde7a5dd031456774506a1452cb5b3849fd5e2ff"
+    },
+    {
+      "path": "index.html",
+      "bytes": 26605,
+      "sha256": "ed8de4027b37a8964e45da4ee139630482f29da33039220938c6fa3c092dbbe0"
+    },
+    {
+      "path": "sources/apple_official_iab_main_20261021.txt",
+      "bytes": 4054,
+      "sha256": "b5192be83123c5855e806cb06d1290e8add0282e78693e9c3943c3c8a5d3f5aa"
+    },
+    {
+      "path": "summary.json",
+      "bytes": 2394,
+      "sha256": "f18c6deac208b86aad1334ea94386504ceb8b748ee8617c16039749fa0bf0a29"
+    },
+    {
+      "path": "visa_role_snapshot.json",
+      "bytes": 3538,
+      "sha256": "ab551a8329dd4e12b616c50a57189dc4905c983ad577c5af23329278d39dcfd8"
+    }
+  ],
+  "publication_scope": "User explicitly approved public repository and Pages with full personal fields, 2026-10-21"
+}

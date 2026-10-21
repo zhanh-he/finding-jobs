@@ -1,0 +1,158 @@
+{
+  "role": "spotify_generative_audio",
+  "checked_date": "2026-10-21",
+  "materials_status": "drafts_complete_and_local_QA_passed",
+  "application_status": "not_submitted_pending_user_facts_and_final_review",
+  "decision": "有条件申请",
+  "grade": "C（核心条件待核；有B潜力）",
+  "score": 78.0,
+  "coverage_percent": 60,
+  "matrix_rows": 23,
+  "resume_formats": [
+    "TXT",
+    "DOCX",
+    "PDF"
+  ],
+  "resume_pages": 2,
+  "resume_content_and_visual_qa": "passed; every page inspected",
+  "website_desktop_mobile_qa": "passed 1440x1000 and 390x844; no global horizontal overflow",
+  "source_cv_unchanged": true,
+  "open_gates": [
+    "正式PhD award与招聘方接受时点待核",
+    "diffusion/flow、NumPy和规模实验未证明",
+    "个人贡献、可披露指标与保密批准待补",
+    "UK实体、本岗位CoS/GT机制、薪资/出勤未披露"
+  ],
+  "external_actions": {
+    "emails_sent": false,
+    "gmail_drafts_created": false,
+    "applications_submitted": false,
+    "uploads": false,
+    "repository_created": false,
+    "pushed": "planned_after_local_verification",
+    "website_published": "planned_after_local_verification"
+  },
+  "files": [
+    {
+      "path": "01_independent_fit_report.html",
+      "bytes": 9289,
+      "sha256": "bd7fd21d11fee9168dc89e1cfdeeef3120e5f15059054851525f3fbe7533f237"
+    },
+    {
+      "path": "01_independent_fit_report.md",
+      "bytes": 7532,
+      "sha256": "1a0396b00ca79ce94e17be61d652ea6806b7e1876549596570c1e60b7fc79a2e"
+    },
+    {
+      "path": "02_requirement_evidence_matrix.csv",
+      "bytes": 7345,
+      "sha256": "f6371972dc04611fcf5d2ea25c630b3cf780bb519d32e83fe5b74076873d77cf"
+    },
+    {
+      "path": "02_requirement_evidence_matrix.html",
+      "bytes": 10749,
+      "sha256": "22c076fc88cde88d2f0d71ec0fb30aef47c44203083aba2e37a5395f24cf862e"
+    },
+    {
+      "path": "02_requirement_evidence_matrix.md",
+      "bytes": 8271,
+      "sha256": "665807064b081e0a5bf043080c31869c18816f7fcdd158d73c1a998826d342a7"
+    },
+    {
+      "path": "03_tailored_resume_Zhanhong_He_Spotify_Research_Scientist_Generative_Audio_20261021_v1.docx",
+      "bytes": 38421,
+      "sha256": "c9830b54ff21becc813217de8bd1bd8253917b53b69c230513866717b845caa6"
+    },
+    {
+      "path": "03_tailored_resume_Zhanhong_He_Spotify_Research_Scientist_Generative_Audio_20261021_v1.pdf",
+      "bytes": 61689,
+      "sha256": "d365d04e932a7f5f84eaee531c4324be6e226a04f93acd7e96d8195bc5969d70"
+    },
+    {
+      "path": "03_tailored_resume_Zhanhong_He_Spotify_Research_Scientist_Generative_Audio_20261021_v1.txt",
+      "bytes": 3620,
+      "sha256": "a3458452bb939d9b2de61de14b33f3da1f2c8341f6e082adf481b7c2ce9c535b"
+    },
+    {
+      "path": "04_resume_change_log.html",
+      "bytes": 6312,
+      "sha256": "31dba01603184701cf1870c3c833809d4e08e104e24f529383f71c0728ddc1eb"
+    },
+    {
+      "path": "04_resume_change_log.md",
+      "bytes": 4612,
+      "sha256": "a4cbc48d9d7674dd88bda9477681ce59f16434490407ecb577b408ec6cc3b2f4"
+    },
+    {
+      "path": "05_cover_letter_draft.txt",
+      "bytes": 2252,
+      "sha256": "b299c844348bedd2db8bfd69ab05f2b4163cbd83c0a20e62e4b1a211edbadfc3"
+    },
+    {
+      "path": "06_outreach_DRAFT_DO_NOT_SEND.txt",
+      "bytes": 1698,
+      "sha256": "cad33afaebb42156e2e7e53e2ae1403215585029fb387abfcad5168c26e26ee5"
+    },
+    {
+      "path": "07_interview_10_questions.html",
+      "bytes": 6370,
+      "sha256": "b34f8b5cc9cc721c337e5398a7f4ce138708de08194061a63b5621385e40be64"
+    },
+    {
+      "path": "07_interview_10_questions.md",
+      "bytes": 5271,
+      "sha256": "0c01cf68e3d1bdb6c40aca785b30bbe72f2126e1ec75c2c3f11b2c3881b9ae77"
+    },
+    {
+      "path": "08_salary_career_and_transferability.html",
+      "bytes": 5685,
+      "sha256": "54e57e65abca019198695bd5d12dad7c5145fb73aeba9f5bb09a90ae0523e4ab"
+    },
+    {
+      "path": "08_salary_career_and_transferability.md",
+      "bytes": 4183,
+      "sha256": "baa58828f595c4930b8ac2e4ae24091000a471c725cb8c2ec0d3b1e9bc8580df"
+    },
+    {
+      "path": "09_application_decision_and_deadline_plan.html",
+      "bytes": 5512,
+      "sha256": "4e454cc4c975aa039c389c6ea6bf56ef95db26c48cb0ae01d8457eaa628d6dde"
+    },
+    {
+      "path": "09_application_decision_and_deadline_plan.md",
+      "bytes": 4133,
+      "sha256": "a256455264a9f825b3b76abd9166352bab1f88a9dd689c7f67ec38b92f12b16f"
+    },
+    {
+      "path": "10_sources_and_open_questions.html",
+      "bytes": 10259,
+      "sha256": "2588b845b96d7a60b6edc0f9d431e9e3ecf9a7e2f5c3b8cb35909b42a48afd66"
+    },
+    {
+      "path": "10_sources_and_open_questions.md",
+      "bytes": 8262,
+      "sha256": "ce34b13f176e04b3a866af9e6e74b3133a1b874b430b2a9f0e21225bde1506b8"
+    },
+    {
+      "path": "11_visa_route_analysis.html",
+      "bytes": 9886,
+      "sha256": "bd22cdb91dbf39059bfd81024cab860f342c33ec9c23b7654818b10141456bff"
+    },
+    {
+      "path": "11_visa_route_analysis.md",
+      "bytes": 8281,
+      "sha256": "b4c7fe62de0b9e2496f59128cb90636b080217fd798ba093b608d6526c14fb7b"
+    },
+    {
+      "path": "index.html",
+      "bytes": 31310,
+      "sha256": "6e4e864e74b9c3a1bd63e8c2b6cefedbf606bb8c6a01ab8dd522b91d1bd93c7d"
+    },
+    {
+      "path": "summary.json",
+      "bytes": 4586,
+      "sha256": "1bb65ef93112874b96184cb9d6ea7c6d540b7c8362ab27e43021a2180620dcff"
+    }
+  ],
+  "publication_scope": "User explicitly approved public repository and Pages with full personal fields, 2026-10-21"
+}

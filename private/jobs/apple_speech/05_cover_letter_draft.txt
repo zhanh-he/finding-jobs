@@ -1,0 +1,16 @@
+DRAFT — FOR USER REVIEW; NOT SUBMITTED
+
+Dear Apple Hiring Team,
+
+I am applying for the Generative AI Research Engineer, Siri Speech position (200688766). My research concerns expressive dynamics in audio and symbolic music, supported by industrial research experience at Huawei and Dolby. The End-to-End Neural TTS team's focus on steerable, expressive generation offers a compelling opportunity to extend this work into speech.
+
+During my doctoral research at the University of Western Australia, I developed models for musical dynamics and temporal structure. My work includes a score-informed Transformer for refining MIDI velocity and a multitask CRNN for dynamics, beats and downbeats. I also reimplemented a Bark-scale specific-loudness feature extractor in PyTorch. These projects have required careful choices about representation, conditioning and how model outputs relate to perceived expression.
+
+At Dolby, I developed music-generation models using U-Net, VAE and masked Transformer architectures, and designed and conducted listening tests with professional listeners. My research internship at Huawei, which began in June 2026, has involved DPO/GRPO post-training, music-oriented rewards, rollout workflows and human-preference data. Together, these experiences inform how I approach generative modelling and perceptual evaluation.
+
+I would welcome the opportunity to investigate how conditioning and alignment affect speech expressiveness, and to develop clear benchmarks for control, intelligibility and perceived quality. I am also keen to deepen my understanding of the execution and memory constraints that shape on-device generative systems. My experience in music provides a foundation for this transition, and I would approach the speech-specific methods with a strong emphasis on learning and reproducible experimentation.
+
+I have completed my PhD defence and expect my degree certificate in November 2026. I would be pleased to discuss my research, implementation work and potential contribution to the Siri Speech team.
+
+Yours sincerely,
+Zhanhong He

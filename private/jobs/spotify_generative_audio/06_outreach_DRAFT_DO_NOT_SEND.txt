@@ -1,0 +1,20 @@
+LOCAL TEXT DRAFT — DO NOT SEND
+Recipient: To be confirmed through Spotify's current official recruitment channel; no individual or email address verified.
+Subject: Research Scientist – Generative Audio: qualification and UK employment questions
+
+Dear Hiring Team,
+
+I am interested in the Research Scientist – Generative Audio vacancy. My background includes music-model post-training using DPO/GRPO, reward and preference-data work, and generative-music research and listening evaluation at Huawei and Dolby.
+
+I have completed my PhD defense at the University of Western Australia and expect my graduation certificate in November 2026, with the formal award date still to be confirmed. Could you clarify whether candidates completing the formal award process can be considered, and whether this particular role can support UK Skilled Worker sponsorship or relevant Global Talent documentation for a London appointment?
+
+I would also appreciate confirmation of the role's London working arrangements and intended level. I can provide a tailored resume if appropriate.
+
+Kind regards,
+Zhanhong He
+
+INTERNAL NOTES — REMOVE BEFORE ANY USER-AUTHORISED SEND:
+- No message sent, no Gmail draft created, no resume uploaded or attached.
+- No current named vacancy recruiter verified. Sebastian Ewert authored a historical ISMIR announcement, which is not a personal relationship, referral, or verified current contact for this vacancy.
+- Ask the user about any prior application through another channel before applying. The supplied limited Gmail audit is not proof of never applying.
+- The question distinguishes an employer's SW CoS from GT endorsement support; neither route is already confirmed.

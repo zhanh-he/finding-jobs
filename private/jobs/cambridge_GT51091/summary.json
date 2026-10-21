@@ -1,0 +1,67 @@
+{
+  "id": "cambridge_GT51091",
+  "title": "Research Associate in Music and AI (Fixed Term)",
+  "institution": "University of Cambridge",
+  "url": "https://www.cam.ac.uk/jobs/research-associate-in-music-and-ai-fixed-term-gt51091",
+  "decision": "有条件申请；按截止紧迫性优先处理",
+  "grade": "B",
+  "score": 82.1,
+  "coverage_percent": 70,
+  "score_dimensions": {
+    "research": 92,
+    "technical": 85,
+    "academic": 80,
+    "engineering": 65,
+    "location_lifestyle": null,
+    "salary_development": 76,
+    "interview_competitiveness": null
+  },
+  "summary_zh": "完整15页Further Information已取得；音乐表达与音乐人agency方向契合。博士答辩完成但正式授予未知；具体GT/SW和到岗安排待HR确认。官方截止21 Oct午夜BST，面试计划30 Oct。",
+  "strengths": [
+    "MIDI动态、score-informed建模与跨乐器研究形成连贯主线",
+    "Dolby音乐生成与专业听测；Huawei后训练研究",
+    "UWA大学教学及Honours共同指导",
+    "ICASSP2026论文已由学校及会议官方来源确认"
+  ],
+  "gaps": [
+    "正式PhD award与申请/入职时间门槛",
+    "个人贡献、可披露结果、论文bibliographic冲突",
+    "grant/学术行政与资源规划证据",
+    "工作样本选择、两位referee同意",
+    "具体移民机制、工资点、到岗与生活可行性"
+  ],
+  "actions": [
+    "立即核博士completion/award和最早开始",
+    "本人审阅CV、CL及≤500词新proposal",
+    "选择至少一份近期工作样本；全部≤20,000词",
+    "核referee本次同意；仅本地保留",
+    "用户决定提交前停止，不代投或联系"
+  ],
+  "salary": "£37,694–£46,049 gross/year; starting point unconfirmed",
+  "contract": "Five-year fixed term; start 1 Jan 2027 or thereafter; 37h/week; six-month probation; 41 days leave including public holidays; USS",
+  "visa": "The University of Cambridge的SW执照已由官方CSV精确机构名核实；GT appointment需offer/招聘流程/HR保证函；UKRI grant未知；SW具体CoS/SOC/工资折扣待HR。",
+  "source_status": "Official advert readable in ordinary in-app browser; full 15-page Further Information downloaded and p4/p15 visually checked. Web direct fetch403 logged; no bypass.",
+  "downloads": [
+    {
+      "label": "Resume DOCX",
+      "path": "03_Zhanhong_He_Cambridge_Research_Associate_Music_AI_20261021_v1.docx",
+      "status": "created_and_visually_verified"
+    },
+    {
+      "label": "Resume PDF",
+      "path": "03_Zhanhong_He_Cambridge_Research_Associate_Music_AI_20261021_v1.pdf",
+      "status": "created_and_visually_verified"
+    },
+    {
+      "label": "Resume TXT",
+      "path": "03_Zhanhong_He_Cambridge_Research_Associate_Music_AI_20261021_v1.txt",
+      "status": "text_draft"
+    },
+    {
+      "label": "Cover Letter TXT",
+      "path": "05_cover_letter_draft.txt",
+      "status": "local_draft"
+    }
+  ],
+  "proposal_word_count": 423
+}

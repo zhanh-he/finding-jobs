@@ -1,0 +1,31 @@
+{
+  "created_date": "2026-10-21",
+  "status": "research_complete_with_explicit_candidate_and_HR_open_conditions",
+  "files": [
+    {
+      "file": "visa_routes_official_evidence.md",
+      "bytes": 20275,
+      "sha256": "cc30915dc6e42a3f335f23a050e95fd916e4899ff50e2e8ed863ef8877aef255"
+    },
+    {
+      "file": "visa_routes_official_evidence.csv",
+      "bytes": 12314,
+      "sha256": "f8785d286e8c701b364ea09c4a2496b14d2788f33ea6f73f2844b72034cd74b1"
+    },
+    {
+      "file": "visa_per_role.json",
+      "bytes": 15838,
+      "sha256": "e8f4f390675bbe1df801e5d6ad690f87441bd3417fa314a70263bb6af3808b48"
+    },
+    {
+      "file": "de_duplicated_questions.md",
+      "bytes": 2870,
+      "sha256": "5aa5fa2d17d3545f6b9c6fc7c06766103e034ba6bc99c35442bf63a45499741e"
+    },
+    {
+      "file": "sponsor_register_verified_extract.json",
+      "bytes": 1084,
+      "sha256": "2b59b9656af3163ef3286c4f4a0cdf0602a3b46c6e00166295ac2d30bab47bef"
+    }
+  ]
+}

@@ -1,0 +1,1124 @@
+{
+  "generated_date_local": "2026-10-21",
+  "timezone": "Australia/Perth",
+  "root_privacy": "contains_private_personal_materials_do_not_upload",
+  "status": {
+    "status": "local_deliverables_complete_application_gates_open",
+    "matrix_rows_total": 100,
+    "resume_documents": 4,
+    "resume_pdfs": 4,
+    "resume_total_pdf_pages": 8,
+    "private_site_pages": 46,
+    "public_safe_site_pages": 5,
+    "privacy_scan": "passed; public-safe static files and generic scripts/README; no candidate markers or credentials",
+    "local_links": "passed; all relative links remain within chosen view",
+    "http_downloads": "20/20 returned200 and bytes hash-match actual files",
+    "browser": "home+4role pages each desktop/mobile; public example home desktop/mobile; expanded evidence and resume tested",
+    "source_integrity": "original DOCX/PDF SHA256 unchanged",
+    "proposal_words": 423,
+    "not_completed_by_design": [
+      "No employer contact or application",
+      "No repository, push or publication",
+      "No uploaded CV or online profile edits"
+    ],
+    "remaining_before_any_application": [
+      "formal degree/HR requirement timing",
+      "actual start and UK employment/visa route",
+      "candidate review of claims/confidentiality and project contributions",
+      "Cambridge work-sample selection and referee confirmation"
+    ],
+    "latest_followup": {
+      "date": "2026-10-21",
+      "project_template": "private/shared/project_evidence_template.txt",
+      "portfolio_review": "private/shared/portfolio_page_review_20261021.json",
+      "huawei_policy": "No requirement for internal demo or confidential details; specific technical claims remain subject to disclosure boundaries",
+      "graduation_questions": "Do not repeatedly ask; retain defense completed and certificate expected Nov2026; no invented formal award",
+      "cv_changes_this_followup": false
+    }
+  },
+  "runtime_config": {
+    "model": "gpt-6.1-sol",
+    "effort": "ultra",
+    "evidence": "local chat turn_context"
+  },
+  "approved_public_fields": [
+    "name",
+    "candidate email and profiles",
+    "full tailored resumes and letters",
+    "visa requirements and ILR analysis",
+    "partner/London cohabitation preferences",
+    "application history",
+    "unpublished manuscript status",
+    "referee names and emails",
+    "research reports, matrices and screenshots"
+  ],
+  "deployment_authorized": true,
+  "repository_initialized_or_remote_created": false,
+  "files": [
+    {
+      "path": ".gitattributes",
+      "bytes": 83,
+      "sha256": "4fd80608c85c4798d8ba4bea84eb6ab4aedafba352d8b21bcd43cc9a2521bab9",
+      "privacy": "public_by_explicit_user_approval"
+    },
+    {
+      "path": ".github/workflows/pages.yml",
+      "bytes": 779,
+      "sha256": "fa8cc4bc4b27630d998805b3ffb77ee95c0dfc74b38c2d434207583ffb6386c5",
+      "privacy": "public_by_explicit_user_approval"
+    },
+    {
+      "path": ".gitignore",
+      "bytes": 176,
+      "sha256": "4ece6a06caccd4cdc2bde104e633ecffffae73ee1c6cbacfa69515453e06fe4e",
+      "privacy": "public_by_explicit_user_approval"
+    },
+    {
+      "path": ".nojekyll",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "privacy": "public_by_explicit_user_approval"
+    },
+    {
+      "path": "PUBLICATION_SCOPE.md",
+      "bytes": 1114,
+      "sha256": "028313e13564b45fc26a5af99f7654aca4c2fc127fd230631fd94d4f08de1f13",
+      "privacy": "public_by_explicit_user_approval"
+    },
+    {
+      "path": "README.md",
+      "bytes": 2748,
+      "sha256": "4094c9601b8121c27dc0816b59f40f588c78094174e05ed5bf1d15a763771aa3",
+      "privacy": "public_by_explicit_user_approval"
+    },
+    {
+      "path": "START_HERE.md",
+      "bytes": 2609,
+      "sha256": "c3a73226f46c97ebfbe50b44fe31cfd866278a906da868cb11d02db7c56fc392",
+      "privacy": "public_by_explicit_user_approval"
+    },
+    {
+      "path": "index.html",
+      "bytes": 474,
+      "sha256": "df0e0db0ec037c8d3f7869bc357d91cff1e58a18e781eb570fc9c5c39697ea2b",
+      "privacy": "public_by_explicit_user_approval"
+    },
+    {
+      "path": "private/assets/style.css",
+      "bytes": 4854,
+      "sha256": "7d9e02281fbdfe55cc8f7fbb43a90a039c914e47b5bbdaf6f4b6559838af2922",
+      "privacy": "public_by_explicit_user_approval"
+    },
+    {
+      "path": "private/index.html",
+      "bytes": 4686,
+      "sha256": "7c94ce788c21ac1ea1c1df8d37e8e79964742bb172f1d9e6f54fe036a8aa0884",
+      "privacy": "public_by_explicit_user_approval"
+    },
+    {
+      "path": "private/jobs/apple_speech/01_independent_fit_report.html",
+      "bytes": 6734,
+      "sha256": "28d3e313b1f85fdde0b96ef55f4f19a0e2e03113c011c1f48f092964356915b7",
+      "privacy": "public_by_explicit_user_approval"
+    },
+    {
+      "path": "private/jobs/apple_speech/01_independent_fit_report.md",
+      "bytes": 5288,
+      "sha256": "c144a02a2c3b8f62b32bcad6b2b7e942afb562a3052b2058b4e9a9220568e7e8",
+      "privacy": "public_by_explicit_user_approval"
+    },
+    {
+      "path": "private/jobs/apple_speech/02_requirement_evidence_matrix.csv",
+      "bytes": 12069,
+      "sha256": "df9bdfee6bde4f34c98d79841a42b27776bf74f06bcec1c0106ca6a3e7078af5",
+      "privacy": "public_by_explicit_user_approval"
+    },
+    {
+      "path": "private/jobs/apple_speech/02_requirement_evidence_matrix.html",
+      "bytes": 12437,
+      "sha256": "9b7736467e08c9ac4a6800ee772860459260c521d7a96031d0830677e7663a51",
+      "privacy": "public_by_explicit_user_approval"
+    },
+    {
+      "path": "private/jobs/apple_speech/02_requirement_evidence_matrix.md",
+      "bytes": 10343,
+      "sha256": "59539f21a9c2bd77fd228cd4957145260256cfd2b8a326c8bdd7db95beaf1c9a",
+      "privacy": "public_by_explicit_user_approval"
+    },
+    {
+      "path": "private/jobs/apple_speech/03_tailored_resume_Zhanhong_He_Apple_Generative_AI_Research_Engineer_Siri_Speech_20261021_v1.docx",
+      "bytes": 38417,
+      "sha256": "0d0838db4ed70a6d93199c0fd12303e5831b12020c396eaeabc758df2182abbc",
+      "privacy": "public_by_explicit_user_approval"
+    },
+    {
+      "path": "private/jobs/apple_speech/03_tailored_resume_Zhanhong_He_Apple_Generative_AI_Research_Engineer_Siri_Speech_20261021_v1.pdf",
+      "bytes": 64127,
+      "sha256": "f44cd2b5c282825a4c5f27bfa93143bd682860903b1f29393bb6f2651ee2f345",
+      "privacy": "public_by_explicit_user_approval"
+    },
+    {
+      "path": "private/jobs/apple_speech/03_tailored_resume_Zhanhong_He_Apple_Generative_AI_Research_Engineer_Siri_Speech_20261021_v1.txt",
+      "bytes": 3492,
+      "sha256": "b86c0d7751b1cde4424e79eff093ac46f75020415e33e0e748f5c47f7d81d321",
+      "privacy": "public_by_explicit_user_approval"
+    },
+    {
+      "path": "private/jobs/apple_speech/04_resume_change_log.html",
+      "bytes": 4753,
+      "sha256": "8c730a6acb22f70d72fe870a7c06864574c14a6c393e4d8a6dee016f569bd869",
+      "privacy": "public_by_explicit_user_approval"
+    },
+    {
+      "path": "private/jobs/apple_speech/04_resume_change_log.md",
+      "bytes": 3228,
+      "sha256": "19b3d86a0a4f39b5bc3c2da6106e0068c6a689796cdd69d676cdbd8d55ae9c12",
+      "privacy": "public_by_explicit_user_approval"
+    },
+    {
+      "path": "private/jobs/apple_speech/05_cover_letter_draft.txt",
+      "bytes": 2076,
+      "sha256": "8498c55d1152a95e028f44c5b2bef4e70ce0ea5755452f31da4c5df6a2d62f2d",
+      "privacy": "public_by_explicit_user_approval"
+    },
+    {
+      "path": "private/jobs/apple_speech/06_outreach_DRAFT_DO_NOT_SEND.txt",
+      "bytes": 905,
+      "sha256": "7ccfa800dd527db45c97c1e8f41e4468c4a8a6f7deae95d834cab8790907d04b",
+      "privacy": "public_by_explicit_user_approval"
+    },
+    {
+      "path": "private/jobs/apple_speech/07_interview_10_questions.html",
+      "bytes": 6258,
+      "sha256": "debddfb0faaa7c1f9ab744c24d6ed1720379be177ff692732d1378ae84acd1a9",
+      "privacy": "public_by_explicit_user_approval"
+    },
+    {
+      "path": "private/jobs/apple_speech/07_interview_10_questions.md",
+      "bytes": 5056,
+      "sha256": "2784408be36c6d437c65faa5ad3c9cc078800531124f431ab3873c56cbc1d947",
+      "privacy": "public_by_explicit_user_approval"
+    },
+    {
+      "path": "private/jobs/apple_speech/08_salary_career_and_transferability.html",
+      "bytes": 4569,
+      "sha256": "a7cfcb782ca60ee087b4d16aa6d56205095996f83eca8f8d3a065fbe8981ebb5",
+      "privacy": "public_by_explicit_user_approval"
+    },
+    {
+      "path": "private/jobs/apple_speech/08_salary_career_and_transferability.md",
+      "bytes": 3458,
+      "sha256": "2228bc4a2ce60e06863fec40d800c41cd0ba1dc58e8a8d671953d256b75493d1",
+      "privacy": "public_by_explicit_user_approval"
+    },
+    {
+      "path": "private/jobs/apple_speech/09_application_decision_and_deadline_plan.html",
+      "bytes": 4062,
+      "sha256": "276d7ac15587cc2165387c0855a52a75133c33ed49ee2ff3a4aa50652339a862",
+      "privacy": "public_by_explicit_user_approval"
+    },
+    {
+      "path": "private/jobs/apple_speech/09_application_decision_and_deadline_plan.md",
+      "bytes": 2771,
+      "sha256": "ab318e46472b7393a1edde1d94c746c4f8a08f7162a46072fb02109c5f576a4b",
+      "privacy": "public_by_explicit_user_approval"
+    },
+    {
+      "path": "private/jobs/apple_speech/10_sources_and_open_questions.html",
+      "bytes": 4873,
+      "sha256": "28ce6aceda26db4079fbcf9696fefcea8648caf644df99bae775bd989e5225e5",
+      "privacy": "public_by_explicit_user_approval"
+    },
+    {
+      "path": "private/jobs/apple_speech/10_sources_and_open_questions.md",
+      "bytes": 3484,
+      "sha256": "84c5f296f0d3b913e62992e7152b8317b6949ebbd36cc9d395ca691121db0c74",
+      "privacy": "public_by_explicit_user_approval"
+    },
+    {
+      "path": "private/jobs/apple_speech/11_visa_route_analysis.html",
+      "bytes": 4201,
+      "sha256": "d36fb121bd806f7d017e30d06ca24e77df52c97cb48000d81ac71844478e9ce6",
+      "privacy": "public_by_explicit_user_approval"
+    },
+    {
+      "path": "private/jobs/apple_speech/11_visa_route_analysis.md",
+      "bytes": 2899,
+      "sha256": "578fff395f75dd8c254a7476fde7a5dd031456774506a1452cb5b3849fd5e2ff",
+      "privacy": "public_by_explicit_user_approval"
+    },
+    {
+      "path": "private/jobs/apple_speech/index.html",
+      "bytes": 26605,
+      "sha256": "ed8de4027b37a8964e45da4ee139630482f29da33039220938c6fa3c092dbbe0",
+      "privacy": "public_by_explicit_user_approval"
+    },
+    {
+      "path": "private/jobs/apple_speech/manifest.json",
+      "bytes": 5706,
+      "sha256": "24c3a60b1beb9501d97173e15194aac8ae6e9dbe66c86c010afdc55237283235",
+      "privacy": "public_by_explicit_user_approval"
+    },
+    {
+      "path": "private/jobs/apple_speech/sources/apple_official_iab_main_20261021.txt",
+      "bytes": 4054,
+      "sha256": "b5192be83123c5855e806cb06d1290e8add0282e78693e9c3943c3c8a5d3f5aa",
+      "privacy": "public_by_explicit_user_approval"
+    },
+    {
+      "path": "private/jobs/apple_speech/summary.json",
+      "bytes": 2394,
+      "sha256": "f18c6deac208b86aad1334ea94386504ceb8b748ee8617c16039749fa0bf0a29",
+      "privacy": "public_by_explicit_user_approval"
+    },
+    {
+      "path": "private/jobs/apple_speech/visa_role_snapshot.json",
+      "bytes": 3538,
+      "sha256": "ab551a8329dd4e12b616c50a57189dc4905c983ad577c5af23329278d39dcfd8",
+      "privacy": "public_by_explicit_user_approval"
+    },
+    {
+      "path": "private/jobs/cambridge_GT51091/01_independent_fit_report.html",
+      "bytes": 9384,
+      "sha256": "5a13fcb00c8bca5b0155376431c856d2faa6911f14be3a1f7c27dd8a1e294c2a",
+      "privacy": "public_by_explicit_user_approval"
+    },
+    {
+      "path": "private/jobs/cambridge_GT51091/01_independent_fit_report.md",
+      "bytes": 7676,
+      "sha256": "b89841ad79f4cdfbb9b78baab82c6f028a68d01891d57bf8c15d94753a88bd6d",
+      "privacy": "public_by_explicit_user_approval"
+    },
+    {
+      "path": "private/jobs/cambridge_GT51091/02_requirement_evidence_matrix.csv",
+      "bytes": 9423,
+      "sha256": "ccc53999b3882f432f56fa366eb258a0425df069e35c40e60665017f0e88db53",
+      "privacy": "public_by_explicit_user_approval"
+    },
+    {
+      "path": "private/jobs/cambridge_GT51091/02_requirement_evidence_matrix.html",
+      "bytes": 13479,
+      "sha256": "7aa4d867317d6c98fe65dc8b66eaca290205a289c1f61c562441dfc04fe461c5",
+      "privacy": "public_by_explicit_user_approval"
+    },
+    {
+      "path": "private/jobs/cambridge_GT51091/02_requirement_evidence_matrix.md",
+      "bytes": 10243,
+      "sha256": "998059223c6988fe65b058d47742afdd5fc332f30e237ed96d561fd9c65333d5",
+      "privacy": "public_by_explicit_user_approval"
+    },
+    {
+      "path": "private/jobs/cambridge_GT51091/03_Zhanhong_He_Cambridge_Research_Associate_Music_AI_20261021_v1.docx",
+      "bytes": 38981,
+      "sha256": "0b8ab5ee973dcddb011bb08f6e4ca9453bc15cf582bacd66084a1638923be827",
+      "privacy": "public_by_explicit_user_approval"
+    },
+    {
+      "path": "private/jobs/cambridge_GT51091/03_Zhanhong_He_Cambridge_Research_Associate_Music_AI_20261021_v1.pdf",
+      "bytes": 71664,
+      "sha256": "60b447e48f9f8d6e779c8be028e6af45a784381dcd69c8f813c940907849bc5e",
+      "privacy": "public_by_explicit_user_approval"
+    },
+    {
+      "path": "private/jobs/cambridge_GT51091/03_Zhanhong_He_Cambridge_Research_Associate_Music_AI_20261021_v1.txt",
+      "bytes": 4796,
+      "sha256": "5f45cabaafd1c3c5a681a9c293d592aef90672af5c7e53638bf4d5d88a611b80",
+      "privacy": "public_by_explicit_user_approval"
+    },
+    {
+      "path": "private/jobs/cambridge_GT51091/04_resume_change_log.html",
+      "bytes": 6596,
+      "sha256": "ec5b2f33c8b558fb2aa80a8d12b55aefdea4c5e53276d29aeba92b95b0d36194",
+      "privacy": "public_by_explicit_user_approval"
+    },
+    {
+      "path": "private/jobs/cambridge_GT51091/04_resume_change_log.md",
+      "bytes": 4739,
+      "sha256": "77bea351efa45860763ca737ae6fa517ad08f5b08639a7bf072b2ec8eeff3afd",
+      "privacy": "public_by_explicit_user_approval"
+    },
+    {
+      "path": "private/jobs/cambridge_GT51091/05_cover_letter_draft.txt",
+      "bytes": 2878,
+      "sha256": "a2dd584966c55d2aa4aee0858b28c28fadc8b5630705c81c0ba9eb5e56776dcb",
+      "privacy": "public_by_explicit_user_approval"
+    },
+    {
+      "path": "private/jobs/cambridge_GT51091/06_outreach_DRAFT_DO_NOT_SEND.txt",
+      "bytes": 1632,
+      "sha256": "2f9acdb302d6494eb1f8e846f6c7eacb9eb61e5994c4efa36e1fce9a7839b7c9",
+      "privacy": "public_by_explicit_user_approval"
+    },
+    {
+      "path": "private/jobs/cambridge_GT51091/07_interview_10_questions.html",
+      "bytes": 6465,
+      "sha256": "1ae6ee222ac2bb94baf87d154294a9abb9d072f7372db5aadedbadd6b0c05659",
+      "privacy": "public_by_explicit_user_approval"
+    },
+    {
+      "path": "private/jobs/cambridge_GT51091/07_interview_10_questions.md",
+      "bytes": 5354,
+      "sha256": "f35f57d99f3c19ca69dc39a7294100dfa78a534880c15597e1322983bf562dc7",
+      "privacy": "public_by_explicit_user_approval"
+    },
+    {
+      "path": "private/jobs/cambridge_GT51091/08_salary_career_and_transferability.html",
+      "bytes": 7843,
+      "sha256": "b971c9e90622f42f6d5ce811109ad570df0cde646396330bb7f9d51dc3c89a0d",
+      "privacy": "public_by_explicit_user_approval"
+    },
+    {
+      "path": "private/jobs/cambridge_GT51091/08_salary_career_and_transferability.md",
+      "bytes": 6158,
+      "sha256": "be8d4d0ed1e992e1f9050034efd6c84c3ffb5f10244b0550eeb32eee94939ddb",
+      "privacy": "public_by_explicit_user_approval"
+    },
+    {
+      "path": "private/jobs/cambridge_GT51091/09_application_decision_and_deadline_plan.html",
+      "bytes": 5891,
+      "sha256": "8ebd706bd4c39ac1b7239935347d48bdc34de4855a69dce4464e57b6d5f359f0",
+      "privacy": "public_by_explicit_user_approval"
+    },
+    {
+      "path": "private/jobs/cambridge_GT51091/09_application_decision_and_deadline_plan.md",
+      "bytes": 4353,
+      "sha256": "fa7c6b49bb29990f4e09b67a961bcadd8ba26e1ad160983f5489310c2e37426e",
+      "privacy": "public_by_explicit_user_approval"
+    },
+    {
+      "path": "private/jobs/cambridge_GT51091/10_sources_and_open_questions.html",
+      "bytes": 7821,
+      "sha256": "64ec8bb087973bd9cdb8ef1ee99655bf47d185bbf22badef100673bd18a2a829",
+      "privacy": "public_by_explicit_user_approval"
+    },
+    {
+      "path": "private/jobs/cambridge_GT51091/10_sources_and_open_questions.md",
+      "bytes": 6092,
+      "sha256": "b8f8c1ecf7a907634582ff64b861b7053a752a195ef943834dc0b0aabf12f12c",
+      "privacy": "public_by_explicit_user_approval"
+    },
+    {
+      "path": "private/jobs/cambridge_GT51091/11_visa_route_analysis.html",
+      "bytes": 13148,
+      "sha256": "673de10d60aba5a2f96f880bd46ccdda9f363a13bb747ab2dde786474d1fe25b",
+      "privacy": "public_by_explicit_user_approval"
+    },
+    {
+      "path": "private/jobs/cambridge_GT51091/11_visa_route_analysis.md",
+      "bytes": 11185,
+      "sha256": "334d3aeee9e7b91229427a09319d34f7956a70610124036b337c41dd7edf2e13",
+      "privacy": "public_by_explicit_user_approval"
+    },
+    {
+      "path": "private/jobs/cambridge_GT51091/12_research_proposal_draft.txt",
+      "bytes": 3163,
+      "sha256": "e0b0a8a272c7fd4a9b92ca57885916bc8d32f9dfa74b6ed926c5b867c2fb8eb4",
+      "privacy": "public_by_explicit_user_approval"
+    },
+    {
+      "path": "private/jobs/cambridge_GT51091/13_work_sample_and_referees_INTERNAL.html",
+      "bytes": 3443,
+      "sha256": "0a4f39b86b87d0b706a5184b54c43efb44dd581bf152c8f5f5186ec7e7faca5d",
+      "privacy": "public_by_explicit_user_approval"
+    },
+    {
+      "path": "private/jobs/cambridge_GT51091/13_work_sample_and_referees_INTERNAL.md",
+      "bytes": 2223,
+      "sha256": "09d5415697b3cb9676090fe52e1a61a46836d8b35e08c1d2261b8195e2240c4c",
+      "privacy": "public_by_explicit_user_approval"
+    },
+    {
+      "path": "private/jobs/cambridge_GT51091/index.html",
+      "bytes": 39308,
+      "sha256": "44ab6ac7b192acdf42c960c7c508d87c47737b378a91f5bf8cc1915541f62fb2",
+      "privacy": "public_by_explicit_user_approval"
+    },
+    {
+      "path": "private/jobs/cambridge_GT51091/manifest.json",
+      "bytes": 7008,
+      "sha256": "e558c4cced220f1841b821c516efaed37f3e253a91dc1f282c68f86127874c49",
+      "privacy": "public_by_explicit_user_approval"
+    },
+    {
+      "path": "private/jobs/cambridge_GT51091/sources/Cambridge_GT51091_Further_Information.pdf",
+      "bytes": 3358637,
+      "sha256": "9359450dc1fd1ef82a030981a866b0438d0f60bb6745afa2f35dd0cab1e7851e",
+      "privacy": "public_by_explicit_user_approval"
+    },
+    {
+      "path": "private/jobs/cambridge_GT51091/sources/cambridge_HR_IAB_review_20261021.html",
+      "bytes": 2122,
+      "sha256": "ff326cc702f2126d883b5321b90d01c55ba99338c8e51887544d309d76a17868",
+      "privacy": "public_by_explicit_user_approval"
+    },
+    {
+      "path": "private/jobs/cambridge_GT51091/sources/cambridge_HR_IAB_review_20261021.md",
+      "bytes": 1110,
+      "sha256": "69e9e22f48b593f89aa2983e2e4fc51d7ce3b5d0c0011a3f9b555490e403b6e7",
+      "privacy": "public_by_explicit_user_approval"
+    },
+    {
+      "path": "private/jobs/cambridge_GT51091/sources/further_information_extracted.json",
+      "bytes": 36941,
+      "sha256": "3b74642060211a0d756dee8d2ecde3e7e07e7c6fb05869f6b6b7d7bec1861036",
+      "privacy": "public_by_explicit_user_approval"
+    },
+    {
+      "path": "private/jobs/cambridge_GT51091/sources/official_access_record.html",
+      "bytes": 1826,
+      "sha256": "ab46c9e08a3523fdeccf26cd994bd975553427219b8390186a4e4db0cd05b967",
+      "privacy": "public_by_explicit_user_approval"
+    },
+    {
+      "path": "private/jobs/cambridge_GT51091/sources/official_access_record.md",
+      "bytes": 830,
+      "sha256": "db20b69abc516cdece0aaf0c9b3f00c89194804fbdd8e9fa120e8cc75e3c967f",
+      "privacy": "public_by_explicit_user_approval"
+    },
+    {
+      "path": "private/jobs/cambridge_GT51091/summary.json",
+      "bytes": 2951,
+      "sha256": "1d1a0bdb1eb4a062875cd47d2cd078691e56494214e2f55995f857ea17147b11",
+      "privacy": "public_by_explicit_user_approval"
+    },
+    {
+      "path": "private/jobs/elevenlabs_research_engineer/01_independent_fit_report.html",
+      "bytes": 6594,
+      "sha256": "13d5f723d2199147a3034c98253b3603c0565e4c62155bb6181406834cbce54d",
+      "privacy": "public_by_explicit_user_approval"
+    },
+    {
+      "path": "private/jobs/elevenlabs_research_engineer/01_independent_fit_report.md",
+      "bytes": 5085,
+      "sha256": "3d158b385959487adaa422421f7e2c671785c2f66267b5f4f8891b5c44987046",
+      "privacy": "public_by_explicit_user_approval"
+    },
+    {
+      "path": "private/jobs/elevenlabs_research_engineer/02_requirement_evidence_matrix.csv",
+      "bytes": 3358,
+      "sha256": "880728c2bdc5da93bbb30c0ec9524240b0dc59afe8d0ab8213bae6c565192d96",
+      "privacy": "public_by_explicit_user_approval"
+    },
+    {
+      "path": "private/jobs/elevenlabs_research_engineer/02_requirement_evidence_matrix.html",
+      "bytes": 5379,
+      "sha256": "a03e7ed8d3864bc67d9c570aa7dc0dcd5b7fcc891881f3c42742b59ce832ca01",
+      "privacy": "public_by_explicit_user_approval"
+    },
+    {
+      "path": "private/jobs/elevenlabs_research_engineer/02_requirement_evidence_matrix.md",
+      "bytes": 3676,
+      "sha256": "3008203a95f24c1976c8bcf46067ff7e5e2b43e567c8594890fee5fb3e220a0a",
+      "privacy": "public_by_explicit_user_approval"
+    },
+    {
+      "path": "private/jobs/elevenlabs_research_engineer/03_tailored_resume_Zhanhong_He_ElevenLabs_Research_Engineer_20261021_v1.docx",
+      "bytes": 38363,
+      "sha256": "c97e9192aed2d89923610569b4a0e4f55cc0618abea39e7bf8c916e170a81832",
+      "privacy": "public_by_explicit_user_approval"
+    },
+    {
+      "path": "private/jobs/elevenlabs_research_engineer/03_tailored_resume_Zhanhong_He_ElevenLabs_Research_Engineer_20261021_v1.pdf",
+      "bytes": 65118,
+      "sha256": "c01ae61921703c1271a87a36e2a489399f430d0f5ae1f0f6f2e770f33197c6e9",
+      "privacy": "public_by_explicit_user_approval"
+    },
+    {
+      "path": "private/jobs/elevenlabs_research_engineer/03_tailored_resume_Zhanhong_He_ElevenLabs_Research_Engineer_20261021_v1.txt",
+      "bytes": 3379,
+      "sha256": "01fdb47ef2675dbe2eac22a0209ea46f02350990a93171df28496dd83fe4498b",
+      "privacy": "public_by_explicit_user_approval"
+    },
+    {
+      "path": "private/jobs/elevenlabs_research_engineer/04_resume_change_log.html",
+      "bytes": 3634,
+      "sha256": "eab7821ea98c2f4c68af67b8c1471d059b33ff4bc5141ab34b158ae91284b73a",
+      "privacy": "public_by_explicit_user_approval"
+    },
+    {
+      "path": "private/jobs/elevenlabs_research_engineer/04_resume_change_log.md",
+      "bytes": 2044,
+      "sha256": "18eb2229a36ff20a5f259b3422ceaea70d7b74a8ea31970ef3167f5711adc572",
+      "privacy": "public_by_explicit_user_approval"
+    },
+    {
+      "path": "private/jobs/elevenlabs_research_engineer/05_cover_letter_draft.txt",
+      "bytes": 1744,
+      "sha256": "56ab658a86862f8c5567ad3063f2aa9da5737bb3a721533acca1e20d57598050",
+      "privacy": "public_by_explicit_user_approval"
+    },
+    {
+      "path": "private/jobs/elevenlabs_research_engineer/06_outreach_DRAFT_DO_NOT_SEND.txt",
+      "bytes": 902,
+      "sha256": "a5e9945053ec948cf6d022b60256b8f389cbcc34ba2877e3691cd73893bf8b3c",
+      "privacy": "public_by_explicit_user_approval"
+    },
+    {
+      "path": "private/jobs/elevenlabs_research_engineer/07_interview_10_questions.html",
+      "bytes": 3970,
+      "sha256": "c2f1f16ee3d350d659a7f8e3ae07081f7024391c09b01a0e91451a8353cd2fe9",
+      "privacy": "public_by_explicit_user_approval"
+    },
+    {
+      "path": "private/jobs/elevenlabs_research_engineer/07_interview_10_questions.md",
+      "bytes": 2768,
+      "sha256": "fa1fb525e8b9868e3c30d09ea0de50a1c7a2fd012a9ec9d871b382edce316004",
+      "privacy": "public_by_explicit_user_approval"
+    },
+    {
+      "path": "private/jobs/elevenlabs_research_engineer/08_salary_career_and_transferability.html",
+      "bytes": 3346,
+      "sha256": "39bd6fa1536ecd3301aea6b75cbc479364120b1db692b499cdb0f51ab71d5928",
+      "privacy": "public_by_explicit_user_approval"
+    },
+    {
+      "path": "private/jobs/elevenlabs_research_engineer/08_salary_career_and_transferability.md",
+      "bytes": 2144,
+      "sha256": "8b672c3aa32740f9e7b2fa9e84e3df024e6a8b4d03ae730d94baf7f7b71f28b4",
+      "privacy": "public_by_explicit_user_approval"
+    },
+    {
+      "path": "private/jobs/elevenlabs_research_engineer/09_application_decision_and_deadline_plan.html",
+      "bytes": 2459,
+      "sha256": "ab5741fab6d8262dc942790255b509506cebf6f4c7e40d79ecf03ed509123f19",
+      "privacy": "public_by_explicit_user_approval"
+    },
+    {
+      "path": "private/jobs/elevenlabs_research_engineer/09_application_decision_and_deadline_plan.md",
+      "bytes": 1425,
+      "sha256": "0d0afce03bbde8a0107a46f624e8703f5de73f0cc648a67c86ff6d356adbb07f",
+      "privacy": "public_by_explicit_user_approval"
+    },
+    {
+      "path": "private/jobs/elevenlabs_research_engineer/10_sources_and_open_questions.html",
+      "bytes": 4861,
+      "sha256": "2ca04d08d61e93c49f77310fe507fee693998a530c2cfb4870d9f350a943f37f",
+      "privacy": "public_by_explicit_user_approval"
+    },
+    {
+      "path": "private/jobs/elevenlabs_research_engineer/10_sources_and_open_questions.md",
+      "bytes": 3436,
+      "sha256": "a7daf9c7b8042abaaebb1b5a8a8c1ead656dedfef8ed4aaa64c43faeac91f632",
+      "privacy": "public_by_explicit_user_approval"
+    },
+    {
+      "path": "private/jobs/elevenlabs_research_engineer/11_visa_route_analysis.html",
+      "bytes": 2556,
+      "sha256": "edd4f6097e3b60aa6df98666a2303f005424053cd766c279ab2b6ed7d0c66987",
+      "privacy": "public_by_explicit_user_approval"
+    },
+    {
+      "path": "private/jobs/elevenlabs_research_engineer/11_visa_route_analysis.md",
+      "bytes": 1535,
+      "sha256": "54a49ed7f36a8cba6d26d645b04bac375a0b55f885238f8e82de16a2d6f03a99",
+      "privacy": "public_by_explicit_user_approval"
+    },
+    {
+      "path": "private/jobs/elevenlabs_research_engineer/index.html",
+      "bytes": 17057,
+      "sha256": "4b529093746078c2ba38defde976a5330febfe2fdfccee2c6c4368cb92a677e5",
+      "privacy": "public_by_explicit_user_approval"
+    },
+    {
+      "path": "private/jobs/elevenlabs_research_engineer/manifest.json",
+      "bytes": 5287,
+      "sha256": "1f1ba231ebc94a77bc836b1b690b22046f895285a7aa8c2156c4b9f918f94698",
+      "privacy": "public_by_explicit_user_approval"
+    },
+    {
+      "path": "private/jobs/elevenlabs_research_engineer/summary.json",
+      "bytes": 2036,
+      "sha256": "8e8b6a66f44c158eb4f5d6fd4a26dc371b939dd7e925311c45dc5456627e3299",
+      "privacy": "public_by_explicit_user_approval"
+    },
+    {
+      "path": "private/jobs/spotify_generative_audio/01_independent_fit_report.html",
+      "bytes": 9289,
+      "sha256": "bd7fd21d11fee9168dc89e1cfdeeef3120e5f15059054851525f3fbe7533f237",
+      "privacy": "public_by_explicit_user_approval"
+    },
+    {
+      "path": "private/jobs/spotify_generative_audio/01_independent_fit_report.md",
+      "bytes": 7532,
+      "sha256": "1a0396b00ca79ce94e17be61d652ea6806b7e1876549596570c1e60b7fc79a2e",
+      "privacy": "public_by_explicit_user_approval"
+    },
+    {
+      "path": "private/jobs/spotify_generative_audio/02_requirement_evidence_matrix.csv",
+      "bytes": 7345,
+      "sha256": "f6371972dc04611fcf5d2ea25c630b3cf780bb519d32e83fe5b74076873d77cf",
+      "privacy": "public_by_explicit_user_approval"
+    },
+    {
+      "path": "private/jobs/spotify_generative_audio/02_requirement_evidence_matrix.html",
+      "bytes": 10749,
+      "sha256": "22c076fc88cde88d2f0d71ec0fb30aef47c44203083aba2e37a5395f24cf862e",
+      "privacy": "public_by_explicit_user_approval"
+    },
+    {
+      "path": "private/jobs/spotify_generative_audio/02_requirement_evidence_matrix.md",
+      "bytes": 8271,
+      "sha256": "665807064b081e0a5bf043080c31869c18816f7fcdd158d73c1a998826d342a7",
+      "privacy": "public_by_explicit_user_approval"
+    },
+    {
+      "path": "private/jobs/spotify_generative_audio/03_tailored_resume_Zhanhong_He_Spotify_Research_Scientist_Generative_Audio_20261021_v1.docx",
+      "bytes": 38421,
+      "sha256": "c9830b54ff21becc813217de8bd1bd8253917b53b69c230513866717b845caa6",
+      "privacy": "public_by_explicit_user_approval"
+    },
+    {
+      "path": "private/jobs/spotify_generative_audio/03_tailored_resume_Zhanhong_He_Spotify_Research_Scientist_Generative_Audio_20261021_v1.pdf",
+      "bytes": 61689,
+      "sha256": "d365d04e932a7f5f84eaee531c4324be6e226a04f93acd7e96d8195bc5969d70",
+      "privacy": "public_by_explicit_user_approval"
+    },
+    {
+      "path": "private/jobs/spotify_generative_audio/03_tailored_resume_Zhanhong_He_Spotify_Research_Scientist_Generative_Audio_20261021_v1.txt",
+      "bytes": 3620,
+      "sha256": "a3458452bb939d9b2de61de14b33f3da1f2c8341f6e082adf481b7c2ce9c535b",
+      "privacy": "public_by_explicit_user_approval"
+    },
+    {
+      "path": "private/jobs/spotify_generative_audio/04_resume_change_log.html",
+      "bytes": 6312,
+      "sha256": "31dba01603184701cf1870c3c833809d4e08e104e24f529383f71c0728ddc1eb",
+      "privacy": "public_by_explicit_user_approval"
+    },
+    {
+      "path": "private/jobs/spotify_generative_audio/04_resume_change_log.md",
+      "bytes": 4612,
+      "sha256": "a4cbc48d9d7674dd88bda9477681ce59f16434490407ecb577b408ec6cc3b2f4",
+      "privacy": "public_by_explicit_user_approval"
+    },
+    {
+      "path": "private/jobs/spotify_generative_audio/05_cover_letter_draft.txt",
+      "bytes": 2252,
+      "sha256": "b299c844348bedd2db8bfd69ab05f2b4163cbd83c0a20e62e4b1a211edbadfc3",
+      "privacy": "public_by_explicit_user_approval"
+    },
+    {
+      "path": "private/jobs/spotify_generative_audio/06_outreach_DRAFT_DO_NOT_SEND.txt",
+      "bytes": 1698,
+      "sha256": "cad33afaebb42156e2e7e53e2ae1403215585029fb387abfcad5168c26e26ee5",
+      "privacy": "public_by_explicit_user_approval"
+    },
+    {
+      "path": "private/jobs/spotify_generative_audio/07_interview_10_questions.html",
+      "bytes": 6370,
+      "sha256": "b34f8b5cc9cc721c337e5398a7f4ce138708de08194061a63b5621385e40be64",
+      "privacy": "public_by_explicit_user_approval"
+    },
+    {
+      "path": "private/jobs/spotify_generative_audio/07_interview_10_questions.md",
+      "bytes": 5271,
+      "sha256": "0c01cf68e3d1bdb6c40aca785b30bbe72f2126e1ec75c2c3f11b2c3881b9ae77",
+      "privacy": "public_by_explicit_user_approval"
+    },
+    {
+      "path": "private/jobs/spotify_generative_audio/08_salary_career_and_transferability.html",
+      "bytes": 5685,
+      "sha256": "54e57e65abca019198695bd5d12dad7c5145fb73aeba9f5bb09a90ae0523e4ab",
+      "privacy": "public_by_explicit_user_approval"
+    },
+    {
+      "path": "private/jobs/spotify_generative_audio/08_salary_career_and_transferability.md",
+      "bytes": 4183,
+      "sha256": "baa58828f595c4930b8ac2e4ae24091000a471c725cb8c2ec0d3b1e9bc8580df",
+      "privacy": "public_by_explicit_user_approval"
+    },
+    {
+      "path": "private/jobs/spotify_generative_audio/09_application_decision_and_deadline_plan.html",
+      "bytes": 5512,
+      "sha256": "4e454cc4c975aa039c389c6ea6bf56ef95db26c48cb0ae01d8457eaa628d6dde",
+      "privacy": "public_by_explicit_user_approval"
+    },
+    {
+      "path": "private/jobs/spotify_generative_audio/09_application_decision_and_deadline_plan.md",
+      "bytes": 4133,
+      "sha256": "a256455264a9f825b3b76abd9166352bab1f88a9dd689c7f67ec38b92f12b16f",
+      "privacy": "public_by_explicit_user_approval"
+    },
+    {
+      "path": "private/jobs/spotify_generative_audio/10_sources_and_open_questions.html",
+      "bytes": 10259,
+      "sha256": "2588b845b96d7a60b6edc0f9d431e9e3ecf9a7e2f5c3b8cb35909b42a48afd66",
+      "privacy": "public_by_explicit_user_approval"
+    },
+    {
+      "path": "private/jobs/spotify_generative_audio/10_sources_and_open_questions.md",
+      "bytes": 8262,
+      "sha256": "ce34b13f176e04b3a866af9e6e74b3133a1b874b430b2a9f0e21225bde1506b8",
+      "privacy": "public_by_explicit_user_approval"
+    },
+    {
+      "path": "private/jobs/spotify_generative_audio/11_visa_route_analysis.html",
+      "bytes": 9886,
+      "sha256": "bd22cdb91dbf39059bfd81024cab860f342c33ec9c23b7654818b10141456bff",
+      "privacy": "public_by_explicit_user_approval"
+    },
+    {
+      "path": "private/jobs/spotify_generative_audio/11_visa_route_analysis.md",
+      "bytes": 8281,
+      "sha256": "b4c7fe62de0b9e2496f59128cb90636b080217fd798ba093b608d6526c14fb7b",
+      "privacy": "public_by_explicit_user_approval"
+    },
+    {
+      "path": "private/jobs/spotify_generative_audio/index.html",
+      "bytes": 31310,
+      "sha256": "6e4e864e74b9c3a1bd63e8c2b6cefedbf606bb8c6a01ab8dd522b91d1bd93c7d",
+      "privacy": "public_by_explicit_user_approval"
+    },
+    {
+      "path": "private/jobs/spotify_generative_audio/manifest.json",
+      "bytes": 5462,
+      "sha256": "34320765ea672b602d84906f39ef22a01af8c29186167a8461cedde1e1680dc1",
+      "privacy": "public_by_explicit_user_approval"
+    },
+    {
+      "path": "private/jobs/spotify_generative_audio/summary.json",
+      "bytes": 4586,
+      "sha256": "1bb65ef93112874b96184cb9d6ea7c6d540b7c8362ab27e43021a2180620dcff",
+      "privacy": "public_by_explicit_user_approval"
+    },
+    {
+      "path": "private/screenshots/apple_speech-desktop.jpg",
+      "bytes": 73517,
+      "sha256": "ad249f14f76870286fa045d450a76be124faac2d7f537f0103e84696d3109ac2",
+      "privacy": "public_by_explicit_user_approval"
+    },
+    {
+      "path": "private/screenshots/apple_speech-mobile.jpg",
+      "bytes": 33655,
+      "sha256": "75ac3a6a298dfb6ee6710abbf4a89c223754bd6526baa321fbe4b106c215de19",
+      "privacy": "public_by_explicit_user_approval"
+    },
+    {
+      "path": "private/screenshots/cambridge_GT51091-desktop.jpg",
+      "bytes": 94759,
+      "sha256": "f43fcf37ad4f94443ce600392d6b590fed7a8590f84a7585b30fbf27aa0d39cb",
+      "privacy": "public_by_explicit_user_approval"
+    },
+    {
+      "path": "private/screenshots/cambridge_GT51091-mobile.jpg",
+      "bytes": 39105,
+      "sha256": "76a36a7e1e9a3413960166c1121994c092f750e5345830e6fecd5c7347605402",
+      "privacy": "public_by_explicit_user_approval"
+    },
+    {
+      "path": "private/screenshots/elevenlabs_research_engineer-desktop.jpg",
+      "bytes": 69204,
+      "sha256": "a0514aa880041d750338c97f54bc87efe84647dcf9b324aab597f2f36fa6e32f",
+      "privacy": "public_by_explicit_user_approval"
+    },
+    {
+      "path": "private/screenshots/elevenlabs_research_engineer-mobile.jpg",
+      "bytes": 32969,
+      "sha256": "21d5b955ef0c38a12a14f8e4505940590439735ecf37801f703bd4f54cdf280b",
+      "privacy": "public_by_explicit_user_approval"
+    },
+    {
+      "path": "private/screenshots/home-desktop.jpg",
+      "bytes": 177504,
+      "sha256": "73b7bb1c810ec1e6b6346fe045dc83f9a3e3e3d68d969eef0c5582ecccaf6362",
+      "privacy": "public_by_explicit_user_approval"
+    },
+    {
+      "path": "private/screenshots/home-mobile.jpg",
+      "bytes": 149345,
+      "sha256": "65a1b6590944243b7c3828c581346afb43b5af1adf5316ee49140cc13b0247ff",
+      "privacy": "public_by_explicit_user_approval"
+    },
+    {
+      "path": "private/screenshots/public-safe-home-desktop.jpg",
+      "bytes": 137980,
+      "sha256": "020e5e1f2d1c230c64f5bcf287bf62af9163cf2c42ec64d9ee9fc6e73bd49ec7",
+      "privacy": "public_by_explicit_user_approval"
+    },
+    {
+      "path": "private/screenshots/public-safe-home-mobile.jpg",
+      "bytes": 117130,
+      "sha256": "8655ccc6991b3e4350564a0b669344c2e561037d636edba4f005a9630d9cec39",
+      "privacy": "public_by_explicit_user_approval"
+    },
+    {
+      "path": "private/screenshots/spotify-evidence-mobile-expanded.jpg",
+      "bytes": 51629,
+      "sha256": "e33078bda00331e92a0049fec2dc23661e5860a1e215b1b09d0a12af3d02ed10",
+      "privacy": "public_by_explicit_user_approval"
+    },
+    {
+      "path": "private/screenshots/spotify-resume-mobile-expanded.jpg",
+      "bytes": 49678,
+      "sha256": "ebfcec006c338fe43a9bf02c6ef27922b078aae9447d63e4421d4a811807b4be",
+      "privacy": "public_by_explicit_user_approval"
+    },
+    {
+      "path": "private/screenshots/spotify_generative_audio-desktop.jpg",
+      "bytes": 84663,
+      "sha256": "2276c6ca4bd805b9e6a70f65e4bc731aed15a60706ce19087ece21582be84fd4",
+      "privacy": "public_by_explicit_user_approval"
+    },
+    {
+      "path": "private/screenshots/spotify_generative_audio-mobile.jpg",
+      "bytes": 37461,
+      "sha256": "75bc906897462d761a524b3055219935c3cdf15b70f0de2f0eb3decda0e8e349",
+      "privacy": "public_by_explicit_user_approval"
+    },
+    {
+      "path": "private/shared/all_questions.html",
+      "bytes": 6162,
+      "sha256": "d899120b4329e40fc580e0d507394f22e3f38ba277e9078271e5530f3a1e0c07",
+      "privacy": "public_by_explicit_user_approval"
+    },
+    {
+      "path": "private/shared/all_questions.md",
+      "bytes": 4292,
+      "sha256": "e7140429c6fb0e29c8c68fe958041651eaf0c250a92eb01d297686ad54156f1d",
+      "privacy": "public_by_explicit_user_approval"
+    },
+    {
+      "path": "private/shared/browser_layout_verification.json",
+      "bytes": 1762,
+      "sha256": "5bba71c93adadad913bc079a49ebbfed638f98e15d6c2c89a39d7d088376f69a",
+      "privacy": "public_by_explicit_user_approval"
+    },
+    {
+      "path": "private/shared/cross_role_comparison.html",
+      "bytes": 6844,
+      "sha256": "ede8bd2b7331c37e8336b590c68669a866ec958124a1b2f74babcb7c4cb3905a",
+      "privacy": "public_by_explicit_user_approval"
+    },
+    {
+      "path": "private/shared/cross_role_comparison.md",
+      "bytes": 5425,
+      "sha256": "3e319b74b14ce8a79b5c25c987da7eb3fee2508eacf6d370bf94f3af3d5d8774",
+      "privacy": "public_by_explicit_user_approval"
+    },
+    {
+      "path": "private/shared/de_duplicated_questions.html",
+      "bytes": 4322,
+      "sha256": "9225458c8563b842b2677699d7bc18e73e31608fec26475c3185bc99f74157bc",
+      "privacy": "public_by_explicit_user_approval"
+    },
+    {
+      "path": "private/shared/de_duplicated_questions.md",
+      "bytes": 2870,
+      "sha256": "5aa5fa2d17d3545f6b9c6fc7c06766103e034ba6bc99c35442bf63a45499741e",
+      "privacy": "public_by_explicit_user_approval"
+    },
+    {
+      "path": "private/shared/delivery_status.json",
+      "bytes": 1678,
+      "sha256": "44d9edf73cb3654d78a8b4c8802733c9d3858ea089c9102732938961d67105da",
+      "privacy": "public_by_explicit_user_approval"
+    },
+    {
+      "path": "private/shared/document_render_verification.json",
+      "bytes": 1238,
+      "sha256": "dae1dc086352e678ea47e31c0a3fc0887f4a418998d9307d74640596d8316408",
+      "privacy": "public_by_explicit_user_approval"
+    },
+    {
+      "path": "private/shared/http_download_verification.json",
+      "bytes": 3096,
+      "sha256": "214a262fff631f285913233b924c195c6b7a8fe45a6d834d35dad43d54d894df",
+      "privacy": "public_by_explicit_user_approval"
+    },
+    {
+      "path": "private/shared/independent_qa.html",
+      "bytes": 10079,
+      "sha256": "b6c39cf5f3e455fd54668ce6421cfa628c6ed965773699e43d3f7d90c120e4d0",
+      "privacy": "public_by_explicit_user_approval"
+    },
+    {
+      "path": "private/shared/independent_qa.md",
+      "bytes": 7998,
+      "sha256": "a63993e6db082e3c6f33e6e936e124dc96d6a8ac8408ee175c203d12ac7702cd",
+      "privacy": "public_by_explicit_user_approval"
+    },
+    {
+      "path": "private/shared/independent_qa_snapshot.json",
+      "bytes": 8323,
+      "sha256": "9efbd9630f2319411d1ec3b0ebcea3041922dab0587fbb8f8d5176d04d1e47a4",
+      "privacy": "public_by_explicit_user_approval"
+    },
+    {
+      "path": "private/shared/independent_qa_source_integrity.json",
+      "bytes": 654,
+      "sha256": "dc4a26626f627e2cfd3b62e94574007d11cb7bfe8ca04eeb70acbca41ee0cafe",
+      "privacy": "public_by_explicit_user_approval"
+    },
+    {
+      "path": "private/shared/local_verification.json",
+      "bytes": 951,
+      "sha256": "c67d8d6c745c85bff8a3720344ec3ae07b9691c0502c11c9c5a53f59f62781dc",
+      "privacy": "public_by_explicit_user_approval"
+    },
+    {
+      "path": "private/shared/portfolio_page_review_20261021.json",
+      "bytes": 1008,
+      "sha256": "a56864057ecb365d20223e7baa8860b85036e594361da166c6df8dce3af5fdbf",
+      "privacy": "public_by_explicit_user_approval"
+    },
+    {
+      "path": "private/shared/project_evidence_template.html",
+      "bytes": 6932,
+      "sha256": "74d7d68806610bb768db366dff0f7c8ab771a86bed4b3d2f31021d165ce5c629",
+      "privacy": "public_by_explicit_user_approval"
+    },
+    {
+      "path": "private/shared/project_evidence_template.md",
+      "bytes": 5825,
+      "sha256": "b10d58340fcf36789d4d119476ae7ccca0e3bb5213b46208b0a11439f404e9df",
+      "privacy": "public_by_explicit_user_approval"
+    },
+    {
+      "path": "private/shared/project_evidence_template.txt",
+      "bytes": 2554,
+      "sha256": "d43af27d0ddc069c4f1d6b68fcd68ad1575b1a0658a8ad303a1c6d44bd56430c",
+      "privacy": "public_by_explicit_user_approval"
+    },
+    {
+      "path": "private/shared/runtime_provenance.json",
+      "bytes": 502,
+      "sha256": "787d27ca5611d6831ff141b698fbd9b93cc9fb78641971fb6519ee89c0317802",
+      "privacy": "public_by_explicit_user_approval"
+    },
+    {
+      "path": "private/shared/source_conflict_sfproxy.json",
+      "bytes": 1232,
+      "sha256": "6ef20789796a5be6839528f491827c3f6380426fd9c17e3dcae87210f69b4901",
+      "privacy": "public_by_explicit_user_approval"
+    },
+    {
+      "path": "private/shared/source_integrity_after.json",
+      "bytes": 332,
+      "sha256": "f92c992e41ed765b70685678e36ae07c5c0d7994e6231ce7ba89304413842910",
+      "privacy": "public_by_explicit_user_approval"
+    },
+    {
+      "path": "private/shared/source_integrity_before.json",
+      "bytes": 455,
+      "sha256": "a37eb56aa467472d6e29d62551b617c2b495ab0d9dabc26f18ec516213d24f07",
+      "privacy": "public_by_explicit_user_approval"
+    },
+    {
+      "path": "private/shared/sponsor_register_verified_extract.json",
+      "bytes": 1085,
+      "sha256": "70bc34be6306d6136ceff6a77a12a33c86d5a5008f7fb254cec5e784a63c4f88",
+      "privacy": "public_by_explicit_user_approval"
+    },
+    {
+      "path": "private/shared/visa_manifest.json",
+      "bytes": 957,
+      "sha256": "388068d703d0b782e5ddac8fab9d81c39e7e424173cfcf7a59b77a66100fe37f",
+      "privacy": "public_by_explicit_user_approval"
+    },
+    {
+      "path": "private/shared/visa_per_role.json",
+      "bytes": 15839,
+      "sha256": "b9ea6f6ebe0819a653abfd3d020e1d736f8088b545c27efa8537cf93642cc920",
+      "privacy": "public_by_explicit_user_approval"
+    },
+    {
+      "path": "private/shared/visa_routes_official_evidence.csv",
+      "bytes": 12284,
+      "sha256": "ac141864463a74d2436af141d7235ad69307e4da5bbaa59192825dc715404d84",
+      "privacy": "public_by_explicit_user_approval"
+    },
+    {
+      "path": "private/shared/visa_routes_official_evidence.html",
+      "bytes": 24393,
+      "sha256": "a6d32c9d192c585e46fca97f348671424639286e715a39794bf4696c226364e3",
+      "privacy": "public_by_explicit_user_approval"
+    },
+    {
+      "path": "private/shared/visa_routes_official_evidence.md",
+      "bytes": 20720,
+      "sha256": "5b60d40909b7f748198f40fa4eece849a757978b1b16c3f6ad1ffe8a3e1cef40",
+      "privacy": "public_by_explicit_user_approval"
+    },
+    {
+      "path": "public-safe/assets/style.css",
+      "bytes": 4854,
+      "sha256": "7d9e02281fbdfe55cc8f7fbb43a90a039c914e47b5bbdaf6f4b6559838af2922",
+      "privacy": "public_by_explicit_user_approval"
+    },
+    {
+      "path": "public-safe/example_data.json",
+      "bytes": 2284,
+      "sha256": "579a13198c1e46c32057942158fa1a46811bad54d8feffde58efa9c1455f1e0e",
+      "privacy": "public_by_explicit_user_approval"
+    },
+    {
+      "path": "public-safe/index.html",
+      "bytes": 3881,
+      "sha256": "64649e567e5cb2492616cab58174473a11678f2b63f2480e99babf237d54c6a7",
+      "privacy": "public_by_explicit_user_approval"
+    },
+    {
+      "path": "public-safe/jobs/example_a/index.html",
+      "bytes": 3343,
+      "sha256": "47d2651949f021102387c9b024c559031987c0d5e01f88411f195c71bd51b1a3",
+      "privacy": "public_by_explicit_user_approval"
+    },
+    {
+      "path": "public-safe/jobs/example_b/index.html",
+      "bytes": 3006,
+      "sha256": "af83168f9e8d6d1c779b9c79fd5b20f99c073dc7ad711852273dbcab14a84910",
+      "privacy": "public_by_explicit_user_approval"
+    },
+    {
+      "path": "public-safe/jobs/example_c/index.html",
+      "bytes": 2988,
+      "sha256": "5c51d8b14d998faa0080d7787c46618a2e0af5ce1f5efacc26998ed2d133ed7d",
+      "privacy": "public_by_explicit_user_approval"
+    },
+    {
+      "path": "public-safe/jobs/example_d/index.html",
+      "bytes": 3006,
+      "sha256": "09e3603533e16064abc87a511b6e876d8482ed6dad6ce8e60d89c9b0a71637db",
+      "privacy": "public_by_explicit_user_approval"
+    },
+    {
+      "path": "publication.json",
+      "bytes": 910,
+      "sha256": "6386ba2e5434ea8b2f34e3bf5313d9705554012c10b8b9da85219c4bc72fade4",
+      "privacy": "public_by_explicit_user_approval"
+    },
+    {
+      "path": "scripts/build.py",
+      "bytes": 16872,
+      "sha256": "4758082514f5aba660b7c3d01ee96212e9b0f1b8e53169812dc37c8e18edafca",
+      "privacy": "public_by_explicit_user_approval"
+    },
+    {
+      "path": "scripts/prepare_pages.py",
+      "bytes": 2202,
+      "sha256": "c0865519a9d008fd7bbadc2ea45eed97295831a89675a9fc2d4bf62ecc3d9aaf",
+      "privacy": "public_by_explicit_user_approval"
+    },
+    {
+      "path": "scripts/render_resumes.py",
+      "bytes": 3280,
+      "sha256": "86ad18604111c0cda638d1a048b7307177410778bc5582cb9c2b2caa77d60582",
+      "privacy": "public_by_explicit_user_approval"
+    },
+    {
+      "path": "scripts/serve.py",
+      "bytes": 1187,
+      "sha256": "37a1661fbafc68f5ea701be4faf690885262dbe31c1c3a49745126ff35c23e57",
+      "privacy": "public_by_explicit_user_approval"
+    },
+    {
+      "path": "scripts/verify.py",
+      "bytes": 4312,
+      "sha256": "a1aeabf3b4eecb427c6b0befb64ba536d4007e00647c61daaaea8b47aa7b95c4",
+      "privacy": "public_by_explicit_user_approval"
+    }
+  ],
+  "self_hash_note": "Root manifest excludes its own hash to avoid recursion; per-role manifests include actual new files.",
+  "repository": "https://github.com/zhanh-he/finding-jobs",
+  "publication_copy": true
+}

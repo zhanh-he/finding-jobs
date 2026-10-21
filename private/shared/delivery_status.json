@@ -1,0 +1,34 @@
+{
+  "status": "local_deliverables_complete_application_gates_open",
+  "matrix_rows_total": 100,
+  "resume_documents": 4,
+  "resume_pdfs": 4,
+  "resume_total_pdf_pages": 8,
+  "private_site_pages": 46,
+  "public_safe_site_pages": 5,
+  "privacy_scan": "passed; public-safe static files and generic scripts/README; no candidate markers or credentials",
+  "local_links": "passed; all relative links remain within chosen view",
+  "http_downloads": "20/20 returned200 and bytes hash-match actual files",
+  "browser": "home+4role pages each desktop/mobile; public example home desktop/mobile; expanded evidence and resume tested",
+  "source_integrity": "original DOCX/PDF SHA256 unchanged",
+  "proposal_words": 423,
+  "not_completed_by_design": [
+    "No employer contact or application",
+    "No repository, push or publication",
+    "No uploaded CV or online profile edits"
+  ],
+  "remaining_before_any_application": [
+    "formal degree/HR requirement timing",
+    "actual start and UK employment/visa route",
+    "candidate review of claims/confidentiality and project contributions",
+    "Cambridge work-sample selection and referee confirmation"
+  ],
+  "latest_followup": {
+    "date": "2026-10-21",
+    "project_template": "private/shared/project_evidence_template.txt",
+    "portfolio_review": "private/shared/portfolio_page_review_20261021.json",
+    "huawei_policy": "No requirement for internal demo or confidential details; specific technical claims remain subject to disclosure boundaries",
+    "graduation_questions": "Do not repeatedly ask; retain defense completed and certificate expected Nov2026; no invented formal award",
+    "cv_changes_this_followup": false
+  }
+}
