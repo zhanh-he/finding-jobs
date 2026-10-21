@@ -35,8 +35,8 @@
   "files": [
     {
       "path": "01_independent_fit_report.html",
-      "bytes": 9289,
-      "sha256": "bd7fd21d11fee9168dc89e1cfdeeef3120e5f15059054851525f3fbe7533f237"
+      "bytes": 9356,
+      "sha256": "f26d366080e83c822e39eaf82e20346827168fb8f9e6cbdc51481d9e21b21cb6"
     },
     {
       "path": "01_independent_fit_report.md",
@@ -50,8 +50,8 @@
     },
     {
       "path": "02_requirement_evidence_matrix.html",
-      "bytes": 10749,
-      "sha256": "22c076fc88cde88d2f0d71ec0fb30aef47c44203083aba2e37a5395f24cf862e"
+      "bytes": 10816,
+      "sha256": "17aba305f53b07f7fb69237d8bb44910809c01b0eba71487c9adc105dcf898ae"
     },
     {
       "path": "02_requirement_evidence_matrix.md",
@@ -75,8 +75,8 @@
     },
     {
       "path": "04_resume_change_log.html",
-      "bytes": 6312,
-      "sha256": "31dba01603184701cf1870c3c833809d4e08e104e24f529383f71c0728ddc1eb"
+      "bytes": 6379,
+      "sha256": "d8c401ed580ed0fbd7e68fadffe078e95ba74bee1f1f3a5fc76a235bd36a7164"
     },
     {
       "path": "04_resume_change_log.md",
@@ -95,8 +95,8 @@
     },
     {
       "path": "07_interview_10_questions.html",
-      "bytes": 6370,
-      "sha256": "b34f8b5cc9cc721c337e5398a7f4ce138708de08194061a63b5621385e40be64"
+      "bytes": 6437,
+      "sha256": "2e2f80c694f214ce915274a87ebe1a450c1263f55065ebdfdb520336047c5d1c"
     },
     {
       "path": "07_interview_10_questions.md",
@@ -105,8 +105,8 @@
     },
     {
       "path": "08_salary_career_and_transferability.html",
-      "bytes": 5685,
-      "sha256": "54e57e65abca019198695bd5d12dad7c5145fb73aeba9f5bb09a90ae0523e4ab"
+      "bytes": 5752,
+      "sha256": "5a7027216f2b619b8efcab90c3832089d2939d9a780171961fe77eedf96e191f"
     },
     {
       "path": "08_salary_career_and_transferability.md",
@@ -115,8 +115,8 @@
     },
     {
       "path": "09_application_decision_and_deadline_plan.html",
-      "bytes": 5512,
-      "sha256": "4e454cc4c975aa039c389c6ea6bf56ef95db26c48cb0ae01d8457eaa628d6dde"
+      "bytes": 5579,
+      "sha256": "c10c276f6b2f381e037a8fcd21aec4473b16afbb50b32dc8a88f8e80b8868c2a"
     },
     {
       "path": "09_application_decision_and_deadline_plan.md",
@@ -125,8 +125,8 @@
     },
     {
       "path": "10_sources_and_open_questions.html",
-      "bytes": 10259,
-      "sha256": "2588b845b96d7a60b6edc0f9d431e9e3ecf9a7e2f5c3b8cb35909b42a48afd66"
+      "bytes": 10326,
+      "sha256": "cd3a10f55c509e3b4793086349a2fa9de4ce1a6aab1e2fd599c09ced9e92ddbd"
     },
     {
       "path": "10_sources_and_open_questions.md",
@@ -135,8 +135,8 @@
     },
     {
       "path": "11_visa_route_analysis.html",
-      "bytes": 9886,
-      "sha256": "bd22cdb91dbf39059bfd81024cab860f342c33ec9c23b7654818b10141456bff"
+      "bytes": 9953,
+      "sha256": "cfa1a5757fc3b6ad6f586ff6c43c3f29526687b21b35c3556f7de47de739cd26"
     },
     {
       "path": "11_visa_route_analysis.md",
@@ -145,8 +145,8 @@
     },
     {
       "path": "index.html",
-      "bytes": 31310,
-      "sha256": "6e4e864e74b9c3a1bd63e8c2b6cefedbf606bb8c6a01ab8dd522b91d1bd93c7d"
+      "bytes": 31377,
+      "sha256": "b318ea5ec095cd7217989ca38c12e073f26bb172108f8e937f53baa3066cf95d"
     },
     {
       "path": "summary.json",

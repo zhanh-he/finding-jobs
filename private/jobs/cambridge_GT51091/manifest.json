@@ -36,8 +36,8 @@
   "files": [
     {
       "path": "01_independent_fit_report.html",
-      "bytes": 9384,
-      "sha256": "5a13fcb00c8bca5b0155376431c856d2faa6911f14be3a1f7c27dd8a1e294c2a"
+      "bytes": 9451,
+      "sha256": "3fad03bc13959247568118c2aed8393fc1112b3211c4777b6523990d726f835d"
     },
     {
       "path": "01_independent_fit_report.md",
@@ -51,8 +51,8 @@
     },
     {
       "path": "02_requirement_evidence_matrix.html",
-      "bytes": 13479,
-      "sha256": "7aa4d867317d6c98fe65dc8b66eaca290205a289c1f61c562441dfc04fe461c5"
+      "bytes": 13546,
+      "sha256": "613e606e1051bee48120b355fa3d2e5942650ff08589ee13f8a3516851b00c84"
     },
     {
       "path": "02_requirement_evidence_matrix.md",
@@ -76,8 +76,8 @@
     },
     {
       "path": "04_resume_change_log.html",
-      "bytes": 6596,
-      "sha256": "ec5b2f33c8b558fb2aa80a8d12b55aefdea4c5e53276d29aeba92b95b0d36194"
+      "bytes": 6663,
+      "sha256": "94082b513f7584d65063b5fc941ad053ce3557009e068d42d05d2a2f0dfa9964"
     },
     {
       "path": "04_resume_change_log.md",
@@ -96,8 +96,8 @@
     },
     {
       "path": "07_interview_10_questions.html",
-      "bytes": 6465,
-      "sha256": "1ae6ee222ac2bb94baf87d154294a9abb9d072f7372db5aadedbadd6b0c05659"
+      "bytes": 6532,
+      "sha256": "8253968e8ced20d4f24aba35d76d49519db78606057bf3c954d84caa7e6e2da0"
     },
     {
       "path": "07_interview_10_questions.md",
@@ -106,8 +106,8 @@
     },
     {
       "path": "08_salary_career_and_transferability.html",
-      "bytes": 7843,
-      "sha256": "b971c9e90622f42f6d5ce811109ad570df0cde646396330bb7f9d51dc3c89a0d"
+      "bytes": 7910,
+      "sha256": "36d54ac5b2f8f763eabd36c176b2ab31ec0efa7e066b31156a8a6982cb1fb585"
     },
     {
       "path": "08_salary_career_and_transferability.md",
@@ -116,8 +116,8 @@
     },
     {
       "path": "09_application_decision_and_deadline_plan.html",
-      "bytes": 5891,
-      "sha256": "8ebd706bd4c39ac1b7239935347d48bdc34de4855a69dce4464e57b6d5f359f0"
+      "bytes": 5958,
+      "sha256": "8a69d6d81aaae0a746efc1ab9b90cb994bd386e27cbcf7fa59e860d4a8adef51"
     },
     {
       "path": "09_application_decision_and_deadline_plan.md",
@@ -126,8 +126,8 @@
     },
     {
       "path": "10_sources_and_open_questions.html",
-      "bytes": 7821,
-      "sha256": "64ec8bb087973bd9cdb8ef1ee99655bf47d185bbf22badef100673bd18a2a829"
+      "bytes": 7888,
+      "sha256": "031754413c52170966b83f7919c8770fc24788ce2759bed3407179509c3edabb"
     },
     {
       "path": "10_sources_and_open_questions.md",
@@ -136,8 +136,8 @@
     },
     {
       "path": "11_visa_route_analysis.html",
-      "bytes": 13148,
-      "sha256": "673de10d60aba5a2f96f880bd46ccdda9f363a13bb747ab2dde786474d1fe25b"
+      "bytes": 13215,
+      "sha256": "6e7c0b38e4c3428aacfbd875cd3db1805e4afc7e08ef3dabd32bdad18051374b"
     },
     {
       "path": "11_visa_route_analysis.md",
@@ -151,8 +151,8 @@
     },
     {
       "path": "13_work_sample_and_referees_INTERNAL.html",
-      "bytes": 3443,
-      "sha256": "0a4f39b86b87d0b706a5184b54c43efb44dd581bf152c8f5f5186ec7e7faca5d"
+      "bytes": 3510,
+      "sha256": "48c779f9aed453e0882dfa9055828b7a12cf23e5ad4a5b373c42247d01720b89"
     },
     {
       "path": "13_work_sample_and_referees_INTERNAL.md",
@@ -161,8 +161,8 @@
     },
     {
       "path": "index.html",
-      "bytes": 39308,
-      "sha256": "44ab6ac7b192acdf42c960c7c508d87c47737b378a91f5bf8cc1915541f62fb2"
+      "bytes": 39375,
+      "sha256": "c11b444a4995d22a55574dc18a19dc6db288c87eec40c33f370efae7d651a163"
     },
     {
       "path": "sources/Cambridge_GT51091_Further_Information.pdf",
@@ -171,8 +171,8 @@
     },
     {
       "path": "sources/cambridge_HR_IAB_review_20261021.html",
-      "bytes": 2122,
-      "sha256": "ff326cc702f2126d883b5321b90d01c55ba99338c8e51887544d309d76a17868"
+      "bytes": 2189,
+      "sha256": "686c597d6e9d0bf2ab25b905cc0fee660d10487c668fbb47f6f7ccf6d43fb9de"
     },
     {
       "path": "sources/cambridge_HR_IAB_review_20261021.md",
@@ -186,8 +186,8 @@
     },
     {
       "path": "sources/official_access_record.html",
-      "bytes": 1826,
-      "sha256": "ab46c9e08a3523fdeccf26cd994bd975553427219b8390186a4e4db0cd05b967"
+      "bytes": 1893,
+      "sha256": "ff865a3a5acf02299148a4b04e263512761c76ae9e83fe426e138ed9ea335eea"
     },
     {
       "path": "sources/official_access_record.md",

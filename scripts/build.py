@@ -58,7 +58,7 @@ def md(txt):
 def page(title,content,depth=0,doc=False):
  rel='../'*depth
  links=f'<a href="{rel}index.html" class="brand">音频 AI · 求职复核</a>'
- if view=='private':links+=f'<a href="{rel}shared/cross_role_comparison.html">跨岗结论</a><a href="{rel}shared/visa_routes_official_evidence.html">签证证据</a><a href="{rel}shared/all_questions.html">待确认问题</a>'
+ if view=='private':links+=f'<a href="{rel}shared/cross_role_comparison.html">跨岗结论</a><a href="{rel}shared/visa_routes_official_evidence.html">签证证据</a><a href="{rel}shared/all_questions.html">待确认问题</a><a href="https://github.com/zhanh-he/finding-jobs">GitHub 仓库</a>'
  else:links+='<span class="badge">匿名示例</span>'
  label='公开发布材料 · 申请草稿未提交 · 核查截至2026-10-21 · private目录不提供访问保护' if view=='private' else '虚构示例数据 · 不代表任何候选人'
  return f'<!doctype html><html lang="zh-CN"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><meta name="robots" content="noindex,nofollow"><meta name="referrer" content="no-referrer"><title>{E(title)} · 音频 AI 求职复核</title><link rel="stylesheet" href="{rel}assets/style.css"></head><body><a class="skip" href="#main">跳到正文</a><header><nav aria-label="主导航">{links}</nav></header><main id="main" class="{ "document" if doc else "" }">{content}</main><footer>{label} · 相对路径静态站点 · 无追踪脚本或外部字体</footer></body></html>'
