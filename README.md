@@ -1,39 +1,49 @@
 # 音乐／音频 AI · 职位与投递进度表
 
-[打开线上职位表](https://zhanh-he.github.io/finding-jobs/private/index.html) · [新版使用说明](https://zhanh-he.github.io/finding-jobs/private/shared/round2_online_guide.html)
+[完整职位表](https://zhanh-he.github.io/finding-jobs/private/index.html) · [Canva 视图](https://zhanh-he.github.io/finding-jobs/private/index.html?view=canva) · [Canva 决策报告](https://zhanh-he.github.io/finding-jobs/private/shared/canva_decision_20261022.html)
 
-2026-10-22更新第二轮桌面版。默认37条具体职位，完整候选池103条（另含14观察、52历史），按截止→相关度排序；核查基准2026-10-21，当前时间的已过期标记与广告核查快照分开。未知不会当作0或自动判定关闭。十列10px桌面表格、浮动收起筛选器、官方信息/实际投递入口、CSV/JSON导出均可用。
+2026-10-22 Canva 更新：完整池114条＝43条具体职位、19条团队观察、52条历史记录。具体职位状态18开放、7关闭、18未知；这是各记录核查日的状态，不是114个可投岗位。本轮Canva覆盖官方列表102条（100＋2分页），新增1个开放冲刺岗、5个关闭旧岗、5类状态未知的官方NeurIPS团队线索。没有已核实开放的正常主攻Canva岗位。其他公司的原核查日期保持，不冒称本轮全部重新核验。
 
-原Cambridge、Spotify、ElevenLabs、Apple四套成果保留；新增SCRIME、Aalto、Tencent三套申请材料。所有自动生成文本仍为草稿。本次网站更新没有联系雇主或提交申请。Cambridge后来上传的定稿CV另有下载副本，仅移除本机失效超链接；原`formal_doc/`用户上传内容保留，未据文件名推断已提交。CHRIS6表单未新增到Pages。
+默认表格按截止→相关度；浮动收起筛选器，搜索、排序、列设置、CSV／JSON导出可用。Canva视图分别展示方向匹配与职级匹配。多地点参与搜索／筛选；薪资先按币种、周期、税前后分组，仅组内比较金额，不进行隐含汇率换算。桌面紧凑显示；手机表格横向滚动。
 
-## 进度保存
+Cambridge用户本轮明确确认已提交，实际提交日未猜测。原定向提交稿和原四岗成果保持；不重复催投。旧报告属于带日期的归档，不代表当前招聘状态。未使用的信件仍是未使用草稿。申请表未加入Pages下载。新Canva evaluation/post-training底稿及询问模板仅本地待审，没有进入本仓库或Pages。
 
-阶段、备注、实际投递日及下次检查日只保存到当前浏览器localStorage，不写入GitHub源数据，不向雇主发送。换浏览器/设备、localhost切换到线上时不会自动同步。先在旧页面“备份进度”，再到新页面“导入进度”；同岗位ID合并覆盖，其余进度保留。源JSON按钮不含本机进度，CSV有独立`local_progress_*`列，进度JSON须单独备份。
+## 数据与目录
 
-已过期独立于已投递/面试/拒绝等阶段；日期只有天时不补午夜。“未投递·待确认”表示审计缺口，不证明从未申请。
+- **唯一 canonical：`private/data/jobs.json`**。所有列表、详情、Canva报告、CSV及公开安全投影从它生成；不要手动维护第二份事实表。
+- `private/data/jobs.schema.json`：结构规范；`sources`注册表记录官方来源及核查日期。新Canva条目未知分数全部null，不以主观数字包装职级跨度。
+- `public-safe/data/jobs.json`：`scripts/public_projection.py`字段白名单派生产物，包含49条公开职位／团队事实；不含个人匹配、移民分析、投递史、CV和信件。
+- `site-assets/`、`scripts/registry_ui.py`：UI源码；`scripts/build_registry.py`统一构建。
+- `private/registry/`：生成详情；`private/shared/canva_decision_20261022.html`：从同一数据生成的中文决策。
+- `private/jobs/`保留原四岗包，`private/new_materials/`保留此前三套材料；`formal_doc/Submitted_CVResume/`为不可覆盖提交归档。
+- `docs/HANDOFF.md`：本轮状态与后续入口；`docs/RESEARCH_SOURCES.md`：公开研究来源。
+- `.local/canva_20261022/`：被Git排除的详细候选证据／冲突登记；新草稿保存在本地交付目录，不参与网站构建。无需这些私有输入即可重建站点。
 
-## 内容与构建
+## 进度与短名单
 
-- `private/data/jobs.json`：授权公开的103条结构化职位/历史结论，已去原始邮件摘要、Gmail深链和本机路径。
-- `private/registry/`：每条记录的证据、缺口、薪资合同、签证与真实材料链接。
-- `private/jobs/`：原四套报告和申请草稿，内容保留。
-- `private/new_materials/`：新三套可编辑DOCX、PDF、TXT及报告/信件/矩阵/面试准备。
-- `private/jd_sources/`：单独白名单选取的官方JD核验快照，不含原邮箱备份或原CV文件。
-- `public-safe/`：单独的41条公开职位事实投影，不含个人评估、签证、申请史或CV/信件。
-- `site-assets/`、`scripts/registry_ui.py`、`scripts/build_registry.py`：无框架、stdlib即可重建。
+阶段、备注、投递日、跟进日及短名单只保存到当前浏览器localStorage，使用原有storage key；刷新／部署不清空记录。源数据中用户确认的提交状态作为默认值；用户本机后续阶段优先。换浏览器、localhost换线上时，先“备份进度”再“导入进度”。旧备份没有shortlisted仍可导入。CSV附带本地进度列；源JSON不含本机进度。截止过期与已提交／面试／拒绝是两个不同维度。
+
+## 构建与验收
+
+Python3及Node即可，无第三方运行依赖：
 
 ```sh
-python3 scripts/build_registry.py
-python3 scripts/prepare_pages.py
+python3 scripts/validate_registry.py
+python3 -m unittest discover -s scripts -p 'test_*.py'
 node scripts/test_registry_logic.js
 node scripts/test_progress_logic.js
+python3 scripts/build_registry.py
+python3 scripts/prepare_pages.py
+python3 scripts/update_manifest.py
 python3 scripts/serve.py --view private --port 8765
 ```
 
-最后一条仅本机预览，端口占用时换一个，不结束他人的服务。GitHub Actions在main更新后构建并验证`_site/`再部署。无需读取本机私有输入包；不要运行旧`scripts/build.py`覆盖新版首页。所有相对链接兼容`/finding-jobs/`子路径。
+端口占用请换端口，不结束其他人的服务。`prepare_pages.py`校验所有HTML相对链接／锚点、禁止绝对本机路径／凭据／原邮件备份，生成`_site/`。相对链接兼容`/finding-jobs/`子路径。不要运行旧`scripts/build.py`覆盖新版首页。发布前检查diff、提交原件hash及所有真实下载；测试后需浏览器检查桌面与手机，以及实际线上部署。
+
+维护Canva状态时可运行 `python3 scripts/check_canva.py`，只读官方API分页／既有ID并把报告写入被忽略的`.local/`，**不自动修改canonical、不投递、不部署**。404／403保留访问限制，不等同关闭。审阅证据后再更新JSON及来源时间，运行上述检查。岗位城市镜像按职位族合并；旧ID别名不重复计数。
+
+GitHub Actions在main更新后运行数据／UI／链接检查并部署。正常`git push`前先fetch检查并行改动；不得force push。提交成功与Pages部署成功分别确认，再检查真实URL。新CV／信件必须经本轮用户审阅和明确批准后才能加入公开下载。
 
 ## 公开范围
 
-用户先前明确批准真实姓名、邮箱、完整CV/信件、私人分析、签证、共同生活偏好、申请史、论文状态和推荐人联系方式公开，并于2026-10-22明确要求更新线上。`private/`为历史目录名，不是访问控制。公开站点可由任何人读取。
-
-本次不连带上传原始邮箱备份、原CV源文件、本机绝对路径、凭据、私有录音/模型、运行日志或本地打包文件。用户自行上传到`formal_doc/`的既有内容不由本次删除或覆盖。`.gitignore`不撤销已经存在的Git历史。Helsinki申请正文须本人写，未生成该岗定制文本；Turku AI使用须申报。Huawei按用户给出的保密边界只保留概括项目描述。
+`private/`是历史目录名，不提供访问控制；现有网站和仓库为公开。历史广泛公开授权不覆盖本轮新草稿的“本地待审”限制。见[PUBLICATION_SCOPE.md](PUBLICATION_SCOPE.md)。本轮只发布官方岗位资料、必要状态判断和代码／通用维护说明，不增加联系方式、原邮件、申请表或新CV披露。`.gitignore`不会撤销已进入Git历史的信息。Huawei保密细节、指标和内部实现不加入demo。

@@ -1,296 +1,439 @@
 {
-  "schema_version": "2.0-public-facts",
-  "as_of": "2026-10-21T09:50:42.637069+00:00",
+  "schema_version": "2.1",
+  "as_of": "2026-10-22",
   "sources": [
     {
       "id": "public-spotify_generative_audio",
       "title": "Research Scientist – Generative Audio",
       "url": "https://www.lifeatspotify.com/jobs/research-scientist-generative-audio-2",
       "verified_at": "2026-10-21",
-      "evidence": "Public vacancy/team source; no candidate or private-mail evidence included."
+      "evidence": "Public employer/conference source only; unknown activity remains unknown.",
+      "additional_urls": []
     },
     {
       "id": "public-elevenlabs_research_engineer",
       "title": "Research Engineer",
       "url": "https://elevenlabs.io/careers/3d650946-5ac2-4729-9ae4-129c43fcd0b5/research-engineer",
       "verified_at": "2026-10-21",
-      "evidence": "Public vacancy/team source; no candidate or private-mail evidence included."
+      "evidence": "Public employer/conference source only; unknown activity remains unknown.",
+      "additional_urls": []
     },
     {
       "id": "public-apple_speech",
       "title": "Generative AI Research Engineer, Siri Speech",
       "url": "https://jobs.apple.com/en-gb/details/200688766/generative-ai-research-engineer-siri-speech",
       "verified_at": "2026-10-21",
-      "evidence": "Public vacancy/team source; no candidate or private-mail evidence included."
+      "evidence": "Public employer/conference source only; unknown activity remains unknown.",
+      "additional_urls": []
     },
     {
       "id": "public-brahma_audio",
       "title": "Machine Learning Researcher (Speech/Audio)",
       "url": "https://jobs.jobvite.com/brahma/job/obRaAfww",
       "verified_at": "2026-10-21",
-      "evidence": "Public vacancy/team source; no candidate or private-mail evidence included."
+      "evidence": "Public employer/conference source only; unknown activity remains unknown.",
+      "additional_urls": []
     },
     {
       "id": "public-spotify_senior_speech",
       "title": "Senior Applied Research Scientist - Personalization",
       "url": "https://jobs.lever.co/spotify/a4c49acb-a095-4452-ad9e-69e4b778c256",
       "verified_at": "2026-10-21",
-      "evidence": "Public vacancy/team source; no candidate or private-mail evidence included."
+      "evidence": "Public employer/conference source only; unknown activity remains unknown.",
+      "additional_urls": []
     },
     {
       "id": "public-cambridge_GT51091",
       "title": "Research Associate in Music and AI (Fixed Term)",
       "url": "https://www.cam.ac.uk/jobs/research-associate-in-music-and-ai-fixed-term-gt51091",
       "verified_at": "2026-10-21T09:14:02.580203+00:00",
-      "evidence": "Public vacancy/team source; no candidate or private-mail evidence included."
+      "evidence": "Public employer/conference source only; unknown activity remains unknown.",
+      "additional_urls": []
     },
     {
       "id": "public-scrime_postdoc_2027",
       "title": "Postdoctoral position in MIR / Sound and Music Computing (2027 call)",
       "url": "https://scrime.u-bordeaux.fr/jobs/postdoc-2027",
       "verified_at": "2026-10-21T09:15:00Z",
-      "evidence": "Public vacancy/team source; no candidate or private-mail evidence included."
+      "evidence": "Public employer/conference source only; unknown activity remains unknown.",
+      "additional_urls": []
     },
     {
       "id": "public-kth_974287",
       "title": "Postdoc in sustainable generative artificial intelligence for media",
       "url": "https://kth.varbi.com/en/what:job/jobID:974287/",
       "verified_at": "2026-10-21T09:15:00Z",
-      "evidence": "Public vacancy/team source; no candidate or private-mail evidence included."
+      "evidence": "Public employer/conference source only; unknown activity remains unknown.",
+      "additional_urls": []
     },
     {
       "id": "public-halbestunde_senior_ml",
       "title": "Senior Machine Learning Engineer",
       "url": "https://halbestunde.com/",
       "verified_at": "2026-10-21",
-      "evidence": "Public vacancy/team source; no candidate or private-mail evidence included."
+      "evidence": "Public employer/conference source only; unknown activity remains unknown.",
+      "additional_urls": []
     },
     {
       "id": "public-aalto-cowama-2026",
       "title": "Postdoctoral Researcher in Speech and Language Technology",
       "url": "https://www.aalto.fi/en/open-positions/postdoctoral-researcher-in-speech-and-language-technology",
       "verified_at": "2026-10-21T09:15:00Z",
-      "evidence": "Public vacancy/team source; no candidate or private-mail evidence included."
+      "evidence": "Public employer/conference source only; unknown activity remains unknown.",
+      "additional_urls": []
     },
     {
       "id": "public-ircam-avatars-mechanical-2026",
       "title": "Ingénieur·e mécanicien·ne — AVATARS Mécanique",
       "url": "https://www.ircam.fr/fr/jobs-offers/-ingnieure-mcanicienne",
       "verified_at": "2026-10-21",
-      "evidence": "Public vacancy/team source; no candidate or private-mail evidence included."
+      "evidence": "Public employer/conference source only; unknown activity remains unknown.",
+      "additional_urls": []
     },
     {
       "id": "public-watch-0f4b4ba80276",
       "title": "Beat-to-Body",
       "url": null,
       "verified_at": "2026-10-21",
-      "evidence": "Public vacancy/team source; no candidate or private-mail evidence included."
+      "evidence": "Public employer/conference source only; unknown activity remains unknown.",
+      "additional_urls": []
     },
     {
       "id": "public-watch-62fc2ef56cc1",
       "title": "UiO RITMO",
       "url": null,
       "verified_at": "2026-10-21",
-      "evidence": "Public vacancy/team source; no candidate or private-mail evidence included."
+      "evidence": "Public employer/conference source only; unknown activity remains unknown.",
+      "additional_urls": []
     },
     {
       "id": "public-watch-628bac0b1e49",
       "title": "MishMash consortium",
       "url": null,
       "verified_at": "2026-10-21",
-      "evidence": "Public vacancy/team source; no candidate or private-mail evidence included."
+      "evidence": "Public employer/conference source only; unknown activity remains unknown.",
+      "additional_urls": []
     },
     {
       "id": "public-watch-b7a0de69b885",
       "title": "QMUL C4DM",
       "url": null,
       "verified_at": "2026-10-21",
-      "evidence": "Public vacancy/team source; no candidate or private-mail evidence included."
+      "evidence": "Public employer/conference source only; unknown activity remains unknown.",
+      "additional_urls": []
     },
     {
       "id": "public-watch-61c110d69343",
       "title": "Imperial GLAM",
       "url": null,
       "verified_at": "2026-10-21",
-      "evidence": "Public vacancy/team source; no candidate or private-mail evidence included."
+      "evidence": "Public employer/conference source only; unknown activity remains unknown.",
+      "additional_urls": []
     },
     {
       "id": "public-watch-b71699e49241",
       "title": "UWE MICA",
       "url": null,
       "verified_at": "2026-10-21",
-      "evidence": "Public vacancy/team source; no candidate or private-mail evidence included."
-    },
-    {
-      "id": "public-history-594fcc4ce61e",
-      "title": "Paid RA Opportunities Multimodal AI Audio/Music OMR",
-      "url": null,
-      "verified_at": "2026-10-21",
-      "evidence": "Public vacancy/team source; no candidate or private-mail evidence included."
-    },
-    {
-      "id": "public-history-36b8ec851cce",
-      "title": "Beethoven AI postdoc30221",
-      "url": null,
-      "verified_at": "2026-10-21",
-      "evidence": "Public vacancy/team source; no candidate or private-mail evidence included."
+      "evidence": "Public employer/conference source only; unknown activity remains unknown.",
+      "additional_urls": []
     },
     {
       "id": "public-helsinki_ai_engineering_5251",
       "title": "Postdoctoral Researcher in AI Engineering",
       "url": "https://jobs.helsinki.fi/job/Helsinki-POSTDOCTORAL-RESEARCHER-in-AI-engineering/1374172657/",
       "verified_at": "2026-10-21T09:15:00Z",
-      "evidence": "Public vacancy/team source; no candidate or private-mail evidence included."
+      "evidence": "Public employer/conference source only; unknown activity remains unknown.",
+      "additional_urls": []
     },
     {
       "id": "public-turku_tias_postdoc_2027",
       "title": "TIAS Postdoctoral Fellow (2027–2030)",
       "url": "https://www.utu.fi/en/research/research-collegia/tias/vacancies/instructions-for-applicants",
       "verified_at": "2026-10-21T09:15:00Z",
-      "evidence": "Public vacancy/team source; no candidate or private-mail evidence included."
+      "evidence": "Public employer/conference source only; unknown activity remains unknown.",
+      "additional_urls": []
     },
     {
       "id": "public-turku_ties2_2027",
       "title": "TIES2 MSCA COFUND Postdoctoral Fellow",
       "url": "https://www.utu.fi/en/research/research-collegia/tias/ties/for-applicant",
       "verified_at": "2026-10-21T09:15:00Z",
-      "evidence": "Public vacancy/team source; no candidate or private-mail evidence included."
+      "evidence": "Public employer/conference source only; unknown activity remains unknown.",
+      "additional_urls": []
     },
     {
       "id": "public-salford_bioacoustics_1087",
       "title": "Post Doctoral Research Fellow (Bioacoustics)",
       "url": "https://iahgme.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_3001/job/1087",
       "verified_at": "2026-10-21T09:15:00Z",
-      "evidence": "Public vacancy/team source; no candidate or private-mail evidence included."
+      "evidence": "Public employer/conference source only; unknown activity remains unknown.",
+      "additional_urls": []
     },
     {
       "id": "public-watch-a10bea77c448",
       "title": "UCD School of Music PD1, 18months",
       "url": null,
       "verified_at": "2026-10-21",
-      "evidence": "Public vacancy/team source; no candidate or private-mail evidence included."
+      "evidence": "Public employer/conference source only; unknown activity remains unknown.",
+      "additional_urls": []
     },
     {
       "id": "public-watch-17c7af5018a5",
       "title": "UPF MTG",
       "url": null,
       "verified_at": "2026-10-21",
-      "evidence": "Public vacancy/team source; no candidate or private-mail evidence included."
+      "evidence": "Public employer/conference source only; unknown activity remains unknown.",
+      "additional_urls": []
     },
     {
       "id": "public-watch-557960947d89",
       "title": "Surrey CVSSP / Wenwu Wang",
       "url": null,
       "verified_at": "2026-10-21",
-      "evidence": "Public vacancy/team source; no candidate or private-mail evidence included."
+      "evidence": "Public employer/conference source only; unknown activity remains unknown.",
+      "additional_urls": []
     },
     {
       "id": "public-watch-b27cb7783965",
       "title": "ELLIS Institute Finland",
       "url": null,
       "verified_at": "2026-10-21",
-      "evidence": "Public vacancy/team source; no candidate or private-mail evidence included."
+      "evidence": "Public employer/conference source only; unknown activity remains unknown.",
+      "additional_urls": []
     },
     {
       "id": "public-watch-256d535ae691",
       "title": "IRCAM / STMS",
       "url": null,
       "verified_at": "2026-10-21",
-      "evidence": "Public vacancy/team source; no candidate or private-mail evidence included."
+      "evidence": "Public employer/conference source only; unknown activity remains unknown.",
+      "additional_urls": []
     },
     {
       "id": "public-tencent-R107821",
       "title": "Senior Researcher, Speech Synthesis and Multimodal LLM",
       "url": "https://tencent.wd1.myworkdayjobs.com/Tencent_Careers/job/United-Kingdom-London/Senior-Researcher--Speech-Synthesis-and-Multimodal-LLM_R107821",
       "verified_at": "2026-10-21T09:14:02.580203+00:00",
-      "evidence": "Public vacancy/team source; no candidate or private-mail evidence included."
+      "evidence": "Public employer/conference source only; unknown activity remains unknown.",
+      "additional_urls": []
     },
     {
       "id": "public-synthesia-ae716439",
       "title": "Senior Research Engineer – Voice / Audio Post-Training",
       "url": "https://jobs.ashbyhq.com/synthesia/ae716439-4fb5-49f3-b0fb-4038f65c1b6f",
       "verified_at": "2026-10-21T09:14:02.580203+00:00",
-      "evidence": "Public vacancy/team source; no candidate or private-mail evidence included."
+      "evidence": "Public employer/conference source only; unknown activity remains unknown.",
+      "additional_urls": []
     },
     {
       "id": "public-cartesia-7ecc288b",
       "title": "Researcher, Models (UK)",
       "url": "https://jobs.ashbyhq.com/cartesia/7ecc288b-6eb0-41d6-b17c-3187fac43f95/",
       "verified_at": "2026-10-21T09:14:02.580203+00:00",
-      "evidence": "Public vacancy/team source; no candidate or private-mail evidence included."
+      "evidence": "Public employer/conference source only; unknown activity remains unknown.",
+      "additional_urls": []
     },
     {
       "id": "public-tencent-R108173",
       "title": "LLM & Agent Research Intern",
       "url": "https://tencent.wd1.myworkdayjobs.com/Tencent_Careers/job/United-Kingdom-London/LLM---Agent-Research-Intern_R108173",
       "verified_at": "2026-10-21T09:14:02.580203+00:00",
-      "evidence": "Public vacancy/team source; no candidate or private-mail evidence included."
+      "evidence": "Public employer/conference source only; unknown activity remains unknown.",
+      "additional_urls": []
     },
     {
       "id": "public-focusrite-7D70C84FE2",
       "title": "QA Engineering Placement (Audio & MIDI Hardware, Software, Firmware Testing)",
       "url": "https://apply.workable.com/focusrite/j/7D70C84FE2/",
       "verified_at": "2026-10-21T09:14:02.580203+00:00",
-      "evidence": "Public vacancy/team source; no candidate or private-mail evidence included."
+      "evidence": "Public employer/conference source only; unknown activity remains unknown.",
+      "additional_urls": []
     },
     {
       "id": "public-focusrite-1A46D2C5E7",
       "title": "QA Engineering Placement – TiMax",
       "url": "https://apply.workable.com/focusrite/j/1A46D2C5E7/",
       "verified_at": "2026-10-21T09:14:02.580203+00:00",
-      "evidence": "Public vacancy/team source; no candidate or private-mail evidence included."
+      "evidence": "Public employer/conference source only; unknown activity remains unknown.",
+      "additional_urls": []
     },
     {
       "id": "public-umg-27186",
       "title": "AI Product Engineer",
       "url": "https://umusic.wd5.myworkdayjobs.com/en-US/UMGUK/job/AI-Product-Engineer_UMG-27186",
       "verified_at": "2026-10-21T09:14:02.580203+00:00",
-      "evidence": "Public vacancy/team source; no candidate or private-mail evidence included."
+      "evidence": "Public employer/conference source only; unknown activity remains unknown.",
+      "additional_urls": []
     },
     {
       "id": "public-sony-6006523004",
       "title": "Senior Software Engineer, Audio Validation Systems",
       "url": "https://job-boards.greenhouse.io/sonyinteractiveentertainmentglobal/jobs/6006523004",
       "verified_at": "2026-10-21T09:14:02.580203+00:00",
-      "evidence": "Public vacancy/team source; no candidate or private-mail evidence included."
+      "evidence": "Public employer/conference source only; unknown activity remains unknown.",
+      "additional_urls": []
     },
     {
       "id": "public-roli-watch",
       "title": "Music AI / interaction roles – watchlist",
       "url": "https://app.screenloop.com/careers/roli",
       "verified_at": "2026-10-21T09:14:02.580203+00:00",
-      "evidence": "Public vacancy/team source; no candidate or private-mail evidence included."
+      "evidence": "Public employer/conference source only; unknown activity remains unknown.",
+      "additional_urls": []
     },
     {
       "id": "public-logitech-147367",
       "title": "Senior Audio AI Research Engineer",
       "url": "https://logitech.wd5.myworkdayjobs.com/Logitech/job/London-United-Kingdom/Senior-Audio-AI-Research-Engineer_147367",
       "verified_at": "2026-10-21T09:14:02.580203+00:00",
-      "evidence": "Public vacancy/team source; no candidate or private-mail evidence included."
+      "evidence": "Public employer/conference source only; unknown activity remains unknown.",
+      "additional_urls": []
     },
     {
       "id": "public-stability-watch",
       "title": "Audio research – watchlist",
       "url": "https://stability.ai/careers",
       "verified_at": "2026-10-21T09:14:02.580203+00:00",
-      "evidence": "Public vacancy/team source; no candidate or private-mail evidence included."
+      "evidence": "Public employer/conference source only; unknown activity remains unknown.",
+      "additional_urls": []
     },
     {
       "id": "public-audiostack-watch",
       "title": "Research / ML roles – watchlist",
       "url": "https://jobs.workable.com/company/8F2KpgLvPvTiPNQPDnSyAH/jobs-at-audiostack",
       "verified_at": "2026-10-21T09:14:02.580203+00:00",
-      "evidence": "Public vacancy/team source; no candidate or private-mail evidence included."
+      "evidence": "Public employer/conference source only; unknown activity remains unknown.",
+      "additional_urls": []
     },
     {
-      "id": "public-bose-R28343",
-      "title": "Audio Machine Learning Intern",
-      "url": "https://boseallaboutme.wd503.myworkdayjobs.com/Bose_Careers/job/US-MA---Framingham/Audio-Machine-Learning-Intern_R28343",
-      "verified_at": "2026-10-21T09:14:02.580203+00:00",
-      "evidence": "Public vacancy/team source; no candidate or private-mail evidence included."
+      "id": "public-canva-6000000001354300",
+      "title": "Principal Research Scientist - Evaluations",
+      "url": "https://www.lifeatcanva.com/en/jobs/6000000001354300/principal-research-scientist-evaluations/",
+      "verified_at": "2026-10-22T02:19:08.422347+00:00",
+      "evidence": "Public employer/conference source only; unknown activity remains unknown.",
+      "additional_urls": [
+        "https://www.lifeatcanva.com/en/jobs/6000000001354300/principal-research-scientist-evaluations/",
+        "https://api.smartrecruiters.com/v1/companies/Canva/postings/6000000001354300"
+      ]
+    },
+    {
+      "id": "public-canva-6000000001331665",
+      "title": "Senior Research Data Engineer",
+      "url": "https://jobs.smartrecruiters.com/Canva/6000000001331665-senior-research-data-engineer",
+      "verified_at": "2026-10-22T02:19:08.422347+00:00",
+      "evidence": "Public employer/conference source only; unknown activity remains unknown.",
+      "additional_urls": [
+        "https://jobs.smartrecruiters.com/Canva/6000000001331665-senior-research-data-engineer",
+        "https://api.smartrecruiters.com/v1/companies/Canva/postings/6000000001331665"
+      ]
+    },
+    {
+      "id": "public-canva-6000000001359892",
+      "title": "Senior Research Scientist - Design Generation (Sydney)",
+      "url": "https://jobs.smartrecruiters.com/Canva/6000000001359892-senior-research-scientist-design-generation-sydney-",
+      "verified_at": "2026-10-22T02:19:08.422347+00:00",
+      "evidence": "Public employer/conference source only; unknown activity remains unknown.",
+      "additional_urls": [
+        "https://jobs.smartrecruiters.com/Canva/6000000001359892-senior-research-scientist-design-generation-sydney-",
+        "https://api.smartrecruiters.com/v1/companies/Canva/postings/6000000001359892"
+      ]
+    },
+    {
+      "id": "public-canva-6000000001162285",
+      "title": "Senior Machine Learning Engineer - Research Optimisation",
+      "url": "https://jobs.smartrecruiters.com/Canva/6000000001162285-senior-machine-learning-engineer-research-optimisation",
+      "verified_at": "2026-10-22T02:19:08.422347+00:00",
+      "evidence": "Public employer/conference source only; unknown activity remains unknown.",
+      "additional_urls": [
+        "https://jobs.smartrecruiters.com/Canva/6000000001162285-senior-machine-learning-engineer-research-optimisation",
+        "https://api.smartrecruiters.com/v1/companies/Canva/postings/6000000001162285"
+      ]
+    },
+    {
+      "id": "public-canva-6000000000317287",
+      "title": "Senior Applied Scientist - AI Research",
+      "url": "https://jobs.smartrecruiters.com/Canva/6000000000317287-senior-applied-scientist-ai-research",
+      "verified_at": "2026-10-22T02:19:08.422347+00:00",
+      "evidence": "Public employer/conference source only; unknown activity remains unknown.",
+      "additional_urls": [
+        "https://jobs.smartrecruiters.com/Canva/6000000000317287-senior-applied-scientist-ai-research",
+        "https://api.smartrecruiters.com/v1/companies/Canva/postings/6000000000317287"
+      ]
+    },
+    {
+      "id": "public-canva-6000000000891189",
+      "title": "Senior Research Scientist - GenAI (Design Generation)",
+      "url": "https://jobs.smartrecruiters.com/Canva/6000000000891189-senior-research-scientist-genai-design-generation-",
+      "verified_at": "2026-10-22T02:19:08.422347+00:00",
+      "evidence": "Public employer/conference source only; unknown activity remains unknown.",
+      "additional_urls": [
+        "https://jobs.smartrecruiters.com/Canva/6000000000891189-senior-research-scientist-genai-design-generation-",
+        "https://api.smartrecruiters.com/v1/companies/Canva/postings/6000000000891189"
+      ]
+    },
+    {
+      "id": "public-canva-family-research-engineer",
+      "title": "Senior Research Engineer — team / requisition watch",
+      "url": "https://jobs.smartrecruiters.com/ni/Canva/7b096eb0-49bc-4f00-8a73-399377b5ef72-senior-research-engineer-london-",
+      "verified_at": "2026-10-22T02:19:08.422347+00:00",
+      "evidence": "Public employer/conference source only; unknown activity remains unknown.",
+      "additional_urls": [
+        "https://neurips.cc/careers/?page=3",
+        "https://jobs.smartrecruiters.com/ni/Canva/7b096eb0-49bc-4f00-8a73-399377b5ef72-senior-research-engineer-london-",
+        "https://jobs.smartrecruiters.com/ni/Canva/71668029-9f53-47d9-9853-00f9c53d11a2-senior-research-engineer-sydney-"
+      ]
+    },
+    {
+      "id": "public-canva-family-research-scientist",
+      "title": "Senior Research Scientist — team / requisition watch",
+      "url": "https://jobs.smartrecruiters.com/ni/Canva/96318f07-9947-4f14-9212-dd0359e7fd5e-senior-research-scientist-london-",
+      "verified_at": "2026-10-22T02:19:08.422347+00:00",
+      "evidence": "Public employer/conference source only; unknown activity remains unknown.",
+      "additional_urls": [
+        "https://neurips.cc/careers/?page=6",
+        "https://jobs.smartrecruiters.com/ni/Canva/96318f07-9947-4f14-9212-dd0359e7fd5e-senior-research-scientist-london-",
+        "https://jobs.smartrecruiters.com/ni/Canva/1df3bf96-cd02-4b06-ba31-d235e6dbbe44-senior-research-scientist-sydney-"
+      ]
+    },
+    {
+      "id": "public-canva-family-machine-learning-engineer",
+      "title": "Senior Machine Learning Engineer — team / requisition watch",
+      "url": "https://jobs.smartrecruiters.com/ni/Canva/ee3673fe-60b6-48d7-8ece-4d24601be8d6-senior-machine-learning-engineer-london-",
+      "verified_at": "2026-10-22T02:19:08.422347+00:00",
+      "evidence": "Public employer/conference source only; unknown activity remains unknown.",
+      "additional_urls": [
+        "https://neurips.cc/careers/?page=6",
+        "https://jobs.smartrecruiters.com/ni/Canva/ee3673fe-60b6-48d7-8ece-4d24601be8d6-senior-machine-learning-engineer-london-",
+        "https://jobs.smartrecruiters.com/ni/Canva/ef85dbc0-5800-4af2-b8e1-65a410c786f3-senior-machine-learning-engineer-sydney-"
+      ]
+    },
+    {
+      "id": "public-canva-family-evaluations",
+      "title": "Senior Machine Learning Engineer - Evaluations — team / requisition watch",
+      "url": "https://jobs.smartrecruiters.com/ni/Canva/abe7af6b-e6cc-43af-a992-57665c2a4144-senior-machine-learning-engineer-evaluations-london-",
+      "verified_at": "2026-10-22T02:19:08.422347+00:00",
+      "evidence": "Public employer/conference source only; unknown activity remains unknown.",
+      "additional_urls": [
+        "https://neurips.cc/careers/?page=6",
+        "https://jobs.smartrecruiters.com/ni/Canva/abe7af6b-e6cc-43af-a992-57665c2a4144-senior-machine-learning-engineer-evaluations-london-",
+        "https://jobs.smartrecruiters.com/ni/Canva/04f997d6-ea24-4bbd-b610-ea7bfff980da-senior-machine-learning-engineer-evaluations-sydney-"
+      ]
+    },
+    {
+      "id": "public-canva-family-research-data",
+      "title": "Senior Research Data Engineer — team / requisition watch",
+      "url": "https://jobs.smartrecruiters.com/ni/Canva/f348b9df-993d-48c7-87d1-e2fc9e5a30f2-senior-research-data-engineer-london-",
+      "verified_at": "2026-10-22T02:19:08.422347+00:00",
+      "evidence": "Public employer/conference source only; unknown activity remains unknown.",
+      "additional_urls": [
+        "https://neurips.cc/careers/?page=1",
+        "https://jobs.smartrecruiters.com/ni/Canva/f348b9df-993d-48c7-87d1-e2fc9e5a30f2-senior-research-data-engineer-london-",
+        "https://jobs.smartrecruiters.com/ni/Canva/61113fad-17b4-4b14-bfbc-421d5d06e262-senior-research-data-engineer-sydney-"
+      ]
     }
   ],
-  "privacy": "Public vacancy facts only; personal assessments and application materials excluded.",
+  "privacy": "Generated public job-facts allowlist; no candidate assessments, application history, immigration analysis or materials.",
   "jobs": [
     {
       "id": "spotify_generative_audio",
@@ -300,8 +443,25 @@
       "team": "Artist-First AI Music Lab",
       "country": "United Kingdom",
       "city": "London",
+      "locations": [
+        {
+          "country": "United Kingdom",
+          "city": "London"
+        },
+        {
+          "country": "Sweden",
+          "city": "Stockholm"
+        }
+      ],
       "is_london": true,
       "official_url": "https://www.lifeatspotify.com/jobs/research-scientist-generative-audio-2",
+      "information_url": "https://www.lifeatspotify.com/jobs/research-scientist-generative-audio-2",
+      "application_url": "https://jobs.lever.co/spotify/819f584f-84a5-485d-8082-3412545f6c8a/apply",
+      "application_channel": "官网指定 Lever 岗位申请表",
+      "application_instructions": "从此具体Lever表单由用户自行准备并提交；Research Scientist - Generative Audio，London/Stockholm。当前仅只读查看，未填字段、上传或提交。",
+      "channel_verified_at": "2026-10-21T09:48:28.932970+00:00",
+      "channel_checked_at": "2026-10-21T09:48:28.932970+00:00",
+      "channel_verification_status": "verified_current_official",
       "posted_date": null,
       "deadline_original": "Not stated; rolling closure possible",
       "deadline_date": null,
@@ -313,6 +473,7 @@
       "planning_deadline": null,
       "vacancy_status": "open",
       "verified_open": true,
+      "status_reason": "Official current full JD with Apply now; normal HTTP200.",
       "status_checked_at": "2026-10-21",
       "verified_at": "2026-10-21",
       "jd_completeness": "full_official_JD_saved",
@@ -355,26 +516,22 @@
         "post-training",
         "generative AI"
       ],
+      "recruitment_channel": "Public employer vacancy",
+      "ai_application_policy": "unknown",
+      "ai_policy_evidence": [],
       "source_ids": [
         "public-spotify_generative_audio"
       ],
       "source_confidence": {
         "level": "high",
-        "reason": "Availability is based on the dated official-source check; not a hiring probability."
+        "reason": "Public source and dated status; no candidate evidence."
       },
-      "status_reason": "Dated public vacancy evidence; see official source. Unknown does not mean closed.",
-      "next_action": "Recheck the official current call and its stated requirements.",
       "application_stage": "unknown",
       "recommendation": null,
-      "deep_review_status": "not_in_public_build",
-      "recruitment_channel": "public listing / team page",
-      "active_recommendation": {
-        "grade": null,
-        "reason": "Personal assessment excluded from public-safe projection."
-      },
-      "ai_application_policy": "unknown",
+      "active_recommendation": null,
       "artifacts": [],
-      "hard_gate_status": "unknown"
+      "deep_review_status": "public_facts_only",
+      "next_action": "核对官方状态与地点；本视图不包含个人匹配或申请记录。"
     },
     {
       "id": "elevenlabs_research_engineer",
@@ -386,6 +543,13 @@
       "city": "London",
       "is_london": true,
       "official_url": "https://elevenlabs.io/careers/3d650946-5ac2-4729-9ae4-129c43fcd0b5/research-engineer",
+      "information_url": "https://elevenlabs.io/careers/3d650946-5ac2-4729-9ae4-129c43fcd0b5/research-engineer",
+      "application_url": null,
+      "application_channel": "官方具体职位页 Apply now 按钮；独立目标URL待核实",
+      "application_instructions": "官方web正文显示Application标签与Apply now按钮；目前未取得按钮的真实href或可直达表单URL，application_url保持null，不猜Ashby路径或#application。",
+      "channel_verified_at": null,
+      "channel_checked_at": "2026-10-21T09:48:28.932970+00:00",
+      "channel_verification_status": "missing_distinct_application_endpoint",
       "posted_date": null,
       "deadline_original": "Not stated; rolling closure possible",
       "deadline_date": null,
@@ -397,6 +561,7 @@
       "planning_deadline": null,
       "vacancy_status": "open",
       "verified_open": true,
+      "status_reason": "Official web reader current full JD with Apply now; independent Python HTTP403 retained.",
       "status_checked_at": "2026-10-21",
       "verified_at": "2026-10-21",
       "jd_completeness": "full_official_JD_saved",
@@ -429,26 +594,22 @@
       "direction": [
         "post-training"
       ],
+      "recruitment_channel": "Public employer vacancy",
+      "ai_application_policy": "unknown",
+      "ai_policy_evidence": [],
       "source_ids": [
         "public-elevenlabs_research_engineer"
       ],
       "source_confidence": {
         "level": "high",
-        "reason": "Availability is based on the dated official-source check; not a hiring probability."
+        "reason": "Public source and dated status; no candidate evidence."
       },
-      "status_reason": "Dated public vacancy evidence; see official source. Unknown does not mean closed.",
-      "next_action": "Recheck the official current call and its stated requirements.",
       "application_stage": "unknown",
       "recommendation": null,
-      "deep_review_status": "not_in_public_build",
-      "recruitment_channel": "public listing / team page",
-      "active_recommendation": {
-        "grade": null,
-        "reason": "Personal assessment excluded from public-safe projection."
-      },
-      "ai_application_policy": "unknown",
+      "active_recommendation": null,
       "artifacts": [],
-      "hard_gate_status": "unknown"
+      "deep_review_status": "public_facts_only",
+      "next_action": "核对官方状态与地点；本视图不包含个人匹配或申请记录。"
     },
     {
       "id": "apple_speech",
@@ -460,6 +621,13 @@
       "city": "Cambridge",
       "is_london": false,
       "official_url": "https://jobs.apple.com/en-gb/details/200688766/generative-ai-research-engineer-siri-speech",
+      "information_url": "https://jobs.apple.com/en-gb/details/200688766/generative-ai-research-engineer-siri-speech",
+      "application_url": null,
+      "application_channel": "Apple 官方职位系统；具体申请目标URL待核实",
+      "application_instructions": "仅核实信息页200及职位200688766，未取得可见Apply/Submit CV锚点。未来由用户在官方页面正常操作登录/申请；不从jobID拼接路径。",
+      "channel_verified_at": null,
+      "channel_checked_at": "2026-10-21T09:48:28.932970+00:00",
+      "channel_verification_status": "missing_distinct_application_endpoint",
       "posted_date": "2026-10-15",
       "deadline_original": "Not stated; rolling closure possible",
       "deadline_date": null,
@@ -471,6 +639,7 @@
       "planning_deadline": null,
       "vacancy_status": "open",
       "verified_open": true,
+      "status_reason": "Same-day official embedded JD in package; latest ordinary HTML JS shell and web-reader timeout; no closure established.",
       "status_checked_at": "2026-10-21",
       "verified_at": "2026-10-21",
       "jd_completeness": "full_official_embedded_JD_same_day_snapshot",
@@ -510,26 +679,22 @@
         "speech",
         "generative AI"
       ],
+      "recruitment_channel": "Public employer vacancy",
+      "ai_application_policy": "unknown",
+      "ai_policy_evidence": [],
       "source_ids": [
         "public-apple_speech"
       ],
       "source_confidence": {
-        "level": "medium",
-        "reason": "Availability is based on the dated official-source check; not a hiring probability."
+        "level": "high",
+        "reason": "Public source and dated status; no candidate evidence."
       },
-      "status_reason": "Dated public vacancy evidence; see official source. Unknown does not mean closed.",
-      "next_action": "Recheck the official current call and its stated requirements.",
       "application_stage": "unknown",
       "recommendation": null,
-      "deep_review_status": "not_in_public_build",
-      "recruitment_channel": "public listing / team page",
-      "active_recommendation": {
-        "grade": null,
-        "reason": "Personal assessment excluded from public-safe projection."
-      },
-      "ai_application_policy": "unknown",
+      "active_recommendation": null,
       "artifacts": [],
-      "hard_gate_status": "unknown"
+      "deep_review_status": "public_facts_only",
+      "next_action": "核对官方状态与地点；本视图不包含个人匹配或申请记录。"
     },
     {
       "id": "brahma_audio",
@@ -541,6 +706,13 @@
       "city": "London",
       "is_london": true,
       "official_url": "https://jobs.jobvite.com/brahma/job/obRaAfww",
+      "information_url": "https://jobs.jobvite.com/brahma/job/obRaAfww",
+      "application_url": "https://jobs.jobvite.com/brahma/job/obRaAfww/apply",
+      "application_channel": "BRAHMA 官方指定 Jobvite",
+      "application_instructions": "官方职位Apply链接进入Jobvite Data Consent起始页；用户未来自行按地域/语言及同意流程申请。未选择选项、同意条款或创建申请。",
+      "channel_verified_at": "2026-10-21T09:48:28.932970+00:00",
+      "channel_checked_at": "2026-10-21T09:48:28.932970+00:00",
+      "channel_verification_status": "verified_current_official",
       "posted_date": null,
       "deadline_original": "Not stated; rolling closure possible",
       "deadline_date": null,
@@ -552,6 +724,7 @@
       "planning_deadline": null,
       "vacancy_status": "open",
       "verified_open": true,
+      "status_reason": "Official web reader full current JD with Apply link; Python HTTP403 retained.",
       "status_checked_at": "2026-10-21",
       "verified_at": "2026-10-21",
       "jd_completeness": "full_official_JD_saved",
@@ -593,26 +766,22 @@
         "audio",
         "speech"
       ],
+      "recruitment_channel": "Public employer vacancy",
+      "ai_application_policy": "unknown",
+      "ai_policy_evidence": [],
       "source_ids": [
         "public-brahma_audio"
       ],
       "source_confidence": {
         "level": "high",
-        "reason": "Availability is based on the dated official-source check; not a hiring probability."
+        "reason": "Public source and dated status; no candidate evidence."
       },
-      "status_reason": "Dated public vacancy evidence; see official source. Unknown does not mean closed.",
-      "next_action": "Recheck the official current call and its stated requirements.",
       "application_stage": "unknown",
       "recommendation": null,
-      "deep_review_status": "not_in_public_build",
-      "recruitment_channel": "public listing / team page",
-      "active_recommendation": {
-        "grade": null,
-        "reason": "Personal assessment excluded from public-safe projection."
-      },
-      "ai_application_policy": "unknown",
+      "active_recommendation": null,
       "artifacts": [],
-      "hard_gate_status": "unknown"
+      "deep_review_status": "public_facts_only",
+      "next_action": "核对官方状态与地点；本视图不包含个人匹配或申请记录。"
     },
     {
       "id": "spotify_senior_speech",
@@ -622,8 +791,25 @@
       "team": "Speak Team",
       "country": "United Kingdom",
       "city": "London",
+      "locations": [
+        {
+          "country": "United Kingdom",
+          "city": "London"
+        },
+        {
+          "country": "Sweden",
+          "city": "Stockholm"
+        }
+      ],
       "is_london": true,
       "official_url": "https://jobs.lever.co/spotify/a4c49acb-a095-4452-ad9e-69e4b778c256",
+      "information_url": "https://jobs.lever.co/spotify/a4c49acb-a095-4452-ad9e-69e4b778c256",
+      "application_url": "https://jobs.lever.co/spotify/a4c49acb-a095-4452-ad9e-69e4b778c256/apply",
+      "application_channel": "Spotify 官方指定 Lever 岗位申请表",
+      "application_instructions": "真实标题为Senior Applied Research Scientist - Personalization，正文Speak Team做speech；沿用稳定ID但展示准确标题，不新增重复岗位。仅只读申请表，未填写/上传/提交。",
+      "channel_verified_at": "2026-10-21T09:48:28.932970+00:00",
+      "channel_checked_at": "2026-10-21T09:48:28.932970+00:00",
+      "channel_verification_status": "verified_current_official",
       "posted_date": null,
       "deadline_original": "Not stated; rolling closure possible",
       "deadline_date": null,
@@ -635,6 +821,7 @@
       "planning_deadline": null,
       "vacancy_status": "open",
       "verified_open": true,
+      "status_reason": "Official web reader full JD with Apply for this job; Python HTTP403 retained.",
       "status_checked_at": "2026-10-21",
       "verified_at": "2026-10-21",
       "jd_completeness": "full_official_JD_saved",
@@ -673,26 +860,22 @@
         "speech",
         "generative AI"
       ],
+      "recruitment_channel": "Public employer vacancy",
+      "ai_application_policy": "unknown",
+      "ai_policy_evidence": [],
       "source_ids": [
         "public-spotify_senior_speech"
       ],
       "source_confidence": {
         "level": "high",
-        "reason": "Availability is based on the dated official-source check; not a hiring probability."
+        "reason": "Public source and dated status; no candidate evidence."
       },
-      "status_reason": "Dated public vacancy evidence; see official source. Unknown does not mean closed.",
-      "next_action": "Recheck the official current call and its stated requirements.",
       "application_stage": "unknown",
       "recommendation": null,
-      "deep_review_status": "not_in_public_build",
-      "recruitment_channel": "public listing / team page",
-      "active_recommendation": {
-        "grade": null,
-        "reason": "Personal assessment excluded from public-safe projection."
-      },
-      "ai_application_policy": "unknown",
+      "active_recommendation": null,
       "artifacts": [],
-      "hard_gate_status": "unknown"
+      "deep_review_status": "public_facts_only",
+      "next_action": "核对官方状态与地点；本视图不包含个人匹配或申请记录。"
     },
     {
       "id": "cambridge_GT51091",
@@ -704,6 +887,13 @@
       "city": "Cambridge",
       "is_london": false,
       "official_url": "https://www.cam.ac.uk/jobs/research-associate-in-music-and-ai-fixed-term-gt51091",
+      "information_url": "https://www.cam.ac.uk/jobs/research-associate-in-music-and-ai-fixed-term-gt51091",
+      "application_url": null,
+      "application_channel": "Cambridge 官方招聘门户",
+      "application_instructions": "信息页真实Apply online锚点指定此GT51091门户；广告要求注册/登录后在线申请，材料清单用既有15页Further Information。未登录/注册/进入提交步骤。",
+      "channel_verified_at": "2026-10-21T09:48:28.932970+00:00",
+      "channel_checked_at": "2026-10-21T09:48:28.932970+00:00",
+      "channel_verification_status": "deadline_elapsed_not_accepting_new_applications",
       "posted_date": "2026-09-21",
       "deadline_original": "midnight (BST) on Wednesday 21 October 2026",
       "deadline_date": "2026-10-21",
@@ -713,9 +903,10 @@
       "deadline_precision": "minute",
       "deadline_conflict": false,
       "planning_deadline": "2026-10-21",
-      "vacancy_status": "open",
-      "verified_open": true,
-      "status_checked_at": "2026-10-21T09:10:40.830954+00:00",
+      "vacancy_status": "closed",
+      "verified_open": false,
+      "status_reason": "公告既有截止时间已过（deadline_elapsed）；本日官方页读取403，未把访问限制当作撤岗证据。用户明确确认已经提交。",
+      "status_checked_at": "2026-10-22",
       "verified_at": "2026-10-21T09:14:02.580203+00:00",
       "jd_completeness": "full_official_with_15_page_attachment",
       "salary_min": 37694,
@@ -745,26 +936,27 @@
         "AI",
         "music"
       ],
+      "recruitment_channel": "Public university recruitment; ISMIR announcement is not personal invitation",
+      "ai_application_policy": "unknown",
+      "ai_policy_evidence": [
+        {
+          "status": "unknown",
+          "basis": "该职位广告和已取得附件未建立禁止或申报AI规定；未将其他学院/学生活动AI规则套用此岗。"
+        }
+      ],
       "source_ids": [
         "public-cambridge_GT51091"
       ],
       "source_confidence": {
-        "level": "high",
-        "reason": "Availability is based on the dated official-source check; not a hiring probability."
+        "level": "medium",
+        "reason": "Public source and dated status; no candidate evidence."
       },
-      "status_reason": "Dated public vacancy evidence; see official source. Unknown does not mean closed.",
-      "next_action": "Recheck the official current call and its stated requirements.",
       "application_stage": "unknown",
       "recommendation": null,
-      "deep_review_status": "not_in_public_build",
-      "recruitment_channel": "public listing / team page",
-      "active_recommendation": {
-        "grade": null,
-        "reason": "Personal assessment excluded from public-safe projection."
-      },
-      "ai_application_policy": "unknown",
+      "active_recommendation": null,
       "artifacts": [],
-      "hard_gate_status": "unknown"
+      "deep_review_status": "public_facts_only",
+      "next_action": "核对官方状态与地点；本视图不包含个人匹配或申请记录。"
     },
     {
       "id": "scrime_postdoc_2027",
@@ -776,6 +968,13 @@
       "city": "Talence, Bordeaux metropolitan area",
       "is_london": false,
       "official_url": "https://scrime.u-bordeaux.fr/jobs/postdoc-2027",
+      "information_url": "https://scrime.u-bordeaux.fr/jobs/postdoc-2027",
+      "application_url": "mailto:louis.bigo@u-bordeaux.fr",
+      "application_channel": "email",
+      "application_instructions": "CV和short research project proposition，按当前2027官网发送至Louis Bigo；本轮不compose、不发信。官网11月8与公告11月11冲突，按11月8准备。",
+      "channel_verified_at": "2026-10-21T09:46:41Z",
+      "channel_checked_at": "2026-10-21T09:46:41Z",
+      "channel_verification_status": "verified_current_official",
       "posted_date": null,
       "deadline_original": "官网November8 2026；2026-10-20公告November11 2026",
       "deadline_date": "2026-11-08",
@@ -787,6 +986,7 @@
       "planning_deadline": "2026-11-08",
       "vacancy_status": "open",
       "verified_open": true,
+      "status_reason": "当前官方完整招聘正文及未来截止，未见closed标记",
       "status_checked_at": "2026-10-21T09:15:00Z",
       "verified_at": "2026-10-21T09:15:00Z",
       "jd_completeness": "full_current_official",
@@ -830,26 +1030,30 @@
         "music",
         "audio"
       ],
+      "recruitment_channel": "PI public ISMIR announcement; not personal invitation",
+      "ai_application_policy": "unknown",
+      "ai_policy_evidence": [
+        {
+          "status": "unknown",
+          "evidence": "本岗位完整JD未见申请AI条款；不等于雇主已明确允许。门户最终声明待人工核对",
+          "source_ids": [
+            "r2eu_scrime"
+          ]
+        }
+      ],
       "source_ids": [
         "public-scrime_postdoc_2027"
       ],
       "source_confidence": {
         "level": "high",
-        "reason": "Availability is based on the dated official-source check; not a hiring probability."
+        "reason": "Public source and dated status; no candidate evidence."
       },
-      "status_reason": "Dated public vacancy evidence; see official source. Unknown does not mean closed.",
-      "next_action": "Recheck the official current call and its stated requirements.",
       "application_stage": "unknown",
       "recommendation": null,
-      "deep_review_status": "not_in_public_build",
-      "recruitment_channel": "public listing / team page",
-      "active_recommendation": {
-        "grade": null,
-        "reason": "Personal assessment excluded from public-safe projection."
-      },
-      "ai_application_policy": "unknown",
+      "active_recommendation": null,
       "artifacts": [],
-      "hard_gate_status": "unknown"
+      "deep_review_status": "public_facts_only",
+      "next_action": "核对官方状态与地点；本视图不包含个人匹配或申请记录。"
     },
     {
       "id": "kth_974287",
@@ -861,6 +1065,13 @@
       "city": "Stockholm",
       "is_london": false,
       "official_url": "https://kth.varbi.com/en/what:job/jobID:974287/",
+      "information_url": "https://kth.varbi.com/en/what:job/jobID:974287/",
+      "application_url": "https://kth.varbi.com/en/what:login/jobID:974287/type:job/apply:1/",
+      "application_channel": "online_ats",
+      "application_instructions": "Varbi Login and apply；CV、diplomas/grades、最多2页cover letter。须用户自行登录并核对最终表单；本轮没有登录或开始提交。",
+      "channel_verified_at": "2026-10-21T09:46:41Z",
+      "channel_checked_at": "2026-10-21T09:46:41Z",
+      "channel_verification_status": "verified_official_job_specific_login",
       "posted_date": "2026-10-01",
       "deadline_original": "2026-11-05 midnight CET",
       "deadline_date": "2026-11-05",
@@ -872,6 +1083,7 @@
       "planning_deadline": "2026-11-04",
       "vacancy_status": "open",
       "verified_open": true,
+      "status_reason": "当前官方完整招聘正文及未来截止，未见closed标记",
       "status_checked_at": "2026-10-21T09:15:00Z",
       "verified_at": "2026-10-21T09:15:00Z",
       "jd_completeness": "Official full web advert read; full email saved. See compact official-ad summary file; no separate further-particulars located.",
@@ -911,26 +1123,30 @@
         "sustainability",
         "generative AI"
       ],
+      "recruitment_channel": "Public KTH recruitment and ISMIR announcement",
+      "ai_application_policy": "unknown",
+      "ai_policy_evidence": [
+        {
+          "status": "unknown",
+          "evidence": "本岗位完整JD未见申请AI条款；不等于雇主已明确允许。门户最终声明待人工核对",
+          "source_ids": [
+            "r2eu_kth"
+          ]
+        }
+      ],
       "source_ids": [
         "public-kth_974287"
       ],
       "source_confidence": {
         "level": "high",
-        "reason": "Availability is based on the dated official-source check; not a hiring probability."
+        "reason": "Public source and dated status; no candidate evidence."
       },
-      "status_reason": "Dated public vacancy evidence; see official source. Unknown does not mean closed.",
-      "next_action": "Recheck the official current call and its stated requirements.",
       "application_stage": "unknown",
       "recommendation": null,
-      "deep_review_status": "not_in_public_build",
-      "recruitment_channel": "public listing / team page",
-      "active_recommendation": {
-        "grade": null,
-        "reason": "Personal assessment excluded from public-safe projection."
-      },
-      "ai_application_policy": "unknown",
+      "active_recommendation": null,
       "artifacts": [],
-      "hard_gate_status": "unknown"
+      "deep_review_status": "public_facts_only",
+      "next_action": "核对官方状态与地点；本视图不包含个人匹配或申请记录。"
     },
     {
       "id": "halbestunde_senior_ml",
@@ -942,6 +1158,13 @@
       "city": "Berlin (company; work country unconfirmed)",
       "is_london": null,
       "official_url": "https://halbestunde.com/",
+      "information_url": "https://halbestunde.com/",
+      "application_url": "mailto:jobs@halbestunde.com",
+      "application_channel": "email",
+      "application_instructions": "2026-10-06 CTO公告要求CV或LinkedIn、几行音乐背景、相关paper/repo/demo发送jobs@halbestunde.com；额外完整JD可索取但本轮不联系。",
+      "channel_verified_at": "2026-10-21T09:46:41Z",
+      "channel_checked_at": "2026-10-21T09:46:41Z",
+      "channel_verification_status": "employer_announcement_verified_channel_current_availability_unknown",
       "posted_date": null,
       "deadline_original": null,
       "deadline_date": null,
@@ -953,6 +1176,7 @@
       "planning_deadline": null,
       "vacancy_status": "unknown",
       "verified_open": false,
+      "status_reason": "Recently advertised; current availability unconfirmed; full JD available only on request",
       "status_checked_at": "2026-10-21",
       "verified_at": "2026-10-21",
       "jd_completeness": "Complete announcement saved; NOT full JD, which email says is available on request.",
@@ -983,26 +1207,22 @@
         "audio",
         "LLM"
       ],
+      "recruitment_channel": "Public ISMIR CTO announcement, not personal recruiter outreach",
+      "ai_application_policy": "unknown",
+      "ai_policy_evidence": [],
       "source_ids": [
         "public-halbestunde_senior_ml"
       ],
       "source_confidence": {
         "level": "medium",
-        "reason": "Availability is based on the dated official-source check; not a hiring probability."
+        "reason": "Public source and dated status; no candidate evidence."
       },
-      "status_reason": "Dated public vacancy evidence; see official source. Unknown does not mean closed.",
-      "next_action": "Recheck the official current call and its stated requirements.",
       "application_stage": "unknown",
       "recommendation": null,
-      "deep_review_status": "not_in_public_build",
-      "recruitment_channel": "public listing / team page",
-      "active_recommendation": {
-        "grade": null,
-        "reason": "Personal assessment excluded from public-safe projection."
-      },
-      "ai_application_policy": "unknown",
+      "active_recommendation": null,
       "artifacts": [],
-      "hard_gate_status": "unknown"
+      "deep_review_status": "public_facts_only",
+      "next_action": "核对官方状态与地点；本视图不包含个人匹配或申请记录。"
     },
     {
       "id": "aalto-cowama-2026",
@@ -1014,6 +1234,13 @@
       "city": "Espoo (Greater Helsinki)",
       "is_london": false,
       "official_url": "https://www.aalto.fi/en/open-positions/postdoctoral-researcher-in-speech-and-language-technology",
+      "information_url": "https://www.aalto.fi/en/open-positions/postdoctoral-researcher-in-speech-and-language-technology",
+      "application_url": "https://aalto.wd3.myworkdayjobs.com/aalto/job/Otaniemi-Espoo-Finland/Postdoctoral-Researcher-in-Speech-and-Language-Technology_R48126-2/apply",
+      "application_channel": "online_ats",
+      "application_instructions": "通过官方Apply now进入Workday R48126-2；提交CV、motivation letter、degree certificates和academic transcripts。Aalto雇员用内部Workday；学生/visitor用个人邮箱及外部入口。",
+      "channel_verified_at": "2026-10-21T09:46:41Z",
+      "channel_checked_at": "2026-10-21T09:46:41Z",
+      "channel_verification_status": "official_link_verified_target_js_shell",
       "posted_date": "2026-09-18",
       "deadline_original": "2026-10-31T23:59:00+02:00",
       "deadline_date": "2026-10-31",
@@ -1025,6 +1252,7 @@
       "planning_deadline": "2026-10-30",
       "vacancy_status": "open",
       "verified_open": true,
+      "status_reason": "当前官方完整招聘正文及未来截止，未见closed标记",
       "status_checked_at": "2026-10-21T09:15:00Z",
       "verified_at": "2026-10-21T09:15:00Z",
       "jd_completeness": "full_current_official",
@@ -1073,26 +1301,30 @@
         "watermarking",
         "generative AI"
       ],
+      "recruitment_channel": "Official Workday application",
+      "ai_application_policy": "unknown",
+      "ai_policy_evidence": [
+        {
+          "status": "unknown",
+          "evidence": "本岗位完整JD未见申请AI条款；不等于雇主已明确允许。门户最终声明待人工核对",
+          "source_ids": [
+            "r2eu_aalto"
+          ]
+        }
+      ],
       "source_ids": [
         "public-aalto-cowama-2026"
       ],
       "source_confidence": {
         "level": "high",
-        "reason": "Availability is based on the dated official-source check; not a hiring probability."
+        "reason": "Public source and dated status; no candidate evidence."
       },
-      "status_reason": "Dated public vacancy evidence; see official source. Unknown does not mean closed.",
-      "next_action": "Recheck the official current call and its stated requirements.",
       "application_stage": "unknown",
       "recommendation": null,
-      "deep_review_status": "not_in_public_build",
-      "recruitment_channel": "public listing / team page",
-      "active_recommendation": {
-        "grade": null,
-        "reason": "Personal assessment excluded from public-safe projection."
-      },
-      "ai_application_policy": "unknown",
+      "active_recommendation": null,
       "artifacts": [],
-      "hard_gate_status": "unknown"
+      "deep_review_status": "public_facts_only",
+      "next_action": "核对官方状态与地点；本视图不包含个人匹配或申请记录。"
     },
     {
       "id": "ircam-avatars-mechanical-2026",
@@ -1104,6 +1336,13 @@
       "city": "Paris",
       "is_london": false,
       "official_url": "https://www.ircam.fr/fr/jobs-offers/-ingnieure-mcanicienne",
+      "information_url": "https://www.ircam.fr/fr/jobs-offers/-ingnieure-mcanicienne",
+      "application_url": "mailto:drh-recrutement@ircam.fr",
+      "application_channel": "email_or_embedded_official_form",
+      "application_instructions": "官网Pour postuler要求CV+lettre de motivation，注明AVATARS – Mécanique，发送drh-recrutement@ircam.fr；同一页也有官方Candidature上传表单。10月23日截止。",
+      "channel_verified_at": "2026-10-21T09:46:41Z",
+      "channel_checked_at": "2026-10-21T09:46:41Z",
+      "channel_verification_status": "verified_current_official",
       "posted_date": null,
       "deadline_original": "2026-10-23",
       "deadline_date": "2026-10-23",
@@ -1115,6 +1354,7 @@
       "planning_deadline": "2026-10-23",
       "vacancy_status": "open",
       "verified_open": true,
+      "status_reason": "open",
       "status_checked_at": "2026-10-21",
       "verified_at": "2026-10-21",
       "jd_completeness": "full_official_JD_saved",
@@ -1153,26 +1393,22 @@
         "robotics",
         "mechanical engineering"
       ],
+      "recruitment_channel": "Official public vacancy",
+      "ai_application_policy": "unknown",
+      "ai_policy_evidence": [],
       "source_ids": [
         "public-ircam-avatars-mechanical-2026"
       ],
       "source_confidence": {
         "level": "high",
-        "reason": "Availability is based on the dated official-source check; not a hiring probability."
+        "reason": "Public source and dated status; no candidate evidence."
       },
-      "status_reason": "Dated public vacancy evidence; see official source. Unknown does not mean closed.",
-      "next_action": "Recheck the official current call and its stated requirements.",
       "application_stage": "unknown",
       "recommendation": null,
-      "deep_review_status": "not_in_public_build",
-      "recruitment_channel": "public listing / team page",
-      "active_recommendation": {
-        "grade": null,
-        "reason": "Personal assessment excluded from public-safe projection."
-      },
-      "ai_application_policy": "unknown",
+      "active_recommendation": null,
       "artifacts": [],
-      "hard_gate_status": "unknown"
+      "deep_review_status": "public_facts_only",
+      "next_action": "核对官方状态与地点；本视图不包含个人匹配或申请记录。"
     },
     {
       "id": "watch-0f4b4ba80276",
@@ -1184,6 +1420,13 @@
       "city": "London",
       "is_london": true,
       "official_url": null,
+      "information_url": null,
+      "application_url": null,
+      "application_channel": "unverified",
+      "application_instructions": "尚未核实该记录对应的实际投递入口；信息页不等于投递入口。",
+      "channel_verified_at": null,
+      "channel_checked_at": null,
+      "channel_verification_status": "not_checked_for_specific_endpoint",
       "posted_date": null,
       "deadline_original": null,
       "deadline_date": null,
@@ -1195,6 +1438,7 @@
       "planning_deadline": null,
       "vacancy_status": "unknown",
       "verified_open": false,
+      "status_reason": "No postdoc vacancies stated; vacancy page last updated2025-12-01",
       "status_checked_at": "2026-10-21",
       "verified_at": "2026-10-21",
       "jd_completeness": "not_a_full_vacancy_JD",
@@ -1215,26 +1459,22 @@
       "preferred_requirements": [],
       "job_type": "watch",
       "direction": [],
+      "recruitment_channel": "watch / historical source",
+      "ai_application_policy": "unknown",
+      "ai_policy_evidence": [],
       "source_ids": [
         "public-watch-0f4b4ba80276"
       ],
       "source_confidence": {
         "level": "medium",
-        "reason": "Availability is based on the dated official-source check; not a hiring probability."
+        "reason": "Public source and dated status; no candidate evidence."
       },
-      "status_reason": "Dated public vacancy evidence; see official source. Unknown does not mean closed.",
-      "next_action": "Recheck the official current call and its stated requirements.",
       "application_stage": "unknown",
-      "recommendation": null,
-      "deep_review_status": "not_in_public_build",
-      "recruitment_channel": "public listing / team page",
-      "active_recommendation": {
-        "grade": null,
-        "reason": "Personal assessment excluded from public-safe projection."
-      },
-      "ai_application_policy": "unknown",
+      "recommendation": "Watchlist",
+      "active_recommendation": null,
       "artifacts": [],
-      "hard_gate_status": "unknown"
+      "deep_review_status": "public_facts_only",
+      "next_action": "核对官方状态与地点；本视图不包含个人匹配或申请记录。"
     },
     {
       "id": "watch-62fc2ef56cc1",
@@ -1246,6 +1486,13 @@
       "city": "Oslo",
       "is_london": false,
       "official_url": null,
+      "information_url": null,
+      "application_url": null,
+      "application_channel": "unverified",
+      "application_instructions": "尚未核实该记录对应的实际投递入口；信息页不等于投递入口。",
+      "channel_verified_at": null,
+      "channel_checked_at": null,
+      "channel_verification_status": "not_checked_for_specific_endpoint",
       "posted_date": null,
       "deadline_original": null,
       "deadline_date": null,
@@ -1257,6 +1504,7 @@
       "planning_deadline": null,
       "vacancy_status": "unknown",
       "verified_open": false,
+      "status_reason": "Strategic embodied-music watch, not verified open roles",
       "status_checked_at": "2026-10-21",
       "verified_at": "2026-10-21",
       "jd_completeness": "not_a_full_vacancy_JD",
@@ -1277,26 +1525,22 @@
       "preferred_requirements": [],
       "job_type": "watch",
       "direction": [],
+      "recruitment_channel": "watch / historical source",
+      "ai_application_policy": "unknown",
+      "ai_policy_evidence": [],
       "source_ids": [
         "public-watch-62fc2ef56cc1"
       ],
       "source_confidence": {
         "level": "medium",
-        "reason": "Availability is based on the dated official-source check; not a hiring probability."
+        "reason": "Public source and dated status; no candidate evidence."
       },
-      "status_reason": "Dated public vacancy evidence; see official source. Unknown does not mean closed.",
-      "next_action": "Recheck the official current call and its stated requirements.",
       "application_stage": "unknown",
-      "recommendation": null,
-      "deep_review_status": "not_in_public_build",
-      "recruitment_channel": "public listing / team page",
-      "active_recommendation": {
-        "grade": null,
-        "reason": "Personal assessment excluded from public-safe projection."
-      },
-      "ai_application_policy": "unknown",
+      "recommendation": "Watchlist",
+      "active_recommendation": null,
       "artifacts": [],
-      "hard_gate_status": "unknown"
+      "deep_review_status": "public_facts_only",
+      "next_action": "核对官方状态与地点；本视图不包含个人匹配或申请记录。"
     },
     {
       "id": "watch-628bac0b1e49",
@@ -1308,6 +1552,13 @@
       "city": null,
       "is_london": false,
       "official_url": null,
+      "information_url": null,
+      "application_url": null,
+      "application_channel": "unverified",
+      "application_instructions": "尚未核实该记录对应的实际投递入口；信息页不等于投递入口。",
+      "channel_verified_at": null,
+      "channel_checked_at": null,
+      "channel_verification_status": "not_checked_for_specific_endpoint",
       "posted_date": null,
       "deadline_original": null,
       "deadline_date": null,
@@ -1319,6 +1570,7 @@
       "planning_deadline": null,
       "vacancy_status": "unknown",
       "verified_open": false,
+      "status_reason": "All listed postdoctoral deadlines expired Jan–Aug2026",
       "status_checked_at": "2026-10-21",
       "verified_at": "2026-10-21",
       "jd_completeness": "not_a_full_vacancy_JD",
@@ -1339,26 +1591,22 @@
       "preferred_requirements": [],
       "job_type": "watch",
       "direction": [],
+      "recruitment_channel": "watch / historical source",
+      "ai_application_policy": "unknown",
+      "ai_policy_evidence": [],
       "source_ids": [
         "public-watch-628bac0b1e49"
       ],
       "source_confidence": {
         "level": "medium",
-        "reason": "Availability is based on the dated official-source check; not a hiring probability."
+        "reason": "Public source and dated status; no candidate evidence."
       },
-      "status_reason": "Dated public vacancy evidence; see official source. Unknown does not mean closed.",
-      "next_action": "Recheck the official current call and its stated requirements.",
       "application_stage": "unknown",
-      "recommendation": null,
-      "deep_review_status": "not_in_public_build",
-      "recruitment_channel": "public listing / team page",
-      "active_recommendation": {
-        "grade": null,
-        "reason": "Personal assessment excluded from public-safe projection."
-      },
-      "ai_application_policy": "unknown",
+      "recommendation": "Watchlist",
+      "active_recommendation": null,
       "artifacts": [],
-      "hard_gate_status": "unknown"
+      "deep_review_status": "public_facts_only",
+      "next_action": "核对官方状态与地点；本视图不包含个人匹配或申请记录。"
     },
     {
       "id": "watch-b7a0de69b885",
@@ -1370,6 +1618,13 @@
       "city": "London",
       "is_london": true,
       "official_url": null,
+      "information_url": null,
+      "application_url": null,
+      "application_channel": "unverified",
+      "application_instructions": "尚未核实该记录对应的实际投递入口；信息页不等于投递入口。",
+      "channel_verified_at": null,
+      "channel_checked_at": null,
+      "channel_verification_status": "not_checked_for_specific_endpoint",
       "posted_date": null,
       "deadline_original": null,
       "deadline_date": null,
@@ -1381,6 +1636,7 @@
       "planning_deadline": null,
       "vacancy_status": "unknown",
       "verified_open": false,
+      "status_reason": "Watch, no current matching postdoc verified",
       "status_checked_at": "2026-10-21",
       "verified_at": "2026-10-21",
       "jd_completeness": "not_a_full_vacancy_JD",
@@ -1401,26 +1657,22 @@
       "preferred_requirements": [],
       "job_type": "watch",
       "direction": [],
+      "recruitment_channel": "watch / historical source",
+      "ai_application_policy": "unknown",
+      "ai_policy_evidence": [],
       "source_ids": [
         "public-watch-b7a0de69b885"
       ],
       "source_confidence": {
         "level": "medium",
-        "reason": "Availability is based on the dated official-source check; not a hiring probability."
+        "reason": "Public source and dated status; no candidate evidence."
       },
-      "status_reason": "Dated public vacancy evidence; see official source. Unknown does not mean closed.",
-      "next_action": "Recheck the official current call and its stated requirements.",
       "application_stage": "unknown",
-      "recommendation": null,
-      "deep_review_status": "not_in_public_build",
-      "recruitment_channel": "public listing / team page",
-      "active_recommendation": {
-        "grade": null,
-        "reason": "Personal assessment excluded from public-safe projection."
-      },
-      "ai_application_policy": "unknown",
+      "recommendation": "Watchlist",
+      "active_recommendation": null,
       "artifacts": [],
-      "hard_gate_status": "unknown"
+      "deep_review_status": "public_facts_only",
+      "next_action": "核对官方状态与地点；本视图不包含个人匹配或申请记录。"
     },
     {
       "id": "watch-61c110d69343",
@@ -1432,6 +1684,13 @@
       "city": "London",
       "is_london": true,
       "official_url": null,
+      "information_url": null,
+      "application_url": null,
+      "application_channel": "unverified",
+      "application_instructions": "尚未核实该记录对应的实际投递入口；信息页不等于投递入口。",
+      "channel_verified_at": null,
+      "channel_checked_at": null,
+      "channel_verification_status": "not_checked_for_specific_endpoint",
       "posted_date": null,
       "deadline_original": null,
       "deadline_date": null,
@@ -1443,6 +1702,7 @@
       "planning_deadline": null,
       "vacancy_status": "unknown",
       "verified_open": false,
+      "status_reason": "No exact music robotics postdoc verified",
       "status_checked_at": "2026-10-21",
       "verified_at": "2026-10-21",
       "jd_completeness": "not_a_full_vacancy_JD",
@@ -1463,26 +1723,22 @@
       "preferred_requirements": [],
       "job_type": "watch",
       "direction": [],
+      "recruitment_channel": "watch / historical source",
+      "ai_application_policy": "unknown",
+      "ai_policy_evidence": [],
       "source_ids": [
         "public-watch-61c110d69343"
       ],
       "source_confidence": {
         "level": "medium",
-        "reason": "Availability is based on the dated official-source check; not a hiring probability."
+        "reason": "Public source and dated status; no candidate evidence."
       },
-      "status_reason": "Dated public vacancy evidence; see official source. Unknown does not mean closed.",
-      "next_action": "Recheck the official current call and its stated requirements.",
       "application_stage": "unknown",
-      "recommendation": null,
-      "deep_review_status": "not_in_public_build",
-      "recruitment_channel": "public listing / team page",
-      "active_recommendation": {
-        "grade": null,
-        "reason": "Personal assessment excluded from public-safe projection."
-      },
-      "ai_application_policy": "unknown",
+      "recommendation": "Watchlist",
+      "active_recommendation": null,
       "artifacts": [],
-      "hard_gate_status": "unknown"
+      "deep_review_status": "public_facts_only",
+      "next_action": "核对官方状态与地点；本视图不包含个人匹配或申请记录。"
     },
     {
       "id": "watch-b71699e49241",
@@ -1494,6 +1750,13 @@
       "city": "Bristol",
       "is_london": false,
       "official_url": null,
+      "information_url": null,
+      "application_url": null,
+      "application_channel": "unverified",
+      "application_instructions": "尚未核实该记录对应的实际投递入口；信息页不等于投递入口。",
+      "channel_verified_at": null,
+      "channel_checked_at": null,
+      "channel_verification_status": "not_checked_for_specific_endpoint",
       "posted_date": null,
       "deadline_original": null,
       "deadline_date": null,
@@ -1505,6 +1768,7 @@
       "planning_deadline": null,
       "vacancy_status": "unknown",
       "verified_open": false,
+      "status_reason": "Prior instrument design/sensing jobs deadline2026-08-06 expired",
       "status_checked_at": "2026-10-21",
       "verified_at": "2026-10-21",
       "jd_completeness": "not_a_full_vacancy_JD",
@@ -1525,160 +1789,22 @@
       "preferred_requirements": [],
       "job_type": "watch",
       "direction": [],
+      "recruitment_channel": "watch / historical source",
+      "ai_application_policy": "unknown",
+      "ai_policy_evidence": [],
       "source_ids": [
         "public-watch-b71699e49241"
       ],
       "source_confidence": {
         "level": "medium",
-        "reason": "Availability is based on the dated official-source check; not a hiring probability."
+        "reason": "Public source and dated status; no candidate evidence."
       },
-      "status_reason": "Dated public vacancy evidence; see official source. Unknown does not mean closed.",
-      "next_action": "Recheck the official current call and its stated requirements.",
       "application_stage": "unknown",
-      "recommendation": null,
-      "deep_review_status": "not_in_public_build",
-      "recruitment_channel": "public listing / team page",
-      "active_recommendation": {
-        "grade": null,
-        "reason": "Personal assessment excluded from public-safe projection."
-      },
-      "ai_application_policy": "unknown",
+      "recommendation": "Watchlist",
+      "active_recommendation": null,
       "artifacts": [],
-      "hard_gate_status": "unknown"
-    },
-    {
-      "id": "history-594fcc4ce61e",
-      "record_type": "history",
-      "organization": "QMUL",
-      "title": "Paid RA Opportunities Multimodal AI Audio/Music OMR",
-      "team": null,
-      "country": null,
-      "city": null,
-      "is_london": null,
-      "official_url": null,
-      "posted_date": null,
-      "deadline_original": "2026-09-07",
-      "deadline_date": null,
-      "deadline_time": null,
-      "deadline_timezone": null,
-      "deadline_iso": null,
-      "deadline_precision": "unknown",
-      "deadline_conflict": false,
-      "planning_deadline": null,
-      "vacancy_status": "closed",
-      "verified_open": false,
-      "status_checked_at": "2026-10-21",
-      "verified_at": "2026-10-21",
-      "jd_completeness": "not_a_full_vacancy_JD",
-      "salary_min": null,
-      "salary_max": null,
-      "salary_currency": null,
-      "salary_period": null,
-      "salary_gross_or_net": null,
-      "salary_original": "£21/hour;10–20hours/week",
-      "contract_type": "3–6months extendable11",
-      "contract_duration": null,
-      "start_date": null,
-      "hours": null,
-      "remote_policy": null,
-      "attendance_frequency": null,
-      "responsibilities": [],
-      "essential_requirements": [],
-      "preferred_requirements": [],
-      "job_type": "history",
-      "direction": [
-        "ai",
-        "AI",
-        "Audio",
-        "Music",
-        "music",
-        "audio",
-        "multimodal"
-      ],
-      "source_ids": [
-        "public-history-594fcc4ce61e"
-      ],
-      "source_confidence": {
-        "level": "low",
-        "reason": "Availability is based on the dated official-source check; not a hiring probability."
-      },
-      "status_reason": "Dated public vacancy evidence; see official source. Unknown does not mean closed.",
-      "next_action": "Recheck the official current call and its stated requirements.",
-      "application_stage": "unknown",
-      "recommendation": null,
-      "deep_review_status": "not_in_public_build",
-      "recruitment_channel": "public listing / team page",
-      "active_recommendation": {
-        "grade": null,
-        "reason": "Personal assessment excluded from public-safe projection."
-      },
-      "ai_application_policy": "unknown",
-      "artifacts": [],
-      "hard_gate_status": "unknown"
-    },
-    {
-      "id": "history-36b8ec851cce",
-      "record_type": "history",
-      "organization": "Ghent University",
-      "title": "Beethoven AI postdoc30221",
-      "team": null,
-      "country": null,
-      "city": null,
-      "is_london": null,
-      "official_url": null,
-      "posted_date": null,
-      "deadline_original": "2026-08-25",
-      "deadline_date": null,
-      "deadline_time": null,
-      "deadline_timezone": null,
-      "deadline_iso": null,
-      "deadline_precision": "unknown",
-      "deadline_conflict": false,
-      "planning_deadline": null,
-      "vacancy_status": "closed",
-      "verified_open": false,
-      "status_checked_at": "2026-10-21",
-      "verified_at": "2026-10-21",
-      "jd_completeness": "not_a_full_vacancy_JD",
-      "salary_min": null,
-      "salary_max": null,
-      "salary_currency": null,
-      "salary_period": null,
-      "salary_gross_or_net": null,
-      "salary_original": null,
-      "contract_type": null,
-      "contract_duration": null,
-      "start_date": null,
-      "hours": null,
-      "remote_policy": null,
-      "attendance_frequency": null,
-      "responsibilities": [],
-      "essential_requirements": [],
-      "preferred_requirements": [],
-      "job_type": "history",
-      "direction": [
-        "AI"
-      ],
-      "source_ids": [
-        "public-history-36b8ec851cce"
-      ],
-      "source_confidence": {
-        "level": "low",
-        "reason": "Availability is based on the dated official-source check; not a hiring probability."
-      },
-      "status_reason": "Dated public vacancy evidence; see official source. Unknown does not mean closed.",
-      "next_action": "Recheck the official current call and its stated requirements.",
-      "application_stage": "unknown",
-      "recommendation": null,
-      "deep_review_status": "not_in_public_build",
-      "recruitment_channel": "public listing / team page",
-      "active_recommendation": {
-        "grade": null,
-        "reason": "Personal assessment excluded from public-safe projection."
-      },
-      "ai_application_policy": "unknown",
-      "artifacts": [],
-      "hard_gate_status": "unknown"
+      "deep_review_status": "public_facts_only",
+      "next_action": "核对官方状态与地点；本视图不包含个人匹配或申请记录。"
     },
     {
       "id": "helsinki_ai_engineering_5251",
@@ -1690,6 +1816,13 @@
       "city": "Helsinki",
       "is_london": false,
       "official_url": "https://jobs.helsinki.fi/job/Helsinki-POSTDOCTORAL-RESEARCHER-in-AI-engineering/1374172657/",
+      "information_url": "https://jobs.helsinki.fi/job/Helsinki-POSTDOCTORAL-RESEARCHER-in-AI-engineering/1374172657/",
+      "application_url": "https://jobs.helsinki.fi/talentcommunity/apply/1374172657/?locale=fi_FI",
+      "application_channel": "online_ats",
+      "application_instructions": "官方Hae nyt / Apply Now职位专属入口；CV/publications、本人写的1页research interests/motivation、PhD certificate。禁止AI生成申请材料：仅研究辅助，申请正文必须本人写。",
+      "channel_verified_at": "2026-10-21T09:46:41Z",
+      "channel_checked_at": "2026-10-21T09:46:41Z",
+      "channel_verification_status": "official_link_verified_target_not_readable",
       "posted_date": null,
       "deadline_original": "2026-11-02 23:59 Europe/Helsinki",
       "deadline_date": "2026-11-02",
@@ -1701,6 +1834,7 @@
       "planning_deadline": "2026-11-01",
       "vacancy_status": "open",
       "verified_open": true,
+      "status_reason": "当前官方完整招聘正文及未来截止，未见closed标记",
       "status_checked_at": "2026-10-21T09:15:00Z",
       "verified_at": "2026-10-21T09:15:00Z",
       "jd_completeness": "Official full public advert read",
@@ -1735,26 +1869,31 @@
       "direction": [
         "AI"
       ],
+      "recruitment_channel": "Official online application",
+      "ai_application_policy": "research_only_human_authored_application",
+      "ai_policy_evidence": [
+        {
+          "status": "research_only_human_authored_application",
+          "evidence": "Official advert expects self-crafted applications and explicitly rejects AI-generated applications",
+          "exact_quote": "Applications generated by AI do not meet our expectations.",
+          "source_ids": [
+            "r2eu_helsinki"
+          ]
+        }
+      ],
       "source_ids": [
         "public-helsinki_ai_engineering_5251"
       ],
       "source_confidence": {
         "level": "high",
-        "reason": "Availability is based on the dated official-source check; not a hiring probability."
+        "reason": "Public source and dated status; no candidate evidence."
       },
-      "status_reason": "Dated public vacancy evidence; see official source. Unknown does not mean closed.",
-      "next_action": "Recheck the official current call and its stated requirements.",
       "application_stage": "unknown",
       "recommendation": null,
-      "deep_review_status": "not_in_public_build",
-      "recruitment_channel": "public listing / team page",
-      "active_recommendation": {
-        "grade": null,
-        "reason": "Personal assessment excluded from public-safe projection."
-      },
-      "ai_application_policy": "research_only_human_authored_application",
+      "active_recommendation": null,
       "artifacts": [],
-      "hard_gate_status": "unknown"
+      "deep_review_status": "public_facts_only",
+      "next_action": "核对官方状态与地点；本视图不包含个人匹配或申请记录。"
     },
     {
       "id": "turku_tias_postdoc_2027",
@@ -1766,6 +1905,13 @@
       "city": "Turku / approved university campus",
       "is_london": false,
       "official_url": "https://www.utu.fi/en/research/research-collegia/tias/vacancies/instructions-for-applicants",
+      "information_url": "https://www.utu.fi/en/research/research-collegia/tias/vacancies/instructions-for-applicants",
+      "application_url": "https://ats.talentadore.com/apply/4-postdoctoral-fellow-positions-tias/mWX0zk",
+      "application_channel": "online_ats",
+      "application_instructions": "TIAS Postdoctoral Fellow专属电子表单，6份PDF及官方模板要求；不能误选Collegium。AI使用须申报；11月13日16:00 Finnish time。",
+      "channel_verified_at": "2026-10-21T09:46:41Z",
+      "channel_checked_at": "2026-10-21T09:46:41Z",
+      "channel_verification_status": "verified_official_job_specific_form",
       "posted_date": "2026-09-18",
       "deadline_original": "2026-11-13 16:00 Finnish time (UTC+2)",
       "deadline_date": "2026-11-13",
@@ -1777,6 +1923,7 @@
       "planning_deadline": "2026-11-11",
       "vacancy_status": "open",
       "verified_open": true,
+      "status_reason": "当前官方完整招聘正文及未来截止，未见closed标记",
       "status_checked_at": "2026-10-21T09:15:00Z",
       "verified_at": "2026-10-21T09:15:00Z",
       "jd_completeness": "Full instructions read; enforce official templates",
@@ -1813,26 +1960,30 @@
       "direction": [
         "music"
       ],
+      "recruitment_channel": "University electronic application",
+      "ai_application_policy": "disclosure_required",
+      "ai_policy_evidence": [
+        {
+          "status": "disclosure_required",
+          "evidence": "AI assistance allowed with declaration/reporting on application form; candidate authorship and accuracy responsibility remains",
+          "source_ids": [
+            "r2eu_tias"
+          ]
+        }
+      ],
       "source_ids": [
         "public-turku_tias_postdoc_2027"
       ],
       "source_confidence": {
         "level": "high",
-        "reason": "Availability is based on the dated official-source check; not a hiring probability."
+        "reason": "Public source and dated status; no candidate evidence."
       },
-      "status_reason": "Dated public vacancy evidence; see official source. Unknown does not mean closed.",
-      "next_action": "Recheck the official current call and its stated requirements.",
       "application_stage": "unknown",
       "recommendation": null,
-      "deep_review_status": "not_in_public_build",
-      "recruitment_channel": "public listing / team page",
-      "active_recommendation": {
-        "grade": null,
-        "reason": "Personal assessment excluded from public-safe projection."
-      },
-      "ai_application_policy": "disclosure_required",
+      "active_recommendation": null,
       "artifacts": [],
-      "hard_gate_status": "unknown"
+      "deep_review_status": "public_facts_only",
+      "next_action": "核对官方状态与地点；本视图不包含个人匹配或申请记录。"
     },
     {
       "id": "turku_ties2_2027",
@@ -1844,6 +1995,13 @@
       "city": "Turku / approved university campus",
       "is_london": false,
       "official_url": "https://www.utu.fi/en/research/research-collegia/tias/ties/for-applicant",
+      "information_url": "https://www.utu.fi/en/research/research-collegia/tias/ties/for-applicant",
+      "application_url": "https://ats.talentadore.com/apply/ties2-cofund-marie-sklodowska-curie-fellows-7-postdoctoral-positions/mJNbYR",
+      "application_channel": "online_ats",
+      "application_instructions": "TIES2独立电子表单，7份PDF及secondment/data management等模板；AI须申报，博士/芬兰mobility/secondment条件各自核。11月13日16:00 Finnish time。",
+      "channel_verified_at": "2026-10-21T09:46:41Z",
+      "channel_checked_at": "2026-10-21T09:46:41Z",
+      "channel_verification_status": "verified_official_job_specific_form",
       "posted_date": "2026-09-18",
       "deadline_original": "2026-11-13 16:00 Finnish time (UTC+2)",
       "deadline_date": "2026-11-13",
@@ -1855,6 +2013,7 @@
       "planning_deadline": "2026-11-11",
       "vacancy_status": "open",
       "verified_open": true,
+      "status_reason": "当前官方完整招聘正文及未来截止，未见closed标记",
       "status_checked_at": "2026-10-21T09:15:00Z",
       "verified_at": "2026-10-21T09:15:00Z",
       "jd_completeness": "Full instructions read; enforce official templates",
@@ -1895,26 +2054,30 @@
       ],
       "job_type": "academic",
       "direction": [],
+      "recruitment_channel": "University electronic application",
+      "ai_application_policy": "disclosure_required",
+      "ai_policy_evidence": [
+        {
+          "status": "disclosure_required",
+          "evidence": "AI assistance allowed with declaration/reporting on application form; candidate authorship and accuracy responsibility remains",
+          "source_ids": [
+            "r2eu_ties2"
+          ]
+        }
+      ],
       "source_ids": [
         "public-turku_ties2_2027"
       ],
       "source_confidence": {
         "level": "high",
-        "reason": "Availability is based on the dated official-source check; not a hiring probability."
+        "reason": "Public source and dated status; no candidate evidence."
       },
-      "status_reason": "Dated public vacancy evidence; see official source. Unknown does not mean closed.",
-      "next_action": "Recheck the official current call and its stated requirements.",
       "application_stage": "unknown",
       "recommendation": null,
-      "deep_review_status": "not_in_public_build",
-      "recruitment_channel": "public listing / team page",
-      "active_recommendation": {
-        "grade": null,
-        "reason": "Personal assessment excluded from public-safe projection."
-      },
-      "ai_application_policy": "disclosure_required",
+      "active_recommendation": null,
       "artifacts": [],
-      "hard_gate_status": "unknown"
+      "deep_review_status": "public_facts_only",
+      "next_action": "核对官方状态与地点；本视图不包含个人匹配或申请记录。"
     },
     {
       "id": "salford_bioacoustics_1087",
@@ -1926,6 +2089,13 @@
       "city": "Salford",
       "is_london": false,
       "official_url": "https://iahgme.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_3001/job/1087",
+      "information_url": "https://iahgme.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_3001/job/1087",
+      "application_url": null,
+      "application_channel": "online_ats",
+      "application_instructions": "职位本身位于官方Oracle ATS；当前只能给信息页，未证实独立Apply入口，不编/apply路径。",
+      "channel_verified_at": "2026-10-21T09:46:41Z",
+      "channel_checked_at": "2026-10-21T09:46:41Z",
+      "channel_verification_status": "missing_distinct_application_endpoint",
       "posted_date": "2026-10-05",
       "deadline_original": "2026-11-03 23:55 (ATS locale; timezone not explicit)",
       "deadline_date": "2026-11-03",
@@ -1937,6 +2107,7 @@
       "planning_deadline": "2026-11-02",
       "vacancy_status": "open",
       "verified_open": true,
+      "status_reason": "当前官方ATS索引全文和未来截止；直读是JS壳，额外person spec未取得",
       "status_checked_at": "2026-10-21T09:15:00Z",
       "verified_at": "2026-10-21T09:15:00Z",
       "jd_completeness": "Full indexed public advert, additional attachments unverified",
@@ -1974,26 +2145,30 @@
         "Bioacoustics",
         "bioacoustics"
       ],
+      "recruitment_channel": "Official ATS",
+      "ai_application_policy": "unknown",
+      "ai_policy_evidence": [
+        {
+          "status": "unknown",
+          "evidence": "本岗位完整JD未见申请AI条款；不等于雇主已明确允许。门户最终声明待人工核对",
+          "source_ids": [
+            "r2eu_salford"
+          ]
+        }
+      ],
       "source_ids": [
         "public-salford_bioacoustics_1087"
       ],
       "source_confidence": {
-        "level": "medium",
-        "reason": "Availability is based on the dated official-source check; not a hiring probability."
+        "level": "high",
+        "reason": "Public source and dated status; no candidate evidence."
       },
-      "status_reason": "Dated public vacancy evidence; see official source. Unknown does not mean closed.",
-      "next_action": "Recheck the official current call and its stated requirements.",
       "application_stage": "unknown",
       "recommendation": null,
-      "deep_review_status": "not_in_public_build",
-      "recruitment_channel": "public listing / team page",
-      "active_recommendation": {
-        "grade": null,
-        "reason": "Personal assessment excluded from public-safe projection."
-      },
-      "ai_application_policy": "unknown",
+      "active_recommendation": null,
       "artifacts": [],
-      "hard_gate_status": "unknown"
+      "deep_review_status": "public_facts_only",
+      "next_action": "核对官方状态与地点；本视图不包含个人匹配或申请记录。"
     },
     {
       "id": "watch-a10bea77c448",
@@ -2005,6 +2180,13 @@
       "city": null,
       "is_london": null,
       "official_url": null,
+      "information_url": null,
+      "application_url": null,
+      "application_channel": "unverified",
+      "application_instructions": "尚未核实该记录对应的实际投递入口；信息页不等于投递入口。",
+      "channel_verified_at": null,
+      "channel_checked_at": null,
+      "channel_verification_status": "not_checked_for_specific_endpoint",
       "posted_date": null,
       "deadline_original": null,
       "deadline_date": null,
@@ -2016,6 +2198,7 @@
       "planning_deadline": null,
       "vacancy_status": "unknown",
       "verified_open": false,
+      "status_reason": "UNVERIFIED current lead, not open-confirmed",
       "status_checked_at": "2026-10-21",
       "verified_at": "2026-10-21",
       "jd_completeness": "not_a_full_vacancy_JD",
@@ -2039,26 +2222,22 @@
         "Music",
         "music"
       ],
+      "recruitment_channel": "watch / historical source",
+      "ai_application_policy": "unknown",
+      "ai_policy_evidence": [],
       "source_ids": [
         "public-watch-a10bea77c448"
       ],
       "source_confidence": {
-        "level": "low",
-        "reason": "Availability is based on the dated official-source check; not a hiring probability."
+        "level": "medium",
+        "reason": "Public source and dated status; no candidate evidence."
       },
-      "status_reason": "Dated public vacancy evidence; see official source. Unknown does not mean closed.",
-      "next_action": "Recheck the official current call and its stated requirements.",
       "application_stage": "unknown",
-      "recommendation": null,
-      "deep_review_status": "not_in_public_build",
-      "recruitment_channel": "public listing / team page",
-      "active_recommendation": {
-        "grade": null,
-        "reason": "Personal assessment excluded from public-safe projection."
-      },
-      "ai_application_policy": "unknown",
+      "recommendation": "Watchlist",
+      "active_recommendation": null,
       "artifacts": [],
-      "hard_gate_status": "unknown"
+      "deep_review_status": "public_facts_only",
+      "next_action": "核对官方状态与地点；本视图不包含个人匹配或申请记录。"
     },
     {
       "id": "watch-17c7af5018a5",
@@ -2070,6 +2249,13 @@
       "city": null,
       "is_london": null,
       "official_url": null,
+      "information_url": null,
+      "application_url": null,
+      "application_channel": "unverified",
+      "application_instructions": "尚未核实该记录对应的实际投递入口；信息页不等于投递入口。",
+      "channel_verified_at": null,
+      "channel_checked_at": null,
+      "channel_verification_status": "not_checked_for_specific_endpoint",
       "posted_date": null,
       "deadline_original": null,
       "deadline_date": null,
@@ -2081,6 +2267,7 @@
       "planning_deadline": null,
       "vacancy_status": "unknown",
       "verified_open": false,
+      "status_reason": "Watch; relevant call CLOSED",
       "status_checked_at": "2026-10-21",
       "verified_at": "2026-10-21",
       "jd_completeness": "not_a_full_vacancy_JD",
@@ -2101,26 +2288,22 @@
       "preferred_requirements": [],
       "job_type": "watch",
       "direction": [],
+      "recruitment_channel": "watch / historical source",
+      "ai_application_policy": "unknown",
+      "ai_policy_evidence": [],
       "source_ids": [
         "public-watch-17c7af5018a5"
       ],
       "source_confidence": {
         "level": "medium",
-        "reason": "Availability is based on the dated official-source check; not a hiring probability."
+        "reason": "Public source and dated status; no candidate evidence."
       },
-      "status_reason": "Dated public vacancy evidence; see official source. Unknown does not mean closed.",
-      "next_action": "Recheck the official current call and its stated requirements.",
       "application_stage": "unknown",
-      "recommendation": null,
-      "deep_review_status": "not_in_public_build",
-      "recruitment_channel": "public listing / team page",
-      "active_recommendation": {
-        "grade": null,
-        "reason": "Personal assessment excluded from public-safe projection."
-      },
-      "ai_application_policy": "unknown",
+      "recommendation": "Watchlist",
+      "active_recommendation": null,
       "artifacts": [],
-      "hard_gate_status": "unknown"
+      "deep_review_status": "public_facts_only",
+      "next_action": "核对官方状态与地点；本视图不包含个人匹配或申请记录。"
     },
     {
       "id": "watch-557960947d89",
@@ -2132,6 +2315,13 @@
       "city": null,
       "is_london": null,
       "official_url": null,
+      "information_url": null,
+      "application_url": null,
+      "application_channel": "unverified",
+      "application_instructions": "尚未核实该记录对应的实际投递入口；信息页不等于投递入口。",
+      "channel_verified_at": null,
+      "channel_checked_at": null,
+      "channel_verification_status": "not_checked_for_specific_endpoint",
       "posted_date": null,
       "deadline_original": null,
       "deadline_date": null,
@@ -2143,6 +2333,7 @@
       "planning_deadline": null,
       "vacancy_status": "unknown",
       "verified_open": false,
+      "status_reason": "Watch; displayed calls expired",
       "status_checked_at": "2026-10-21",
       "verified_at": "2026-10-21",
       "jd_completeness": "not_a_full_vacancy_JD",
@@ -2163,26 +2354,22 @@
       "preferred_requirements": [],
       "job_type": "watch",
       "direction": [],
+      "recruitment_channel": "watch / historical source",
+      "ai_application_policy": "unknown",
+      "ai_policy_evidence": [],
       "source_ids": [
         "public-watch-557960947d89"
       ],
       "source_confidence": {
         "level": "medium",
-        "reason": "Availability is based on the dated official-source check; not a hiring probability."
+        "reason": "Public source and dated status; no candidate evidence."
       },
-      "status_reason": "Dated public vacancy evidence; see official source. Unknown does not mean closed.",
-      "next_action": "Recheck the official current call and its stated requirements.",
       "application_stage": "unknown",
-      "recommendation": null,
-      "deep_review_status": "not_in_public_build",
-      "recruitment_channel": "public listing / team page",
-      "active_recommendation": {
-        "grade": null,
-        "reason": "Personal assessment excluded from public-safe projection."
-      },
-      "ai_application_policy": "unknown",
+      "recommendation": "Watchlist",
+      "active_recommendation": null,
       "artifacts": [],
-      "hard_gate_status": "unknown"
+      "deep_review_status": "public_facts_only",
+      "next_action": "核对官方状态与地点；本视图不包含个人匹配或申请记录。"
     },
     {
       "id": "watch-b27cb7783965",
@@ -2194,6 +2381,13 @@
       "city": null,
       "is_london": null,
       "official_url": null,
+      "information_url": null,
+      "application_url": null,
+      "application_channel": "unverified",
+      "application_instructions": "尚未核实该记录对应的实际投递入口；信息页不等于投递入口。",
+      "channel_verified_at": null,
+      "channel_checked_at": null,
+      "channel_verification_status": "not_checked_for_specific_endpoint",
       "posted_date": null,
       "deadline_original": null,
       "deadline_date": null,
@@ -2205,6 +2399,7 @@
       "planning_deadline": null,
       "vacancy_status": "unknown",
       "verified_open": false,
+      "status_reason": "CLOSED September21 2026",
       "status_checked_at": "2026-10-21",
       "verified_at": "2026-10-21",
       "jd_completeness": "not_a_full_vacancy_JD",
@@ -2225,26 +2420,22 @@
       "preferred_requirements": [],
       "job_type": "watch",
       "direction": [],
+      "recruitment_channel": "watch / historical source",
+      "ai_application_policy": "unknown",
+      "ai_policy_evidence": [],
       "source_ids": [
         "public-watch-b27cb7783965"
       ],
       "source_confidence": {
         "level": "medium",
-        "reason": "Availability is based on the dated official-source check; not a hiring probability."
+        "reason": "Public source and dated status; no candidate evidence."
       },
-      "status_reason": "Dated public vacancy evidence; see official source. Unknown does not mean closed.",
-      "next_action": "Recheck the official current call and its stated requirements.",
       "application_stage": "unknown",
-      "recommendation": null,
-      "deep_review_status": "not_in_public_build",
-      "recruitment_channel": "public listing / team page",
-      "active_recommendation": {
-        "grade": null,
-        "reason": "Personal assessment excluded from public-safe projection."
-      },
-      "ai_application_policy": "unknown",
+      "recommendation": "Watchlist",
+      "active_recommendation": null,
       "artifacts": [],
-      "hard_gate_status": "unknown"
+      "deep_review_status": "public_facts_only",
+      "next_action": "核对官方状态与地点；本视图不包含个人匹配或申请记录。"
     },
     {
       "id": "watch-256d535ae691",
@@ -2256,6 +2447,13 @@
       "city": null,
       "is_london": null,
       "official_url": null,
+      "information_url": "https://www.ircam.fr/fr/offres-emplois",
+      "application_url": null,
+      "application_channel": "watch_only_no_vacancy",
+      "application_instructions": "团队watch记录只有职位列表信息页；必须选具体岗位后才有投递入口。",
+      "channel_verified_at": "2026-10-21T09:46:41Z",
+      "channel_checked_at": "2026-10-21T09:46:41Z",
+      "channel_verification_status": "no_role_specific_channel",
       "posted_date": null,
       "deadline_original": null,
       "deadline_date": null,
@@ -2267,6 +2465,7 @@
       "planning_deadline": null,
       "vacancy_status": "unknown",
       "verified_open": false,
+      "status_reason": "Watch; current mechanical opening unsuitable",
       "status_checked_at": "2026-10-21",
       "verified_at": "2026-10-21",
       "jd_completeness": "not_a_full_vacancy_JD",
@@ -2287,26 +2486,22 @@
       "preferred_requirements": [],
       "job_type": "watch",
       "direction": [],
+      "recruitment_channel": "watch / historical source",
+      "ai_application_policy": "unknown",
+      "ai_policy_evidence": [],
       "source_ids": [
         "public-watch-256d535ae691"
       ],
       "source_confidence": {
         "level": "medium",
-        "reason": "Availability is based on the dated official-source check; not a hiring probability."
+        "reason": "Public source and dated status; no candidate evidence."
       },
-      "status_reason": "Dated public vacancy evidence; see official source. Unknown does not mean closed.",
-      "next_action": "Recheck the official current call and its stated requirements.",
       "application_stage": "unknown",
-      "recommendation": null,
-      "deep_review_status": "not_in_public_build",
-      "recruitment_channel": "public listing / team page",
-      "active_recommendation": {
-        "grade": null,
-        "reason": "Personal assessment excluded from public-safe projection."
-      },
-      "ai_application_policy": "unknown",
+      "recommendation": "Watchlist",
+      "active_recommendation": null,
       "artifacts": [],
-      "hard_gate_status": "unknown"
+      "deep_review_status": "public_facts_only",
+      "next_action": "核对官方状态与地点；本视图不包含个人匹配或申请记录。"
     },
     {
       "id": "tencent-R107821",
@@ -2318,6 +2513,13 @@
       "city": "London",
       "is_london": true,
       "official_url": "https://tencent.wd1.myworkdayjobs.com/Tencent_Careers/job/United-Kingdom-London/Senior-Researcher--Speech-Synthesis-and-Multimodal-LLM_R107821",
+      "information_url": "https://tencent.wd1.myworkdayjobs.com/Tencent_Careers/job/United-Kingdom-London/Senior-Researcher--Speech-Synthesis-and-Multimodal-LLM_R107821",
+      "application_url": null,
+      "application_channel": "Tencent 官方 Workday 职位页；具体申请目标URL待核实",
+      "application_instructions": "官方公开Workday jobPostingInfo确认posted/canApply=true；用户可在该独立职位页正常寻找Apply。当前页面HTML无Apply锚点，不能据通用ATS规则猜加/apply。",
+      "channel_verified_at": null,
+      "channel_checked_at": "2026-10-21T09:48:28.932970+00:00",
+      "channel_verification_status": "missing_distinct_application_endpoint",
       "posted_date": "2026-07-20",
       "deadline_original": null,
       "deadline_date": null,
@@ -2329,6 +2531,7 @@
       "planning_deadline": null,
       "vacancy_status": "open",
       "verified_open": true,
+      "status_reason": "独立当日官方公开Workday响应：posted=true且canApply=true；未登录。",
       "status_checked_at": "2026-10-21T09:10:40.830642+00:00",
       "verified_at": "2026-10-21T09:14:02.580203+00:00",
       "jd_completeness": "full_official",
@@ -2371,26 +2574,28 @@
         "LLM",
         "generative AI"
       ],
+      "recruitment_channel": "public official listing",
+      "ai_application_policy": "unknown",
+      "ai_policy_evidence": [
+        {
+          "status": "unknown",
+          "basis": "已检查所获职位正文及针对性官方搜索，未建立对AI辅助申请的明确政策；不能把unknown写成allowed。",
+          "checked_at": "2026-10-21T09:14:02.580203+00:00"
+        }
+      ],
       "source_ids": [
         "public-tencent-R107821"
       ],
       "source_confidence": {
         "level": "high",
-        "reason": "Availability is based on the dated official-source check; not a hiring probability."
+        "reason": "Public source and dated status; no candidate evidence."
       },
-      "status_reason": "Dated public vacancy evidence; see official source. Unknown does not mean closed.",
-      "next_action": "Recheck the official current call and its stated requirements.",
       "application_stage": "unknown",
       "recommendation": null,
-      "deep_review_status": "not_in_public_build",
-      "recruitment_channel": "public listing / team page",
-      "active_recommendation": {
-        "grade": null,
-        "reason": "Personal assessment excluded from public-safe projection."
-      },
-      "ai_application_policy": "unknown",
+      "active_recommendation": null,
       "artifacts": [],
-      "hard_gate_status": "unknown"
+      "deep_review_status": "public_facts_only",
+      "next_action": "核对官方状态与地点；本视图不包含个人匹配或申请记录。"
     },
     {
       "id": "synthesia-ae716439",
@@ -2402,6 +2607,13 @@
       "city": null,
       "is_london": null,
       "official_url": "https://jobs.ashbyhq.com/synthesia/ae716439-4fb5-49f3-b0fb-4038f65c1b6f",
+      "information_url": "https://jobs.ashbyhq.com/synthesia/ae716439-4fb5-49f3-b0fb-4038f65c1b6f",
+      "application_url": null,
+      "application_channel": "官方 Ashby 信息页；申请目标及实时状态未核实",
+      "application_instructions": "同一官方jobID保持单条。当前动态页面/访问限制下未取得真实申请链接；不猜#application或从公司careers入口替代。实时开放状态仍unknown。",
+      "channel_verified_at": null,
+      "channel_checked_at": "2026-10-21T09:48:28.932970+00:00",
+      "channel_verification_status": "missing_distinct_application_endpoint",
       "posted_date": null,
       "deadline_original": null,
       "deadline_date": null,
@@ -2413,6 +2625,7 @@
       "planning_deadline": null,
       "vacancy_status": "unknown",
       "verified_open": false,
+      "status_reason": "同job ID两个标题去重；官方索引提供历史全文，当前普通页仅JS壳；此前公开API403，不重试限制。",
       "status_checked_at": "2026-10-21T09:14:02.580203+00:00",
       "verified_at": "2026-10-21T09:14:02.580203+00:00",
       "jd_completeness": "indexed_or_summary",
@@ -2459,26 +2672,28 @@
         "LLM",
         "generative AI"
       ],
+      "recruitment_channel": "public official listing",
+      "ai_application_policy": "unknown",
+      "ai_policy_evidence": [
+        {
+          "status": "unknown",
+          "basis": "已检查所获职位正文及针对性官方搜索，未建立对AI辅助申请的明确政策；不能把unknown写成allowed。",
+          "checked_at": "2026-10-21T09:14:02.580203+00:00"
+        }
+      ],
       "source_ids": [
         "public-synthesia-ae716439"
       ],
       "source_confidence": {
         "level": "medium",
-        "reason": "Availability is based on the dated official-source check; not a hiring probability."
+        "reason": "Public source and dated status; no candidate evidence."
       },
-      "status_reason": "Dated public vacancy evidence; see official source. Unknown does not mean closed.",
-      "next_action": "Recheck the official current call and its stated requirements.",
       "application_stage": "unknown",
       "recommendation": null,
-      "deep_review_status": "not_in_public_build",
-      "recruitment_channel": "public listing / team page",
-      "active_recommendation": {
-        "grade": null,
-        "reason": "Personal assessment excluded from public-safe projection."
-      },
-      "ai_application_policy": "unknown",
+      "active_recommendation": null,
       "artifacts": [],
-      "hard_gate_status": "unknown"
+      "deep_review_status": "public_facts_only",
+      "next_action": "核对官方状态与地点；本视图不包含个人匹配或申请记录。"
     },
     {
       "id": "cartesia-7ecc288b",
@@ -2490,6 +2705,13 @@
       "city": "London",
       "is_london": true,
       "official_url": "https://jobs.ashbyhq.com/cartesia/7ecc288b-6eb0-41d6-b17c-3187fac43f95/",
+      "information_url": "https://jobs.ashbyhq.com/cartesia/7ecc288b-6eb0-41d6-b17c-3187fac43f95/",
+      "application_url": null,
+      "application_channel": "官方 Ashby 信息页；申请目标及实时状态未核实",
+      "application_instructions": "同一官方jobID保持单条。当前动态页面/访问限制下未取得真实申请链接；不猜#application或从公司careers入口替代。实时开放状态仍unknown。",
+      "channel_verified_at": null,
+      "channel_checked_at": "2026-10-21T09:48:28.932970+00:00",
+      "channel_verification_status": "missing_distinct_application_endpoint",
       "posted_date": null,
       "deadline_original": null,
       "deadline_date": null,
@@ -2501,6 +2723,7 @@
       "planning_deadline": null,
       "vacancy_status": "unknown",
       "verified_open": false,
+      "status_reason": "官方索引有详细职责，但live页面仅JS壳；保留unknown，非open。",
       "status_checked_at": "2026-10-21T09:14:02.580203+00:00",
       "verified_at": "2026-10-21T09:14:02.580203+00:00",
       "jd_completeness": "indexed_or_summary",
@@ -2536,26 +2759,28 @@
       ],
       "job_type": "industry",
       "direction": [],
+      "recruitment_channel": "public official listing",
+      "ai_application_policy": "unknown",
+      "ai_policy_evidence": [
+        {
+          "status": "unknown",
+          "basis": "已检查所获职位正文及针对性官方搜索，未建立对AI辅助申请的明确政策；不能把unknown写成allowed。",
+          "checked_at": "2026-10-21T09:14:02.580203+00:00"
+        }
+      ],
       "source_ids": [
         "public-cartesia-7ecc288b"
       ],
       "source_confidence": {
         "level": "medium",
-        "reason": "Availability is based on the dated official-source check; not a hiring probability."
+        "reason": "Public source and dated status; no candidate evidence."
       },
-      "status_reason": "Dated public vacancy evidence; see official source. Unknown does not mean closed.",
-      "next_action": "Recheck the official current call and its stated requirements.",
       "application_stage": "unknown",
       "recommendation": null,
-      "deep_review_status": "not_in_public_build",
-      "recruitment_channel": "public listing / team page",
-      "active_recommendation": {
-        "grade": null,
-        "reason": "Personal assessment excluded from public-safe projection."
-      },
-      "ai_application_policy": "unknown",
+      "active_recommendation": null,
       "artifacts": [],
-      "hard_gate_status": "unknown"
+      "deep_review_status": "public_facts_only",
+      "next_action": "核对官方状态与地点；本视图不包含个人匹配或申请记录。"
     },
     {
       "id": "tencent-R108173",
@@ -2567,6 +2792,13 @@
       "city": "London",
       "is_london": true,
       "official_url": "https://tencent.wd1.myworkdayjobs.com/Tencent_Careers/job/United-Kingdom-London/LLM---Agent-Research-Intern_R108173",
+      "information_url": "https://tencent.wd1.myworkdayjobs.com/Tencent_Careers/job/United-Kingdom-London/LLM---Agent-Research-Intern_R108173",
+      "application_url": null,
+      "application_channel": "Tencent 官方 Workday 职位页；具体申请目标URL待核实",
+      "application_instructions": "官方公开Workday jobPostingInfo确认posted/canApply=true；用户可在该独立职位页正常寻找Apply。当前页面HTML无Apply锚点，不能据通用ATS规则猜加/apply。",
+      "channel_verified_at": null,
+      "channel_checked_at": "2026-10-21T09:48:28.932970+00:00",
+      "channel_verification_status": "missing_distinct_application_endpoint",
       "posted_date": "2026-10-12",
       "deadline_original": null,
       "deadline_date": null,
@@ -2578,6 +2810,7 @@
       "planning_deadline": null,
       "vacancy_status": "open",
       "verified_open": true,
+      "status_reason": "独立当日官方公开Workday响应：posted=true且canApply=true；未登录。",
       "status_checked_at": "2026-10-21T09:10:40.830820+00:00",
       "verified_at": "2026-10-21T09:14:02.580203+00:00",
       "jd_completeness": "full_official",
@@ -2611,26 +2844,28 @@
       "direction": [
         "LLM"
       ],
+      "recruitment_channel": "public official listing",
+      "ai_application_policy": "unknown",
+      "ai_policy_evidence": [
+        {
+          "status": "unknown",
+          "basis": "已检查所获职位正文及针对性官方搜索，未建立对AI辅助申请的明确政策；不能把unknown写成allowed。",
+          "checked_at": "2026-10-21T09:14:02.580203+00:00"
+        }
+      ],
       "source_ids": [
         "public-tencent-R108173"
       ],
       "source_confidence": {
         "level": "high",
-        "reason": "Availability is based on the dated official-source check; not a hiring probability."
+        "reason": "Public source and dated status; no candidate evidence."
       },
-      "status_reason": "Dated public vacancy evidence; see official source. Unknown does not mean closed.",
-      "next_action": "Recheck the official current call and its stated requirements.",
       "application_stage": "unknown",
       "recommendation": null,
-      "deep_review_status": "not_in_public_build",
-      "recruitment_channel": "public listing / team page",
-      "active_recommendation": {
-        "grade": null,
-        "reason": "Personal assessment excluded from public-safe projection."
-      },
-      "ai_application_policy": "unknown",
+      "active_recommendation": null,
       "artifacts": [],
-      "hard_gate_status": "unknown"
+      "deep_review_status": "public_facts_only",
+      "next_action": "核对官方状态与地点；本视图不包含个人匹配或申请记录。"
     },
     {
       "id": "focusrite-7D70C84FE2",
@@ -2642,6 +2877,13 @@
       "city": "High Wycombe",
       "is_london": false,
       "official_url": "https://apply.workable.com/focusrite/j/7D70C84FE2/",
+      "information_url": "https://apply.workable.com/focusrite/j/7D70C84FE2/",
+      "application_url": null,
+      "application_channel": "Focusrite 官方 Workable 职位页；独立申请URL待核实",
+      "application_instructions": "已有同日官方published/approved完整JD和工资/截止证据，但无真实Apply href。当前正常读取受限，不能自行把职位URL追加/apply作为已核实入口。",
+      "channel_verified_at": null,
+      "channel_checked_at": "2026-10-21T09:48:28.932970+00:00",
+      "channel_verification_status": "missing_distinct_application_endpoint",
       "posted_date": "2026-09-28",
       "deadline_original": "November 27th 2026",
       "deadline_date": "2026-11-27",
@@ -2653,6 +2895,7 @@
       "planning_deadline": "2026-11-27",
       "vacancy_status": "open",
       "verified_open": true,
+      "status_reason": "输入包同日08:33–08:39 UTC公开Workable保存响应state=published/approved；本次再次API403，正常职位页面仅JS壳，未重新取得live状态。",
       "status_checked_at": "2026-10-21T09:14:02.580203+00:00",
       "verified_at": "2026-10-21T09:14:02.580203+00:00",
       "jd_completeness": "full_official_snapshot",
@@ -2690,26 +2933,28 @@
         "music",
         "audio"
       ],
+      "recruitment_channel": "public official listing",
+      "ai_application_policy": "unknown",
+      "ai_policy_evidence": [
+        {
+          "status": "unknown",
+          "basis": "已检查所获职位正文及针对性官方搜索，未建立对AI辅助申请的明确政策；不能把unknown写成allowed。",
+          "checked_at": "2026-10-21T09:14:02.580203+00:00"
+        }
+      ],
       "source_ids": [
         "public-focusrite-7D70C84FE2"
       ],
       "source_confidence": {
-        "level": "medium",
-        "reason": "Availability is based on the dated official-source check; not a hiring probability."
+        "level": "high",
+        "reason": "Public source and dated status; no candidate evidence."
       },
-      "status_reason": "Dated public vacancy evidence; see official source. Unknown does not mean closed.",
-      "next_action": "Recheck the official current call and its stated requirements.",
       "application_stage": "unknown",
       "recommendation": null,
-      "deep_review_status": "not_in_public_build",
-      "recruitment_channel": "public listing / team page",
-      "active_recommendation": {
-        "grade": null,
-        "reason": "Personal assessment excluded from public-safe projection."
-      },
-      "ai_application_policy": "unknown",
+      "active_recommendation": null,
       "artifacts": [],
-      "hard_gate_status": "unknown"
+      "deep_review_status": "public_facts_only",
+      "next_action": "核对官方状态与地点；本视图不包含个人匹配或申请记录。"
     },
     {
       "id": "focusrite-1A46D2C5E7",
@@ -2721,6 +2966,13 @@
       "city": "London",
       "is_london": true,
       "official_url": "https://apply.workable.com/focusrite/j/1A46D2C5E7/",
+      "information_url": "https://apply.workable.com/focusrite/j/1A46D2C5E7/",
+      "application_url": null,
+      "application_channel": "Focusrite 官方 Workable 职位页；独立申请URL待核实",
+      "application_instructions": "已有同日官方published/approved完整JD和工资/截止证据，但无真实Apply href。当前正常读取受限，不能自行把职位URL追加/apply作为已核实入口。",
+      "channel_verified_at": null,
+      "channel_checked_at": "2026-10-21T09:48:28.932970+00:00",
+      "channel_verification_status": "missing_distinct_application_endpoint",
       "posted_date": "2026-09-28",
       "deadline_original": "November 27th 2026",
       "deadline_date": "2026-11-27",
@@ -2732,6 +2984,7 @@
       "planning_deadline": "2026-11-27",
       "vacancy_status": "open",
       "verified_open": true,
+      "status_reason": "输入包同日08:33–08:39 UTC公开Workable保存响应state=published/approved；本次再次API403，正常职位页面仅JS壳，未重新取得live状态。",
       "status_checked_at": "2026-10-21T09:14:02.580203+00:00",
       "verified_at": "2026-10-21T09:14:02.580203+00:00",
       "jd_completeness": "full_official_snapshot",
@@ -2767,26 +3020,28 @@
       "direction": [
         "audio"
       ],
+      "recruitment_channel": "public official listing",
+      "ai_application_policy": "unknown",
+      "ai_policy_evidence": [
+        {
+          "status": "unknown",
+          "basis": "已检查所获职位正文及针对性官方搜索，未建立对AI辅助申请的明确政策；不能把unknown写成allowed。",
+          "checked_at": "2026-10-21T09:14:02.580203+00:00"
+        }
+      ],
       "source_ids": [
         "public-focusrite-1A46D2C5E7"
       ],
       "source_confidence": {
-        "level": "medium",
-        "reason": "Availability is based on the dated official-source check; not a hiring probability."
+        "level": "high",
+        "reason": "Public source and dated status; no candidate evidence."
       },
-      "status_reason": "Dated public vacancy evidence; see official source. Unknown does not mean closed.",
-      "next_action": "Recheck the official current call and its stated requirements.",
       "application_stage": "unknown",
       "recommendation": null,
-      "deep_review_status": "not_in_public_build",
-      "recruitment_channel": "public listing / team page",
-      "active_recommendation": {
-        "grade": null,
-        "reason": "Personal assessment excluded from public-safe projection."
-      },
-      "ai_application_policy": "unknown",
+      "active_recommendation": null,
       "artifacts": [],
-      "hard_gate_status": "unknown"
+      "deep_review_status": "public_facts_only",
+      "next_action": "核对官方状态与地点；本视图不包含个人匹配或申请记录。"
     },
     {
       "id": "umg-27186",
@@ -2798,6 +3053,13 @@
       "city": "London",
       "is_london": true,
       "official_url": "https://umusic.wd5.myworkdayjobs.com/en-US/UMGUK/job/AI-Product-Engineer_UMG-27186",
+      "information_url": "https://umusic.wd5.myworkdayjobs.com/en-US/UMGUK/job/AI-Product-Engineer_UMG-27186",
+      "application_url": null,
+      "application_channel": "Universal Music 官方 Workday 职位页；申请目标待核实",
+      "application_instructions": "官方索引/UK careers有具体AI Product Engineer条目，但未从当前JS页面取得Apply href或独立表单URL，application_url=null；不称当前可申请。",
+      "channel_verified_at": null,
+      "channel_checked_at": "2026-10-21T09:48:28.932970+00:00",
+      "channel_verification_status": "missing_distinct_application_endpoint",
       "posted_date": null,
       "deadline_original": null,
       "deadline_date": null,
@@ -2809,6 +3071,7 @@
       "planning_deadline": null,
       "vacancy_status": "unknown",
       "verified_open": false,
+      "status_reason": "官方UK careers当前含职位入口，官方索引有JD；live Workday当前申请状态未核实，保持unknown。",
       "status_checked_at": "2026-10-21T09:14:02.580203+00:00",
       "verified_at": "2026-10-21T09:14:02.580203+00:00",
       "jd_completeness": "indexed_or_summary",
@@ -2854,26 +3117,28 @@
         "AI",
         "generative AI"
       ],
+      "recruitment_channel": "public official listing",
+      "ai_application_policy": "unknown",
+      "ai_policy_evidence": [
+        {
+          "status": "unknown",
+          "basis": "已检查所获职位正文及针对性官方搜索，未建立对AI辅助申请的明确政策；不能把unknown写成allowed。",
+          "checked_at": "2026-10-21T09:14:02.580203+00:00"
+        }
+      ],
       "source_ids": [
         "public-umg-27186"
       ],
       "source_confidence": {
         "level": "medium",
-        "reason": "Availability is based on the dated official-source check; not a hiring probability."
+        "reason": "Public source and dated status; no candidate evidence."
       },
-      "status_reason": "Dated public vacancy evidence; see official source. Unknown does not mean closed.",
-      "next_action": "Recheck the official current call and its stated requirements.",
       "application_stage": "unknown",
       "recommendation": null,
-      "deep_review_status": "not_in_public_build",
-      "recruitment_channel": "public listing / team page",
-      "active_recommendation": {
-        "grade": null,
-        "reason": "Personal assessment excluded from public-safe projection."
-      },
-      "ai_application_policy": "unknown",
+      "active_recommendation": null,
       "artifacts": [],
-      "hard_gate_status": "unknown"
+      "deep_review_status": "public_facts_only",
+      "next_action": "核对官方状态与地点；本视图不包含个人匹配或申请记录。"
     },
     {
       "id": "sony-6006523004",
@@ -2885,6 +3150,13 @@
       "city": "London",
       "is_london": true,
       "official_url": "https://job-boards.greenhouse.io/sonyinteractiveentertainmentglobal/jobs/6006523004",
+      "information_url": "https://job-boards.greenhouse.io/sonyinteractiveentertainmentglobal/jobs/6006523004",
+      "application_url": null,
+      "application_channel": "当前已撤下的官方广告；无已核实可用申请渠道",
+      "application_instructions": "旧具体岗位URL已转至官方总board?error=true；总board不是此岗位申请入口。保留信息历史链接，不提供申请按钮。",
+      "channel_verified_at": null,
+      "channel_checked_at": "2026-10-21T09:48:28.932970+00:00",
+      "channel_verification_status": "missing_distinct_application_endpoint",
       "posted_date": null,
       "deadline_original": null,
       "deadline_date": null,
@@ -2896,6 +3168,7 @@
       "planning_deadline": null,
       "vacancy_status": "closed",
       "verified_open": false,
+      "status_reason": "当前官方job-specific URL重定向总board?error=true，结合原包该job API404，说明此广告当前已撤下；不表示已招到人。旧索引仍有JD，保留冲突。",
       "status_checked_at": "2026-10-21T09:14:02.580203+00:00",
       "verified_at": "2026-10-21T09:14:02.580203+00:00",
       "jd_completeness": "indexed_or_summary",
@@ -2935,26 +3208,28 @@
         "Audio",
         "audio"
       ],
+      "recruitment_channel": "public official listing",
+      "ai_application_policy": "unknown",
+      "ai_policy_evidence": [
+        {
+          "status": "unknown",
+          "basis": "已检查所获职位正文及针对性官方搜索，未建立对AI辅助申请的明确政策；不能把unknown写成allowed。",
+          "checked_at": "2026-10-21T09:14:02.580203+00:00"
+        }
+      ],
       "source_ids": [
         "public-sony-6006523004"
       ],
       "source_confidence": {
         "level": "medium",
-        "reason": "Availability is based on the dated official-source check; not a hiring probability."
+        "reason": "Public source and dated status; no candidate evidence."
       },
-      "status_reason": "Dated public vacancy evidence; see official source. Unknown does not mean closed.",
-      "next_action": "Recheck the official current call and its stated requirements.",
       "application_stage": "unknown",
       "recommendation": null,
-      "deep_review_status": "not_in_public_build",
-      "recruitment_channel": "public listing / team page",
-      "active_recommendation": {
-        "grade": null,
-        "reason": "Personal assessment excluded from public-safe projection."
-      },
-      "ai_application_policy": "unknown",
+      "active_recommendation": null,
       "artifacts": [],
-      "hard_gate_status": "unknown"
+      "deep_review_status": "public_facts_only",
+      "next_action": "核对官方状态与地点；本视图不包含个人匹配或申请记录。"
     },
     {
       "id": "roli-watch",
@@ -2966,6 +3241,13 @@
       "city": "London",
       "is_london": true,
       "official_url": "https://app.screenloop.com/careers/roli",
+      "information_url": "https://app.screenloop.com/careers/roli",
+      "application_url": null,
+      "application_channel": "unverified",
+      "application_instructions": "尚未核实该记录对应的实际投递入口；信息页不等于投递入口。",
+      "channel_verified_at": null,
+      "channel_checked_at": null,
+      "channel_verification_status": "not_checked_for_specific_endpoint",
       "posted_date": null,
       "deadline_original": null,
       "deadline_date": null,
@@ -2977,6 +3259,7 @@
       "planning_deadline": null,
       "vacancy_status": "unknown",
       "verified_open": false,
+      "status_reason": "当前官方Screenloop HTML仍仅Electronics Engineer (Contract) 7889，无对应ML研究广告；watch不计开放。",
       "status_checked_at": "2026-10-21T09:14:02.580203+00:00",
       "verified_at": "2026-10-21T09:14:02.580203+00:00",
       "jd_completeness": "not_a_vacancy",
@@ -3001,26 +3284,28 @@
         "AI",
         "music"
       ],
+      "recruitment_channel": "watch / historical source",
+      "ai_application_policy": "unknown",
+      "ai_policy_evidence": [
+        {
+          "status": "unknown",
+          "basis": "已检查所获职位正文及针对性官方搜索，未建立对AI辅助申请的明确政策；不能把unknown写成allowed。",
+          "checked_at": "2026-10-21T09:14:02.580203+00:00"
+        }
+      ],
       "source_ids": [
         "public-roli-watch"
       ],
       "source_confidence": {
         "level": "medium",
-        "reason": "Availability is based on the dated official-source check; not a hiring probability."
+        "reason": "Public source and dated status; no candidate evidence."
       },
-      "status_reason": "Dated public vacancy evidence; see official source. Unknown does not mean closed.",
-      "next_action": "Recheck the official current call and its stated requirements.",
       "application_stage": "unknown",
-      "recommendation": null,
-      "deep_review_status": "not_in_public_build",
-      "recruitment_channel": "public listing / team page",
-      "active_recommendation": {
-        "grade": null,
-        "reason": "Personal assessment excluded from public-safe projection."
-      },
-      "ai_application_policy": "unknown",
+      "recommendation": "Watchlist",
+      "active_recommendation": null,
       "artifacts": [],
-      "hard_gate_status": "unknown"
+      "deep_review_status": "public_facts_only",
+      "next_action": "核对官方状态与地点；本视图不包含个人匹配或申请记录。"
     },
     {
       "id": "logitech-147367",
@@ -3032,6 +3317,13 @@
       "city": "London",
       "is_london": true,
       "official_url": "https://logitech.wd5.myworkdayjobs.com/Logitech/job/London-United-Kingdom/Senior-Audio-AI-Research-Engineer_147367",
+      "information_url": "https://logitech.wd5.myworkdayjobs.com/Logitech/job/London-United-Kingdom/Senior-Audio-AI-Research-Engineer_147367",
+      "application_url": null,
+      "application_channel": "Logitech 官方 Workday；本岗申请目标未核实",
+      "application_instructions": "旧信息页为动态壳；同requisition的索引另有_147367-1路径，但未验证真实Apply href。不要从旧索引或第三方paused推定可申请/拼接表单。",
+      "channel_verified_at": null,
+      "channel_checked_at": "2026-10-21T09:48:28.932970+00:00",
+      "channel_verification_status": "missing_distinct_application_endpoint",
       "posted_date": null,
       "deadline_original": null,
       "deadline_date": null,
@@ -3043,6 +3335,7 @@
       "planning_deadline": null,
       "vacancy_status": "unknown",
       "verified_open": false,
+      "status_reason": "旧job链接失败，发现同requisition147367官方索引规范路径含_147367-1但普通页无正文；不能从旧404或第三方paused确认新路径关闭，保持unknown。",
       "status_checked_at": "2026-10-21T09:14:02.580203+00:00",
       "verified_at": "2026-10-21T09:14:02.580203+00:00",
       "jd_completeness": "indexed_or_summary",
@@ -3067,26 +3360,28 @@
         "AI",
         "audio"
       ],
+      "recruitment_channel": "public official listing",
+      "ai_application_policy": "unknown",
+      "ai_policy_evidence": [
+        {
+          "status": "unknown",
+          "basis": "已检查所获职位正文及针对性官方搜索，未建立对AI辅助申请的明确政策；不能把unknown写成allowed。",
+          "checked_at": "2026-10-21T09:14:02.580203+00:00"
+        }
+      ],
       "source_ids": [
         "public-logitech-147367"
       ],
       "source_confidence": {
         "level": "medium",
-        "reason": "Availability is based on the dated official-source check; not a hiring probability."
+        "reason": "Public source and dated status; no candidate evidence."
       },
-      "status_reason": "Dated public vacancy evidence; see official source. Unknown does not mean closed.",
-      "next_action": "Recheck the official current call and its stated requirements.",
       "application_stage": "unknown",
       "recommendation": null,
-      "deep_review_status": "not_in_public_build",
-      "recruitment_channel": "public listing / team page",
-      "active_recommendation": {
-        "grade": null,
-        "reason": "Personal assessment excluded from public-safe projection."
-      },
-      "ai_application_policy": "unknown",
+      "active_recommendation": null,
       "artifacts": [],
-      "hard_gate_status": "unknown"
+      "deep_review_status": "public_facts_only",
+      "next_action": "核对官方状态与地点；本视图不包含个人匹配或申请记录。"
     },
     {
       "id": "stability-watch",
@@ -3098,6 +3393,13 @@
       "city": null,
       "is_london": null,
       "official_url": "https://stability.ai/careers",
+      "information_url": "https://stability.ai/careers",
+      "application_url": null,
+      "application_channel": "unverified",
+      "application_instructions": "尚未核实该记录对应的实际投递入口；信息页不等于投递入口。",
+      "channel_verified_at": null,
+      "channel_checked_at": null,
+      "channel_verification_status": "not_checked_for_specific_endpoint",
       "posted_date": null,
       "deadline_original": null,
       "deadline_date": null,
@@ -3109,6 +3411,7 @@
       "planning_deadline": null,
       "vacancy_status": "unknown",
       "verified_open": false,
+      "status_reason": "只保留机构监测，不是已核实开放的研究岗。",
       "status_checked_at": "2026-10-21T09:14:02.580203+00:00",
       "verified_at": "2026-10-21T09:14:02.580203+00:00",
       "jd_completeness": "not_a_vacancy",
@@ -3132,26 +3435,28 @@
         "Audio",
         "audio"
       ],
+      "recruitment_channel": "watch / historical source",
+      "ai_application_policy": "unknown",
+      "ai_policy_evidence": [
+        {
+          "status": "unknown",
+          "basis": "已检查所获职位正文及针对性官方搜索，未建立对AI辅助申请的明确政策；不能把unknown写成allowed。",
+          "checked_at": "2026-10-21T09:14:02.580203+00:00"
+        }
+      ],
       "source_ids": [
         "public-stability-watch"
       ],
       "source_confidence": {
         "level": "medium",
-        "reason": "Availability is based on the dated official-source check; not a hiring probability."
+        "reason": "Public source and dated status; no candidate evidence."
       },
-      "status_reason": "Dated public vacancy evidence; see official source. Unknown does not mean closed.",
-      "next_action": "Recheck the official current call and its stated requirements.",
       "application_stage": "unknown",
-      "recommendation": null,
-      "deep_review_status": "not_in_public_build",
-      "recruitment_channel": "public listing / team page",
-      "active_recommendation": {
-        "grade": null,
-        "reason": "Personal assessment excluded from public-safe projection."
-      },
-      "ai_application_policy": "unknown",
+      "recommendation": "Watchlist",
+      "active_recommendation": null,
       "artifacts": [],
-      "hard_gate_status": "unknown"
+      "deep_review_status": "public_facts_only",
+      "next_action": "核对官方状态与地点；本视图不包含个人匹配或申请记录。"
     },
     {
       "id": "audiostack-watch",
@@ -3163,6 +3468,13 @@
       "city": "London",
       "is_london": true,
       "official_url": "https://jobs.workable.com/company/8F2KpgLvPvTiPNQPDnSyAH/jobs-at-audiostack",
+      "information_url": "https://jobs.workable.com/company/8F2KpgLvPvTiPNQPDnSyAH/jobs-at-audiostack",
+      "application_url": null,
+      "application_channel": "unverified",
+      "application_instructions": "尚未核实该记录对应的实际投递入口；信息页不等于投递入口。",
+      "channel_verified_at": null,
+      "channel_checked_at": null,
+      "channel_verification_status": "not_checked_for_specific_endpoint",
       "posted_date": null,
       "deadline_original": null,
       "deadline_date": null,
@@ -3174,6 +3486,7 @@
       "planning_deadline": null,
       "vacancy_status": "unknown",
       "verified_open": false,
+      "status_reason": "只保留机构监测，不是已核实开放的研究岗。",
       "status_checked_at": "2026-10-21T09:14:02.580203+00:00",
       "verified_at": "2026-10-21T09:14:02.580203+00:00",
       "jd_completeness": "not_a_vacancy",
@@ -3194,91 +3507,1258 @@
       "preferred_requirements": [],
       "job_type": "watch",
       "direction": [],
+      "recruitment_channel": "watch / historical source",
+      "ai_application_policy": "unknown",
+      "ai_policy_evidence": [
+        {
+          "status": "unknown",
+          "basis": "已检查所获职位正文及针对性官方搜索，未建立对AI辅助申请的明确政策；不能把unknown写成allowed。",
+          "checked_at": "2026-10-21T09:14:02.580203+00:00"
+        }
+      ],
       "source_ids": [
         "public-audiostack-watch"
       ],
       "source_confidence": {
         "level": "medium",
-        "reason": "Availability is based on the dated official-source check; not a hiring probability."
+        "reason": "Public source and dated status; no candidate evidence."
       },
-      "status_reason": "Dated public vacancy evidence; see official source. Unknown does not mean closed.",
-      "next_action": "Recheck the official current call and its stated requirements.",
       "application_stage": "unknown",
-      "recommendation": null,
-      "deep_review_status": "not_in_public_build",
-      "recruitment_channel": "public listing / team page",
-      "active_recommendation": {
-        "grade": null,
-        "reason": "Personal assessment excluded from public-safe projection."
-      },
-      "ai_application_policy": "unknown",
+      "recommendation": "Watchlist",
+      "active_recommendation": null,
       "artifacts": [],
-      "hard_gate_status": "unknown"
+      "deep_review_status": "public_facts_only",
+      "next_action": "核对官方状态与地点；本视图不包含个人匹配或申请记录。"
     },
     {
-      "id": "bose-R28343",
-      "record_type": "history",
-      "organization": "Bose",
-      "title": "Audio Machine Learning Intern",
-      "team": null,
-      "country": null,
-      "city": "Included London/UK work-from-home in old listing",
-      "is_london": null,
-      "official_url": "https://boseallaboutme.wd503.myworkdayjobs.com/Bose_Careers/job/US-MA---Framingham/Audio-Machine-Learning-Intern_R28343",
+      "id": "canva-6000000001354300",
+      "record_type": "vacancy",
+      "organization": "Canva",
+      "title": "Principal Research Scientist - Evaluations",
+      "team": "Evaluations",
+      "country": "Australia",
+      "city": "Sydney",
+      "locations": [
+        {
+          "city": "Sydney",
+          "country": "Australia"
+        }
+      ],
+      "is_london": false,
+      "official_url": "https://www.lifeatcanva.com/en/jobs/6000000001354300/principal-research-scientist-evaluations/",
+      "information_url": "https://www.lifeatcanva.com/en/jobs/6000000001354300/principal-research-scientist-evaluations/",
+      "application_url": "https://jobs.smartrecruiters.com/Canva/6000000001354300-principal-research-scientist-evaluations-?oga=true",
+      "application_channel": "Canva / SmartRecruiters official application",
+      "application_instructions": "查看官方入口并由用户决定是否投递；本轮未进入/填写/提交表单。",
+      "channel_verified_at": "2026-10-22T02:19:08.422347+00:00",
+      "channel_checked_at": "2026-10-22T02:19:08.422347+00:00",
+      "channel_verification_status": "verified_official_open",
       "posted_date": null,
-      "deadline_original": "10 May 2026",
-      "deadline_date": "2026-05-10",
-      "deadline_time": null,
-      "deadline_timezone": null,
+      "deadline_original": "未公布；不等同永久开放",
+      "deadline_date": null,
       "deadline_iso": null,
-      "deadline_precision": "date",
+      "deadline_precision": "unknown",
       "deadline_conflict": false,
       "planning_deadline": null,
-      "vacancy_status": "closed",
-      "verified_open": false,
-      "status_checked_at": "2026-10-21T09:14:02.580203+00:00",
-      "verified_at": "2026-10-21T09:14:02.580203+00:00",
-      "jd_completeness": "historical_snapshot",
+      "vacancy_status": "open",
+      "verified_open": true,
+      "status_reason": "官方当前公开列表收录，逐岗API active=true。",
+      "status_checked_at": "2026-10-22",
+      "verified_at": "2026-10-22T02:19:08.422347+00:00",
+      "jd_completeness": "full_official_JD_read_API_status_checked",
       "salary_min": null,
       "salary_max": null,
       "salary_currency": null,
       "salary_period": null,
       "salary_gross_or_net": null,
-      "salary_original": null,
-      "contract_type": null,
-      "contract_duration": "2026-06-01 to 2026-08-21",
+      "salary_original": "该目标地点官方JD未公布薪资；不借用San Francisco美元薪资。",
+      "salary_source_ids": [
+        "CANVA-API-6000000001354300",
+        "CANVA-CURRENT-LIST"
+      ],
+      "contract_type": "Permanent / Full-time",
+      "contract_duration": null,
       "start_date": null,
       "hours": null,
-      "remote_policy": null,
+      "remote_policy": "Hybrid；Sydney为偏好办公地点，不据London团队提及推定可London任职。",
       "attendance_frequency": null,
-      "responsibilities": [],
-      "essential_requirements": [],
-      "preferred_requirements": [],
-      "job_type": "history",
-      "direction": [
-        "Audio",
-        "audio"
+      "responsibilities": [
+        "制定研究组织各模态长期评估策略与资源权衡",
+        "验证自动评分与human preference/产品结果的相关性、bias和benchmark污染",
+        "连接评估、真实用户体验及可作为RL reward的有效性",
+        "建立跨London/Vienna/SF/Sydney/China的共同评估标准",
+        "规模化人评rubric、rater校准及跨市场一致性",
+        "研究质量模型、reward/preference learning和inference-time selection",
+        "研究VLM/MLLM对视觉设计质量的理解",
+        "建设agentic/model-based graders及checkpoint评估基础设施",
+        "细分photo/video评估到文档类型、用户群和地区",
+        "建立生产离线/在线评估及回归监控",
+        "前沿benchmark与有价值的公开研究输出",
+        "负责launch gates及信号不确定时的发布判断",
+        "排查production training中模型退化与基础设施异常",
+        "与Design Generation/Foundation Models/Agents共同影响训练和推理",
+        "与设计师/creator/product把主观质量变成指标",
+        "指导senior research scientists和engineers",
+        "向senior leadership/行业代表评估方向"
+      ],
+      "essential_requirements": [
+        "从零建立影响团队决策的评估框架/标准的记录",
+        "连接metrics与business/user outcomes并诊断偏离",
+        "用rubric、人类数据流程及模型训练形成可靠评估信号",
+        "深入理解diffusion/Transformer/VLM/MLLM及评估失效方式",
+        "reward modelling/preference learning/human feedback alignment经验",
+        "跨多个团队/广专长领域设定技术方向"
+      ],
+      "preferred_requirements": [
+        "human perception/psychophysics/aesthetics/HCI研究背景",
+        "兼顾harm/bias/safety评价",
+        "evaluation/alignment/generative modelling发表记录",
+        "visual arts/graphic design背景或兴趣"
+      ],
+      "job_type": "Research / ML engineering",
+      "direction": "Evaluation / post-training / research data / multimodal",
+      "recruitment_channel": "Official employer public advert",
+      "ai_application_policy": "unknown",
+      "ai_policy_evidence": [],
+      "seniority_level": "Principal",
+      "api_active": true,
+      "aliases": [],
+      "related_closed_ids": [],
+      "deduplication_note": "一个canonical岗位；不按城市镜像重复计数。",
+      "source_urls": [
+        "https://www.lifeatcanva.com/en/jobs/6000000001354300/principal-research-scientist-evaluations/",
+        "https://api.smartrecruiters.com/v1/companies/Canva/postings/6000000001354300"
       ],
       "source_ids": [
-        "public-bose-R28343"
+        "public-canva-6000000001354300"
+      ],
+      "source_confidence": {
+        "level": "high",
+        "reason": "Public source and dated status; no candidate evidence."
+      },
+      "application_stage": "unknown",
+      "recommendation": null,
+      "active_recommendation": null,
+      "artifacts": [],
+      "deep_review_status": "public_facts_only",
+      "next_action": "核对官方状态与地点；本视图不包含个人匹配或申请记录。"
+    },
+    {
+      "id": "canva-6000000001331665",
+      "record_type": "vacancy",
+      "organization": "Canva",
+      "title": "Senior Research Data Engineer",
+      "team": "Research Data / Agents",
+      "country": "United Kingdom",
+      "city": "London",
+      "locations": [
+        {
+          "city": "London",
+          "country": "United Kingdom"
+        }
+      ],
+      "is_london": true,
+      "official_url": "https://jobs.smartrecruiters.com/Canva/6000000001331665-senior-research-data-engineer",
+      "information_url": "https://jobs.smartrecruiters.com/Canva/6000000001331665-senior-research-data-engineer",
+      "application_url": null,
+      "application_channel": null,
+      "application_instructions": "不投该旧call；保留官方详情作团队与重开线索。",
+      "channel_verified_at": null,
+      "channel_checked_at": "2026-10-22T02:19:08.422347+00:00",
+      "channel_verification_status": "closed_no_apply_link",
+      "posted_date": null,
+      "deadline_original": "未公布；不等同永久开放",
+      "deadline_date": null,
+      "deadline_iso": null,
+      "deadline_precision": "unknown",
+      "deadline_conflict": false,
+      "planning_deadline": null,
+      "vacancy_status": "closed",
+      "verified_open": false,
+      "status_reason": "逐岗官方API active=false；旧JD或申请壳仍存在不代表开放。",
+      "status_checked_at": "2026-10-22",
+      "verified_at": "2026-10-22T02:19:08.422347+00:00",
+      "jd_completeness": "full_official_JD_read_API_status_checked",
+      "salary_min": null,
+      "salary_max": null,
+      "salary_currency": null,
+      "salary_period": null,
+      "salary_gross_or_net": null,
+      "salary_original": "该目标地点官方JD未公布薪资；不借用San Francisco美元薪资。",
+      "salary_source_ids": [
+        "CANVA-API-6000000001331665",
+        "CANVA-CURRENT-LIST"
+      ],
+      "contract_type": "Permanent / Full-time",
+      "contract_duration": null,
+      "start_date": null,
+      "hours": null,
+      "remote_policy": "见该call官方JD；旧状态不能直接承诺未来重开安排。",
+      "attendance_frequency": null,
+      "responsibilities": [
+        "agent训练数据收集、过滤、去重、格式与版本",
+        "S3/分布式/streaming的数据存取基础设施",
+        "把科研要求转成数据规格并迭代",
+        "策划能暴露failure modes的evaluation datasets/benchmarks",
+        "人标、synthetic、RLHF/DPO preference数据构建工具",
+        "质量验证、drift/contamination监控和可复现标准",
+        "数据provenance/限制/用途/版本文档",
+        "流水线与ML workflow全面测试覆盖",
+        "review/refactoring/工程规范",
+        "发现数据瓶颈并参与roadmap"
+      ],
+      "essential_requirements": [
+        "Python production pipelines和ML DevOps",
+        "实践prompt设计、测试与LLM/VLM输出改进",
+        "Ray等大规模处理、tokenization/batching/sharding/versioning",
+        "服务大规模分布式训练的数据pipeline",
+        "annotation工具及human-in-loop收集",
+        "理解LLM/VLM微调数据质量和下游问题",
+        "AWS/分布式storage读写大数据",
+        "与研究者澄清模糊问题和沟通计划",
+        "协作、ownership与快速迭代"
+      ],
+      "preferred_requirements": [
+        "RLHF/reward preference数据经验",
+        "image-text/video/design多模态数据",
+        "LLM synthetic数据pipeline",
+        "数据质量metrics/monitoring",
+        "公开dataset/benchmark贡献"
+      ],
+      "job_type": "Research / ML engineering",
+      "direction": "Evaluation / post-training / research data / multimodal",
+      "recruitment_channel": "Official employer public advert",
+      "ai_application_policy": "unknown",
+      "ai_policy_evidence": [],
+      "seniority_level": "Senior",
+      "api_active": false,
+      "aliases": [],
+      "related_closed_ids": [],
+      "deduplication_note": "一个canonical岗位；不按城市镜像重复计数。",
+      "source_urls": [
+        "https://jobs.smartrecruiters.com/Canva/6000000001331665-senior-research-data-engineer",
+        "https://api.smartrecruiters.com/v1/companies/Canva/postings/6000000001331665"
+      ],
+      "source_ids": [
+        "public-canva-6000000001331665"
       ],
       "source_confidence": {
         "level": "medium",
-        "reason": "Availability is based on the dated official-source check; not a hiring probability."
+        "reason": "Public source and dated status; no candidate evidence."
       },
-      "status_reason": "Dated public vacancy evidence; see official source. Unknown does not mean closed.",
-      "next_action": "Recheck the official current call and its stated requirements.",
       "application_stage": "unknown",
       "recommendation": null,
-      "deep_review_status": "not_in_public_build",
-      "recruitment_channel": "public listing / team page",
-      "active_recommendation": {
-        "grade": null,
-        "reason": "Personal assessment excluded from public-safe projection."
-      },
-      "ai_application_policy": "unknown",
+      "active_recommendation": null,
       "artifacts": [],
-      "hard_gate_status": "unknown"
+      "deep_review_status": "public_facts_only",
+      "next_action": "核对官方状态与地点；本视图不包含个人匹配或申请记录。"
+    },
+    {
+      "id": "canva-6000000001359892",
+      "record_type": "vacancy",
+      "organization": "Canva",
+      "title": "Senior Research Scientist - Design Generation (Sydney)",
+      "team": "Design Generation",
+      "country": "Australia",
+      "city": "Sydney",
+      "locations": [
+        {
+          "city": "Sydney",
+          "country": "Australia"
+        }
+      ],
+      "is_london": false,
+      "official_url": "https://jobs.smartrecruiters.com/Canva/6000000001359892-senior-research-scientist-design-generation-sydney-",
+      "information_url": "https://jobs.smartrecruiters.com/Canva/6000000001359892-senior-research-scientist-design-generation-sydney-",
+      "application_url": null,
+      "application_channel": null,
+      "application_instructions": "不投该旧call；保留官方详情作团队与重开线索。",
+      "channel_verified_at": null,
+      "channel_checked_at": "2026-10-22T02:19:08.422347+00:00",
+      "channel_verification_status": "closed_no_apply_link",
+      "posted_date": null,
+      "deadline_original": "未公布；不等同永久开放",
+      "deadline_date": null,
+      "deadline_iso": null,
+      "deadline_precision": "unknown",
+      "deadline_conflict": false,
+      "planning_deadline": null,
+      "vacancy_status": "closed",
+      "verified_open": false,
+      "status_reason": "逐岗官方API active=false；旧JD或申请壳仍存在不代表开放。",
+      "status_checked_at": "2026-10-22",
+      "verified_at": "2026-10-22T02:19:08.422347+00:00",
+      "jd_completeness": "full_official_JD_read_API_status_checked",
+      "salary_min": null,
+      "salary_max": null,
+      "salary_currency": null,
+      "salary_period": null,
+      "salary_gross_or_net": null,
+      "salary_original": "该目标地点官方JD未公布薪资；不借用San Francisco美元薪资。",
+      "salary_source_ids": [
+        "CANVA-API-6000000001359892",
+        "CANVA-CURRENT-LIST"
+      ],
+      "contract_type": "Permanent / Full-time",
+      "contract_duration": null,
+      "start_date": null,
+      "hours": null,
+      "remote_policy": "见该call官方JD；旧状态不能直接承诺未来重开安排。",
+      "attendance_frequency": null,
+      "responsibilities": [
+        "训练/评价LLM等design generation模型",
+        "针对架构、训练和数据设计实验",
+        "设计生成质量指标/benchmark",
+        "把研究结果转为可产品化方法",
+        "诊断质量/failure modes与用户业务差距",
+        "跟进生成模型研究并引入改进",
+        "向研究及非研究受众解释结果与trade-offs"
+      ],
+      "essential_requirements": [
+        "实际训练生成模型，偏好image/design经验",
+        "定义真正有效的质量metrics而非单追benchmark",
+        "以minimal guidance完成模糊研究问题到验证",
+        "工业场景大规模LLM/MLLM微调",
+        "large-scale data/objectives/multi-GPU训练评估",
+        "相关PhD加至少2年industry，或无PhD至少6年industry"
+      ],
+      "preferred_requirements": [
+        "diffusion或image generation背景（非核心硬要求）"
+      ],
+      "job_type": "Research / ML engineering",
+      "direction": "Evaluation / post-training / research data / multimodal",
+      "recruitment_channel": "Official employer public advert",
+      "ai_application_policy": "unknown",
+      "ai_policy_evidence": [],
+      "seniority_level": "Senior",
+      "api_active": false,
+      "aliases": [],
+      "related_closed_ids": [],
+      "deduplication_note": "一个canonical岗位；不按城市镜像重复计数。",
+      "source_urls": [
+        "https://jobs.smartrecruiters.com/Canva/6000000001359892-senior-research-scientist-design-generation-sydney-",
+        "https://api.smartrecruiters.com/v1/companies/Canva/postings/6000000001359892"
+      ],
+      "source_ids": [
+        "public-canva-6000000001359892"
+      ],
+      "source_confidence": {
+        "level": "medium",
+        "reason": "Public source and dated status; no candidate evidence."
+      },
+      "application_stage": "unknown",
+      "recommendation": null,
+      "active_recommendation": null,
+      "artifacts": [],
+      "deep_review_status": "public_facts_only",
+      "next_action": "核对官方状态与地点；本视图不包含个人匹配或申请记录。"
+    },
+    {
+      "id": "canva-6000000001162285",
+      "record_type": "vacancy",
+      "organization": "Canva",
+      "title": "Senior Machine Learning Engineer - Research Optimisation",
+      "team": "Research Optimisation",
+      "country": "Australia",
+      "city": "Sydney",
+      "locations": [
+        {
+          "city": "Sydney",
+          "country": "Australia"
+        }
+      ],
+      "is_london": false,
+      "official_url": "https://jobs.smartrecruiters.com/Canva/6000000001162285-senior-machine-learning-engineer-research-optimisation",
+      "information_url": "https://jobs.smartrecruiters.com/Canva/6000000001162285-senior-machine-learning-engineer-research-optimisation",
+      "application_url": null,
+      "application_channel": null,
+      "application_instructions": "不投该旧call；保留官方详情作团队与重开线索。",
+      "channel_verified_at": null,
+      "channel_checked_at": "2026-10-22T02:19:08.422347+00:00",
+      "channel_verification_status": "closed_no_apply_link",
+      "posted_date": null,
+      "deadline_original": "未公布；不等同永久开放",
+      "deadline_date": null,
+      "deadline_iso": null,
+      "deadline_precision": "unknown",
+      "deadline_conflict": false,
+      "planning_deadline": null,
+      "vacancy_status": "closed",
+      "verified_open": false,
+      "status_reason": "逐岗官方API active=false；旧JD或申请壳仍存在不代表开放。",
+      "status_checked_at": "2026-10-22",
+      "verified_at": "2026-10-22T02:19:08.422347+00:00",
+      "jd_completeness": "full_official_JD_read_API_status_checked",
+      "salary_min": null,
+      "salary_max": null,
+      "salary_currency": null,
+      "salary_period": null,
+      "salary_gross_or_net": null,
+      "salary_original": "该目标地点官方JD未公布薪资；不借用San Francisco美元薪资。",
+      "salary_source_ids": [
+        "CANVA-API-6000000001162285",
+        "CANVA-CURRENT-LIST"
+      ],
+      "contract_type": "Permanent / Full-time",
+      "contract_duration": null,
+      "start_date": null,
+      "hours": null,
+      "remote_policy": "见该call官方JD；旧状态不能直接承诺未来重开安排。",
+      "attendance_frequency": null,
+      "responsibilities": [
+        "把实验模型加固到容器、测试和CI/CD生产流程",
+        "profile PyTorch和GPU效率、mixed precision/高效加载/分布式",
+        "建设有API/依赖与版本规范的可复用库",
+        "提供模板/示例/文档和developer adoption支持",
+        "服务metrics/logging/tracing、SLI/SLO与性能成本",
+        "refactor/test/containerise并集成monorepo",
+        "profile compute/memory/IO/network瓶颈",
+        "改进multi-GPU/multi-node并选择parallelism",
+        "提供inference services/SDK/shared interfaces",
+        "feature flags/canaries/A-B/rollback等rollout框架",
+        "CI/CD、artifacts及可复现ML builds",
+        "load/chaos测试与可观测性",
+        "batch/cache/quantise/compile降低推理成本",
+        "改进Kubernetes/storage/training data stack",
+        "review/pair/docs推动research/product采用",
+        "测试、依赖和多variant代码整理"
+      ],
+      "essential_requirements": [
+        "Python及production service工程基础",
+        "已交付containers/APIs/CI-CD的ML production系统",
+        "实做PyTorch性能优化与GPU memory/throughput profiling",
+        "容器/Kubernetes诊断改进",
+        "读研究代码并形成清晰稳定抽象",
+        "ML服务reliability/observability",
+        "storage/network/model跨栈理解",
+        "支持库采用并指导较初级engineers",
+        "cloud经验，AWS优先"
+      ],
+      "preferred_requirements": [
+        "ONNX/TorchScript/Triton/quantisation",
+        "CUDA/torch.compile/Triton/TensorRT优化",
+        "有规模的FSDP/DDP/DeepSpeed/Megatron",
+        "Weka/Vast/Lustre与高性能loading",
+        "experimentation/A-B/安全rollout",
+        "multimodal/image或LLM adjacent工具",
+        "MLOps registries/artifact/dependency工具"
+      ],
+      "job_type": "Research / ML engineering",
+      "direction": "Evaluation / post-training / research data / multimodal",
+      "recruitment_channel": "Official employer public advert",
+      "ai_application_policy": "unknown",
+      "ai_policy_evidence": [],
+      "seniority_level": "Senior",
+      "api_active": false,
+      "aliases": [],
+      "related_closed_ids": [],
+      "deduplication_note": "一个canonical岗位；不按城市镜像重复计数。",
+      "source_urls": [
+        "https://jobs.smartrecruiters.com/Canva/6000000001162285-senior-machine-learning-engineer-research-optimisation",
+        "https://api.smartrecruiters.com/v1/companies/Canva/postings/6000000001162285"
+      ],
+      "source_ids": [
+        "public-canva-6000000001162285"
+      ],
+      "source_confidence": {
+        "level": "medium",
+        "reason": "Public source and dated status; no candidate evidence."
+      },
+      "application_stage": "unknown",
+      "recommendation": null,
+      "active_recommendation": null,
+      "artifacts": [],
+      "deep_review_status": "public_facts_only",
+      "next_action": "核对官方状态与地点；本视图不包含个人匹配或申请记录。"
+    },
+    {
+      "id": "canva-6000000000317287",
+      "record_type": "vacancy",
+      "organization": "Canva",
+      "title": "Senior Applied Scientist - AI Research",
+      "team": "AI Research",
+      "country": "Australia",
+      "city": "Sydney",
+      "locations": [
+        {
+          "city": "Sydney",
+          "country": "Australia"
+        }
+      ],
+      "is_london": false,
+      "official_url": "https://jobs.smartrecruiters.com/Canva/6000000000317287-senior-applied-scientist-ai-research",
+      "information_url": "https://jobs.smartrecruiters.com/Canva/6000000000317287-senior-applied-scientist-ai-research",
+      "application_url": null,
+      "application_channel": null,
+      "application_instructions": "不投该旧call；保留官方详情作团队与重开线索。",
+      "channel_verified_at": null,
+      "channel_checked_at": "2026-10-22T02:19:08.422347+00:00",
+      "channel_verification_status": "closed_no_apply_link",
+      "posted_date": null,
+      "deadline_original": "未公布；不等同永久开放",
+      "deadline_date": null,
+      "deadline_iso": null,
+      "deadline_precision": "unknown",
+      "deadline_conflict": false,
+      "planning_deadline": null,
+      "vacancy_status": "closed",
+      "verified_open": false,
+      "status_reason": "逐岗官方API active=false；旧JD或申请壳仍存在不代表开放。",
+      "status_checked_at": "2026-10-22",
+      "verified_at": "2026-10-22T02:19:08.422347+00:00",
+      "jd_completeness": "full_official_JD_read_API_status_checked",
+      "salary_min": null,
+      "salary_max": null,
+      "salary_currency": null,
+      "salary_period": null,
+      "salary_gross_or_net": null,
+      "salary_original": "该目标地点官方JD未公布薪资；不借用San Francisco美元薪资。",
+      "salary_source_ids": [
+        "CANVA-API-6000000000317287",
+        "CANVA-CURRENT-LIST"
+      ],
+      "contract_type": "Permanent / Full-time",
+      "contract_duration": null,
+      "start_date": null,
+      "hours": null,
+      "remote_policy": "见该call官方JD；旧状态不能直接承诺未来重开安排。",
+      "attendance_frequency": null,
+      "responsibilities": [
+        "开发优化creative-tool生成AI",
+        "实现SOTA研究并做实验",
+        "与MLE协作到全球规模产品化",
+        "改善准确性、效率与用户体验的严谨实验",
+        "建立training/evaluation/monitoring实践",
+        "领导关键AI research initiatives"
+      ],
+      "essential_requirements": [
+        "相关PhD/Master或经证明的实践替代",
+        "deep learning/LLM/foundation development深度",
+        "实际Transformer架构经验",
+        "Python/TF或PyTorch及cloud工具",
+        "跨学科合作到产品影响",
+        "多模态LLM从pre-training到fine-tuning全流程",
+        "自动及human evaluation",
+        "system design/data structures/architecture/patterns基础",
+        "Python/Jupyter等ML工具",
+        "理解ML model lifecycle",
+        "清晰文档、讲解和知识分享"
+      ],
+      "preferred_requirements": [],
+      "job_type": "Research / ML engineering",
+      "direction": "Evaluation / post-training / research data / multimodal",
+      "recruitment_channel": "Official employer public advert",
+      "ai_application_policy": "unknown",
+      "ai_policy_evidence": [],
+      "seniority_level": "Senior",
+      "api_active": false,
+      "aliases": [],
+      "related_closed_ids": [],
+      "deduplication_note": "一个canonical岗位；不按城市镜像重复计数。",
+      "source_urls": [
+        "https://jobs.smartrecruiters.com/Canva/6000000000317287-senior-applied-scientist-ai-research",
+        "https://api.smartrecruiters.com/v1/companies/Canva/postings/6000000000317287"
+      ],
+      "source_ids": [
+        "public-canva-6000000000317287"
+      ],
+      "source_confidence": {
+        "level": "medium",
+        "reason": "Public source and dated status; no candidate evidence."
+      },
+      "application_stage": "unknown",
+      "recommendation": null,
+      "active_recommendation": null,
+      "artifacts": [],
+      "deep_review_status": "public_facts_only",
+      "next_action": "核对官方状态与地点；本视图不包含个人匹配或申请记录。"
+    },
+    {
+      "id": "canva-6000000000891189",
+      "record_type": "vacancy",
+      "organization": "Canva",
+      "title": "Senior Research Scientist - GenAI (Design Generation)",
+      "team": "GenAI / Design Generation",
+      "country": "Australia",
+      "city": "Sydney",
+      "locations": [
+        {
+          "city": "Sydney",
+          "country": "Australia"
+        }
+      ],
+      "is_london": false,
+      "official_url": "https://jobs.smartrecruiters.com/Canva/6000000000891189-senior-research-scientist-genai-design-generation-",
+      "information_url": "https://jobs.smartrecruiters.com/Canva/6000000000891189-senior-research-scientist-genai-design-generation-",
+      "application_url": null,
+      "application_channel": null,
+      "application_instructions": "不投该旧call；保留官方详情作团队与重开线索。",
+      "channel_verified_at": null,
+      "channel_checked_at": "2026-10-22T02:19:08.422347+00:00",
+      "channel_verification_status": "closed_no_apply_link",
+      "posted_date": null,
+      "deadline_original": "未公布；不等同永久开放",
+      "deadline_date": null,
+      "deadline_iso": null,
+      "deadline_precision": "unknown",
+      "deadline_conflict": false,
+      "planning_deadline": null,
+      "vacancy_status": "closed",
+      "verified_open": false,
+      "status_reason": "逐岗官方API active=false；旧JD或申请壳仍存在不代表开放。",
+      "status_checked_at": "2026-10-22",
+      "verified_at": "2026-10-22T02:19:08.422347+00:00",
+      "jd_completeness": "full_official_JD_read_API_status_checked",
+      "salary_min": null,
+      "salary_max": null,
+      "salary_currency": null,
+      "salary_period": null,
+      "salary_gross_or_net": null,
+      "salary_original": "该目标地点官方JD未公布薪资；不借用San Francisco美元薪资。",
+      "salary_source_ids": [
+        "CANVA-API-6000000000891189",
+        "CANVA-CURRENT-LIST"
+      ],
+      "contract_type": "Permanent / Full-time",
+      "contract_duration": null,
+      "start_date": null,
+      "hours": null,
+      "remote_policy": "见该call官方JD；旧状态不能直接承诺未来重开安排。",
+      "attendance_frequency": null,
+      "responsibilities": [
+        "为foundation/visual design generation与editing做研究贡献",
+        "实验检验假设、行为改进和真实性能",
+        "在指导下把论文实现成production-ready代码",
+        "改进架构/训练方法",
+        "与research engineers扩展并集成产品",
+        "跟踪领域挑战/技术",
+        "内部文档协作及适当公开论文/演讲"
+      ],
+      "essential_requirements": [
+        "LLM/VLM/GenAI/multimodal研究深度",
+        "学界或工业publication/impact",
+        "在senior支持下从问题定义做到deployment",
+        "理论转可实现方案并严谨评价",
+        "与engineers/product/researchers协作"
+      ],
+      "preferred_requirements": [],
+      "job_type": "Research / ML engineering",
+      "direction": "Evaluation / post-training / research data / multimodal",
+      "recruitment_channel": "Official employer public advert",
+      "ai_application_policy": "unknown",
+      "ai_policy_evidence": [],
+      "seniority_level": "Senior (scope requires confirmation)",
+      "api_active": false,
+      "aliases": [
+        "6000000000775657"
+      ],
+      "related_closed_ids": [],
+      "deduplication_note": "官方API旧编号6000000000775657返回postingUrl/applyUrl指向6000000000891189；保留旧ID别名，不计第二岗位。来源CANVA-API-6000000000775657。",
+      "source_urls": [
+        "https://jobs.smartrecruiters.com/Canva/6000000000891189-senior-research-scientist-genai-design-generation-",
+        "https://api.smartrecruiters.com/v1/companies/Canva/postings/6000000000891189"
+      ],
+      "source_ids": [
+        "public-canva-6000000000891189"
+      ],
+      "source_confidence": {
+        "level": "medium",
+        "reason": "Public source and dated status; no candidate evidence."
+      },
+      "application_stage": "unknown",
+      "recommendation": null,
+      "active_recommendation": null,
+      "artifacts": [],
+      "deep_review_status": "public_facts_only",
+      "next_action": "核对官方状态与地点；本视图不包含个人匹配或申请记录。"
+    },
+    {
+      "id": "canva-family-research-engineer",
+      "record_type": "watch",
+      "organization": "Canva",
+      "title": "Senior Research Engineer — team / requisition watch",
+      "team": "Canva Research / Senior Research Engineer",
+      "country": "United Kingdom / Australia",
+      "city": "London / Sydney",
+      "locations": [
+        {
+          "city": "London",
+          "country": "United Kingdom",
+          "information_url": "https://jobs.smartrecruiters.com/ni/Canva/7b096eb0-49bc-4f00-8a73-399377b5ef72-senior-research-engineer-london-",
+          "source_id": "CANVA-NI-6000000001437792"
+        },
+        {
+          "city": "Sydney",
+          "country": "Australia",
+          "information_url": "https://jobs.smartrecruiters.com/ni/Canva/71668029-9f53-47d9-9853-00f9c53d11a2-senior-research-engineer-sydney-",
+          "source_id": "CANVA-NI-6000000001437817"
+        }
+      ],
+      "is_london": true,
+      "official_url": "https://jobs.smartrecruiters.com/ni/Canva/7b096eb0-49bc-4f00-8a73-399377b5ef72-senior-research-engineer-london-",
+      "information_url": "https://jobs.smartrecruiters.com/ni/Canva/7b096eb0-49bc-4f00-8a73-399377b5ef72-senior-research-engineer-london-",
+      "application_url": null,
+      "application_channel": null,
+      "application_instructions": "仅官方信息页可读；需用户先确认有效requisition与入口。本轮不尝试提交或联系。",
+      "channel_verified_at": null,
+      "channel_checked_at": "2026-10-22T02:19:08.422347+00:00",
+      "channel_verification_status": "not_verified_no_apply_button",
+      "posted_date": null,
+      "deadline_original": "未公布；不等同永久开放",
+      "deadline_date": null,
+      "deadline_iso": null,
+      "deadline_precision": "unknown",
+      "deadline_conflict": false,
+      "planning_deadline": null,
+      "vacancy_status": "unknown",
+      "verified_open": false,
+      "status_reason": "NeurIPS官方雇主板引出/ni定向详情，但不在当前102个公开postings列表；public posting API404，申请页普通读取403。未绕过；不能据静态JD/按钮判开放，也不能据404判关闭。",
+      "status_checked_at": "2026-10-22",
+      "verified_at": "2026-10-22T02:19:08.422347+00:00",
+      "jd_completeness": "full_official_JD_read_activity_unknown",
+      "salary_min": null,
+      "salary_max": null,
+      "salary_currency": null,
+      "salary_period": null,
+      "salary_gross_or_net": null,
+      "salary_original": "London/Sydney该职位族未核实薪资，未复用其他地区美元薪资。",
+      "salary_source_ids": [
+        "CANVA-NEURIPS",
+        "CANVA-NI-6000000001437792",
+        "CANVA-NI-6000000001437817"
+      ],
+      "contract_type": "Permanent / Full-time (static /ni description; opening unconfirmed)",
+      "contract_duration": null,
+      "start_date": null,
+      "hours": null,
+      "remote_policy": "各/ni城市页面分别明示London或Sydney；两地镜像合并，不推断任意其他地点可用。",
+      "attendance_frequency": null,
+      "responsibilities": [
+        "model serving/tool orchestration/data/on-device系统产品化",
+        "系统选择model/tool/retrieval/service并评价选择",
+        "own training/eval/deployment大规模infra",
+        "offline/online eval捕获真实质量与intent",
+        "与product teams将研究prototype上线",
+        "在深度模态同时协作image/video/audio/text",
+        "distributed latency/throughput优化",
+        "跨职能stakeholders协作高影响方案"
+      ],
+      "essential_requirements": [
+        "5+年ML research或research engineering且有production shipping记录",
+        "Python production ML at scale",
+        "生成模型/agent/eval infrastructure/on-device任一实做深度",
+        "大规模分布式train/serve、data/cloud",
+        "baseline/ablation/数据驱动实验",
+        "research-to-production转化能力",
+        "把模糊科研问题变工程计划并沟通",
+        "跟踪AI literature/competitors/technologies"
+      ],
+      "preferred_requirements": [
+        "image/video/audio/design多模态",
+        "LLM judge/rubric/online quality产品评价",
+        "公开ML systems/agent/multimodal作品",
+        "creative/video/image/design tooling工作"
+      ],
+      "job_type": "Research / ML engineering",
+      "direction": "Evaluation / post-training / research data / multimodal",
+      "recruitment_channel": "Official NeurIPS employer recruiting board; availability unconfirmed",
+      "ai_application_policy": "unknown",
+      "ai_policy_evidence": [],
+      "seniority_level": "Senior",
+      "api_active": null,
+      "aliases": [
+        "Senior Research Engineer - Video"
+      ],
+      "related_closed_ids": [
+        "canva-6000000001162285"
+      ],
+      "deduplication_note": "同一职位族两城市/ni页面合并1条watch；与旧closed calls是否同一招募pipeline未确认，relation仅关注而非宣称独立开放vacancy。",
+      "source_urls": [
+        "https://neurips.cc/careers/?page=3",
+        "https://jobs.smartrecruiters.com/ni/Canva/7b096eb0-49bc-4f00-8a73-399377b5ef72-senior-research-engineer-london-",
+        "https://jobs.smartrecruiters.com/ni/Canva/71668029-9f53-47d9-9853-00f9c53d11a2-senior-research-engineer-sydney-"
+      ],
+      "source_ids": [
+        "public-canva-family-research-engineer"
+      ],
+      "source_confidence": {
+        "level": "medium",
+        "reason": "Public source and dated status; no candidate evidence."
+      },
+      "application_stage": "unknown",
+      "recommendation": "Watchlist",
+      "active_recommendation": null,
+      "artifacts": [],
+      "deep_review_status": "public_facts_only",
+      "next_action": "核对官方状态与地点；本视图不包含个人匹配或申请记录。"
+    },
+    {
+      "id": "canva-family-research-scientist",
+      "record_type": "watch",
+      "organization": "Canva",
+      "title": "Senior Research Scientist — team / requisition watch",
+      "team": "Canva Research / Senior Research Scientist",
+      "country": "United Kingdom / Australia",
+      "city": "London / Sydney",
+      "locations": [
+        {
+          "city": "London",
+          "country": "United Kingdom",
+          "information_url": "https://jobs.smartrecruiters.com/ni/Canva/96318f07-9947-4f14-9212-dd0359e7fd5e-senior-research-scientist-london-",
+          "source_id": "CANVA-NI-6000000001437503"
+        },
+        {
+          "city": "Sydney",
+          "country": "Australia",
+          "information_url": "https://jobs.smartrecruiters.com/ni/Canva/1df3bf96-cd02-4b06-ba31-d235e6dbbe44-senior-research-scientist-sydney-",
+          "source_id": "CANVA-NI-6000000001437527"
+        }
+      ],
+      "is_london": true,
+      "official_url": "https://jobs.smartrecruiters.com/ni/Canva/96318f07-9947-4f14-9212-dd0359e7fd5e-senior-research-scientist-london-",
+      "information_url": "https://jobs.smartrecruiters.com/ni/Canva/96318f07-9947-4f14-9212-dd0359e7fd5e-senior-research-scientist-london-",
+      "application_url": null,
+      "application_channel": null,
+      "application_instructions": "仅官方信息页可读；需用户先确认有效requisition与入口。本轮不尝试提交或联系。",
+      "channel_verified_at": null,
+      "channel_checked_at": "2026-10-22T02:19:08.422347+00:00",
+      "channel_verification_status": "not_verified_no_apply_button",
+      "posted_date": null,
+      "deadline_original": "未公布；不等同永久开放",
+      "deadline_date": null,
+      "deadline_iso": null,
+      "deadline_precision": "unknown",
+      "deadline_conflict": false,
+      "planning_deadline": null,
+      "vacancy_status": "unknown",
+      "verified_open": false,
+      "status_reason": "NeurIPS官方雇主板引出/ni定向详情，但不在当前102个公开postings列表；public posting API404，申请页普通读取403。未绕过；不能据静态JD/按钮判开放，也不能据404判关闭。",
+      "status_checked_at": "2026-10-22",
+      "verified_at": "2026-10-22T02:19:08.422347+00:00",
+      "jd_completeness": "full_official_JD_read_activity_unknown",
+      "salary_min": null,
+      "salary_max": null,
+      "salary_currency": null,
+      "salary_period": null,
+      "salary_gross_or_net": null,
+      "salary_original": "London/Sydney该职位族未核实薪资，未复用其他地区美元薪资。",
+      "salary_source_ids": [
+        "CANVA-NEURIPS",
+        "CANVA-NI-6000000001437503",
+        "CANVA-NI-6000000001437527"
+      ],
+      "contract_type": "Permanent / Full-time (static /ni description; opening unconfirmed)",
+      "contract_duration": null,
+      "start_date": null,
+      "hours": null,
+      "remote_policy": "各/ni城市页面分别明示London或Sydney；两地镜像合并，不推断任意其他地点可用。",
+      "attendance_frequency": null,
+      "responsibilities": [
+        "与RE合作audio/video/multimodal研究落地",
+        "领导与短期产品和长期策略匹配的research initiatives",
+        "把研究突破用于实用案例",
+        "解读实验并给出行动建议",
+        "跟踪SOTA并识别改进",
+        "生成/多模态架构算法到audio/video",
+        "distributed效率/latency/throughput优化",
+        "跨职能合作高影响方案"
+      ],
+      "essential_requirements": [
+        "带领foundation/open models development/training/iteration",
+        "学界或工业publication/impact",
+        "diffusion/GAN/Transformer/LLM中有可应用深度",
+        "adapt/fine-tune pretrained models改善control/quality",
+        "image/video/audio或LLM alignment至少一种large-scale深度；video加分而非硬要求",
+        "Python/PyTorch或Jax及cloud training/deployment",
+        "沟通、协作、知识共创",
+        "跟踪AI literature/industry/technologies"
+      ],
+      "preferred_requirements": [],
+      "job_type": "Research / ML engineering",
+      "direction": "Evaluation / post-training / research data / multimodal",
+      "recruitment_channel": "Official NeurIPS employer recruiting board; availability unconfirmed",
+      "ai_application_policy": "unknown",
+      "ai_policy_evidence": [],
+      "seniority_level": "Senior",
+      "api_active": null,
+      "aliases": [],
+      "related_closed_ids": [
+        "canva-6000000000317287",
+        "canva-6000000000891189",
+        "canva-6000000001359892"
+      ],
+      "deduplication_note": "同一职位族两城市/ni页面合并1条watch；与旧closed calls是否同一招募pipeline未确认，relation仅关注而非宣称独立开放vacancy。",
+      "source_urls": [
+        "https://neurips.cc/careers/?page=6",
+        "https://jobs.smartrecruiters.com/ni/Canva/96318f07-9947-4f14-9212-dd0359e7fd5e-senior-research-scientist-london-",
+        "https://jobs.smartrecruiters.com/ni/Canva/1df3bf96-cd02-4b06-ba31-d235e6dbbe44-senior-research-scientist-sydney-"
+      ],
+      "source_ids": [
+        "public-canva-family-research-scientist"
+      ],
+      "source_confidence": {
+        "level": "medium",
+        "reason": "Public source and dated status; no candidate evidence."
+      },
+      "application_stage": "unknown",
+      "recommendation": "Watchlist",
+      "active_recommendation": null,
+      "artifacts": [],
+      "deep_review_status": "public_facts_only",
+      "next_action": "核对官方状态与地点；本视图不包含个人匹配或申请记录。"
+    },
+    {
+      "id": "canva-family-machine-learning-engineer",
+      "record_type": "watch",
+      "organization": "Canva",
+      "title": "Senior Machine Learning Engineer — team / requisition watch",
+      "team": "Canva Research / Senior Machine Learning Engineer",
+      "country": "United Kingdom / Australia",
+      "city": "London / Sydney",
+      "locations": [
+        {
+          "city": "London",
+          "country": "United Kingdom",
+          "information_url": "https://jobs.smartrecruiters.com/ni/Canva/ee3673fe-60b6-48d7-8ece-4d24601be8d6-senior-machine-learning-engineer-london-",
+          "source_id": "CANVA-NI-6000000001438041"
+        },
+        {
+          "city": "Sydney",
+          "country": "Australia",
+          "information_url": "https://jobs.smartrecruiters.com/ni/Canva/ef85dbc0-5800-4af2-b8e1-65a410c786f3-senior-machine-learning-engineer-sydney-",
+          "source_id": "CANVA-NI-6000000001438043"
+        }
+      ],
+      "is_london": true,
+      "official_url": "https://jobs.smartrecruiters.com/ni/Canva/ee3673fe-60b6-48d7-8ece-4d24601be8d6-senior-machine-learning-engineer-london-",
+      "information_url": "https://jobs.smartrecruiters.com/ni/Canva/ee3673fe-60b6-48d7-8ece-4d24601be8d6-senior-machine-learning-engineer-london-",
+      "application_url": null,
+      "application_channel": null,
+      "application_instructions": "仅官方信息页可读；需用户先确认有效requisition与入口。本轮不尝试提交或联系。",
+      "channel_verified_at": null,
+      "channel_checked_at": "2026-10-22T02:19:08.422347+00:00",
+      "channel_verification_status": "not_verified_no_apply_button",
+      "posted_date": null,
+      "deadline_original": "未公布；不等同永久开放",
+      "deadline_date": null,
+      "deadline_iso": null,
+      "deadline_precision": "unknown",
+      "deadline_conflict": false,
+      "planning_deadline": null,
+      "vacancy_status": "unknown",
+      "verified_open": false,
+      "status_reason": "NeurIPS官方雇主板引出/ni定向详情，但不在当前102个公开postings列表；public posting API404，申请页普通读取403。未绕过；不能据静态JD/按钮判开放，也不能据404判关闭。",
+      "status_checked_at": "2026-10-22",
+      "verified_at": "2026-10-22T02:19:08.422347+00:00",
+      "jd_completeness": "full_official_JD_read_activity_unknown",
+      "salary_min": null,
+      "salary_max": null,
+      "salary_currency": null,
+      "salary_period": null,
+      "salary_gross_or_net": null,
+      "salary_original": "London/Sydney该职位族未核实薪资，未复用其他地区美元薪资。",
+      "salary_source_ids": [
+        "CANVA-NEURIPS",
+        "CANVA-NI-6000000001438041",
+        "CANVA-NI-6000000001438043"
+      ],
+      "contract_type": "Permanent / Full-time (static /ni description; opening unconfirmed)",
+      "contract_duration": null,
+      "start_date": null,
+      "hours": null,
+      "remote_policy": "各/ni城市页面分别明示London或Sydney；两地镜像合并，不推断任意其他地点可用。",
+      "attendance_frequency": null,
+      "responsibilities": [
+        "真实production ML构建/评估/上线",
+        "minimal guidance把scoped project做到可衡量上线影响",
+        "production quality/cost/latency取舍",
+        "排查live quality/relevance/reliability回归",
+        "与research/product/platform把模糊问题变可上线计划",
+        "向非技术受众解释trade-offs并分享"
+      ],
+      "essential_requirements": [
+        "hands-on production ML at scale",
+        "定义推动领域真正重要metrics",
+        "minimal guidance项目idea-to-shipped记录",
+        "software fundamentals与Python/PyTorch现代ML stack",
+        "高自主性、模糊环境适应",
+        "清晰跨职能沟通合作"
+      ],
+      "preferred_requirements": [
+        "search/ranking、生成评价/集成、distributed/inference或MLOps深度",
+        "million-user系统经验",
+        "端到端上线ML产品而非仅research outputs"
+      ],
+      "job_type": "Research / ML engineering",
+      "direction": "Evaluation / post-training / research data / multimodal",
+      "recruitment_channel": "Official NeurIPS employer recruiting board; availability unconfirmed",
+      "ai_application_policy": "unknown",
+      "ai_policy_evidence": [],
+      "seniority_level": "Senior",
+      "api_active": null,
+      "aliases": [],
+      "related_closed_ids": [
+        "canva-6000000001162285"
+      ],
+      "deduplication_note": "同一职位族两城市/ni页面合并1条watch；与旧closed calls是否同一招募pipeline未确认，relation仅关注而非宣称独立开放vacancy。",
+      "source_urls": [
+        "https://neurips.cc/careers/?page=6",
+        "https://jobs.smartrecruiters.com/ni/Canva/ee3673fe-60b6-48d7-8ece-4d24601be8d6-senior-machine-learning-engineer-london-",
+        "https://jobs.smartrecruiters.com/ni/Canva/ef85dbc0-5800-4af2-b8e1-65a410c786f3-senior-machine-learning-engineer-sydney-"
+      ],
+      "source_ids": [
+        "public-canva-family-machine-learning-engineer"
+      ],
+      "source_confidence": {
+        "level": "medium",
+        "reason": "Public source and dated status; no candidate evidence."
+      },
+      "application_stage": "unknown",
+      "recommendation": "Watchlist",
+      "active_recommendation": null,
+      "artifacts": [],
+      "deep_review_status": "public_facts_only",
+      "next_action": "核对官方状态与地点；本视图不包含个人匹配或申请记录。"
+    },
+    {
+      "id": "canva-family-evaluations",
+      "record_type": "watch",
+      "organization": "Canva",
+      "title": "Senior Machine Learning Engineer - Evaluations — team / requisition watch",
+      "team": "Canva Research / Senior Machine Learning Engineer - Evaluations",
+      "country": "United Kingdom / Australia",
+      "city": "London / Sydney",
+      "locations": [
+        {
+          "city": "London",
+          "country": "United Kingdom",
+          "information_url": "https://jobs.smartrecruiters.com/ni/Canva/abe7af6b-e6cc-43af-a992-57665c2a4144-senior-machine-learning-engineer-evaluations-london-",
+          "source_id": "CANVA-NI-6000000001438023"
+        },
+        {
+          "city": "Sydney",
+          "country": "Australia",
+          "information_url": "https://jobs.smartrecruiters.com/ni/Canva/04f997d6-ea24-4bbd-b610-ea7bfff980da-senior-machine-learning-engineer-evaluations-sydney-",
+          "source_id": "CANVA-NI-6000000001438025"
+        }
+      ],
+      "is_london": true,
+      "official_url": "https://jobs.smartrecruiters.com/ni/Canva/abe7af6b-e6cc-43af-a992-57665c2a4144-senior-machine-learning-engineer-evaluations-london-",
+      "information_url": "https://jobs.smartrecruiters.com/ni/Canva/abe7af6b-e6cc-43af-a992-57665c2a4144-senior-machine-learning-engineer-evaluations-london-",
+      "application_url": null,
+      "application_channel": null,
+      "application_instructions": "仅官方信息页可读；需用户先确认有效requisition与入口。本轮不尝试提交或联系。",
+      "channel_verified_at": null,
+      "channel_checked_at": "2026-10-22T02:19:08.422347+00:00",
+      "channel_verification_status": "not_verified_no_apply_button",
+      "posted_date": null,
+      "deadline_original": "未公布；不等同永久开放",
+      "deadline_date": null,
+      "deadline_iso": null,
+      "deadline_precision": "unknown",
+      "deadline_conflict": false,
+      "planning_deadline": null,
+      "vacancy_status": "unknown",
+      "verified_open": false,
+      "status_reason": "NeurIPS官方雇主板引出/ni定向详情，但不在当前102个公开postings列表；public posting API404，申请页普通读取403。未绕过；不能据静态JD/按钮判开放，也不能据404判关闭。",
+      "status_checked_at": "2026-10-22",
+      "verified_at": "2026-10-22T02:19:08.422347+00:00",
+      "jd_completeness": "full_official_JD_read_activity_unknown",
+      "salary_min": null,
+      "salary_max": null,
+      "salary_currency": null,
+      "salary_period": null,
+      "salary_gross_or_net": null,
+      "salary_original": "London/Sydney该职位族未核实薪资，未复用其他地区美元薪资。",
+      "salary_source_ids": [
+        "CANVA-NEURIPS",
+        "CANVA-NI-6000000001438023",
+        "CANVA-NI-6000000001438025"
+      ],
+      "contract_type": "Permanent / Full-time (static /ni description; opening unconfirmed)",
+      "contract_duration": null,
+      "start_date": null,
+      "hours": null,
+      "remote_policy": "各/ni城市页面分别明示London或Sydney；两地镜像合并，不推断任意其他地点可用。",
+      "attendance_frequency": null,
+      "responsibilities": [
+        "建设MLLM judge自动评估基础设施",
+        "prompt/RAG/ICL inference-time alignment实验",
+        "benchmark pipeline并监测饱和/污染",
+        "reward/preference infrastructure服务post-training和selection",
+        "evaluation failure mode分析与建议",
+        "offline suite与online regression monitoring",
+        "把agentic judge集成模型开发流程",
+        "把LLM eval/agent研究转production-ready方案"
+      ],
+      "essential_requirements": [
+        "了解diffusion/GAN/Transformer/VLM/MLLM以构建稳健eval",
+        "实做agentic AI/MLLM judge或类似自动评价",
+        "prompt/RAG/ICL经验",
+        "reward/preference/human feedback alignment",
+        "PyTorch与train/inference speed优化",
+        "数百GPU distributed training或evaluation优化",
+        "code review/PR规范",
+        "eval libraries/frameworks熟悉"
+      ],
+      "preferred_requirements": [
+        "metrics与product/business outcomes关联",
+        "数据可视化沟通",
+        "HCI/design/AI ethics背景或兴趣"
+      ],
+      "job_type": "Research / ML engineering",
+      "direction": "Evaluation / post-training / research data / multimodal",
+      "recruitment_channel": "Official NeurIPS employer recruiting board; availability unconfirmed",
+      "ai_application_policy": "unknown",
+      "ai_policy_evidence": [],
+      "seniority_level": "Senior",
+      "api_active": null,
+      "aliases": [
+        "Research Engineer - Evaluations"
+      ],
+      "related_closed_ids": [],
+      "deduplication_note": "同一职位族两城市/ni页面合并1条watch；与旧closed calls是否同一招募pipeline未确认，relation仅关注而非宣称独立开放vacancy。",
+      "source_urls": [
+        "https://neurips.cc/careers/?page=6",
+        "https://jobs.smartrecruiters.com/ni/Canva/abe7af6b-e6cc-43af-a992-57665c2a4144-senior-machine-learning-engineer-evaluations-london-",
+        "https://jobs.smartrecruiters.com/ni/Canva/04f997d6-ea24-4bbd-b610-ea7bfff980da-senior-machine-learning-engineer-evaluations-sydney-"
+      ],
+      "source_ids": [
+        "public-canva-family-evaluations"
+      ],
+      "source_confidence": {
+        "level": "medium",
+        "reason": "Public source and dated status; no candidate evidence."
+      },
+      "application_stage": "unknown",
+      "recommendation": "Watchlist",
+      "active_recommendation": null,
+      "artifacts": [],
+      "deep_review_status": "public_facts_only",
+      "next_action": "核对官方状态与地点；本视图不包含个人匹配或申请记录。"
+    },
+    {
+      "id": "canva-family-research-data",
+      "record_type": "watch",
+      "organization": "Canva",
+      "title": "Senior Research Data Engineer — team / requisition watch",
+      "team": "Canva Research / Senior Research Data Engineer",
+      "country": "United Kingdom / Australia",
+      "city": "London / Sydney",
+      "locations": [
+        {
+          "city": "London",
+          "country": "United Kingdom",
+          "information_url": "https://jobs.smartrecruiters.com/ni/Canva/f348b9df-993d-48c7-87d1-e2fc9e5a30f2-senior-research-data-engineer-london-",
+          "source_id": "CANVA-NI-6000000001434052"
+        },
+        {
+          "city": "Sydney",
+          "country": "Australia",
+          "information_url": "https://jobs.smartrecruiters.com/ni/Canva/61113fad-17b4-4b14-bfbc-421d5d06e262-senior-research-data-engineer-sydney-",
+          "source_id": "CANVA-NI-6000000001434002"
+        }
+      ],
+      "is_london": true,
+      "official_url": "https://jobs.smartrecruiters.com/ni/Canva/f348b9df-993d-48c7-87d1-e2fc9e5a30f2-senior-research-data-engineer-london-",
+      "information_url": "https://jobs.smartrecruiters.com/ni/Canva/f348b9df-993d-48c7-87d1-e2fc9e5a30f2-senior-research-data-engineer-london-",
+      "application_url": null,
+      "application_channel": null,
+      "application_instructions": "仅官方信息页可读；需用户先确认有效requisition与入口。本轮不尝试提交或联系。",
+      "channel_verified_at": null,
+      "channel_checked_at": "2026-10-22T02:19:08.422347+00:00",
+      "channel_verification_status": "not_verified_no_apply_button",
+      "posted_date": null,
+      "deadline_original": "未公布；不等同永久开放",
+      "deadline_date": null,
+      "deadline_iso": null,
+      "deadline_precision": "unknown",
+      "deadline_conflict": false,
+      "planning_deadline": null,
+      "vacancy_status": "unknown",
+      "verified_open": false,
+      "status_reason": "NeurIPS官方雇主板引出/ni定向详情，但不在当前102个公开postings列表；public posting API404，申请页普通读取403。未绕过；不能据静态JD/按钮判开放，也不能据404判关闭。",
+      "status_checked_at": "2026-10-22",
+      "verified_at": "2026-10-22T02:19:08.422347+00:00",
+      "jd_completeness": "full_official_JD_read_activity_unknown",
+      "salary_min": null,
+      "salary_max": null,
+      "salary_currency": null,
+      "salary_period": null,
+      "salary_gross_or_net": null,
+      "salary_original": "London/Sydney该职位族未核实薪资，未复用其他地区美元薪资。",
+      "salary_source_ids": [
+        "CANVA-NEURIPS",
+        "CANVA-NI-6000000001434052",
+        "CANVA-NI-6000000001434002"
+      ],
+      "contract_type": "Permanent / Full-time (static /ni description; opening unconfirmed)",
+      "contract_duration": null,
+      "start_date": null,
+      "hours": null,
+      "remote_policy": "各/ni城市页面分别明示London或Sydney；两地镜像合并，不推断任意其他地点可用。",
+      "attendance_frequency": null,
+      "responsibilities": [
+        "agent数据collection/filter/dedup/format/version多种媒体",
+        "S3/distributed/streaming异构媒体高效存取",
+        "跨模态科研要求→数据规格并迭代",
+        "暴露跨模态failure modes的数据集/benchmark",
+        "人标/synthetic/preferences适配video/3D/audio/image",
+        "quality validation、drift/contamination与可复现",
+        "provenance/限制/用途/versions文档",
+        "pipeline/ML workflow全面test coverage",
+        "review/refactor/工程实践",
+        "roadmap数据瓶颈识别"
+      ],
+      "essential_requirements": [
+        "Python production pipelines/ML DevOps",
+        "text之外image/video/3D/audio至少两类且能快速跨模态",
+        "可靠LLM/VLM prompting设计测试",
+        "Ray等large-scale processing/versioning/sharding及媒体解码",
+        "大规模distributed training数据pipeline",
+        "annotation tooling/human-in-loop跨模态",
+        "理解各模态fine-tuning的数据质量",
+        "AWS/distributed storage大数据读写",
+        "研究需求澄清与计划沟通",
+        "协作/ownership/跨模态迭代"
+      ],
+      "preferred_requirements": [
+        "RLHF/reward preference数据",
+        "3D formats/video temporal/codec经验",
+        "LLM/diffusion/video-3D synthetic pipelines",
+        "data quality metrics/monitoring",
+        "公开dataset/benchmark贡献"
+      ],
+      "job_type": "Research / ML engineering",
+      "direction": "Evaluation / post-training / research data / multimodal",
+      "recruitment_channel": "Official NeurIPS employer recruiting board; availability unconfirmed",
+      "ai_application_policy": "unknown",
+      "ai_policy_evidence": [],
+      "seniority_level": "Senior",
+      "api_active": null,
+      "aliases": [],
+      "related_closed_ids": [
+        "canva-6000000001331665"
+      ],
+      "deduplication_note": "同一职位族两城市/ni页面合并1条watch；与旧closed calls是否同一招募pipeline未确认，relation仅关注而非宣称独立开放vacancy。",
+      "source_urls": [
+        "https://neurips.cc/careers/?page=1",
+        "https://jobs.smartrecruiters.com/ni/Canva/f348b9df-993d-48c7-87d1-e2fc9e5a30f2-senior-research-data-engineer-london-",
+        "https://jobs.smartrecruiters.com/ni/Canva/61113fad-17b4-4b14-bfbc-421d5d06e262-senior-research-data-engineer-sydney-"
+      ],
+      "source_ids": [
+        "public-canva-family-research-data"
+      ],
+      "source_confidence": {
+        "level": "medium",
+        "reason": "Public source and dated status; no candidate evidence."
+      },
+      "application_stage": "unknown",
+      "recommendation": "Watchlist",
+      "active_recommendation": null,
+      "artifacts": [],
+      "deep_review_status": "public_facts_only",
+      "next_action": "核对官方状态与地点；本视图不包含个人匹配或申请记录。"
     }
   ]
 }

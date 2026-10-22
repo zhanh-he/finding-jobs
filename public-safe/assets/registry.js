@@ -17,12 +17,18 @@
     {key:'team',label:'团队'}, {key:'london',label:'伦敦'}, {key:'salary',label:'薪资原文'},
     {key:'contract',label:'合同原文'}, {key:'direction',label:'方向'}, {key:'channel',label:'渠道'},
     {key:'status',label:'招聘状态'}, {key:'stage',label:'投递阶段（本地）'}, {key:'londonlife',label:'伦敦生活'},
-    {key:'source',label:'官方信息源'}, {key:'verified',label:'核实日期'}, {key:'confidence',label:'证据可信度'}
+    {key:'source',label:'官方信息源'}, {key:'verified',label:'核实日期'}, {key:'confidence',label:'证据可信度'},
+    {key:'seniority',label:'职级'}, {key:'researchfit',label:'方向匹配'}, {key:'levelfit',label:'职级匹配'},
+    {key:'recommendationaction',label:'建议动作'}, {key:'gaps',label:'关键缺口'}
   ];
+  const canvaColumns = new Set(['progress','title','place','seniority','status','researchfit','levelfit','recommendationaction','gaps','gates','verified','channels']);
+  const ACTION = {primary:'主攻',conditional:'有条件申请',stretch:'低优先级冲刺',watch_reopen:'等待重开',watch_team:'关注团队',do_not_apply:'不建议投递'};
+  let ordinaryHidden = null;
   state.hidden = new Set(columns.filter(c=>!c.default).map(c=>c.key));
   const filters = [
     ['country','country',null],['city','city',null],['type','job_type',TYPE],['status','vacancy_status',STATUS],
-    ['grade','grade',null],['stage','application_stage',STAGE],['visa','visa_filter_status',VISA],['depth','deep_review_status',null],['expiry','expiry_status',{expired:'已过期',not_expired:'未截止',unknown:'截止未知'}]
+    ['grade','grade',null],['stage','application_stage',STAGE],['visa','visa_filter_status',VISA],['depth','deep_review_status',null],['expiry','expiry_status',{expired:'已过期',not_expired:'未截止',unknown:'截止未知'}],
+    ['seniority','seniority_level',null],['researchfit','research_direction_fit',{high:'较强',medium:'部分匹配',low:'明显缺口',unknown:'待核'}],['levelfit','level_fit',{high:'较强',medium:'部分匹配',low:'明显缺口',unknown:'待核'}],['action','application_action',ACTION]
   ];
   function text(v) {
     if (v === null || v === undefined || v === '') return '未知';
@@ -42,12 +48,34 @@
     if(stage==='not_found_in_audit')stage='not_applied_unconfirmed';
     return stage;
   }
+  function shortlisted(j) { return state.overrides[j.id]?.shortlisted ?? j.shortlisted ?? j.shortlist === true; }
+  function locations(j) {
+    const explicit=(Array.isArray(j.locations)?j.locations:[]).filter(r=>r&&typeof r==='object'&&(r.country||r.city));
+    // Primary strings can summarize several cities/countries. Never turn that
+    // joined summary into an extra location beside the structured locations.
+    const rows=explicit.length?explicit:[{country:j.country,city:j.city}];
+    const seen=new Set();return rows.filter(r=>r&&typeof r==='object').filter(r=>{
+      const key=[r.country,r.city].filter(Boolean).join(' / ');if(!key||seen.has(key))return false;seen.add(key);return true;
+    });
+  }
+  function locationValues(j,key) { return [...new Set(locations(j).flatMap(r=>Array.isArray(r[key])?r[key]:r[key]?[r[key]]:[]).map(String))]; }
+  function locationText(j) { return locations(j).map(r=>[r.country,r.city].filter(Boolean).join(' / ')).join('；') || '未知'; }
+  function fitValue(j,key) { const value=j[key];return typeof value==='object'&&value?value.level:value; }
+  function fitLabel(j,key) { const value=j[key];return value?.label || ({high:'较强',medium:'部分匹配',low:'明显缺口',unknown:'待核'})[fitValue(j,key)] || text(value); }
+  function actionLabel(j) { return j.application_action?.label || ACTION[j.application_action?.category] || text(j.application_action); }
+  function applicationURL(j) {
+    const status=String(j.channel_verification_status||'').toLowerCase();
+    if(j.vacancy_status==='closed'||/unverified|not_verified|unconfirmed|未核|待核/.test(status)||!j.channel_verified_at)return null;
+    return j.application_url;
+  }
   function filterValue(j, key) {
     if (key === 'expiry_status') return expiryStatus(j).status;
     if (key === 'application_stage') return effectiveStage(j);
     if (key === 'grade') return scalar(grade(j));
     if (key === 'job_type') return scalar(j.job_type || (j.record_type !== 'vacancy' ? j.record_type : null));
     if (key === 'visa_filter_status') return scalar(j.visa_filter_status) || 'unknown';
+    if (key === 'research_direction_fit'||key === 'level_fit') return scalar(fitValue(j,key)) || 'unknown';
+    if (key === 'application_action') return scalar(j.application_action?.category);
     return scalar(j[key]);
   }
   function listStrings(v) { return Array.isArray(v) ? v.map(text) : (v ? [text(v)] : []); }
@@ -61,13 +89,17 @@
     const mapping = {
       priority: () => grade(j), overall: () => score(j,'provisional_overall'), career: () => score(j,'career_fit_score'),
       title: () => j.title, org: () => j.organization, team: () => j.team || j.lab || j.project,
-      place: () => [j.country,j.city].filter(Boolean).join(' / ') || null, london: () => j.is_london === null || j.is_london === undefined ? null : Number(j.is_london),
+      place: () => locationText(j)==='未知'?null:locationText(j), london: () => j.is_london === null || j.is_london === undefined ? null : Number(j.is_london),
       salary: () => number(j.salary_min)===null ? null : `${j.salary_currency || 'unknown'}/${j.salary_period || 'unknown'}/${j.salary_min}`, contract: () => j.contract_type, direction: () => listStrings(j.direction).join(';') || null,
       channel: () => j.recruitment_channel, status: () => j.vacancy_status, stage: () => effectiveStage(j),
       deadline: () => deadlineKey(j), londonlife: () => score(j,'london_cohabitation_score'), action: () => scalar(j.next_action),
       source: () => j.official_url, verified: () => j.status_checked_at || j.verified_at,
       confidence: () => ({high:3,medium:2,low:1})[confidence(j)] ?? null,
-      artifacts: () => (state.available[j.id] || []).length, progress: () => effectiveStage(j), terms: () => number(j.salary_min), gates: () => scalar(j.hard_gate_status), channels: () => j.application_url || j.information_url || j.official_url
+      artifacts: () => (state.available[j.id] || []).length, progress: () => effectiveStage(j), terms: () => scalar(j.contract_type), gates: () => scalar(j.hard_gate_status), channels: () => applicationURL(j) || j.information_url || j.official_url,
+      seniority:()=>j.seniority_level, researchfit:()=>({high:3,medium:2,low:1})[fitValue(j,'research_direction_fit')]??null,
+      levelfit:()=>({high:3,medium:2,low:1})[fitValue(j,'level_fit')]??null,
+      recommendationaction:()=>({primary:0,conditional:1,stretch:2,watch_reopen:3,watch_team:4,do_not_apply:5})[j.application_action?.category]??null,
+      gaps:()=>scalar(j.key_gaps)
     };
     return scalar(mapping[key]?.());
   }
@@ -93,8 +125,15 @@
       compareValues(score(a,'coverage_pct'),score(b,'coverage_pct'),'desc') ||
       compareValues(sortValue(a,'overall'),sortValue(b,'overall'),'desc') || compareValues(a.organization,b.organization);
   }
+  function salaryCompare(a,b,direction='asc') {
+    // Grouping is fixed A–Z; only amounts within the SAME currency and period reverse.
+    const group=j=>number(j.salary_min)===null||!j.salary_currency||!j.salary_period?null:`${j.salary_currency}/${j.salary_period}/${j.salary_gross_or_net||'unspecified'}`;
+    const ga=group(a),gb=group(b);return compareValues(ga,gb)||compareValues(ga===null?null:a.salary_min,gb===null?null:b.salary_min,direction)||compareValues(a.id,b.id);
+  }
   function viewMatch(j,view) {
     if (view === 'all') return true;
+    if (view === 'canva') return /^canva$/i.test(String(j.organization||''));
+    if (view === 'shortlist') return shortlisted(j);
     if (view === 'vacancies') return j.record_type === 'vacancy';
     if (view === 'open') return verifiedOpen(j);
     if (['watch','history'].includes(view)) return j.record_type === view;
@@ -104,16 +143,17 @@
     const q = query.search.trim().toLocaleLowerCase();
     return jobs.filter(j => viewMatch(j,query.view)).filter(j => {
       if (q) {
-        const haystack = [j.title,j.organization,j.team,j.lab,j.project,j.country,j.city,...listStrings(j.direction)].filter(Boolean).join(' ').toLocaleLowerCase();
+        const haystack = [j.title,j.organization,j.team,j.lab,j.project,locationText(j),j.seniority_level,fitLabel(j,'research_direction_fit'),fitLabel(j,'level_fit'),actionLabel(j),...listStrings(j.direction),...listStrings(j.key_gaps)].filter(Boolean).join(' ').toLocaleLowerCase();
         if (!haystack.includes(q)) return false;
       }
       return filters.every(([name,key]) => {
         const chosen = query.filters[name] || '';
         if (!chosen) return true;
+        if(key==='country'||key==='city'){const values=locationValues(j,key);return chosen==='__unknown__'?values.length===0:values.includes(chosen);}
         const value = filterValue(j,key);
         return chosen === '__unknown__' ? value === null : String(value) === chosen;
       });
-    }).sort((a,b) => query.sort.key === 'deadline_then_relevance' ? (compareValues(deadlineKey(a),deadlineKey(b)) || compareValues(sortValue(a,'career'),sortValue(b,'career'),'desc') || recommendedCompare(a,b)) : query.sort.key === 'recommended' ? recommendedCompare(a,b) : compareValues(sortValue(a,query.sort.key),sortValue(b,query.sort.key),query.sort.direction) || compareValues(a.id,b.id));
+    }).sort((a,b) => query.sort.key === 'canva_priority' ? (compareValues(sortValue(a,'recommendationaction'),sortValue(b,'recommendationaction'))||compareValues(sortValue(a,'researchfit'),sortValue(b,'researchfit'),'desc')||compareValues(a.id,b.id)) : query.sort.key === 'salary' ? salaryCompare(a,b,query.sort.direction) : query.sort.key === 'deadline_then_relevance' ? (compareValues(deadlineKey(a),deadlineKey(b)) || compareValues(sortValue(a,'career'),sortValue(b,'career'),'desc') || recommendedCompare(a,b)) : query.sort.key === 'recommended' ? recommendedCompare(a,b) : compareValues(sortValue(a,query.sort.key),sortValue(b,query.sort.key),query.sort.direction) || compareValues(a.id,b.id));
   }
   function node(tag,content,className) {
     const n = document.createElement(tag);
@@ -181,16 +221,16 @@
   function renderCell(td,j,key) {
     switch(key) {
       case 'progress': {const hook=node('div',undefined,'progress-cell');hook.dataset.progressId=j.id;if(document.body.dataset.mode==='public-safe'){hook.textContent='公开版本不含私人进度';}else{hook.textContent=STAGE[effectiveStage(j)] || text(effectiveStage(j));hook.dataset.progressEditable='true';}td.append(hook);break;}
-      case 'terms': {td.append(node('span',text(j.salary_original || (j.salary_min!==null&&j.salary_min!==undefined?`${text(j.salary_currency)} ${j.salary_min}${j.salary_max!==null&&j.salary_max!==undefined?'–'+j.salary_max:''}/${text(j.salary_period)}`:null))));sub(td,[j.contract_type,j.contract_duration].filter(Boolean).map(text).join(' · ') || '合同未知');break;}
+      case 'terms': {td.append(node('span',text(j.salary_original || (j.salary_min!==null&&j.salary_min!==undefined?`${text(j.salary_currency)} ${j.salary_min}${j.salary_max!==null&&j.salary_max!==undefined?'–'+j.salary_max:''}/${text(j.salary_period)}`:null))));if(j.salary_min!==null&&j.salary_min!==undefined)sub(td,[j.salary_currency,j.salary_period,j.salary_gross_or_net].filter(Boolean).join(' · '));sub(td,[j.contract_type,j.contract_duration].filter(Boolean).map(text).join(' · ') || '合同未知');break;}
       case 'gates': {const gates={pending:'待核',provisionally_satisfied_near_completion:'接近完成可申请',pending_doctoral_timing:'博士时点待核',blocked_standard_SW_at_advertised_salary:'薪资不满足通常SW',major_domain_gap:'核心方向缺口',satisfied:'已满足',met:'已满足',not_applicable:'不适用',blocked:'存在硬障碍'};const gate=node('span',gates[j.hard_gate_status] || '待核');gate.title=text(j.hard_gate_status);td.append(gate);sub(td,VISA[j.visa_filter_status] || '具体岗位签证待核');if(j.ai_application_policy==='research_only_human_authored_application')sub(td,'申请须本人撰写，禁AI文本');if(j.ai_application_policy==='disclosure_required')sub(td,'AI辅助须申报');break;}
-      case 'channels': {const info=safeHTTP(j.information_url || j.official_url),apply=safeHTTP(j.application_url),mail=safeMailto(j.application_url),context=[j.application_channel,j.application_instructions,'渠道核实 '+text(j.channel_verified_at)].filter(Boolean).map(text).join('\n');td.title=context;if(info){const a=link('官方信息 ↗',info,true);a.title=context;td.append(a);}else td.append(node('span','信息待核','unknown'));if(apply){td.append(node('br'));const a=link('投递入口 ↗',apply,true);a.title=context;td.append(a);}else if(mail){mailChannel(td,mail,String(j.application_channel||'').toLowerCase().includes('host')?'Host意向':'邮件投递');}else{sub(td,j.vacancy_status==='closed'?'已关闭／无入口':j.application_url?'渠道原文见详情':'入口待核');}const checked=typeof j.channel_verified_at==='string'&&/^\d{4}-\d{2}-\d{2}/.test(j.channel_verified_at)?j.channel_verified_at.slice(5,10):null;sub(td,checked?'核'+checked:'未核');break;}
+      case 'channels': {const info=safeHTTP(j.information_url || j.official_url),apply=safeHTTP(applicationURL(j)),mail=safeMailto(applicationURL(j)),context=[j.application_channel,j.application_instructions,'渠道核实 '+text(j.channel_verified_at)].filter(Boolean).map(text).join('\n');td.title=context;if(info){const a=link('官方信息 ↗',info,true);a.title=context;td.append(a);}else td.append(node('span','信息待核','unknown'));if(apply){td.append(node('br'));const a=link(verifiedOpen(j)?'投递入口 ↗':'申请页面·开放待核 ↗',apply,true);a.title=context;td.append(a);}else if(mail){mailChannel(td,mail,String(j.application_channel||'').toLowerCase().includes('host')?'Host意向':verifiedOpen(j)?'邮件投递':'邮件渠道·开放待核');}else{sub(td,j.vacancy_status==='closed'?'已关闭 · 不投递':'投递入口未核实');}const checked=typeof j.channel_verified_at==='string'&&/^\d{4}-\d{2}-\d{2}/.test(j.channel_verified_at)?j.channel_verified_at.slice(5,10):null;sub(td,checked?'核'+checked:'未核');break;}
       case 'priority': {const g=grade(j);td.append(node('span',g || '未评级',`badge ${g?'grade-'+g:''}`));sub(td,j.active_recommendation?.reason || '当前建议尚未形成');break;}
       case 'overall': scoreCell(td,score(j,'provisional_overall'),score(j,'coverage_pct'));break;
       case 'career': {scoreCell(td,score(j,'career_fit_score'),score(j,'career_fit_coverage_pct'));const g=grade(j);sub(td,`${g?'当前 '+g:'未评级'} · ${STATUS[j.vacancy_status]||'状态未知'}`);break;}
       case 'title': td.append(link(text(j.title),`registry/${encodeURIComponent(j.id)}.html`));sub(td,[j.organization,j.team||j.lab||j.project].filter(Boolean).map(text).join(' · '));break;
       case 'org': td.append(node('span',text(j.organization)));break;
       case 'team': td.append(node('span',text(j.team || j.lab || j.project)));break;
-      case 'place': td.append(node('span',[j.country,j.city].filter(Boolean).join(' / ') || '未知'));sub(td,text(j.remote_policy));break;
+      case 'place': td.append(node('span',locationText(j)));sub(td,text(j.remote_policy));break;
       case 'london': td.append(node('span',j.is_london===true?'是':j.is_london===false?'否':'未知'));sub(td,text(j.remote_policy));break;
       case 'salary': {const raw=j.salary_original;if(raw)td.append(node('span',text(raw)));else if(j.salary_min!==null&&j.salary_min!==undefined){td.append(node('span',`${text(j.salary_currency)} ${j.salary_min}${j.salary_max!==null&&j.salary_max!==undefined?'–'+j.salary_max:''} / ${text(j.salary_period)}`));}else td.append(node('span','未公布／未知','unknown'));if(j.salary_estimate)sub(td,'另有市场估计，见详情；不视为 offer');break;}
       case 'contract': td.append(node('span',text(j.contract_type)));sub(td,text(j.contract_duration));break;
@@ -202,17 +242,22 @@
       case 'londonlife': {const n=score(j,'london_cohabitation_score');td.append(node('span',n===null?'未评分':Number(n.toFixed(2)).toString(),n===null?'unknown':'score-number'));sub(td,'独立偏好维度；非硬否决');break;}
       case 'action': {const action=node('span',text(j.next_action));action.title=text(j.next_action);td.append(action);if(document.body.dataset.mode!=='public-safe'){const note=node('div',undefined,'progress-note');note.dataset.progressNoteId=j.id;td.append(note);}break;}
       case 'source': {const u=safeHTTP(j.official_url);if(u)td.append(link('官方来源 ↗',u,true));else td.append(node('span','未取得官方职位页','unknown'));sub(td,`${text(j.jd_completeness)} JD`);break;}
-      case 'verified': td.append(node('span',text(j.status_checked_at || j.verified_at)));break;
+      case 'verified': {const full=text(j.status_checked_at || j.verified_at),stamp=node('span',/^\d{4}-\d{2}-\d{2}/.test(full)?full.slice(0,10):full);stamp.title=full;td.append(stamp);break;}
       case 'confidence': td.append(node('span',CONF[confidence(j)] || '未知',`badge conf-${confidence(j)||'unknown'}`));sub(td,j.source_confidence?.reason || '未提供理由');break;
-      case 'artifacts': {if(document.body.dataset.mode==='public-safe'){td.append(node('span','不含私人材料'));break;}const a=state.available[j.id] || [];td.append(link(a.length?`${a.length}文件`:'未生成',`registry/${encodeURIComponent(j.id)}.html`));const stage=j.deep_review_status==='preserved_round1'?'首轮':j.deep_review_status==='completed_round2_draft'?'新稿':j.deep_review_status==='research_only_no_generated_application'?'仅研究':null;if(stage)sub(td,stage);td.title=text(j.deep_review_status);break;}
+      case 'artifacts': {if(document.body.dataset.mode==='public-safe'){td.append(node('span','不含私人材料'));break;}if(j.draft_material_status==='local_draft_not_published'){td.append(node('span','本地草稿 · 待审'));sub(td,j.draft_material_note||'未公开，无下载入口');break;}const a=state.available[j.id] || [];td.append(link(a.length?`${a.length}文件`:'未生成',`registry/${encodeURIComponent(j.id)}.html`));const stage=j.deep_review_status==='preserved_round1'?'首轮':j.deep_review_status==='completed_round2_draft'?'新稿':j.deep_review_status==='research_only_no_generated_application'?'仅研究':null;if(stage)sub(td,stage);td.title=text(j.deep_review_status);break;}
+      case 'seniority': td.append(node('span',text(j.seniority_level)));break;
+      case 'researchfit': case 'levelfit': {const name=key==='researchfit'?'research_direction_fit':'level_fit';const level=fitValue(j,name),label=fitLabel(j,name);td.append(node('span',label,'badge fit-'+(level||'unknown')));if(j[name]?.reason)sub(td,j[name].reason);break;}
+      case 'recommendationaction': td.append(node('span',actionLabel(j),'badge action-'+(j.application_action?.category||'unknown')));if(j.application_action?.reason)sub(td,j.application_action.reason);break;
+      case 'gaps': td.append(node('span',listStrings(j.key_gaps).join('；')||'尚未形成逐项结论'));td.title=listStrings(j.key_gaps).join('\n');break;
       default: td.append(node('span','未知'));
     }
   }
   function renderHeaders() {
     const tr=$('column-headers');tr.replaceChildren();
-    for(const c of columns){const th=node('th');th.scope='col';th.dataset.key=c.key;th.className='col-'+c.key;if(state.hidden.has(c.key))th.classList.add('hidden-column');th.setAttribute('aria-sort',state.sort.key===c.key?(state.sort.direction==='asc'?'ascending':'descending'):'none');const b=node('button',c.label);b.type='button';b.setAttribute('aria-label',`按${c.label}排序`);if(c.key==='salary')b.title='先按原币与周期分组，再按金额排序；不是购买力比较';b.addEventListener('click',()=>{state.sort={key:c.key,direction:state.sort.key===c.key&&state.sort.direction==='asc'?'desc':'asc'};$('sort-view').value='';render();});th.append(b);tr.append(th);}
+    for(const c of columns){const th=node('th');th.scope='col';th.dataset.key=c.key;th.className='col-'+c.key;if(state.hidden.has(c.key))th.classList.add('hidden-column');th.setAttribute('aria-sort',state.sort.key===c.key?(state.sort.direction==='asc'?'ascending':'descending'):'none');const b=node('button',c.label);b.type='button';b.setAttribute('aria-label',`按${c.label}排序`);if(c.key==='salary')b.title='币种、周期与税前税后固定分组，仅组内金额升降；不比较不同币种购买力';if(c.key==='terms')b.title='按合同类型排序；不同币种、月薪和年薪不按裸金额比较';b.addEventListener('click',()=>{state.sort={key:c.key,direction:state.sort.key===c.key&&state.sort.direction==='asc'?'desc':'asc'};$('sort-view').value='';render();});th.append(b);tr.append(th);}
   }
   function render() {
+    document.body.classList.toggle('canva-view',state.view==='canva');
     const rows=selectRows(state.jobs);renderHeaders();const body=$('jobs-body');body.replaceChildren();
     const fragment=document.createDocumentFragment();
     for(const j of rows){const tr=node('tr');tr.dataset.id=j.id;for(const c of columns){const td=node('td');td.className='col-'+c.key;if(state.hidden.has(c.key))td.classList.add('hidden-column');renderCell(td,j,c.key);tr.append(td);}fragment.append(tr);}body.append(fragment);
@@ -220,14 +265,33 @@
     $('results-count').textContent=`当前筛选 ${rows.length} 条 / 当前视图 ${viewSize} 条 / 完整候选池 ${state.jobs.length} 条`;
     $('empty').hidden=rows.length!==0;
     document.dispatchEvent(new CustomEvent('registry:rendered',{detail:{ids:rows.map(j=>j.id)}}));
-    for(const b of $('view-tabs').querySelectorAll('button'))b.setAttribute('aria-pressed',String(b.dataset.view===state.view));
+    for(const b of document.querySelectorAll('[data-view]'))b.setAttribute('aria-pressed',String(b.dataset.view===state.view));
+    renderCanvaSummary();
     $('export-filtered').textContent=`导出筛选 CSV（${rows.length}）`;
-    $('build-note').textContent=`当前模式：${document.body.dataset.mode==='public-safe'?'公开安全版本':'本人授权公开研究版本'}。当前排序：${state.sort.key==='deadline_then_relevance'?'截止 → 相关度':state.sort.key==='recommended'?'建议优先':(columns.find(c=>c.key===state.sort.key)?.label || state.sort.key)}；未知始终排后。`;
+    $('build-note').textContent=`当前模式：${document.body.dataset.mode==='public-safe'?'公开安全版本':'本人授权公开研究版本'}。当前排序：${state.sort.key==='deadline_then_relevance'?'截止 → 相关度':state.sort.key==='recommended'?'建议优先':state.sort.key==='canva_priority'?'Canva 建议动作':(columns.find(c=>c.key===state.sort.key)?.label || state.sort.key)}；未知始终排后。`;
+  }
+  function renderCanvaSummary(){
+    const panel=$('canva-summary');if(!panel)return;panel.hidden=state.view!=='canva';if(panel.hidden)return;
+    const jobs=state.jobs.filter(j=>viewMatch(j,'canva')),open=jobs.filter(verifiedOpen),primary=open.filter(j=>j.application_action?.category==='primary'),stretch=open.filter(j=>j.application_action?.category==='stretch'),closed=jobs.filter(j=>j.record_type==='vacancy'&&j.vacancy_status==='closed'),watch=jobs.filter(j=>j.record_type==='watch');
+    panel.replaceChildren(node('strong','Canva 专项 · 方向与职级分开判断'),node('span',`正式岗位：已证实开放 ${open.length} · 关闭 ${closed.length} · 状态未知 ${jobs.filter(j=>j.record_type==='vacancy'&&j.vacancy_status==='unknown').length}；团队线索待确认 ${watch.filter(j=>j.vacancy_status==='unknown').length} / ${watch.length}`));
+    if(document.body.dataset.mode==='public-safe')panel.append(node('p','此版本只展示公开岗位事实；个人适配分析不在公开安全投影中。'));
+    else {
+      const campaign=state.payload?.campaigns?.canva;
+      panel.append(node('p',campaign?.summary_zh || (primary.length?`当前主攻 ${primary.length} 岗；查看方向、职级、条件和官方入口后决定。`:`当前没有已核实开放的主攻岗位。${stretch.length?`开放的 ${stretch.length} 岗仅适合低优先级冲刺；`:''}关闭岗位保留供关注团队／等待重开，不把申请壳当作开放证据。`)));
+      if(campaign?.checked_at)panel.append(node('small','核查 '+campaign.checked_at+' · '+(campaign.draft_note||'新定向材料仅本地待审，不公开')));
+    }
+  }
+  function changeView(view){
+    if(view==='canva'&&state.view!=='canva'){ordinaryHidden=new Set(state.hidden);state.hidden=new Set(columns.filter(c=>!canvaColumns.has(c.key)).map(c=>c.key));state.sort={key:'canva_priority',direction:'asc'};}
+    else if(view!=='canva'&&state.view==='canva'&&ordinaryHidden){state.hidden=ordinaryHidden;ordinaryHidden=null;state.sort={key:'deadline_then_relevance',direction:'asc'};}
+    state.view=view;for(const input of $('column-controls').querySelectorAll('input'))input.checked=!state.hidden.has(input.value);$('sort-view').value=state.sort.key;
+    try{const url=new URL(window.location.href);if(view==='vacancies')url.searchParams.delete('view');else url.searchParams.set('view',view);window.history.replaceState(null,'',url);}catch{/* Static preview / tests may omit history; view remains usable. */}
+    render();
   }
   function urgentDeadlines(jobs,now=new Date()) {
     const windowMs=48*3600000;
     const format=(d,zone)=>new Intl.DateTimeFormat('zh-CN',{timeZone:zone,year:'numeric',month:'2-digit',day:'2-digit',hour:'2-digit',minute:'2-digit',hour12:false,timeZoneName:'short'}).format(d);
-    return jobs.filter(j=>j.record_type==='vacancy'&&j.deadline_iso&&!Number.isNaN(Date.parse(j.deadline_iso))).map(j=>{
+    return jobs.filter(j=>j.record_type==='vacancy'&&!['applied','acknowledged','screening','assessment','interview','technical_interview','final_interview','offer','rejected','withdrawn'].includes(effectiveStage(j))&&j.deadline_iso&&!Number.isNaN(Date.parse(j.deadline_iso))).map(j=>{
       const date=new Date(j.deadline_iso),delta=date-now;
       let original;
       try{original=j.deadline_timezone?format(date,j.deadline_timezone):j.deadline_iso;}catch{original=j.deadline_iso;}
@@ -254,10 +318,11 @@
     target.append(list);
   }
   function populateFilters() {
-    for(const [name,key,labels] of filters){const select=$('filter-'+name);const values=[...new Set((key==='application_stage'?[...Object.keys(STAGE),...state.jobs.map(j=>filterValue(j,key))]:key==='expiry_status'?['expired','not_expired','unknown']:state.jobs.map(j=>filterValue(j,key))).filter(v=>v!==null))].sort((a,b)=>compareValues(a,b));for(const v of values){const o=node('option',labels?.[v] || text(v));o.value=String(v);select.append(o);}if(state.jobs.some(j=>filterValue(j,key)===null)){const o=node('option','未知／未提供');o.value='__unknown__';select.append(o);}select.addEventListener('change',()=>{state.filters[name]=select.value;render();});}
+    for(const [name,key,labels] of filters){const select=$('filter-'+name);if(!select)continue;const loc=key==='city'||key==='country';const values=[...new Set((loc?state.jobs.flatMap(j=>locationValues(j,key)):key==='application_stage'?[...Object.keys(STAGE),...state.jobs.map(j=>filterValue(j,key))]:key==='expiry_status'?['expired','not_expired','unknown']:state.jobs.map(j=>filterValue(j,key))).filter(v=>v!==null))].sort((a,b)=>compareValues(a,b));for(const v of values){const o=node('option',labels?.[v] || text(v));o.value=String(v);select.append(o);}if(state.jobs.some(j=>loc?locationValues(j,key).length===0:filterValue(j,key)===null)){const o=node('option','未知／未提供');o.value='__unknown__';select.append(o);}select.addEventListener('change',()=>{state.filters[name]=select.value;render();});}
   }
   function buildCounts() {
-    const counts=[['职位',state.jobs.filter(j=>j.record_type==='vacancy').length],['完整记录',state.jobs.length],['已证实开放',state.jobs.filter(verifiedOpen).length],['即将开放',state.jobs.filter(j=>viewMatch(j,'upcoming')).length],['状态未知',state.jobs.filter(j=>viewMatch(j,'unknown')).length],['已关闭',state.jobs.filter(j=>viewMatch(j,'closed')).length],['团队观察',state.jobs.filter(j=>j.record_type==='watch').length],['历史记录',state.jobs.filter(j=>j.record_type==='history').length]];
+    const counts=[['职位',state.jobs.filter(j=>j.record_type==='vacancy').length],['完整记录',state.jobs.length],['已证实开放',state.jobs.filter(verifiedOpen).length],['即将开放',state.jobs.filter(j=>viewMatch(j,'upcoming')).length],['职位状态未知',state.jobs.filter(j=>viewMatch(j,'unknown')).length],['已关闭',state.jobs.filter(j=>viewMatch(j,'closed')).length],['团队观察',state.jobs.filter(j=>j.record_type==='watch').length],['历史投递',state.jobs.filter(j=>['applied','acknowledged','screening','assessment','interview','technical_interview','final_interview','offer','rejected','withdrawn'].includes(effectiveStage(j))).length],['历史公告／记录',state.jobs.filter(j=>j.record_type==='history').length]];
+    $('pool-counts').replaceChildren();
     for(const [label,count] of counts){const p=node('span',undefined,'count-pill');p.append(node('span',label),node('strong',String(count)));$('pool-counts').append(p);}
   }
   function buildColumns() {
@@ -271,11 +336,13 @@
   }
   function csvForRows(rows) {
     const fields=['id','record_type','organization','title','team','country','city','is_london','job_type','direction','vacancy_status','verified_open','status_reason','status_checked_at','recommendation','recommendation_reason','provisional_overall','coverage_pct','career_fit_score','career_fit_coverage_pct','london_cohabitation_score','location_preference_score','salary_min','salary_max','salary_currency','salary_period','salary_original','contract_type','contract_duration','recruitment_channel','application_stage','deadline_original','deadline_date','deadline_time','deadline_timezone','deadline_iso','deadline_precision','deadline_conflict','planning_deadline','official_url','information_url','application_url','application_channel','channel_verified_at','application_instructions','verified_at','source_confidence','deep_review_status','next_action','source_ids','scores','essential_requirements','preferred_requirements','ai_application_policy'];
-    if(document.body.dataset.mode!=='public-safe')fields.push('visa','candidate_evidence_refs','missing_evidence','application_history_refs','artifacts','local_progress_stage','local_progress_updated_at','local_progress_applied_at','local_progress_follow_up_date','local_progress_note');
-    return '\uFEFF'+[fields,...rows.map(j=>fields.map(k=>k==='local_progress_stage'?effectiveStage(j):k.startsWith('local_progress_')?(state.overrides[j.id]?.[k.replace('local_progress_','')]??null):k==='recommendation'?grade(j):k==='recommendation_reason'?j.active_recommendation?.reason:k in (j.scores||{})?j.scores[k]:j[k]??null))].map(row=>row.map(csvCell).join(',')).join('\r\n')+'\r\n';
+    // Export every canonical field once; structured values remain JSON in one CSV cell.
+    for(const j of [...state.jobs,...rows])for(const key of Object.keys(j))if(!fields.includes(key))fields.push(key);
+    if(document.body.dataset.mode!=='public-safe')for(const key of ['visa','candidate_evidence_refs','missing_evidence','application_history_refs','artifacts','local_progress_stage','local_progress_updated_at','local_progress_applied_at','local_progress_follow_up_date','local_progress_note','local_progress_shortlisted'])if(!fields.includes(key))fields.push(key);
+    return '\uFEFF'+[fields,...rows.map(j=>fields.map(k=>k==='local_progress_stage'?effectiveStage(j):k==='local_progress_shortlisted'?shortlisted(j):k.startsWith('local_progress_')?(state.overrides[j.id]?.[k.replace('local_progress_','')]??null):k==='recommendation'?grade(j):k==='recommendation_reason'?j.active_recommendation?.reason:k in (j.scores||{})?j.scores[k]:j[k]??null))].map(row=>row.map(csvCell).join(',')).join('\r\n')+'\r\n';
   }
   function download(content,type,name) {const url=URL.createObjectURL(new Blob([content],{type}));const a=link('',url);a.download=name;document.body.append(a);a.click();a.remove();setTimeout(()=>URL.revokeObjectURL(url),1000);}
-  function clear() {state.view='vacancies';state.search='';state.filters={};state.sort={key:'deadline_then_relevance',direction:'asc'};$('search').value='';for(const [name] of filters)$('filter-'+name).value='';$('sort-view').value='deadline_then_relevance';render();}
+  function clear() {state.search='';state.filters={};state.sort={key:'deadline_then_relevance',direction:'asc'};$('search').value='';for(const [name] of filters)if($('filter-'+name))$('filter-'+name).value='';changeView('vacancies');}
   async function init() {
     try {
       const [r,a]=await Promise.all([fetch('data/jobs.json'),fetch('assets/available-artifacts.json')]);
@@ -289,14 +356,15 @@
       document.addEventListener('keydown',e=>{if(e.key==='Escape')for(const panel of document.querySelectorAll('.filter-float[open],.columns[open]'))panel.open=false;});
       setInterval(renderUrgentDeadlines,60000);
       $('search').addEventListener('input',()=>{state.search=$('search').value;render();});$('clear').addEventListener('click',clear);
-      for(const b of $('view-tabs').querySelectorAll('button'))b.addEventListener('click',()=>{state.view=b.dataset.view;render();});
+      for(const b of document.querySelectorAll('[data-view]'))b.addEventListener('click',()=>changeView(b.dataset.view));
       $('sort-view').addEventListener('change',()=>{const val=$('sort-view').value;if(!val)return;const [key,direction]=val.split(':');state.sort={key,direction:direction||'asc'};render();});
       const suffix=String(payload.as_of||'current').substring(0,10).replaceAll('-','');
       $('export-filtered').addEventListener('click',()=>download(csvForRows(selectRows(state.jobs)),'text/csv;charset=utf-8',`jobs_filtered_${suffix}.csv`));
       $('export-all').addEventListener('click',()=>download(csvForRows(state.jobs),'text/csv;charset=utf-8',`jobs_all_${suffix}.csv`));
       $('export-json').addEventListener('click',()=>download(JSON.stringify(state.payload,null,2)+'\n','application/json;charset=utf-8',`jobs_${suffix}.json`));
       document.dispatchEvent(new CustomEvent('registry:ready',{detail:{jobs:state.jobs,publicSafe:document.body.dataset.mode==='public-safe'}}));
-      render();
+      let requestedView;try{requestedView=new URLSearchParams(window.location.search).get('view');}catch{/* Default registry view. */}
+      if(['canva','all','vacancies','open','closed','unknown','watch','history','shortlist','upcoming'].includes(requestedView))changeView(requestedView);else render();
     } catch(e) {$('error').hidden=false;$('error').textContent=`无法显示职位表：${e.message}。请刷新页面，或下载源数据 JSON／CSV。`;$('results-count').textContent='数据读取失败';}
   }
   window.registryProgressAPI={
@@ -311,17 +379,17 @@
       for(const [id,entry] of pairs){
         if(!known.has(id)||!entry||typeof entry!=='object')continue;
         const value={};
-        for(const key of ['stage','updated_at','applied_at','follow_up_date','note'])if(entry[key]!==undefined)value[key]=entry[key];
+        for(const key of ['stage','updated_at','applied_at','follow_up_date','note','shortlisted'])if(entry[key]!==undefined)value[key]=entry[key];
         if(value.stage==='draft')value.stage='preparing';
         if(value.stage==='not_found_in_audit')value.stage='not_applied_unconfirmed';
         if(value.stage&&!Object.hasOwn(STAGE,value.stage))value.stage='unknown';
         overrides[id]=value;
       }
       state.overrides=overrides;
-      if(state.payload)render();
+      if(state.payload){buildCounts();renderUrgentDeadlines();render();}
       return true;
     }
   };
-  window.registryTesting={csvCell,compareValues,deadlineInfo,urgentDeadlines,selectRows,verifiedOpen,csvForRows,state,render,effectiveStage,safeMailto,expiryStatus};
+  window.registryTesting={csvCell,compareValues,deadlineInfo,urgentDeadlines,selectRows,verifiedOpen,csvForRows,state,render,effectiveStage,safeMailto,expiryStatus,locations,locationValues,locationText,salaryCompare,applicationURL,shortlisted};
   init();
 })();

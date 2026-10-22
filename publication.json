@@ -22,15 +22,17 @@
     "private recordings and model weights",
     "local run logs and scratch files"
   ],
-  "applications_submitted": false,
   "emails_sent": false,
   "private_directory_is_access_control": false,
   "updated_date": "2026-10-22",
-  "update_authorization": "Direct user: 去把线上给更新了",
-  "registry_records": 103,
-  "vacancy_records": 37,
+  "update_authorization": "2026-10-22 direct user Canva task: publish official job facts, code and generic maintenance updates; new Canva materials remain local pending review",
+  "registry_records": 114,
+  "vacancy_records": 43,
   "preserved_packs": 4,
   "new_packs": 3,
   "raw_mail_backups_published": false,
-  "progress_storage": "browser localStorage; no server synchronization"
+  "progress_storage": "browser localStorage; no server synchronization",
+  "new_canva_materials_published": false,
+  "applications_submitted_by_agent": false,
+  "emails_sent_by_agent": false
 }

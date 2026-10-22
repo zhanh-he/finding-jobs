@@ -21,4 +21,11 @@ check(!p.expiry({planning_deadline:'2026-10-01'},new Date('2026-10-21T00:00:00Z'
 check(p.calendarDate(new Date('2026-10-24T23:30:00Z'),'Europe/London')==='2026-10-25','BST calendar boundary');
 check(p.calendarDate(new Date('2026-10-26T23:30:00Z'),'Europe/London')==='2026-10-26','GMT calendar boundary');
 check(!p.expiry({deadline_date:'2026-10-20'},new Date('2026-10-21T03:00:00Z')).expired,'unknown timezone waits until all global dates have passed');
-console.log(JSON.stringify({status:'passed',assertions:checks,scope:'progress enum, no submission inference, backup validation, calendar/DST expiry'},null,2));
+check(p.KEY==='finding-jobs-round2-progress-v1','existing storage key preserved across update');
+check(p.initialStage({application_stage:'applied'})==='applied','confirmed submitted source starts as applied');
+check(p.initialShortlist({shortlisted:true})&&p.initialShortlist({shortlist:true})&&!p.initialShortlist({}),'canonical shortlist defaults retained without inventing selection');
+check(!Object.hasOwn(imported.entries.a,'shortlisted'),'old backups remain valid without forcing a false shortlist override');
+const withShortlist=p.validateLedger({...payload,entries:{a:{...entry,shortlisted:true}}},new Set(['a']));
+check(withShortlist.entries.a.shortlisted===true,'shortlist round-trips in same progress backup');
+assert.throws(()=>p.validateLedger({...payload,entries:{a:{...entry,shortlisted:'yes'}}},new Set(['a'])),undefined,'invalid shortlist type rejected');checks++;
+console.log(JSON.stringify({status:'passed',assertions:checks,scope:'progress enum, no submission inference, backup validation, calendar/DST expiry, stable storage key, backwards-compatible shortlist roundtrip'},null,2));

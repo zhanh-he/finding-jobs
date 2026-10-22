@@ -1,0 +1,637 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://zhanh-he.github.io/finding-jobs/private/data/jobs.schema.json",
+  "title": "finding-jobs canonical registry 2.1",
+  "description": "Canonical records include vacancies, team watches and historical records; counts are not an application inventory. stdlib validator also checks source references, scoring, aliases and files.",
+  "type": "object",
+  "required": [
+    "schema_version",
+    "as_of",
+    "weights",
+    "sources",
+    "jobs"
+  ],
+  "properties": {
+    "schema_version": {
+      "const": "2.1"
+    },
+    "as_of": {
+      "type": "string"
+    },
+    "weights": {
+      "type": "object",
+      "required": [
+        "research",
+        "technical",
+        "academic",
+        "engineering",
+        "location_lifestyle",
+        "salary_development",
+        "interview_competitiveness"
+      ],
+      "properties": {
+        "research": {
+          "const": 20
+        },
+        "technical": {
+          "const": 20
+        },
+        "academic": {
+          "const": 10
+        },
+        "engineering": {
+          "const": 10
+        },
+        "location_lifestyle": {
+          "const": 25
+        },
+        "salary_development": {
+          "const": 10
+        },
+        "interview_competitiveness": {
+          "const": 5
+        }
+      },
+      "additionalProperties": false
+    },
+    "sources": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "required": [
+          "id"
+        ],
+        "properties": {
+          "id": {
+            "type": "string",
+            "minLength": 1
+          }
+        },
+        "additionalProperties": true
+      }
+    },
+    "jobs": {
+      "type": "array",
+      "minItems": 1,
+      "items": {
+        "$ref": "#/$defs/job"
+      }
+    }
+  },
+  "additionalProperties": true,
+  "$defs": {
+    "job": {
+      "type": "object",
+      "required": [
+        "id",
+        "record_type",
+        "organization",
+        "title",
+        "source_ids",
+        "vacancy_status",
+        "verified_open",
+        "public_fact_eligible",
+        "scores",
+        "known_weight",
+        "coverage_pct",
+        "provisional_overall",
+        "career_fit_score",
+        "career_fit_coverage_pct",
+        "artifacts"
+      ],
+      "properties": {
+        "id": {
+          "type": "string",
+          "pattern": "^[A-Za-z0-9_.-]+$"
+        },
+        "record_type": {
+          "enum": [
+            "vacancy",
+            "watch",
+            "history"
+          ]
+        },
+        "organization": {
+          "type": [
+            "string",
+            "null"
+          ],
+          "minLength": 1
+        },
+        "title": {
+          "type": "string",
+          "minLength": 1
+        },
+        "source_ids": {
+          "type": "array",
+          "items": {
+            "type": "string"
+          },
+          "uniqueItems": true
+        },
+        "vacancy_status": {
+          "enum": [
+            "open",
+            "closed",
+            "unknown",
+            "upcoming"
+          ]
+        },
+        "verified_open": {
+          "type": "boolean"
+        },
+        "public_fact_eligible": {
+          "type": "boolean"
+        },
+        "api_active": {
+          "type": [
+            "boolean",
+            "null"
+          ]
+        },
+        "aliases": {
+          "type": "array",
+          "items": {
+            "type": "string",
+            "minLength": 1
+          },
+          "uniqueItems": true
+        },
+        "locations": {
+          "type": [
+            "array",
+            "null"
+          ],
+          "items": {
+            "type": "object",
+            "properties": {
+              "country": {
+                "type": [
+                  "string",
+                  "null"
+                ]
+              },
+              "city": {
+                "type": [
+                  "string",
+                  "null"
+                ]
+              }
+            },
+            "additionalProperties": true
+          }
+        },
+        "seniority_level": {
+          "type": [
+            "string",
+            "null"
+          ]
+        },
+        "research_direction_fit": {
+          "type": [
+            "object",
+            "null"
+          ],
+          "properties": {
+            "level": {
+              "enum": [
+                "high",
+                "medium",
+                "low",
+                "unknown"
+              ]
+            },
+            "label": {
+              "type": [
+                "string",
+                "null"
+              ]
+            },
+            "reason": {
+              "type": [
+                "string",
+                "null"
+              ]
+            }
+          },
+          "required": [
+            "level",
+            "label",
+            "reason"
+          ],
+          "additionalProperties": true
+        },
+        "level_fit": {
+          "type": [
+            "object",
+            "null"
+          ],
+          "properties": {
+            "level": {
+              "enum": [
+                "high",
+                "medium",
+                "low",
+                "unknown"
+              ]
+            },
+            "label": {
+              "type": [
+                "string",
+                "null"
+              ]
+            },
+            "reason": {
+              "type": [
+                "string",
+                "null"
+              ]
+            }
+          },
+          "required": [
+            "level",
+            "label",
+            "reason"
+          ],
+          "additionalProperties": true
+        },
+        "application_action": {
+          "type": [
+            "object",
+            "null"
+          ],
+          "properties": {
+            "category": {
+              "enum": [
+                "primary",
+                "conditional",
+                "stretch",
+                "watch_reopen",
+                "watch_team",
+                "do_not_apply"
+              ]
+            },
+            "label": {
+              "type": [
+                "string",
+                "null"
+              ]
+            },
+            "reason": {
+              "type": [
+                "string",
+                "null"
+              ]
+            }
+          },
+          "required": [
+            "category",
+            "label",
+            "reason"
+          ],
+          "additionalProperties": true
+        },
+        "key_gaps": {
+          "type": [
+            "array",
+            "null"
+          ],
+          "items": {
+            "type": "string"
+          }
+        },
+        "artifacts": {
+          "type": "array",
+          "items": {
+            "$ref": "#/$defs/artifact"
+          }
+        },
+        "scores": {
+          "type": "object",
+          "required": [
+            "research",
+            "technical",
+            "academic",
+            "engineering",
+            "location_lifestyle",
+            "salary_development",
+            "interview_competitiveness"
+          ],
+          "properties": {
+            "research": {
+              "$ref": "#/$defs/score"
+            },
+            "technical": {
+              "$ref": "#/$defs/score"
+            },
+            "academic": {
+              "$ref": "#/$defs/score"
+            },
+            "engineering": {
+              "$ref": "#/$defs/score"
+            },
+            "location_lifestyle": {
+              "$ref": "#/$defs/score"
+            },
+            "salary_development": {
+              "$ref": "#/$defs/score"
+            },
+            "interview_competitiveness": {
+              "$ref": "#/$defs/score"
+            }
+          },
+          "additionalProperties": false
+        },
+        "known_weight": {
+          "type": "number",
+          "minimum": 0,
+          "maximum": 100
+        },
+        "coverage_pct": {
+          "type": [
+            "number",
+            "null"
+          ],
+          "minimum": 0,
+          "maximum": 100
+        },
+        "provisional_overall": {
+          "type": [
+            "number",
+            "null"
+          ],
+          "minimum": 0,
+          "maximum": 100
+        },
+        "computed_provisional_overall": {
+          "type": [
+            "number",
+            "null"
+          ],
+          "minimum": 0,
+          "maximum": 100
+        },
+        "career_fit_score": {
+          "type": [
+            "number",
+            "null"
+          ],
+          "minimum": 0,
+          "maximum": 100
+        },
+        "career_fit_coverage_pct": {
+          "type": [
+            "number",
+            "null"
+          ],
+          "minimum": 0,
+          "maximum": 100
+        },
+        "draft_material_status": {
+          "type": [
+            "string",
+            "null"
+          ]
+        },
+        "requirements_official": {
+          "type": "array",
+          "items": {
+            "type": "object",
+            "required": [
+              "id",
+              "category",
+              "requirement",
+              "source_id"
+            ],
+            "properties": {
+              "id": {
+                "type": "string"
+              },
+              "category": {
+                "enum": [
+                  "responsibility",
+                  "core_expectation",
+                  "preferred"
+                ]
+              },
+              "requirement": {
+                "type": "string"
+              },
+              "source_id": {
+                "type": "string"
+              }
+            },
+            "additionalProperties": true
+          }
+        },
+        "essential_requirements": {
+          "type": [
+            "array",
+            "null"
+          ],
+          "items": {
+            "type": "string"
+          }
+        },
+        "preferred_requirements": {
+          "type": [
+            "array",
+            "null"
+          ],
+          "items": {
+            "type": "string"
+          }
+        }
+      },
+      "additionalProperties": true
+    },
+    "score": {
+      "type": "object",
+      "required": [
+        "value",
+        "weight"
+      ],
+      "properties": {
+        "value": {
+          "type": [
+            "number",
+            "null"
+          ],
+          "minimum": 0,
+          "maximum": 100
+        },
+        "weight": {
+          "type": "number",
+          "minimum": 0,
+          "maximum": 100
+        },
+        "reason": {
+          "type": [
+            "string",
+            "null"
+          ]
+        },
+        "evidence": {
+          "type": "array",
+          "items": {
+            "type": "string"
+          }
+        },
+        "unknown_reason": {
+          "type": [
+            "string",
+            "null"
+          ]
+        }
+      },
+      "additionalProperties": true
+    },
+    "artifact": {
+      "type": "object",
+      "required": [
+        "path",
+        "type",
+        "status"
+      ],
+      "properties": {
+        "path": {
+          "type": "string",
+          "minLength": 1
+        },
+        "type": {
+          "type": "string"
+        },
+        "status": {
+          "type": "string"
+        },
+        "sha256": {
+          "type": [
+            "string",
+            "null"
+          ],
+          "pattern": "^[a-fA-F0-9]{64}$"
+        },
+        "bytes": {
+          "type": [
+            "integer",
+            "null"
+          ],
+          "minimum": 0
+        }
+      },
+      "additionalProperties": true
+    }
+  },
+  "x-preserved-record-ids": [
+    "spotify_generative_audio",
+    "elevenlabs_research_engineer",
+    "apple_speech",
+    "brahma_audio",
+    "spotify_senior_speech",
+    "cambridge_GT51091",
+    "scrime_postdoc_2027",
+    "kth_974287",
+    "halbestunde_senior_ml",
+    "aalto-cowama-2026",
+    "ircam-avatars-mechanical-2026",
+    "watch-0f4b4ba80276",
+    "watch-62fc2ef56cc1",
+    "watch-628bac0b1e49",
+    "watch-b7a0de69b885",
+    "watch-61c110d69343",
+    "watch-b71699e49241",
+    "history-594fcc4ce61e",
+    "history-36b8ec851cce",
+    "helsinki_ai_engineering_5251",
+    "turku_tias_postdoc_2027",
+    "turku_ties2_2027",
+    "salford_bioacoustics_1087",
+    "watch-a10bea77c448",
+    "watch-17c7af5018a5",
+    "watch-557960947d89",
+    "watch-b27cb7783965",
+    "watch-256d535ae691",
+    "tencent-R107821",
+    "synthesia-ae716439",
+    "cartesia-7ecc288b",
+    "tencent-R108173",
+    "focusrite-7D70C84FE2",
+    "focusrite-1A46D2C5E7",
+    "umg-27186",
+    "sony-6006523004",
+    "roli-watch",
+    "logitech-147367",
+    "stability-watch",
+    "audiostack-watch",
+    "bose-R28343",
+    "history-musicai-application",
+    "history-yamaha-2026",
+    "history-gbu-voluntary",
+    "history-serra-workshop",
+    "ritmo-groove-294910",
+    "mail-lead-1a15a5e15043bade",
+    "mail-lead-1a13fb8e21040203",
+    "mail-lead-1a0ea3193e9e5b4d",
+    "mail-lead-1a01c6db65f783ea",
+    "auphonic-ml-engineer",
+    "aeffectune-founding-2026",
+    "mail-lead-19e3bf8f9650fe85",
+    "mail-lead-19e316052b2cf3f1",
+    "mail-lead-19ddf2dcdc82be54",
+    "sony-csl-temporal-2026",
+    "mail-lead-19cc1b352335e4dd",
+    "mail-lead-19c98924c9a71cce",
+    "upf-mtg-2026-closed",
+    "ircam-ai-made-2026",
+    "mail-lead-19bb3e1dc11bc7cd",
+    "mail-lead-19b9e404529059d8",
+    "mail-lead-19b375807e573dfd",
+    "umg-23931-history",
+    "bcu-sonic-6683",
+    "mail-lead-19b0ede33c6dd794",
+    "mail-lead-19b03ecca803ec9a",
+    "mail-lead-19aefdf6cfe0f00b",
+    "mail-lead-19aa7363b5922368",
+    "mail-lead-19a5a5fc7667cab4",
+    "mail-lead-199393077cf4e1ef",
+    "mail-lead-198b18ce7ab0a3ff",
+    "mail-lead-19889fe953b937fe",
+    "mail-lead-19809a4b6fd4a3d3",
+    "mail-lead-197c103299e435a3",
+    "mail-lead-1979c8e5650e0ea9",
+    "mail-lead-197894832f00fda6",
+    "mail-lead-1972455fa4efd9c0",
+    "mail-lead-197212613e9f948f",
+    "mail-lead-196c67e39e76145e",
+    "mail-lead-19691af95ef16a94",
+    "mail-lead-19660313b0c0b5b6",
+    "mail-lead-1965c7439bdae634",
+    "mail-lead-1964b473958a2a80",
+    "surrey-021025-closed",
+    "qmul-5244-closed",
+    "mail-lead-1953f32d5c8fdb64",
+    "mail-lead-194fff8729794ee3",
+    "mail-lead-194d2c47ffa86608",
+    "mail-lead-194b354bdf0972e7",
+    "mail-lead-19475b03ae40053f",
+    "mail-lead-1945f2b0a1add1ba",
+    "mail-lead-1938801116df2072",
+    "mail-lead-1936ec6ff1e086e0",
+    "mail-lead-1931aa7bdec68cb5",
+    "mail-lead-19252d9af870b706",
+    "mail-lead-1920a1c331e40fc0",
+    "mail-lead-1915aea5ec5e6563",
+    "qmul-maestro-2984-closed",
+    "mail-lead-190bc4423631bde1",
+    "malaga-atic-host-2026",
+    "umg-19885-history",
+    "scrime_postdoc_2026_closed"
+  ],
+  "x-score-rounding-tolerance": 0.11,
+  "x-maintenance-notes": [
+    "Baseline IDs must remain; statuses and source-backed facts may be updated.",
+    "API inactive is never verified open. City mirrors and repost IDs are aliases, not additional openings.",
+    "New local-only draft files are not downloadable artifacts. Unknown quantitative scores stay null.",
+    "Salary currencies and periods remain distinct; no exchange-rate or annualisation assumptions."
+  ]
+}

@@ -12,3 +12,6 @@ __pycache__/
 *.pem
 *.key
 credentials*
+# Detailed candidate evidence, unreviewed application drafts and local audits
+.local/
+local-drafts/

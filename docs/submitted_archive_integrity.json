@@ -1,0 +1,14 @@
+{
+  "files": [
+    {
+      "path": "formal_doc/Submitted_CVResume/20261021_UK_CambridgeUni_PostDoc/Zhanhong_He_UWA_20261021.docx",
+      "sha256": "a0e1cd9cf2e687a81407d75270a530350f409d3c531decff3ffc74ff468138c1",
+      "status": "user_confirmed_submitted_archive_immutable"
+    },
+    {
+      "path": "formal_doc/Submitted_CVResume/20261021_UK_CambridgeUni_PostDoc/Zhanhong_He_UWA_20261021.pdf",
+      "sha256": "537d5383d739f33ed198cb24fedc545abfd031968c5f401f66e3af2722853a4e",
+      "status": "user_confirmed_submitted_archive_immutable"
+    }
+  ]
+}

@@ -21,6 +21,10 @@ jobs:
         uses: actions/checkout@v4
       - name: Prepare and validate static site
         run: |
+          python3 scripts/validate_registry.py
+          python3 -m unittest discover -s scripts -p 'test_*.py'
+          node scripts/test_registry_logic.js
+          node scripts/test_progress_logic.js
           python3 scripts/build_registry.py
           python3 scripts/prepare_pages.py
       - name: Configure Pages

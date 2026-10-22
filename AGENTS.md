@@ -1,0 +1,12 @@
+# finding-jobs maintenance
+
+- Read README.md, docs/HANDOFF.md, private/data/jobs.json and its sources registry before editing. The canonical JSON drives HTML, views and CSV; do not maintain competing fact tables.
+- formal_doc/Submitted_CVResume/ is an immutable submitted archive. Never overwrite, silently correct, rename or repurpose it. Create a separately named draft for a different role. Do not add application forms to Pages.
+- Source priority: latest direct user confirmation; submitted wording (not automatic proof of truth); primary publication/employer evidence; older drafts. Separate facts, tailoring, inference, planned dates and open questions. Private candidate evidence/conflicts belong in ignored .local/; see .local/canva_20261022/.
+- Do not infer the candidate's institutions, work history or individual ownership from a coauthor, collaborator or team result. Defence, completion letters, certificates and formal award are separate events. Future end dates are plans, not completed experience.
+- Recheck official job status with a timestamp. An old JD, application shell, office location, sponsor listing or remote label does not establish an active opening, eligible work location or role sponsorship. Preserve unknowns; record aliases and deduplicate city mirrors/reposts.
+- Keep research-direction fit separate from seniority/production/leadership fit. Do not invent metrics, scale, work rights, references' consent or application history. Preserve shortlist and browser progress identifiers.
+- No applications, emails, messages or new external contacts without explicit user instruction. Public job facts/code/maintenance updates may follow the current task's publishing authorization. New resumes/letters stay local until separately reviewed and approved; prior broad publication consent does not override a newer draft-only boundary.
+- Before publishing run schema/data, UI/progress, artifact-hash and relative-link/privacy checks listed in README. Render every new DOCX/PDF and inspect all pages. Never use the user's installed Chrome for automation; use the in-app or an isolated testing browser.
+- Check diff and remote state, preserve concurrent work, never force-push. Confirm the exact deployed commit and inspect the live table/details/downloads. Update docs/HANDOFF.md with results and unresolved items; do not rely on chat memory.
+- .gitignore does not retract files already in history. Do not copy private messages, contacts, visa documents, application forms, credentials or detailed private facts into this file.
