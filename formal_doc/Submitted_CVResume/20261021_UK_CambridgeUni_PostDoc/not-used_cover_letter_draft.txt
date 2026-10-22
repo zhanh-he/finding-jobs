@@ -1,0 +1,18 @@
+21 October 2026
+
+Dear Members of the Selection Committee,
+
+I am applying for the Research Associate in Music and AI position, reference GT51091. My research at the University of Western Australia examines musical dynamics through audio and symbolic representations, with a particular focus on MIDI velocity, score-informed modelling and perceptual evaluation. I have completed my doctoral defense and expect my graduation certificate in November 2026; the formal award date is awaiting confirmation.
+
+The Faculty’s emphasis on musical agency closely matches the questions I would like to pursue. A useful music model should make expressive choices available to a musician and allow those choices to be inspected and revised. My work on cross-instrument velocity estimation investigates how performance dynamics can be inferred when reliable velocity labels are scarce. Related projects have explored a score-informed Transformer for refining velocity estimates, and a multitask network for dynamics and metrical structure. These projects give me a basis for connecting machine-learning objectives with musical representations and the limitations of their evaluation.
+
+During my research internship at Dolby, I developed music-generation models using U-Net, VAE and masked Transformer approaches and designed and conducted professional listening tests. My research internship at Huawei has also involved music-model post-training and human-preference evaluation. These experiences have reinforced my interest in studying what a model’s output enables a musician or listener to do, alongside measuring its predictive performance.
+
+For the five-year project, I propose to investigate musician-directed expressive transformation across instruments. The work would begin by defining meaningful controls with musicians, develop models that preserve user-specified musical constraints, and evaluate the resulting tools in creative tasks. I would distinguish perceived musical quality from authorship, control and usefulness, and would develop the study design with colleagues whose expertise complements my computational background. This is a proposed direction rather than a claim of prior musician-agency or clinical research.
+
+I would welcome the opportunity to contribute to the Centre for Music and Science and to collaborations across the Faculty and the University’s related AI research communities. At UWA, I supported Signal Processing and Engineering Practices teaching and co-supervised Computer Science Honours projects. I would be interested in bringing that experience to student projects and, where useful, teaching that connects music, signal processing and machine learning.
+
+Thank you for considering my application. I would welcome the opportunity to discuss the proposed research and the timing of my formal doctoral completion.
+
+Yours sincerely,
+Zhanhong He
