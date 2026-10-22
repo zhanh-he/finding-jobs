@@ -9,3 +9,7 @@
 下一轮先读AGENTS及README，再读canonical和source注册表。优先确认5类团队线索是否仍开放及职级／城市；Principal不作常规主攻，关闭不投。澳洲工作权、可披露项目证据及新稿日期表述待本人审阅。无自动投递或联系。其他公司状态保持其原核查日期。
 
 发布检查：数据/schema与原件hash、UI/progress及投影测试、全站相对链接／隐私、构建确定性、桌面及手机实测；实际结果记在同目录VERIFICATION.md。推送和部署结果须分开核验，精确部署commit由GitHub Actions运行记录为准。本文件不预先声称部署成功。
+
+## 已观察到的功能发布结果
+
+功能提交`0f2d3f234b87804d09fca5080b0257909b0c0608`已推到origin/main；[Pages运行39711506638](https://github.com/zhanh-he/finding-jobs/actions/runs/39711506638)成功。公开`private/index.html?view=canva`实测114总记录／11Canva记录，1／5／5筛选正确。线上JSON、HTML、JS、详情、报告、公开安全投影及抽查原有PDF共8项内容与本地逐字节一致。桌面与390×844截图已存本轮本地交付，viewport已恢复；未改线上localStorage或代投递。新Canva材料仍仅本地。这段记录已完成的功能发布，不以未来交接说明提交替代部署证据。
