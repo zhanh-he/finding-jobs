@@ -1,0 +1,16 @@
+Dear Professor Juvela and the selection committee,
+
+I am applying for the Postdoctoral Researcher position in Speech and Language Technology on COWAMA. My doctoral research at the University of Western Australia connects audio representations, musical expression and deep learning. I have completed my doctoral defence and expect my graduation certificate in November 2026. The position's explicit openness to researchers close to completing their doctorate fits this stage of my work.
+
+COWAMA's focus on content-based watermarking is especially interesting to me because it combines generative audio with a difficult evaluation question: which changes preserve useful information while remaining perceptually acceptable? My research on differentiable SoundFont proxies uses loudness-related supervision to adapt MIDI velocity estimation across instruments. My related work includes reimplementing a Bark-scale specific-loudness feature extractor in PyTorch and developing models linking musical dynamics with beat and structural information. These experiences would help me contribute to perceptual and content-aware evaluation while learning the project's watermarking methods.
+
+At Dolby, I developed music-generation models using U-Net, VAE and masked Transformer architectures and designed professional listening tests. My later research internship at Huawei concerns music-model post-training and human-preference evaluation. I would bring this combination of generative modelling and listening-based assessment to experiments that distinguish watermark detectability, audio quality and robustness under transformations.
+
+I would begin by reproducing an agreed baseline, defining a transparent attack and quality-evaluation protocol, and examining where content-aware representations offer robustness beyond local signal cues. Watermarking, neural audio codecs and diffusion-model integration would be research areas for me to develop, rather than prior specialisms I claim to possess. I am motivated by COWAMA's commitment to open software, trained models and reproducible outputs, subject to data and licence constraints.
+
+My teaching and Honours project co-supervision at UWA have also prepared me to work constructively with the project's doctoral researcher. I would welcome the opportunity to contribute to the Speech Synthesis group's international collaboration and to develop a rigorous programme of research on generated-audio provenance.
+
+Thank you for considering my application.
+
+Yours sincerely,
+Zhanhong He

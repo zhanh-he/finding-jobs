@@ -24,5 +24,13 @@
   ],
   "applications_submitted": false,
   "emails_sent": false,
-  "private_directory_is_access_control": false
+  "private_directory_is_access_control": false,
+  "updated_date": "2026-10-22",
+  "update_authorization": "Direct user: 去把线上给更新了",
+  "registry_records": 103,
+  "vacancy_records": 37,
+  "preserved_packs": 4,
+  "new_packs": 3,
+  "raw_mail_backups_published": false,
+  "progress_storage": "browser localStorage; no server synchronization"
 }

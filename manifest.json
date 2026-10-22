@@ -1,1124 +1,1925 @@
 {
-  "generated_date_local": "2026-10-21",
-  "timezone": "Australia/Perth",
-  "root_privacy": "contains_private_personal_materials_do_not_upload",
-  "status": {
-    "status": "local_deliverables_complete_application_gates_open",
-    "matrix_rows_total": 100,
-    "resume_documents": 4,
-    "resume_pdfs": 4,
-    "resume_total_pdf_pages": 8,
-    "private_site_pages": 46,
-    "public_safe_site_pages": 5,
-    "privacy_scan": "passed; public-safe static files and generic scripts/README; no candidate markers or credentials",
-    "local_links": "passed; all relative links remain within chosen view",
-    "http_downloads": "20/20 returned200 and bytes hash-match actual files",
-    "browser": "home+4role pages each desktop/mobile; public example home desktop/mobile; expanded evidence and resume tested",
-    "source_integrity": "original DOCX/PDF SHA256 unchanged",
-    "proposal_words": 423,
-    "not_completed_by_design": [
-      "No employer contact or application",
-      "No repository, push or publication",
-      "No uploaded CV or online profile edits"
-    ],
-    "remaining_before_any_application": [
-      "formal degree/HR requirement timing",
-      "actual start and UK employment/visa route",
-      "candidate review of claims/confidentiality and project contributions",
-      "Cambridge work-sample selection and referee confirmation"
-    ],
-    "latest_followup": {
-      "date": "2026-10-21",
-      "project_template": "private/shared/project_evidence_template.txt",
-      "portfolio_review": "private/shared/portfolio_page_review_20261021.json",
-      "huawei_policy": "No requirement for internal demo or confidential details; specific technical claims remain subject to disclosure boundaries",
-      "graduation_questions": "Do not repeatedly ask; retain defense completed and certificate expected Nov2026; no invented formal award",
-      "cv_changes_this_followup": false
-    }
-  },
-  "runtime_config": {
-    "model": "gpt-6.1-sol",
-    "effort": "ultra",
-    "evidence": "local chat turn_context"
-  },
-  "approved_public_fields": [
-    "name",
-    "candidate email and profiles",
-    "full tailored resumes and letters",
-    "visa requirements and ILR analysis",
-    "partner/London cohabitation preferences",
-    "application history",
-    "unpublished manuscript status",
-    "referee names and emails",
-    "research reports, matrices and screenshots"
-  ],
-  "deployment_authorized": true,
-  "repository_initialized_or_remote_created": false,
+  "schema_version": "2.0-published",
+  "updated_date": "2026-10-22",
+  "site_url": "https://zhanh-he.github.io/finding-jobs/private/index.html",
+  "research_as_of": "2026-10-21",
+  "records": 103,
+  "specific_vacancies": 37,
+  "retained_deep_packs": 4,
+  "new_deep_packs": 3,
+  "published_material_artifacts": 161,
+  "progress_storage": "browser_local_only",
+  "raw_mail_and_original_cv_sources_included": false,
   "files": [
     {
-      "path": ".gitattributes",
-      "bytes": 83,
-      "sha256": "4fd80608c85c4798d8ba4bea84eb6ab4aedafba352d8b21bcd43cc9a2521bab9",
-      "privacy": "public_by_explicit_user_approval"
+      "path": "private/assets/available-artifacts.json",
+      "bytes": 14901,
+      "sha256": "da0a4d7ab7f472c71700f21c95d5b2af9f3ee74919e3b50eb2a8e35f2ed5aa9a"
     },
     {
-      "path": ".github/workflows/pages.yml",
-      "bytes": 779,
-      "sha256": "fa8cc4bc4b27630d998805b3ffb77ee95c0dfc74b38c2d434207583ffb6386c5",
-      "privacy": "public_by_explicit_user_approval"
+      "path": "private/assets/progress.js",
+      "bytes": 9833,
+      "sha256": "59473e609ebb8eefab5dfe4bc3110e3f5e2d3e8c000ccbfe96747aa2962bd385"
     },
     {
-      "path": ".gitignore",
-      "bytes": 176,
-      "sha256": "4ece6a06caccd4cdc2bde104e633ecffffae73ee1c6cbacfa69515453e06fe4e",
-      "privacy": "public_by_explicit_user_approval"
+      "path": "private/assets/registry.css",
+      "bytes": 20041,
+      "sha256": "3de85e66b6ce9181a69b6a1854813b02da0eda4d3d6dc0f11c5dde5ea05b9556"
     },
     {
-      "path": ".nojekyll",
-      "bytes": 0,
-      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
-      "privacy": "public_by_explicit_user_approval"
-    },
-    {
-      "path": "PUBLICATION_SCOPE.md",
-      "bytes": 1114,
-      "sha256": "028313e13564b45fc26a5af99f7654aca4c2fc127fd230631fd94d4f08de1f13",
-      "privacy": "public_by_explicit_user_approval"
-    },
-    {
-      "path": "README.md",
-      "bytes": 2748,
-      "sha256": "4094c9601b8121c27dc0816b59f40f588c78094174e05ed5bf1d15a763771aa3",
-      "privacy": "public_by_explicit_user_approval"
-    },
-    {
-      "path": "START_HERE.md",
-      "bytes": 2609,
-      "sha256": "c3a73226f46c97ebfbe50b44fe31cfd866278a906da868cb11d02db7c56fc392",
-      "privacy": "public_by_explicit_user_approval"
-    },
-    {
-      "path": "index.html",
-      "bytes": 474,
-      "sha256": "df0e0db0ec037c8d3f7869bc357d91cff1e58a18e781eb570fc9c5c39697ea2b",
-      "privacy": "public_by_explicit_user_approval"
+      "path": "private/assets/registry.js",
+      "bytes": 33917,
+      "sha256": "8b513ea88e54bdb12c350722922b99734a35c3dca086eed607fa9be443026d32"
     },
     {
       "path": "private/assets/style.css",
       "bytes": 4853,
-      "sha256": "588d7ec6261275b4375864cfcba0110ea533d5618e4e29ee0e6c2eaa46f6cb62",
-      "privacy": "public_by_explicit_user_approval"
+      "sha256": "588d7ec6261275b4375864cfcba0110ea533d5618e4e29ee0e6c2eaa46f6cb62"
+    },
+    {
+      "path": "private/data/jobs.csv",
+      "bytes": 867954,
+      "sha256": "ef670a525583ae8f2bff5a27809816e0d2e8b1e1271137a318116735b762d204"
+    },
+    {
+      "path": "private/data/jobs.json",
+      "bytes": 1458163,
+      "sha256": "2c45137efb8a5f2641c0b4367658c3edd2dd2383462645a5d16125a01f1e2ed9"
+    },
+    {
+      "path": "private/four_role_homepage_v1.html",
+      "bytes": 4753,
+      "sha256": "2615f8a11e059db2f450b9924774f0fedd6b9e7b904bd48adf2ad891a02cd0f5"
     },
     {
       "path": "private/index.html",
-      "bytes": 4753,
-      "sha256": "2615f8a11e059db2f450b9924774f0fedd6b9e7b904bd48adf2ad891a02cd0f5",
-      "privacy": "public_by_explicit_user_approval"
+      "bytes": 6249,
+      "sha256": "7559746201e508a6528dbac89698209a1c2651971a9a4ef8212a5b6c367a1428"
+    },
+    {
+      "path": "private/jd_sources/aalto-cowama-2026.txt",
+      "bytes": 10638,
+      "sha256": "4b074e00173c0cef327060d9a385568558dc83416342c7d7c3f23e0bfe8dbbc8"
+    },
+    {
+      "path": "private/jd_sources/apple_speech.txt",
+      "bytes": 3075,
+      "sha256": "75dcceb0c3387db48431df8903168287bd3003883f46e68ebe6247329f425582"
+    },
+    {
+      "path": "private/jd_sources/brahma_audio.txt",
+      "bytes": 3831,
+      "sha256": "c1f6c05570029dfd176007db9c777445dc5a0cb7ccad514931f0d508825b7233"
+    },
+    {
+      "path": "private/jd_sources/elevenlabs_research_engineer.txt",
+      "bytes": 11890,
+      "sha256": "ce6d999d963228e56cdb43dee346170964848514d0fc1cfbb552e6952f2a81ea"
+    },
+    {
+      "path": "private/jd_sources/focusrite-1A46D2C5E7.txt",
+      "bytes": 5552,
+      "sha256": "c36bf7439837b7b77eb25110b300a30dc918b6cfd010ea84f87b65ff8f4fd48f"
+    },
+    {
+      "path": "private/jd_sources/focusrite-7D70C84FE2.txt",
+      "bytes": 5044,
+      "sha256": "6c60a75e74624fba3a5944dae4ebdf2e066bc2d5476c929ab43b30639ed25b52"
+    },
+    {
+      "path": "private/jd_sources/helsinki_ai_engineering_5251.txt",
+      "bytes": 10994,
+      "sha256": "4d8bdb26818b818b6c1663ef3fbf71e48fb895fddbfef633274cf59bcac239b3"
+    },
+    {
+      "path": "private/jd_sources/kth_974287.txt",
+      "bytes": 6675,
+      "sha256": "3fbbcaa6ede3a0a9c6181ab0fa878df28e4428da6d43258b91fabe426e0a15f6"
+    },
+    {
+      "path": "private/jd_sources/salford_bioacoustics_1087.txt",
+      "bytes": 22,
+      "sha256": "ba811ea09a2603c69e302139c3cbd1f1d111919d54bbb183d25d0426bcbd425d"
+    },
+    {
+      "path": "private/jd_sources/scrime_postdoc_2027.txt",
+      "bytes": 3486,
+      "sha256": "6c2ae0c01486ab5a5222855380e81d0d195195f6f5884d82bc02d94c5d0f8ae4"
+    },
+    {
+      "path": "private/jd_sources/spotify_generative_audio.txt",
+      "bytes": 7498,
+      "sha256": "cc06c839ce8f8ef7cdda83354363510a372d4dcc35454f34d56c4268d2220dd3"
+    },
+    {
+      "path": "private/jd_sources/spotify_senior_speech.txt",
+      "bytes": 5523,
+      "sha256": "3e0494b966db33a91e07cab24ad0944e440741dfff1355a70ef4e1505c0d64a3"
+    },
+    {
+      "path": "private/jd_sources/tencent-R107821.txt",
+      "bytes": 4819,
+      "sha256": "8ae46c7f42c808dd343b25826a39c8837fc14eabaca6d81ca3b3288465c15658"
+    },
+    {
+      "path": "private/jd_sources/tencent-R108173.txt",
+      "bytes": 4654,
+      "sha256": "419372ad50f78925b36138b6dee2a4d08d2c9ae971bb18aa85e618d4d9c7eb66"
+    },
+    {
+      "path": "private/jd_sources/turku_tias_postdoc_2027.txt",
+      "bytes": 25166,
+      "sha256": "450abe36866ee6593008d74b90de6030cfdd847a78c24ef8165ed1957799bd01"
+    },
+    {
+      "path": "private/jd_sources/turku_ties2_2027.txt",
+      "bytes": 36764,
+      "sha256": "d17558949ce64a5b52fe4be28828e7399306a7a0411aa69fbcb65d5ca1e0def3"
     },
     {
       "path": "private/jobs/apple_speech/01_independent_fit_report.html",
       "bytes": 6801,
-      "sha256": "b91bd7fc404f07dd0aa9955e906f3a6d6654504fc8aecbbdacd60d8014ce85b2",
-      "privacy": "public_by_explicit_user_approval"
+      "sha256": "b91bd7fc404f07dd0aa9955e906f3a6d6654504fc8aecbbdacd60d8014ce85b2"
     },
     {
       "path": "private/jobs/apple_speech/01_independent_fit_report.md",
       "bytes": 5288,
-      "sha256": "c144a02a2c3b8f62b32bcad6b2b7e942afb562a3052b2058b4e9a9220568e7e8",
-      "privacy": "public_by_explicit_user_approval"
+      "sha256": "c144a02a2c3b8f62b32bcad6b2b7e942afb562a3052b2058b4e9a9220568e7e8"
     },
     {
       "path": "private/jobs/apple_speech/02_requirement_evidence_matrix.csv",
       "bytes": 12069,
-      "sha256": "df9bdfee6bde4f34c98d79841a42b27776bf74f06bcec1c0106ca6a3e7078af5",
-      "privacy": "public_by_explicit_user_approval"
+      "sha256": "df9bdfee6bde4f34c98d79841a42b27776bf74f06bcec1c0106ca6a3e7078af5"
     },
     {
       "path": "private/jobs/apple_speech/02_requirement_evidence_matrix.html",
       "bytes": 12504,
-      "sha256": "99a82e5a361967616d9e00a7b06d684256c6a57058c0a88e90815cde8820d959",
-      "privacy": "public_by_explicit_user_approval"
+      "sha256": "99a82e5a361967616d9e00a7b06d684256c6a57058c0a88e90815cde8820d959"
     },
     {
       "path": "private/jobs/apple_speech/02_requirement_evidence_matrix.md",
       "bytes": 10343,
-      "sha256": "59539f21a9c2bd77fd228cd4957145260256cfd2b8a326c8bdd7db95beaf1c9a",
-      "privacy": "public_by_explicit_user_approval"
+      "sha256": "59539f21a9c2bd77fd228cd4957145260256cfd2b8a326c8bdd7db95beaf1c9a"
     },
     {
       "path": "private/jobs/apple_speech/03_tailored_resume_Zhanhong_He_Apple_Generative_AI_Research_Engineer_Siri_Speech_20261021_v1.docx",
       "bytes": 38417,
-      "sha256": "0d0838db4ed70a6d93199c0fd12303e5831b12020c396eaeabc758df2182abbc",
-      "privacy": "public_by_explicit_user_approval"
+      "sha256": "0d0838db4ed70a6d93199c0fd12303e5831b12020c396eaeabc758df2182abbc"
     },
     {
       "path": "private/jobs/apple_speech/03_tailored_resume_Zhanhong_He_Apple_Generative_AI_Research_Engineer_Siri_Speech_20261021_v1.pdf",
       "bytes": 64127,
-      "sha256": "f44cd2b5c282825a4c5f27bfa93143bd682860903b1f29393bb6f2651ee2f345",
-      "privacy": "public_by_explicit_user_approval"
+      "sha256": "f44cd2b5c282825a4c5f27bfa93143bd682860903b1f29393bb6f2651ee2f345"
     },
     {
       "path": "private/jobs/apple_speech/03_tailored_resume_Zhanhong_He_Apple_Generative_AI_Research_Engineer_Siri_Speech_20261021_v1.txt",
       "bytes": 3492,
-      "sha256": "b86c0d7751b1cde4424e79eff093ac46f75020415e33e0e748f5c47f7d81d321",
-      "privacy": "public_by_explicit_user_approval"
+      "sha256": "b86c0d7751b1cde4424e79eff093ac46f75020415e33e0e748f5c47f7d81d321"
     },
     {
       "path": "private/jobs/apple_speech/04_resume_change_log.html",
       "bytes": 4820,
-      "sha256": "a6c621b1da009ef8975d6af1f3ea1493d34798a768fafd9305c412c16ee26ec6",
-      "privacy": "public_by_explicit_user_approval"
+      "sha256": "a6c621b1da009ef8975d6af1f3ea1493d34798a768fafd9305c412c16ee26ec6"
     },
     {
       "path": "private/jobs/apple_speech/04_resume_change_log.md",
       "bytes": 3228,
-      "sha256": "19b3d86a0a4f39b5bc3c2da6106e0068c6a689796cdd69d676cdbd8d55ae9c12",
-      "privacy": "public_by_explicit_user_approval"
+      "sha256": "19b3d86a0a4f39b5bc3c2da6106e0068c6a689796cdd69d676cdbd8d55ae9c12"
     },
     {
       "path": "private/jobs/apple_speech/05_cover_letter_draft.txt",
       "bytes": 2076,
-      "sha256": "8498c55d1152a95e028f44c5b2bef4e70ce0ea5755452f31da4c5df6a2d62f2d",
-      "privacy": "public_by_explicit_user_approval"
+      "sha256": "8498c55d1152a95e028f44c5b2bef4e70ce0ea5755452f31da4c5df6a2d62f2d"
     },
     {
       "path": "private/jobs/apple_speech/06_outreach_DRAFT_DO_NOT_SEND.txt",
       "bytes": 905,
-      "sha256": "7ccfa800dd527db45c97c1e8f41e4468c4a8a6f7deae95d834cab8790907d04b",
-      "privacy": "public_by_explicit_user_approval"
+      "sha256": "7ccfa800dd527db45c97c1e8f41e4468c4a8a6f7deae95d834cab8790907d04b"
     },
     {
       "path": "private/jobs/apple_speech/07_interview_10_questions.html",
       "bytes": 6325,
-      "sha256": "660282ea440141aa40309205398f29e2b1fa4a63c7982639fbed02244778ec7a",
-      "privacy": "public_by_explicit_user_approval"
+      "sha256": "660282ea440141aa40309205398f29e2b1fa4a63c7982639fbed02244778ec7a"
     },
     {
       "path": "private/jobs/apple_speech/07_interview_10_questions.md",
       "bytes": 5056,
-      "sha256": "2784408be36c6d437c65faa5ad3c9cc078800531124f431ab3873c56cbc1d947",
-      "privacy": "public_by_explicit_user_approval"
+      "sha256": "2784408be36c6d437c65faa5ad3c9cc078800531124f431ab3873c56cbc1d947"
     },
     {
       "path": "private/jobs/apple_speech/08_salary_career_and_transferability.html",
       "bytes": 4636,
-      "sha256": "e90faa20345541a329725a5b389dbb6bf44679cac52e2ca74fe53184b0d37bca",
-      "privacy": "public_by_explicit_user_approval"
+      "sha256": "e90faa20345541a329725a5b389dbb6bf44679cac52e2ca74fe53184b0d37bca"
     },
     {
       "path": "private/jobs/apple_speech/08_salary_career_and_transferability.md",
       "bytes": 3458,
-      "sha256": "2228bc4a2ce60e06863fec40d800c41cd0ba1dc58e8a8d671953d256b75493d1",
-      "privacy": "public_by_explicit_user_approval"
+      "sha256": "2228bc4a2ce60e06863fec40d800c41cd0ba1dc58e8a8d671953d256b75493d1"
     },
     {
       "path": "private/jobs/apple_speech/09_application_decision_and_deadline_plan.html",
       "bytes": 4129,
-      "sha256": "5b81a4a4aece8999f8f6b219b7c40edfb23080c1ea93a2614e4ef8c29b23eefd",
-      "privacy": "public_by_explicit_user_approval"
+      "sha256": "5b81a4a4aece8999f8f6b219b7c40edfb23080c1ea93a2614e4ef8c29b23eefd"
     },
     {
       "path": "private/jobs/apple_speech/09_application_decision_and_deadline_plan.md",
       "bytes": 2771,
-      "sha256": "ab318e46472b7393a1edde1d94c746c4f8a08f7162a46072fb02109c5f576a4b",
-      "privacy": "public_by_explicit_user_approval"
+      "sha256": "ab318e46472b7393a1edde1d94c746c4f8a08f7162a46072fb02109c5f576a4b"
     },
     {
       "path": "private/jobs/apple_speech/10_sources_and_open_questions.html",
       "bytes": 4940,
-      "sha256": "9a16217eb5ec532c4b4e1881b0a544352ce62a3142ff0bea5d67e54014ef82b3",
-      "privacy": "public_by_explicit_user_approval"
+      "sha256": "9a16217eb5ec532c4b4e1881b0a544352ce62a3142ff0bea5d67e54014ef82b3"
     },
     {
       "path": "private/jobs/apple_speech/10_sources_and_open_questions.md",
       "bytes": 3484,
-      "sha256": "84c5f296f0d3b913e62992e7152b8317b6949ebbd36cc9d395ca691121db0c74",
-      "privacy": "public_by_explicit_user_approval"
+      "sha256": "84c5f296f0d3b913e62992e7152b8317b6949ebbd36cc9d395ca691121db0c74"
     },
     {
       "path": "private/jobs/apple_speech/11_visa_route_analysis.html",
       "bytes": 4268,
-      "sha256": "a4eacce99da3ce7b28f702c935ff7a517ea583daf6eac2b01e6ca8ec8249f2ab",
-      "privacy": "public_by_explicit_user_approval"
+      "sha256": "a4eacce99da3ce7b28f702c935ff7a517ea583daf6eac2b01e6ca8ec8249f2ab"
     },
     {
       "path": "private/jobs/apple_speech/11_visa_route_analysis.md",
       "bytes": 2899,
-      "sha256": "578fff395f75dd8c254a7476fde7a5dd031456774506a1452cb5b3849fd5e2ff",
-      "privacy": "public_by_explicit_user_approval"
+      "sha256": "578fff395f75dd8c254a7476fde7a5dd031456774506a1452cb5b3849fd5e2ff"
     },
     {
       "path": "private/jobs/apple_speech/index.html",
       "bytes": 26672,
-      "sha256": "917d677b2da731c46225119b8cd34d0205302d0d322bae9cccd567de0b667fad",
-      "privacy": "public_by_explicit_user_approval"
+      "sha256": "917d677b2da731c46225119b8cd34d0205302d0d322bae9cccd567de0b667fad"
     },
     {
       "path": "private/jobs/apple_speech/manifest.json",
       "bytes": 5706,
-      "sha256": "345bc970541e6cdd60f63effbb76f55f447daebd5395a9d64197a7b7d73217eb",
-      "privacy": "public_by_explicit_user_approval"
+      "sha256": "345bc970541e6cdd60f63effbb76f55f447daebd5395a9d64197a7b7d73217eb"
     },
     {
       "path": "private/jobs/apple_speech/sources/apple_official_iab_main_20261021.txt",
       "bytes": 4054,
-      "sha256": "b5192be83123c5855e806cb06d1290e8add0282e78693e9c3943c3c8a5d3f5aa",
-      "privacy": "public_by_explicit_user_approval"
+      "sha256": "b5192be83123c5855e806cb06d1290e8add0282e78693e9c3943c3c8a5d3f5aa"
     },
     {
       "path": "private/jobs/apple_speech/summary.json",
       "bytes": 2394,
-      "sha256": "f18c6deac208b86aad1334ea94386504ceb8b748ee8617c16039749fa0bf0a29",
-      "privacy": "public_by_explicit_user_approval"
+      "sha256": "f18c6deac208b86aad1334ea94386504ceb8b748ee8617c16039749fa0bf0a29"
     },
     {
       "path": "private/jobs/apple_speech/visa_role_snapshot.json",
       "bytes": 3538,
-      "sha256": "ab551a8329dd4e12b616c50a57189dc4905c983ad577c5af23329278d39dcfd8",
-      "privacy": "public_by_explicit_user_approval"
+      "sha256": "ab551a8329dd4e12b616c50a57189dc4905c983ad577c5af23329278d39dcfd8"
     },
     {
       "path": "private/jobs/cambridge_GT51091/01_independent_fit_report.html",
       "bytes": 9451,
-      "sha256": "3fad03bc13959247568118c2aed8393fc1112b3211c4777b6523990d726f835d",
-      "privacy": "public_by_explicit_user_approval"
+      "sha256": "3fad03bc13959247568118c2aed8393fc1112b3211c4777b6523990d726f835d"
     },
     {
       "path": "private/jobs/cambridge_GT51091/01_independent_fit_report.md",
       "bytes": 7676,
-      "sha256": "b89841ad79f4cdfbb9b78baab82c6f028a68d01891d57bf8c15d94753a88bd6d",
-      "privacy": "public_by_explicit_user_approval"
+      "sha256": "b89841ad79f4cdfbb9b78baab82c6f028a68d01891d57bf8c15d94753a88bd6d"
     },
     {
       "path": "private/jobs/cambridge_GT51091/02_requirement_evidence_matrix.csv",
       "bytes": 9423,
-      "sha256": "ccc53999b3882f432f56fa366eb258a0425df069e35c40e60665017f0e88db53",
-      "privacy": "public_by_explicit_user_approval"
+      "sha256": "ccc53999b3882f432f56fa366eb258a0425df069e35c40e60665017f0e88db53"
     },
     {
       "path": "private/jobs/cambridge_GT51091/02_requirement_evidence_matrix.html",
       "bytes": 13546,
-      "sha256": "613e606e1051bee48120b355fa3d2e5942650ff08589ee13f8a3516851b00c84",
-      "privacy": "public_by_explicit_user_approval"
+      "sha256": "613e606e1051bee48120b355fa3d2e5942650ff08589ee13f8a3516851b00c84"
     },
     {
       "path": "private/jobs/cambridge_GT51091/02_requirement_evidence_matrix.md",
       "bytes": 10243,
-      "sha256": "998059223c6988fe65b058d47742afdd5fc332f30e237ed96d561fd9c65333d5",
-      "privacy": "public_by_explicit_user_approval"
+      "sha256": "998059223c6988fe65b058d47742afdd5fc332f30e237ed96d561fd9c65333d5"
     },
     {
       "path": "private/jobs/cambridge_GT51091/03_Zhanhong_He_Cambridge_Research_Associate_Music_AI_20261021_v1.docx",
       "bytes": 38981,
-      "sha256": "0b8ab5ee973dcddb011bb08f6e4ca9453bc15cf582bacd66084a1638923be827",
-      "privacy": "public_by_explicit_user_approval"
+      "sha256": "0b8ab5ee973dcddb011bb08f6e4ca9453bc15cf582bacd66084a1638923be827"
     },
     {
       "path": "private/jobs/cambridge_GT51091/03_Zhanhong_He_Cambridge_Research_Associate_Music_AI_20261021_v1.pdf",
       "bytes": 71664,
-      "sha256": "60b447e48f9f8d6e779c8be028e6af45a784381dcd69c8f813c940907849bc5e",
-      "privacy": "public_by_explicit_user_approval"
+      "sha256": "60b447e48f9f8d6e779c8be028e6af45a784381dcd69c8f813c940907849bc5e"
     },
     {
       "path": "private/jobs/cambridge_GT51091/03_Zhanhong_He_Cambridge_Research_Associate_Music_AI_20261021_v1.txt",
       "bytes": 4796,
-      "sha256": "5f45cabaafd1c3c5a681a9c293d592aef90672af5c7e53638bf4d5d88a611b80",
-      "privacy": "public_by_explicit_user_approval"
+      "sha256": "5f45cabaafd1c3c5a681a9c293d592aef90672af5c7e53638bf4d5d88a611b80"
     },
     {
       "path": "private/jobs/cambridge_GT51091/04_resume_change_log.html",
       "bytes": 6663,
-      "sha256": "94082b513f7584d65063b5fc941ad053ce3557009e068d42d05d2a2f0dfa9964",
-      "privacy": "public_by_explicit_user_approval"
+      "sha256": "94082b513f7584d65063b5fc941ad053ce3557009e068d42d05d2a2f0dfa9964"
     },
     {
       "path": "private/jobs/cambridge_GT51091/04_resume_change_log.md",
       "bytes": 4739,
-      "sha256": "77bea351efa45860763ca737ae6fa517ad08f5b08639a7bf072b2ec8eeff3afd",
-      "privacy": "public_by_explicit_user_approval"
+      "sha256": "77bea351efa45860763ca737ae6fa517ad08f5b08639a7bf072b2ec8eeff3afd"
     },
     {
       "path": "private/jobs/cambridge_GT51091/05_cover_letter_draft.txt",
       "bytes": 2878,
-      "sha256": "a2dd584966c55d2aa4aee0858b28c28fadc8b5630705c81c0ba9eb5e56776dcb",
-      "privacy": "public_by_explicit_user_approval"
+      "sha256": "a2dd584966c55d2aa4aee0858b28c28fadc8b5630705c81c0ba9eb5e56776dcb"
     },
     {
       "path": "private/jobs/cambridge_GT51091/06_outreach_DRAFT_DO_NOT_SEND.txt",
       "bytes": 1632,
-      "sha256": "2f9acdb302d6494eb1f8e846f6c7eacb9eb61e5994c4efa36e1fce9a7839b7c9",
-      "privacy": "public_by_explicit_user_approval"
+      "sha256": "2f9acdb302d6494eb1f8e846f6c7eacb9eb61e5994c4efa36e1fce9a7839b7c9"
     },
     {
       "path": "private/jobs/cambridge_GT51091/07_interview_10_questions.html",
       "bytes": 6532,
-      "sha256": "8253968e8ced20d4f24aba35d76d49519db78606057bf3c954d84caa7e6e2da0",
-      "privacy": "public_by_explicit_user_approval"
+      "sha256": "8253968e8ced20d4f24aba35d76d49519db78606057bf3c954d84caa7e6e2da0"
     },
     {
       "path": "private/jobs/cambridge_GT51091/07_interview_10_questions.md",
       "bytes": 5354,
-      "sha256": "f35f57d99f3c19ca69dc39a7294100dfa78a534880c15597e1322983bf562dc7",
-      "privacy": "public_by_explicit_user_approval"
+      "sha256": "f35f57d99f3c19ca69dc39a7294100dfa78a534880c15597e1322983bf562dc7"
     },
     {
       "path": "private/jobs/cambridge_GT51091/08_salary_career_and_transferability.html",
       "bytes": 7910,
-      "sha256": "36d54ac5b2f8f763eabd36c176b2ab31ec0efa7e066b31156a8a6982cb1fb585",
-      "privacy": "public_by_explicit_user_approval"
+      "sha256": "36d54ac5b2f8f763eabd36c176b2ab31ec0efa7e066b31156a8a6982cb1fb585"
     },
     {
       "path": "private/jobs/cambridge_GT51091/08_salary_career_and_transferability.md",
       "bytes": 6158,
-      "sha256": "be8d4d0ed1e992e1f9050034efd6c84c3ffb5f10244b0550eeb32eee94939ddb",
-      "privacy": "public_by_explicit_user_approval"
+      "sha256": "be8d4d0ed1e992e1f9050034efd6c84c3ffb5f10244b0550eeb32eee94939ddb"
     },
     {
       "path": "private/jobs/cambridge_GT51091/09_application_decision_and_deadline_plan.html",
       "bytes": 5958,
-      "sha256": "8a69d6d81aaae0a746efc1ab9b90cb994bd386e27cbcf7fa59e860d4a8adef51",
-      "privacy": "public_by_explicit_user_approval"
+      "sha256": "8a69d6d81aaae0a746efc1ab9b90cb994bd386e27cbcf7fa59e860d4a8adef51"
     },
     {
       "path": "private/jobs/cambridge_GT51091/09_application_decision_and_deadline_plan.md",
       "bytes": 4353,
-      "sha256": "fa7c6b49bb29990f4e09b67a961bcadd8ba26e1ad160983f5489310c2e37426e",
-      "privacy": "public_by_explicit_user_approval"
+      "sha256": "fa7c6b49bb29990f4e09b67a961bcadd8ba26e1ad160983f5489310c2e37426e"
     },
     {
       "path": "private/jobs/cambridge_GT51091/10_sources_and_open_questions.html",
       "bytes": 7888,
-      "sha256": "031754413c52170966b83f7919c8770fc24788ce2759bed3407179509c3edabb",
-      "privacy": "public_by_explicit_user_approval"
+      "sha256": "031754413c52170966b83f7919c8770fc24788ce2759bed3407179509c3edabb"
     },
     {
       "path": "private/jobs/cambridge_GT51091/10_sources_and_open_questions.md",
       "bytes": 6092,
-      "sha256": "b8f8c1ecf7a907634582ff64b861b7053a752a195ef943834dc0b0aabf12f12c",
-      "privacy": "public_by_explicit_user_approval"
+      "sha256": "b8f8c1ecf7a907634582ff64b861b7053a752a195ef943834dc0b0aabf12f12c"
     },
     {
       "path": "private/jobs/cambridge_GT51091/11_visa_route_analysis.html",
       "bytes": 13215,
-      "sha256": "6e7c0b38e4c3428aacfbd875cd3db1805e4afc7e08ef3dabd32bdad18051374b",
-      "privacy": "public_by_explicit_user_approval"
+      "sha256": "6e7c0b38e4c3428aacfbd875cd3db1805e4afc7e08ef3dabd32bdad18051374b"
     },
     {
       "path": "private/jobs/cambridge_GT51091/11_visa_route_analysis.md",
       "bytes": 11185,
-      "sha256": "334d3aeee9e7b91229427a09319d34f7956a70610124036b337c41dd7edf2e13",
-      "privacy": "public_by_explicit_user_approval"
+      "sha256": "334d3aeee9e7b91229427a09319d34f7956a70610124036b337c41dd7edf2e13"
     },
     {
       "path": "private/jobs/cambridge_GT51091/12_research_proposal_draft.txt",
       "bytes": 3163,
-      "sha256": "e0b0a8a272c7fd4a9b92ca57885916bc8d32f9dfa74b6ed926c5b867c2fb8eb4",
-      "privacy": "public_by_explicit_user_approval"
+      "sha256": "e0b0a8a272c7fd4a9b92ca57885916bc8d32f9dfa74b6ed926c5b867c2fb8eb4"
     },
     {
       "path": "private/jobs/cambridge_GT51091/13_work_sample_and_referees_INTERNAL.html",
       "bytes": 3510,
-      "sha256": "48c779f9aed453e0882dfa9055828b7a12cf23e5ad4a5b373c42247d01720b89",
-      "privacy": "public_by_explicit_user_approval"
+      "sha256": "48c779f9aed453e0882dfa9055828b7a12cf23e5ad4a5b373c42247d01720b89"
     },
     {
       "path": "private/jobs/cambridge_GT51091/13_work_sample_and_referees_INTERNAL.md",
       "bytes": 2223,
-      "sha256": "09d5415697b3cb9676090fe52e1a61a46836d8b35e08c1d2261b8195e2240c4c",
-      "privacy": "public_by_explicit_user_approval"
+      "sha256": "09d5415697b3cb9676090fe52e1a61a46836d8b35e08c1d2261b8195e2240c4c"
     },
     {
       "path": "private/jobs/cambridge_GT51091/index.html",
       "bytes": 39375,
-      "sha256": "c11b444a4995d22a55574dc18a19dc6db288c87eec40c33f370efae7d651a163",
-      "privacy": "public_by_explicit_user_approval"
+      "sha256": "c11b444a4995d22a55574dc18a19dc6db288c87eec40c33f370efae7d651a163"
     },
     {
       "path": "private/jobs/cambridge_GT51091/manifest.json",
       "bytes": 7008,
-      "sha256": "5018e723e90660c32720673518923e614381ea111b7c045404c14c06a7b3a373",
-      "privacy": "public_by_explicit_user_approval"
+      "sha256": "5018e723e90660c32720673518923e614381ea111b7c045404c14c06a7b3a373"
     },
     {
       "path": "private/jobs/cambridge_GT51091/sources/Cambridge_GT51091_Further_Information.pdf",
       "bytes": 3358637,
-      "sha256": "9359450dc1fd1ef82a030981a866b0438d0f60bb6745afa2f35dd0cab1e7851e",
-      "privacy": "public_by_explicit_user_approval"
+      "sha256": "9359450dc1fd1ef82a030981a866b0438d0f60bb6745afa2f35dd0cab1e7851e"
     },
     {
       "path": "private/jobs/cambridge_GT51091/sources/cambridge_HR_IAB_review_20261021.html",
       "bytes": 2189,
-      "sha256": "686c597d6e9d0bf2ab25b905cc0fee660d10487c668fbb47f6f7ccf6d43fb9de",
-      "privacy": "public_by_explicit_user_approval"
+      "sha256": "686c597d6e9d0bf2ab25b905cc0fee660d10487c668fbb47f6f7ccf6d43fb9de"
     },
     {
       "path": "private/jobs/cambridge_GT51091/sources/cambridge_HR_IAB_review_20261021.md",
       "bytes": 1110,
-      "sha256": "69e9e22f48b593f89aa2983e2e4fc51d7ce3b5d0c0011a3f9b555490e403b6e7",
-      "privacy": "public_by_explicit_user_approval"
+      "sha256": "69e9e22f48b593f89aa2983e2e4fc51d7ce3b5d0c0011a3f9b555490e403b6e7"
     },
     {
       "path": "private/jobs/cambridge_GT51091/sources/further_information_extracted.json",
       "bytes": 36941,
-      "sha256": "3b74642060211a0d756dee8d2ecde3e7e07e7c6fb05869f6b6b7d7bec1861036",
-      "privacy": "public_by_explicit_user_approval"
+      "sha256": "3b74642060211a0d756dee8d2ecde3e7e07e7c6fb05869f6b6b7d7bec1861036"
     },
     {
       "path": "private/jobs/cambridge_GT51091/sources/official_access_record.html",
       "bytes": 1893,
-      "sha256": "ff865a3a5acf02299148a4b04e263512761c76ae9e83fe426e138ed9ea335eea",
-      "privacy": "public_by_explicit_user_approval"
+      "sha256": "ff865a3a5acf02299148a4b04e263512761c76ae9e83fe426e138ed9ea335eea"
     },
     {
       "path": "private/jobs/cambridge_GT51091/sources/official_access_record.md",
       "bytes": 830,
-      "sha256": "db20b69abc516cdece0aaf0c9b3f00c89194804fbdd8e9fa120e8cc75e3c967f",
-      "privacy": "public_by_explicit_user_approval"
+      "sha256": "db20b69abc516cdece0aaf0c9b3f00c89194804fbdd8e9fa120e8cc75e3c967f"
     },
     {
       "path": "private/jobs/cambridge_GT51091/summary.json",
       "bytes": 2951,
-      "sha256": "1d1a0bdb1eb4a062875cd47d2cd078691e56494214e2f55995f857ea17147b11",
-      "privacy": "public_by_explicit_user_approval"
+      "sha256": "1d1a0bdb1eb4a062875cd47d2cd078691e56494214e2f55995f857ea17147b11"
     },
     {
       "path": "private/jobs/elevenlabs_research_engineer/01_independent_fit_report.html",
       "bytes": 6661,
-      "sha256": "7ccdf6aa346b7ca81e0bc79e345c0b7d113b44babfee21a6469010613d5d72b2",
-      "privacy": "public_by_explicit_user_approval"
+      "sha256": "7ccdf6aa346b7ca81e0bc79e345c0b7d113b44babfee21a6469010613d5d72b2"
     },
     {
       "path": "private/jobs/elevenlabs_research_engineer/01_independent_fit_report.md",
       "bytes": 5085,
-      "sha256": "3d158b385959487adaa422421f7e2c671785c2f66267b5f4f8891b5c44987046",
-      "privacy": "public_by_explicit_user_approval"
+      "sha256": "3d158b385959487adaa422421f7e2c671785c2f66267b5f4f8891b5c44987046"
     },
     {
       "path": "private/jobs/elevenlabs_research_engineer/02_requirement_evidence_matrix.csv",
       "bytes": 3358,
-      "sha256": "880728c2bdc5da93bbb30c0ec9524240b0dc59afe8d0ab8213bae6c565192d96",
-      "privacy": "public_by_explicit_user_approval"
+      "sha256": "880728c2bdc5da93bbb30c0ec9524240b0dc59afe8d0ab8213bae6c565192d96"
     },
     {
       "path": "private/jobs/elevenlabs_research_engineer/02_requirement_evidence_matrix.html",
       "bytes": 5446,
-      "sha256": "e184f4aa1d3325601c33815f02c1aeff7c4bad00d8d1eab46155fe08840a43e1",
-      "privacy": "public_by_explicit_user_approval"
+      "sha256": "e184f4aa1d3325601c33815f02c1aeff7c4bad00d8d1eab46155fe08840a43e1"
     },
     {
       "path": "private/jobs/elevenlabs_research_engineer/02_requirement_evidence_matrix.md",
       "bytes": 3676,
-      "sha256": "3008203a95f24c1976c8bcf46067ff7e5e2b43e567c8594890fee5fb3e220a0a",
-      "privacy": "public_by_explicit_user_approval"
+      "sha256": "3008203a95f24c1976c8bcf46067ff7e5e2b43e567c8594890fee5fb3e220a0a"
     },
     {
       "path": "private/jobs/elevenlabs_research_engineer/03_tailored_resume_Zhanhong_He_ElevenLabs_Research_Engineer_20261021_v1.docx",
       "bytes": 38363,
-      "sha256": "c97e9192aed2d89923610569b4a0e4f55cc0618abea39e7bf8c916e170a81832",
-      "privacy": "public_by_explicit_user_approval"
+      "sha256": "c97e9192aed2d89923610569b4a0e4f55cc0618abea39e7bf8c916e170a81832"
     },
     {
       "path": "private/jobs/elevenlabs_research_engineer/03_tailored_resume_Zhanhong_He_ElevenLabs_Research_Engineer_20261021_v1.pdf",
       "bytes": 65118,
-      "sha256": "c01ae61921703c1271a87a36e2a489399f430d0f5ae1f0f6f2e770f33197c6e9",
-      "privacy": "public_by_explicit_user_approval"
+      "sha256": "c01ae61921703c1271a87a36e2a489399f430d0f5ae1f0f6f2e770f33197c6e9"
     },
     {
       "path": "private/jobs/elevenlabs_research_engineer/03_tailored_resume_Zhanhong_He_ElevenLabs_Research_Engineer_20261021_v1.txt",
       "bytes": 3379,
-      "sha256": "01fdb47ef2675dbe2eac22a0209ea46f02350990a93171df28496dd83fe4498b",
-      "privacy": "public_by_explicit_user_approval"
+      "sha256": "01fdb47ef2675dbe2eac22a0209ea46f02350990a93171df28496dd83fe4498b"
     },
     {
       "path": "private/jobs/elevenlabs_research_engineer/04_resume_change_log.html",
       "bytes": 3701,
-      "sha256": "832f0cd7bfeb297ae6e82b3c2f1ea2be85224244b0746ae67164cf5c669f9ee2",
-      "privacy": "public_by_explicit_user_approval"
+      "sha256": "832f0cd7bfeb297ae6e82b3c2f1ea2be85224244b0746ae67164cf5c669f9ee2"
     },
     {
       "path": "private/jobs/elevenlabs_research_engineer/04_resume_change_log.md",
       "bytes": 2044,
-      "sha256": "18eb2229a36ff20a5f259b3422ceaea70d7b74a8ea31970ef3167f5711adc572",
-      "privacy": "public_by_explicit_user_approval"
+      "sha256": "18eb2229a36ff20a5f259b3422ceaea70d7b74a8ea31970ef3167f5711adc572"
     },
     {
       "path": "private/jobs/elevenlabs_research_engineer/05_cover_letter_draft.txt",
       "bytes": 1744,
-      "sha256": "56ab658a86862f8c5567ad3063f2aa9da5737bb3a721533acca1e20d57598050",
-      "privacy": "public_by_explicit_user_approval"
+      "sha256": "56ab658a86862f8c5567ad3063f2aa9da5737bb3a721533acca1e20d57598050"
     },
     {
       "path": "private/jobs/elevenlabs_research_engineer/06_outreach_DRAFT_DO_NOT_SEND.txt",
       "bytes": 902,
-      "sha256": "a5e9945053ec948cf6d022b60256b8f389cbcc34ba2877e3691cd73893bf8b3c",
-      "privacy": "public_by_explicit_user_approval"
+      "sha256": "a5e9945053ec948cf6d022b60256b8f389cbcc34ba2877e3691cd73893bf8b3c"
     },
     {
       "path": "private/jobs/elevenlabs_research_engineer/07_interview_10_questions.html",
       "bytes": 4037,
-      "sha256": "1cc6f727ec39edd0752af47679e229088afafeb2fc742777cffe62646a68faa3",
-      "privacy": "public_by_explicit_user_approval"
+      "sha256": "1cc6f727ec39edd0752af47679e229088afafeb2fc742777cffe62646a68faa3"
     },
     {
       "path": "private/jobs/elevenlabs_research_engineer/07_interview_10_questions.md",
       "bytes": 2768,
-      "sha256": "fa1fb525e8b9868e3c30d09ea0de50a1c7a2fd012a9ec9d871b382edce316004",
-      "privacy": "public_by_explicit_user_approval"
+      "sha256": "fa1fb525e8b9868e3c30d09ea0de50a1c7a2fd012a9ec9d871b382edce316004"
     },
     {
       "path": "private/jobs/elevenlabs_research_engineer/08_salary_career_and_transferability.html",
       "bytes": 3413,
-      "sha256": "b1ccdad2ed3b87ee48f1491b86e772ea2daa3216631adf71dac74d61dbec1dd0",
-      "privacy": "public_by_explicit_user_approval"
+      "sha256": "b1ccdad2ed3b87ee48f1491b86e772ea2daa3216631adf71dac74d61dbec1dd0"
     },
     {
       "path": "private/jobs/elevenlabs_research_engineer/08_salary_career_and_transferability.md",
       "bytes": 2144,
-      "sha256": "8b672c3aa32740f9e7b2fa9e84e3df024e6a8b4d03ae730d94baf7f7b71f28b4",
-      "privacy": "public_by_explicit_user_approval"
+      "sha256": "8b672c3aa32740f9e7b2fa9e84e3df024e6a8b4d03ae730d94baf7f7b71f28b4"
     },
     {
       "path": "private/jobs/elevenlabs_research_engineer/09_application_decision_and_deadline_plan.html",
       "bytes": 2526,
-      "sha256": "55aa8b99391ee7bee22f1b86f181c286fc36bdb5ff3772125a1b76cf812ea0c9",
-      "privacy": "public_by_explicit_user_approval"
+      "sha256": "55aa8b99391ee7bee22f1b86f181c286fc36bdb5ff3772125a1b76cf812ea0c9"
     },
     {
       "path": "private/jobs/elevenlabs_research_engineer/09_application_decision_and_deadline_plan.md",
       "bytes": 1425,
-      "sha256": "0d0afce03bbde8a0107a46f624e8703f5de73f0cc648a67c86ff6d356adbb07f",
-      "privacy": "public_by_explicit_user_approval"
+      "sha256": "0d0afce03bbde8a0107a46f624e8703f5de73f0cc648a67c86ff6d356adbb07f"
     },
     {
       "path": "private/jobs/elevenlabs_research_engineer/10_sources_and_open_questions.html",
       "bytes": 4928,
-      "sha256": "7a687c3c2cf186cecc5eab88c6ee8b938b78b8f124d8cc31613acd8bcc6f7e12",
-      "privacy": "public_by_explicit_user_approval"
+      "sha256": "7a687c3c2cf186cecc5eab88c6ee8b938b78b8f124d8cc31613acd8bcc6f7e12"
     },
     {
       "path": "private/jobs/elevenlabs_research_engineer/10_sources_and_open_questions.md",
       "bytes": 3436,
-      "sha256": "a7daf9c7b8042abaaebb1b5a8a8c1ead656dedfef8ed4aaa64c43faeac91f632",
-      "privacy": "public_by_explicit_user_approval"
+      "sha256": "a7daf9c7b8042abaaebb1b5a8a8c1ead656dedfef8ed4aaa64c43faeac91f632"
     },
     {
       "path": "private/jobs/elevenlabs_research_engineer/11_visa_route_analysis.html",
       "bytes": 2623,
-      "sha256": "487b547db1a89e1089c6b792d3156402a22eaa63cb944a8715d096f6b2bf7cc8",
-      "privacy": "public_by_explicit_user_approval"
+      "sha256": "487b547db1a89e1089c6b792d3156402a22eaa63cb944a8715d096f6b2bf7cc8"
     },
     {
       "path": "private/jobs/elevenlabs_research_engineer/11_visa_route_analysis.md",
       "bytes": 1535,
-      "sha256": "54a49ed7f36a8cba6d26d645b04bac375a0b55f885238f8e82de16a2d6f03a99",
-      "privacy": "public_by_explicit_user_approval"
+      "sha256": "54a49ed7f36a8cba6d26d645b04bac375a0b55f885238f8e82de16a2d6f03a99"
     },
     {
       "path": "private/jobs/elevenlabs_research_engineer/index.html",
       "bytes": 17124,
-      "sha256": "af10c6c0300e8169bb020b910c73467b326b5769a7841ea90f359e6aa31521da",
-      "privacy": "public_by_explicit_user_approval"
+      "sha256": "af10c6c0300e8169bb020b910c73467b326b5769a7841ea90f359e6aa31521da"
     },
     {
       "path": "private/jobs/elevenlabs_research_engineer/manifest.json",
       "bytes": 5287,
-      "sha256": "1b345d53b7ac4ca30906fc2c41ec84b6361433d3de97ff833619bec297335981",
-      "privacy": "public_by_explicit_user_approval"
+      "sha256": "1b345d53b7ac4ca30906fc2c41ec84b6361433d3de97ff833619bec297335981"
     },
     {
       "path": "private/jobs/elevenlabs_research_engineer/summary.json",
       "bytes": 2036,
-      "sha256": "8e8b6a66f44c158eb4f5d6fd4a26dc371b939dd7e925311c45dc5456627e3299",
-      "privacy": "public_by_explicit_user_approval"
+      "sha256": "8e8b6a66f44c158eb4f5d6fd4a26dc371b939dd7e925311c45dc5456627e3299"
     },
     {
       "path": "private/jobs/spotify_generative_audio/01_independent_fit_report.html",
       "bytes": 9356,
-      "sha256": "f26d366080e83c822e39eaf82e20346827168fb8f9e6cbdc51481d9e21b21cb6",
-      "privacy": "public_by_explicit_user_approval"
+      "sha256": "f26d366080e83c822e39eaf82e20346827168fb8f9e6cbdc51481d9e21b21cb6"
     },
     {
       "path": "private/jobs/spotify_generative_audio/01_independent_fit_report.md",
       "bytes": 7532,
-      "sha256": "1a0396b00ca79ce94e17be61d652ea6806b7e1876549596570c1e60b7fc79a2e",
-      "privacy": "public_by_explicit_user_approval"
+      "sha256": "1a0396b00ca79ce94e17be61d652ea6806b7e1876549596570c1e60b7fc79a2e"
     },
     {
       "path": "private/jobs/spotify_generative_audio/02_requirement_evidence_matrix.csv",
       "bytes": 7345,
-      "sha256": "f6371972dc04611fcf5d2ea25c630b3cf780bb519d32e83fe5b74076873d77cf",
-      "privacy": "public_by_explicit_user_approval"
+      "sha256": "f6371972dc04611fcf5d2ea25c630b3cf780bb519d32e83fe5b74076873d77cf"
     },
     {
       "path": "private/jobs/spotify_generative_audio/02_requirement_evidence_matrix.html",
       "bytes": 10816,
-      "sha256": "17aba305f53b07f7fb69237d8bb44910809c01b0eba71487c9adc105dcf898ae",
-      "privacy": "public_by_explicit_user_approval"
+      "sha256": "17aba305f53b07f7fb69237d8bb44910809c01b0eba71487c9adc105dcf898ae"
     },
     {
       "path": "private/jobs/spotify_generative_audio/02_requirement_evidence_matrix.md",
       "bytes": 8271,
-      "sha256": "665807064b081e0a5bf043080c31869c18816f7fcdd158d73c1a998826d342a7",
-      "privacy": "public_by_explicit_user_approval"
+      "sha256": "665807064b081e0a5bf043080c31869c18816f7fcdd158d73c1a998826d342a7"
     },
     {
       "path": "private/jobs/spotify_generative_audio/03_tailored_resume_Zhanhong_He_Spotify_Research_Scientist_Generative_Audio_20261021_v1.docx",
       "bytes": 38421,
-      "sha256": "c9830b54ff21becc813217de8bd1bd8253917b53b69c230513866717b845caa6",
-      "privacy": "public_by_explicit_user_approval"
+      "sha256": "c9830b54ff21becc813217de8bd1bd8253917b53b69c230513866717b845caa6"
     },
     {
       "path": "private/jobs/spotify_generative_audio/03_tailored_resume_Zhanhong_He_Spotify_Research_Scientist_Generative_Audio_20261021_v1.pdf",
       "bytes": 61689,
-      "sha256": "d365d04e932a7f5f84eaee531c4324be6e226a04f93acd7e96d8195bc5969d70",
-      "privacy": "public_by_explicit_user_approval"
+      "sha256": "d365d04e932a7f5f84eaee531c4324be6e226a04f93acd7e96d8195bc5969d70"
     },
     {
       "path": "private/jobs/spotify_generative_audio/03_tailored_resume_Zhanhong_He_Spotify_Research_Scientist_Generative_Audio_20261021_v1.txt",
       "bytes": 3620,
-      "sha256": "a3458452bb939d9b2de61de14b33f3da1f2c8341f6e082adf481b7c2ce9c535b",
-      "privacy": "public_by_explicit_user_approval"
+      "sha256": "a3458452bb939d9b2de61de14b33f3da1f2c8341f6e082adf481b7c2ce9c535b"
     },
     {
       "path": "private/jobs/spotify_generative_audio/04_resume_change_log.html",
       "bytes": 6379,
-      "sha256": "d8c401ed580ed0fbd7e68fadffe078e95ba74bee1f1f3a5fc76a235bd36a7164",
-      "privacy": "public_by_explicit_user_approval"
+      "sha256": "d8c401ed580ed0fbd7e68fadffe078e95ba74bee1f1f3a5fc76a235bd36a7164"
     },
     {
       "path": "private/jobs/spotify_generative_audio/04_resume_change_log.md",
       "bytes": 4612,
-      "sha256": "a4cbc48d9d7674dd88bda9477681ce59f16434490407ecb577b408ec6cc3b2f4",
-      "privacy": "public_by_explicit_user_approval"
+      "sha256": "a4cbc48d9d7674dd88bda9477681ce59f16434490407ecb577b408ec6cc3b2f4"
     },
     {
       "path": "private/jobs/spotify_generative_audio/05_cover_letter_draft.txt",
       "bytes": 2252,
-      "sha256": "b299c844348bedd2db8bfd69ab05f2b4163cbd83c0a20e62e4b1a211edbadfc3",
-      "privacy": "public_by_explicit_user_approval"
+      "sha256": "b299c844348bedd2db8bfd69ab05f2b4163cbd83c0a20e62e4b1a211edbadfc3"
     },
     {
       "path": "private/jobs/spotify_generative_audio/06_outreach_DRAFT_DO_NOT_SEND.txt",
       "bytes": 1698,
-      "sha256": "cad33afaebb42156e2e7e53e2ae1403215585029fb387abfcad5168c26e26ee5",
-      "privacy": "public_by_explicit_user_approval"
+      "sha256": "cad33afaebb42156e2e7e53e2ae1403215585029fb387abfcad5168c26e26ee5"
     },
     {
       "path": "private/jobs/spotify_generative_audio/07_interview_10_questions.html",
       "bytes": 6437,
-      "sha256": "2e2f80c694f214ce915274a87ebe1a450c1263f55065ebdfdb520336047c5d1c",
-      "privacy": "public_by_explicit_user_approval"
+      "sha256": "2e2f80c694f214ce915274a87ebe1a450c1263f55065ebdfdb520336047c5d1c"
     },
     {
       "path": "private/jobs/spotify_generative_audio/07_interview_10_questions.md",
       "bytes": 5271,
-      "sha256": "0c01cf68e3d1bdb6c40aca785b30bbe72f2126e1ec75c2c3f11b2c3881b9ae77",
-      "privacy": "public_by_explicit_user_approval"
+      "sha256": "0c01cf68e3d1bdb6c40aca785b30bbe72f2126e1ec75c2c3f11b2c3881b9ae77"
     },
     {
       "path": "private/jobs/spotify_generative_audio/08_salary_career_and_transferability.html",
       "bytes": 5752,
-      "sha256": "5a7027216f2b619b8efcab90c3832089d2939d9a780171961fe77eedf96e191f",
-      "privacy": "public_by_explicit_user_approval"
+      "sha256": "5a7027216f2b619b8efcab90c3832089d2939d9a780171961fe77eedf96e191f"
     },
     {
       "path": "private/jobs/spotify_generative_audio/08_salary_career_and_transferability.md",
       "bytes": 4183,
-      "sha256": "baa58828f595c4930b8ac2e4ae24091000a471c725cb8c2ec0d3b1e9bc8580df",
-      "privacy": "public_by_explicit_user_approval"
+      "sha256": "baa58828f595c4930b8ac2e4ae24091000a471c725cb8c2ec0d3b1e9bc8580df"
     },
     {
       "path": "private/jobs/spotify_generative_audio/09_application_decision_and_deadline_plan.html",
       "bytes": 5579,
-      "sha256": "c10c276f6b2f381e037a8fcd21aec4473b16afbb50b32dc8a88f8e80b8868c2a",
-      "privacy": "public_by_explicit_user_approval"
+      "sha256": "c10c276f6b2f381e037a8fcd21aec4473b16afbb50b32dc8a88f8e80b8868c2a"
     },
     {
       "path": "private/jobs/spotify_generative_audio/09_application_decision_and_deadline_plan.md",
       "bytes": 4133,
-      "sha256": "a256455264a9f825b3b76abd9166352bab1f88a9dd689c7f67ec38b92f12b16f",
-      "privacy": "public_by_explicit_user_approval"
+      "sha256": "a256455264a9f825b3b76abd9166352bab1f88a9dd689c7f67ec38b92f12b16f"
     },
     {
       "path": "private/jobs/spotify_generative_audio/10_sources_and_open_questions.html",
       "bytes": 10326,
-      "sha256": "cd3a10f55c509e3b4793086349a2fa9de4ce1a6aab1e2fd599c09ced9e92ddbd",
-      "privacy": "public_by_explicit_user_approval"
+      "sha256": "cd3a10f55c509e3b4793086349a2fa9de4ce1a6aab1e2fd599c09ced9e92ddbd"
     },
     {
       "path": "private/jobs/spotify_generative_audio/10_sources_and_open_questions.md",
       "bytes": 8262,
-      "sha256": "ce34b13f176e04b3a866af9e6e74b3133a1b874b430b2a9f0e21225bde1506b8",
-      "privacy": "public_by_explicit_user_approval"
+      "sha256": "ce34b13f176e04b3a866af9e6e74b3133a1b874b430b2a9f0e21225bde1506b8"
     },
     {
       "path": "private/jobs/spotify_generative_audio/11_visa_route_analysis.html",
       "bytes": 9953,
-      "sha256": "cfa1a5757fc3b6ad6f586ff6c43c3f29526687b21b35c3556f7de47de739cd26",
-      "privacy": "public_by_explicit_user_approval"
+      "sha256": "cfa1a5757fc3b6ad6f586ff6c43c3f29526687b21b35c3556f7de47de739cd26"
     },
     {
       "path": "private/jobs/spotify_generative_audio/11_visa_route_analysis.md",
       "bytes": 8281,
-      "sha256": "b4c7fe62de0b9e2496f59128cb90636b080217fd798ba093b608d6526c14fb7b",
-      "privacy": "public_by_explicit_user_approval"
+      "sha256": "b4c7fe62de0b9e2496f59128cb90636b080217fd798ba093b608d6526c14fb7b"
     },
     {
       "path": "private/jobs/spotify_generative_audio/index.html",
       "bytes": 31377,
-      "sha256": "b318ea5ec095cd7217989ca38c12e073f26bb172108f8e937f53baa3066cf95d",
-      "privacy": "public_by_explicit_user_approval"
+      "sha256": "b318ea5ec095cd7217989ca38c12e073f26bb172108f8e937f53baa3066cf95d"
     },
     {
       "path": "private/jobs/spotify_generative_audio/manifest.json",
       "bytes": 5462,
-      "sha256": "18e3d3835fb0827d611442152914d47976a99d8a6901243371649d0a7c136d25",
-      "privacy": "public_by_explicit_user_approval"
+      "sha256": "18e3d3835fb0827d611442152914d47976a99d8a6901243371649d0a7c136d25"
     },
     {
       "path": "private/jobs/spotify_generative_audio/summary.json",
       "bytes": 4586,
-      "sha256": "1bb65ef93112874b96184cb9d6ea7c6d540b7c8362ab27e43021a2180620dcff",
-      "privacy": "public_by_explicit_user_approval"
+      "sha256": "1bb65ef93112874b96184cb9d6ea7c6d540b7c8362ab27e43021a2180620dcff"
+    },
+    {
+      "path": "private/new_materials/aalto-cowama-2026/01_independent_fit_report.md",
+      "bytes": 4792,
+      "sha256": "f955f16b509f56aa80d2d97080e0e25c58b5129d67737420f927d16d2fe56566"
+    },
+    {
+      "path": "private/new_materials/aalto-cowama-2026/02_requirement_evidence_matrix.csv",
+      "bytes": 3296,
+      "sha256": "930e451845138ba2f9ce9ae7aecf9edbc91ed0c95e9d11270aa81808936f6b1f"
+    },
+    {
+      "path": "private/new_materials/aalto-cowama-2026/02_requirement_evidence_matrix.md",
+      "bytes": 2757,
+      "sha256": "a8d3c50cb2c336f3feae968ef9af8925812f2b3aafee3c0f5e3eec3346cf42f5"
+    },
+    {
+      "path": "private/new_materials/aalto-cowama-2026/03_Zhanhong_He_Aalto_COWAMA_Postdoc_20261021_v1.docx",
+      "bytes": 38784,
+      "sha256": "c1bb3ea5cd4f43cc369bc1adb61ab96af7a611d291ddad38d4e19831e2b0b308"
+    },
+    {
+      "path": "private/new_materials/aalto-cowama-2026/03_Zhanhong_He_Aalto_COWAMA_Postdoc_20261021_v1.pdf",
+      "bytes": 65794,
+      "sha256": "18f6fc474f20053f87e883704ba10dde9748f332d544f122d2a42cfdd6df4c0c"
+    },
+    {
+      "path": "private/new_materials/aalto-cowama-2026/03_Zhanhong_He_Aalto_COWAMA_Postdoc_20261021_v1.txt",
+      "bytes": 4288,
+      "sha256": "7d813f3f5008270fc0b1a20b21f2a29288bc1e5b7b08e05fbc7d34069b66f717"
+    },
+    {
+      "path": "private/new_materials/aalto-cowama-2026/04_resume_change_log.md",
+      "bytes": 2356,
+      "sha256": "14deca42bd07df1a755a7abdffe81592e8625726080a5fc2de2e53263d16bd8a"
+    },
+    {
+      "path": "private/new_materials/aalto-cowama-2026/05_cover_letter_draft.txt",
+      "bytes": 2527,
+      "sha256": "18e09b6aea51dbcb8cff778627302f7582d5d3a04cabef92d93815c9c1558c84"
+    },
+    {
+      "path": "private/new_materials/aalto-cowama-2026/06_outreach_DRAFT_DO_NOT_SEND.txt",
+      "bytes": 1015,
+      "sha256": "31ae097f27d82e57f40cff7b8a830f71336c6bbfea15b5127d896d51334b1bb0"
+    },
+    {
+      "path": "private/new_materials/aalto-cowama-2026/07_interview_10_questions.md",
+      "bytes": 2984,
+      "sha256": "00b2b7e6c7fbc2a654d9f7a790cc7e07c093cdb34a1fa52d13a6e4c8a9d34171"
+    },
+    {
+      "path": "private/new_materials/aalto-cowama-2026/08_salary_career_and_transferability.md",
+      "bytes": 2704,
+      "sha256": "6e4664c9deac59444969cc36090c1bdcd589c86f6e55ea481893a2f4a42d6960"
+    },
+    {
+      "path": "private/new_materials/aalto-cowama-2026/09_application_decision_and_deadline_plan.md",
+      "bytes": 1480,
+      "sha256": "bf3dcfeae7180240a0d73da8ffceab4a7567a151ce30a2709398b3146ae08c23"
+    },
+    {
+      "path": "private/new_materials/aalto-cowama-2026/10_sources_and_open_questions.md",
+      "bytes": 3390,
+      "sha256": "d54ad9029658c81e33d85b42e761723d1c2686be6adb0ba1976f86d50c8b19e8"
+    },
+    {
+      "path": "private/new_materials/aalto-cowama-2026/11_short_research_proposal_DRAFT.txt",
+      "bytes": 2114,
+      "sha256": "40578faa2e52fe3ca6318e7812d7531d6e68191cf49002d896f12853e4daae47"
+    },
+    {
+      "path": "private/new_materials/aalto-cowama-2026/12_fifteen_task_completion_checklist.md",
+      "bytes": 882,
+      "sha256": "247cfc18e68e850dae544b26beb452248531a7e7ffa25d0979f49185b5b8bf3f"
+    },
+    {
+      "path": "private/new_materials/aalto-cowama-2026/summary.json",
+      "bytes": 3997,
+      "sha256": "646bbfe687563a75249b364b13f07992d3f810f1d263f20677b65d8bb23e1e6d"
+    },
+    {
+      "path": "private/new_materials/scrime_postdoc_2027/01_independent_fit_report.md",
+      "bytes": 4904,
+      "sha256": "d839ad1206e04ab1ebb56a85ec5cc88e1d6b6f7f7d04fd810a4405644bd8d70d"
+    },
+    {
+      "path": "private/new_materials/scrime_postdoc_2027/02_requirement_evidence_matrix.csv",
+      "bytes": 2716,
+      "sha256": "de5de31f1ec78c02442c05fbb9ade3f2363eba43265244ca58475f30b8641ac4"
+    },
+    {
+      "path": "private/new_materials/scrime_postdoc_2027/02_requirement_evidence_matrix.md",
+      "bytes": 2298,
+      "sha256": "4b87f0547636ca9fb114626621c820794c9f2fe95d4fdf8119e225eff60d3947"
+    },
+    {
+      "path": "private/new_materials/scrime_postdoc_2027/03_Zhanhong_He_SCRIME_Postdoc_20261021_v1.docx",
+      "bytes": 38765,
+      "sha256": "1a33cb1183262437b06073ce94e78b61061f78e4589eac9805baa34138285ad2"
+    },
+    {
+      "path": "private/new_materials/scrime_postdoc_2027/03_Zhanhong_He_SCRIME_Postdoc_20261021_v1.pdf",
+      "bytes": 65331,
+      "sha256": "da8897274baf905ea42287853da46c009e7f1c1e05b0a8d53d470bd3375e8155"
+    },
+    {
+      "path": "private/new_materials/scrime_postdoc_2027/03_Zhanhong_He_SCRIME_Postdoc_20261021_v1.txt",
+      "bytes": 4229,
+      "sha256": "1c6f2b275ce247f84e352904b35fd5e1dd308cf751c7a9711a703303b50cd1fe"
+    },
+    {
+      "path": "private/new_materials/scrime_postdoc_2027/04_resume_change_log.md",
+      "bytes": 2295,
+      "sha256": "a042b97ec840882cc488f53d7c6c693f9e93125e3e5c9b4bd21ce9a11b21cf77"
+    },
+    {
+      "path": "private/new_materials/scrime_postdoc_2027/05_cover_letter_draft.txt",
+      "bytes": 2266,
+      "sha256": "a14e9069f5f316519f80d650fefcb3e2cf03264eda0acc4d71d2afac455069ff"
+    },
+    {
+      "path": "private/new_materials/scrime_postdoc_2027/06_outreach_DRAFT_DO_NOT_SEND.txt",
+      "bytes": 910,
+      "sha256": "6642a758b438add835bc22e28052405ab20ac5f1f1fafa7f41ffa67e7317ee6a"
+    },
+    {
+      "path": "private/new_materials/scrime_postdoc_2027/07_interview_10_questions.md",
+      "bytes": 3058,
+      "sha256": "99c5fc97b1362f1725408314e35dfd30ea8b156cd2ea87c77b9f0bceda1e13e4"
+    },
+    {
+      "path": "private/new_materials/scrime_postdoc_2027/08_salary_career_and_transferability.md",
+      "bytes": 2715,
+      "sha256": "25258513a69c613c6003593afdf3a9024ab2ede21446939e3afa5f8d9a7bbff3"
+    },
+    {
+      "path": "private/new_materials/scrime_postdoc_2027/09_application_decision_and_deadline_plan.md",
+      "bytes": 1553,
+      "sha256": "c1d951d188a15e1896d35bd29c3efc0d465d73800f6b3cb7f423fbfdee2dba64"
+    },
+    {
+      "path": "private/new_materials/scrime_postdoc_2027/10_sources_and_open_questions.md",
+      "bytes": 3420,
+      "sha256": "b176b6db31991cbb987bc018cc9bca5b59ba2e27aba5ffa566f06c0efc155995"
+    },
+    {
+      "path": "private/new_materials/scrime_postdoc_2027/11_short_research_proposal_DRAFT.txt",
+      "bytes": 3291,
+      "sha256": "ae49136da05362cd774da3a1c3a7c49b7d25e7e191a9f9c850b8d9c98ee9c2e0"
+    },
+    {
+      "path": "private/new_materials/scrime_postdoc_2027/12_fifteen_task_completion_checklist.md",
+      "bytes": 882,
+      "sha256": "247cfc18e68e850dae544b26beb452248531a7e7ffa25d0979f49185b5b8bf3f"
+    },
+    {
+      "path": "private/new_materials/scrime_postdoc_2027/summary.json",
+      "bytes": 4204,
+      "sha256": "cb04983d250d7d750bd718f6b6628ee515b98a9e491266cdc1f413909bce030b"
+    },
+    {
+      "path": "private/new_materials/tencent-R107821/01_independent_fit_report.md",
+      "bytes": 4663,
+      "sha256": "b32cc7d8654b678e6a98232fc265503e3e92f39aa5503cd35835bb306030ea74"
+    },
+    {
+      "path": "private/new_materials/tencent-R107821/02_requirement_evidence_matrix.csv",
+      "bytes": 5418,
+      "sha256": "483460c76b21d6d54e1434dc51dd5542b65f98a644438475d4d3064e648a7e4e"
+    },
+    {
+      "path": "private/new_materials/tencent-R107821/02_requirement_evidence_matrix.md",
+      "bytes": 5658,
+      "sha256": "024f15fbce666867472c4170ccb712f3fbbedf3a836d7f43667d6da7d2c26fc9"
+    },
+    {
+      "path": "private/new_materials/tencent-R107821/03_tailored_resume_Zhanhong_He_Tencent_Senior_Researcher_Speech_Audio_R107821_20261021_v1.docx",
+      "bytes": 38389,
+      "sha256": "09770f3b97916b72e4524137df6c907f735c0797cd595d70e5ac95af949b9edb"
+    },
+    {
+      "path": "private/new_materials/tencent-R107821/03_tailored_resume_Zhanhong_He_Tencent_Senior_Researcher_Speech_Audio_R107821_20261021_v1.pdf",
+      "bytes": 61798,
+      "sha256": "d2410986f02b83c3a841f512d02120d6583f95bc420c56be3583aedcbd029b07"
+    },
+    {
+      "path": "private/new_materials/tencent-R107821/03_tailored_resume_Zhanhong_He_Tencent_Senior_Researcher_Speech_Audio_R107821_20261021_v1.txt",
+      "bytes": 3616,
+      "sha256": "7f99f12330d845689200841aa8b388e0adfa91f3463a1abb0afb1a75d6d889f2"
+    },
+    {
+      "path": "private/new_materials/tencent-R107821/04_resume_change_log.md",
+      "bytes": 2476,
+      "sha256": "e45963e882d91f5d426fb040ef6ee3164b2d36501e18ee7806871dd6a698a157"
+    },
+    {
+      "path": "private/new_materials/tencent-R107821/05_cover_letter_draft.txt",
+      "bytes": 2068,
+      "sha256": "97d99b497414daf87d57635ef4100c8555e8315ea2beb4e2b8454fadb24c9cfc"
+    },
+    {
+      "path": "private/new_materials/tencent-R107821/06_outreach_DRAFT_DO_NOT_SEND.txt",
+      "bytes": 1109,
+      "sha256": "f87bd344c10aca2057a734c485a05c428683ede9d4c7209df0708edd36880496"
+    },
+    {
+      "path": "private/new_materials/tencent-R107821/07_interview_10_questions.md",
+      "bytes": 3513,
+      "sha256": "7baa923a6334268948af4e5b4c974c9b6ece92b6dfdfc4d84bce499230dce186"
+    },
+    {
+      "path": "private/new_materials/tencent-R107821/08_salary_career_and_transferability.md",
+      "bytes": 2089,
+      "sha256": "e4cb0d2e8bcc6731f37352eb93f7cfff4842d2bc2233a07280969ccb278b6f46"
+    },
+    {
+      "path": "private/new_materials/tencent-R107821/09_application_decision_and_deadline_plan.md",
+      "bytes": 1919,
+      "sha256": "f2049cb4a7c84bad0e2a637504b0d79074707f9744e7163218e2bb377e082268"
+    },
+    {
+      "path": "private/new_materials/tencent-R107821/10_sources_and_open_questions.md",
+      "bytes": 3291,
+      "sha256": "e7c894814e7e4cb97b4515fe12c3cd9a0c5c6018d993de4af1fa2fe3cecfe039"
+    },
+    {
+      "path": "private/new_materials/tencent-R107821/11_visa_route_analysis.md",
+      "bytes": 11353,
+      "sha256": "127d16069b4c6f2cc1a170b31837d59b552c2c0209337432594022f103bdbe3c"
+    },
+    {
+      "path": "private/new_materials/tencent-R107821/12_project_evidence_fill_in_template.txt",
+      "bytes": 654,
+      "sha256": "a0e15d70b69042bcf5c180220503c376681e01345f8581f05db4398bfa27b5e8"
+    },
+    {
+      "path": "private/new_materials/tencent-R107821/summary.json",
+      "bytes": 1558,
+      "sha256": "9eb6f8ef4ee6576e9ade965523bc5b2e6f5dea37a44e08af976f0d4ac2055f58"
+    },
+    {
+      "path": "private/registry/aalto-cowama-2026.html",
+      "bytes": 35068,
+      "sha256": "fbc8d44f73858fd0926eca9096f63fdf6b250ce3472473bd5a18bd1a7927fd5c"
+    },
+    {
+      "path": "private/registry/aeffectune-founding-2026.html",
+      "bytes": 16154,
+      "sha256": "fe6bf6785600beab1f78c3cb8995442199b836b0034e2a5b2e583ae00399ae1f"
+    },
+    {
+      "path": "private/registry/apple_speech.html",
+      "bytes": 29133,
+      "sha256": "40fb8ba8ccd26de876ce83f264375193fad8b48eeb679a3e8df14ce0048d1322"
+    },
+    {
+      "path": "private/registry/audiostack-watch.html",
+      "bytes": 17401,
+      "sha256": "e591ee585083012eed6e22bec104c3aef27dc3ca35d2ff36a06c8ff09669db12"
+    },
+    {
+      "path": "private/registry/auphonic-ml-engineer.html",
+      "bytes": 13651,
+      "sha256": "df243644788cf30d88e2902232c555573b559472e696966f26f041704bb0bddf"
+    },
+    {
+      "path": "private/registry/bcu-sonic-6683.html",
+      "bytes": 13839,
+      "sha256": "4d221ca8f6ff30e9baab18e45231e3f62c050c82f77e2717f61eac7b81a84fae"
+    },
+    {
+      "path": "private/registry/bose-R28343.html",
+      "bytes": 17607,
+      "sha256": "7b6fd33c5e41d5023ae8e8e4b13bbcad6253821f179a76849e42ff547beb8728"
+    },
+    {
+      "path": "private/registry/brahma_audio.html",
+      "bytes": 17128,
+      "sha256": "3dc8242b078434d9048a1b8a52a1306b8cead8c47d87fd33db93f0433d3c8afe"
+    },
+    {
+      "path": "private/registry/cambridge_GT51091.html",
+      "bytes": 36038,
+      "sha256": "a47cb940d57387279dc62b0fda1da68cf290f4748211161f7b892435a21bfe7a"
+    },
+    {
+      "path": "private/registry/cartesia-7ecc288b.html",
+      "bytes": 19483,
+      "sha256": "6cf1a4bcf1a6515e0afffe4a2feed16c72f3a30fc23476f2d44768519fb691e0"
+    },
+    {
+      "path": "private/registry/elevenlabs_research_engineer.html",
+      "bytes": 26191,
+      "sha256": "9fc70abf30978425d21c37523d470fc5f0e64d353e8822ce032c608cb3927fda"
+    },
+    {
+      "path": "private/registry/focusrite-1A46D2C5E7.html",
+      "bytes": 20754,
+      "sha256": "6f13b51bfa764e010940e725b016509693aeeeeadd55bf982a89a87e96fa26f6"
+    },
+    {
+      "path": "private/registry/focusrite-7D70C84FE2.html",
+      "bytes": 20849,
+      "sha256": "b5f2414ae6732cd09f82fc0466b515bf6f2d06f340ed2a0a91604431bc1affce"
+    },
+    {
+      "path": "private/registry/halbestunde_senior_ml.html",
+      "bytes": 18072,
+      "sha256": "ff0dcbbe45e465f625ebc687db278340fddeba1cb070c66a2cf0d5c48d3cc433"
+    },
+    {
+      "path": "private/registry/helsinki_ai_engineering_5251.html",
+      "bytes": 24439,
+      "sha256": "1a2fd1844eeb1b19769afdcf74cf578cdb99acfe2657d6b006e71d0dc7dfd0a2"
+    },
+    {
+      "path": "private/registry/history-36b8ec851cce.html",
+      "bytes": 13571,
+      "sha256": "f6d63080e83e7230f7d934b5afb682b30f4a319b9b0570d93b8d6dcedc0dd11f"
+    },
+    {
+      "path": "private/registry/history-594fcc4ce61e.html",
+      "bytes": 13600,
+      "sha256": "98bbe0023047b1b55b5b58ab510b4e246d3f1065450a5923a095ede2ca25a76f"
+    },
+    {
+      "path": "private/registry/history-gbu-voluntary.html",
+      "bytes": 13536,
+      "sha256": "f3fabab88d88694b5b6c25d725e2be1672d6ba709f61042827145f410f246e65"
+    },
+    {
+      "path": "private/registry/history-musicai-application.html",
+      "bytes": 13553,
+      "sha256": "9d47166155f1adda9c17e228dd3e41438441907692a4c0726f7e1fb022a74596"
+    },
+    {
+      "path": "private/registry/history-serra-workshop.html",
+      "bytes": 13468,
+      "sha256": "986270c3ae461f46a391e53e846249bca6e5ffa7b6ee7d0c7a3516a31fa753f9"
+    },
+    {
+      "path": "private/registry/history-yamaha-2026.html",
+      "bytes": 13451,
+      "sha256": "a7a3e5a922688a67624ab9e172853bf3556c217535f63005bd6628ff000a12f2"
+    },
+    {
+      "path": "private/registry/ircam-ai-made-2026.html",
+      "bytes": 16438,
+      "sha256": "38d250a1085447a123f9636f1afc781edfddbbf7caf8e7faa6f1e7f67aa47cf0"
+    },
+    {
+      "path": "private/registry/ircam-avatars-mechanical-2026.html",
+      "bytes": 18294,
+      "sha256": "d1bdc50d6051574e64bb5420ce9932e48ad8d8478bc9ef194ec1aa0563cacd02"
+    },
+    {
+      "path": "private/registry/kth_974287.html",
+      "bytes": 29167,
+      "sha256": "92d34ad51750722b85a4364ff4a26adc52517fb7f1812f313c70d994fc342895"
+    },
+    {
+      "path": "private/registry/logitech-147367.html",
+      "bytes": 19460,
+      "sha256": "0a5c54f432bf22d66d1be8e74716e88b2979503f92dc9d46773d6f31d846f7a6"
+    },
+    {
+      "path": "private/registry/mail-lead-190bc4423631bde1.html",
+      "bytes": 13622,
+      "sha256": "ad3758c53f8823dc7d1d155bbb3fd1ce923812d56ff1df8d37df790a1c4cd28f"
+    },
+    {
+      "path": "private/registry/mail-lead-1915aea5ec5e6563.html",
+      "bytes": 14475,
+      "sha256": "3854a72056ded08e477b2eb6880a6206e83baa0490d04a5f3e31c626aad564ca"
+    },
+    {
+      "path": "private/registry/mail-lead-1920a1c331e40fc0.html",
+      "bytes": 13508,
+      "sha256": "f44c3ab97de3066daa8c5597735b60f3e4e7431633d82792b76140313249b2c0"
+    },
+    {
+      "path": "private/registry/mail-lead-19252d9af870b706.html",
+      "bytes": 13619,
+      "sha256": "29663428ce451ec0956ea4c0adfe5510c757550c87d4513fd5b522460462bdfc"
+    },
+    {
+      "path": "private/registry/mail-lead-1931aa7bdec68cb5.html",
+      "bytes": 13562,
+      "sha256": "9fe31d7ccb156674de1ce59d691111bf52bbf4c38dc2a46f3f0b9f8fcc83ed07"
+    },
+    {
+      "path": "private/registry/mail-lead-1936ec6ff1e086e0.html",
+      "bytes": 13535,
+      "sha256": "1dc9eff6ba37284624040f40d739d1beecaae7b02b36cf5340a848c5c5f4cdc6"
+    },
+    {
+      "path": "private/registry/mail-lead-1938801116df2072.html",
+      "bytes": 13700,
+      "sha256": "8061da2f126eb3bf9b4329ca6f2ce6ba5a40c14e41d9c0987ee470bee301601e"
+    },
+    {
+      "path": "private/registry/mail-lead-1945f2b0a1add1ba.html",
+      "bytes": 13550,
+      "sha256": "4e0f771952df0b8d63ae2b1278f6f7c749c3bd8f0c880dcb0fa1463dc4ee565c"
+    },
+    {
+      "path": "private/registry/mail-lead-19475b03ae40053f.html",
+      "bytes": 16139,
+      "sha256": "1960371aaf75f9f0e409ffe9dd0fe2fa379ebedb84956ead16ac53f11e340d2c"
+    },
+    {
+      "path": "private/registry/mail-lead-194b354bdf0972e7.html",
+      "bytes": 13577,
+      "sha256": "52a18b74bc598702adb3bd8f9e092b6de85d053f4e8e7c7da28e406407eed0c2"
+    },
+    {
+      "path": "private/registry/mail-lead-194d2c47ffa86608.html",
+      "bytes": 14536,
+      "sha256": "21912fe235417c5e4e54f1561b1d211ae531e215ccc3bbd2865483bcb5576e50"
+    },
+    {
+      "path": "private/registry/mail-lead-194fff8729794ee3.html",
+      "bytes": 13508,
+      "sha256": "2f7ce4657822e3a425725aa0c793b14356e058343766c32d98c63f800375a43b"
+    },
+    {
+      "path": "private/registry/mail-lead-1953f32d5c8fdb64.html",
+      "bytes": 13475,
+      "sha256": "530d38d9ddc20f87baceaad886c6f66e3e5cb5c0a95e3b9cb68aa004c9d7ee1e"
+    },
+    {
+      "path": "private/registry/mail-lead-1964b473958a2a80.html",
+      "bytes": 13472,
+      "sha256": "0bf8a55e3385175a7deda8314873f830d95612dc271c67bcec9c593bf5a421c3"
+    },
+    {
+      "path": "private/registry/mail-lead-1965c7439bdae634.html",
+      "bytes": 13661,
+      "sha256": "74c2ea3b04f7aea263da1654a6be43d2798e2f57282adb7124c7574ba812a172"
+    },
+    {
+      "path": "private/registry/mail-lead-19660313b0c0b5b6.html",
+      "bytes": 13644,
+      "sha256": "c2f8ef7f3e0ae3bc5edcef61364de0f961553dc64681465fa01257749e85f54d"
+    },
+    {
+      "path": "private/registry/mail-lead-19691af95ef16a94.html",
+      "bytes": 13646,
+      "sha256": "940add38d7b5bbcefc59415ed129a524c681020252839c8722b6d8bfe8b57c4c"
+    },
+    {
+      "path": "private/registry/mail-lead-196c67e39e76145e.html",
+      "bytes": 13493,
+      "sha256": "1a52d1c10af0e947fc6e758ddc7f51fd9b70967942d15d4eb2fce30c75ce97cc"
+    },
+    {
+      "path": "private/registry/mail-lead-197212613e9f948f.html",
+      "bytes": 13586,
+      "sha256": "f158f56b58839d3072495322ca55f0dc00063c4c7ec837e36810dd8cfdb20889"
+    },
+    {
+      "path": "private/registry/mail-lead-1972455fa4efd9c0.html",
+      "bytes": 13469,
+      "sha256": "f49a4813e6f58a2de7ea192eea38924e74e8350b5cdf57345c19ca304647b19b"
+    },
+    {
+      "path": "private/registry/mail-lead-197894832f00fda6.html",
+      "bytes": 13538,
+      "sha256": "527f68a7a910c8d07bb456e37bf9b24482c3d7b42824c0f969612acf4b6ae846"
+    },
+    {
+      "path": "private/registry/mail-lead-1979c8e5650e0ea9.html",
+      "bytes": 13685,
+      "sha256": "6ab218545d9db33fcc3f288dced08d342ccaccb21eda9bc718c2cdf9cd10a4e3"
+    },
+    {
+      "path": "private/registry/mail-lead-197c103299e435a3.html",
+      "bytes": 13589,
+      "sha256": "ee97bf3f6999e7cc7256380c632adebe58e42b5f6a013cf0367a45b7096c4b76"
+    },
+    {
+      "path": "private/registry/mail-lead-19809a4b6fd4a3d3.html",
+      "bytes": 15285,
+      "sha256": "36a3363e641d1e16ad9f7367f25a95d86eac5761a5e7f64b3f7c77a2025961e5"
+    },
+    {
+      "path": "private/registry/mail-lead-19889fe953b937fe.html",
+      "bytes": 13598,
+      "sha256": "244f85bbd0ae0c9b7ca12a32c1efc561e1e08f224639cb0c456a79a435a398d9"
+    },
+    {
+      "path": "private/registry/mail-lead-198b18ce7ab0a3ff.html",
+      "bytes": 13661,
+      "sha256": "8f94bbfd084aa44807ea82774f9892155ad5b4fa41f49e21d224f754fb321229"
+    },
+    {
+      "path": "private/registry/mail-lead-199393077cf4e1ef.html",
+      "bytes": 14638,
+      "sha256": "ceb4fb2e7ea260e73a9f0a47a5e91564bffd5c4176f4c6e227ee3a32bc79e2f0"
+    },
+    {
+      "path": "private/registry/mail-lead-19a5a5fc7667cab4.html",
+      "bytes": 13724,
+      "sha256": "7056e181ca191ab4d9e6a6a42486f38dc4b519569b0069c02205b324d9a345a2"
+    },
+    {
+      "path": "private/registry/mail-lead-19aa7363b5922368.html",
+      "bytes": 13502,
+      "sha256": "9338d66e25eba4606bf4867bdfcf0da0651f9a9cf1c9bd4f911d05be31ff4c15"
+    },
+    {
+      "path": "private/registry/mail-lead-19aefdf6cfe0f00b.html",
+      "bytes": 13574,
+      "sha256": "5faa8470b8b9a71e61e20d2b94879d7dfc24570ff005ac20ff06d90314e54609"
+    },
+    {
+      "path": "private/registry/mail-lead-19b03ecca803ec9a.html",
+      "bytes": 13451,
+      "sha256": "887c2ea4bf93e19ecd950a86b9e7facead8ffb115f764d2d8286b13182946557"
+    },
+    {
+      "path": "private/registry/mail-lead-19b0ede33c6dd794.html",
+      "bytes": 13730,
+      "sha256": "dd1f167577d4a9be4a6a1d7c02f837355154cd06b73e2c487393b4fd95fe4241"
+    },
+    {
+      "path": "private/registry/mail-lead-19b375807e573dfd.html",
+      "bytes": 13643,
+      "sha256": "ad1835c9c95e09e6576a539fed2b98ee5b98da65fbb35711e4ece3fe1e8f02ed"
+    },
+    {
+      "path": "private/registry/mail-lead-19b9e404529059d8.html",
+      "bytes": 13484,
+      "sha256": "be7265a423818cc4d3fa2ed05202e3327a72a692cea3755454ae5cea3ef6792b"
+    },
+    {
+      "path": "private/registry/mail-lead-19bb3e1dc11bc7cd.html",
+      "bytes": 13658,
+      "sha256": "41a9d74af0f35a3e2963bd736a44ac399d13c6c40902f4a9ac63092fae2ed32c"
+    },
+    {
+      "path": "private/registry/mail-lead-19c98924c9a71cce.html",
+      "bytes": 13772,
+      "sha256": "7ed7d4867fd621fe36bdc271f429d188ea369d4e765f975305ef102a95ccf331"
+    },
+    {
+      "path": "private/registry/mail-lead-19cc1b352335e4dd.html",
+      "bytes": 13556,
+      "sha256": "66d90b14dd4d24a6e7d8d7571aa25ffb3f1ef90f9695ca958deb54280e6b7a21"
+    },
+    {
+      "path": "private/registry/mail-lead-19ddf2dcdc82be54.html",
+      "bytes": 13490,
+      "sha256": "9fb61dd246fc70220df6f8f51f4a750ed2daad8400b4af45cd25d88399520455"
+    },
+    {
+      "path": "private/registry/mail-lead-19e316052b2cf3f1.html",
+      "bytes": 13676,
+      "sha256": "d2123108a18889cc4425c91caad21115f92e40fb8b6ec3e863c0c33b98819e51"
+    },
+    {
+      "path": "private/registry/mail-lead-19e3bf8f9650fe85.html",
+      "bytes": 13571,
+      "sha256": "f2545d2bac39cac4161caca93ab650eb5963d22a094a59418ddf6ed5bedede47"
+    },
+    {
+      "path": "private/registry/mail-lead-1a01c6db65f783ea.html",
+      "bytes": 13634,
+      "sha256": "10664bf918217ad6978514f4fe2dbdb30d749a3ceb525e081527dc8d387372c5"
+    },
+    {
+      "path": "private/registry/mail-lead-1a0ea3193e9e5b4d.html",
+      "bytes": 13481,
+      "sha256": "fb6804c0515eeb4833e928e4e2217aea5dc76ed19bbd95778d5c7707df4bec17"
+    },
+    {
+      "path": "private/registry/mail-lead-1a13fb8e21040203.html",
+      "bytes": 13760,
+      "sha256": "1240e6cf2549d1f3bf61b57305e082ef82c03df1c7bb182625ef673d04d87fcf"
+    },
+    {
+      "path": "private/registry/mail-lead-1a15a5e15043bade.html",
+      "bytes": 13544,
+      "sha256": "6bf89eefd74170f946c29d7e170aadcf07d65af1a7d69eefb5a720e4528b2d42"
+    },
+    {
+      "path": "private/registry/malaga-atic-host-2026.html",
+      "bytes": 16626,
+      "sha256": "c67e28ea99abc9be90cdb63c2762ae7194c1d6f8b2245313d5cc069bc7e1b801"
+    },
+    {
+      "path": "private/registry/qmul-5244-closed.html",
+      "bytes": 13982,
+      "sha256": "211f26590d2be9984470e82a318e1e3be87bad8a6246145c2062a53f943956c4"
+    },
+    {
+      "path": "private/registry/qmul-maestro-2984-closed.html",
+      "bytes": 13662,
+      "sha256": "886c1505a90740210973e9b7ef377cad31d0ca000b0a417a802e05379f600020"
+    },
+    {
+      "path": "private/registry/ritmo-groove-294910.html",
+      "bytes": 14944,
+      "sha256": "7d902efa9c4a1757c04134e2b9438f371438e90a0170e19acd134174c21ca36a"
+    },
+    {
+      "path": "private/registry/roli-watch.html",
+      "bytes": 17175,
+      "sha256": "73543dac0f24f37c833338e6dfce5a44442dd1b9b7efaf5008a37e54617c6a4c"
+    },
+    {
+      "path": "private/registry/salford_bioacoustics_1087.html",
+      "bytes": 23635,
+      "sha256": "c78c8ddcf424608fc7fa711c4b957b9efb7c2b2ce4dba369e29a5e1f404fc4f0"
+    },
+    {
+      "path": "private/registry/scrime_postdoc_2026_closed.html",
+      "bytes": 13489,
+      "sha256": "b492454139805a5f5330253334e32067f89e33f777df04468aba8a4d6d74b385"
+    },
+    {
+      "path": "private/registry/scrime_postdoc_2027.html",
+      "bytes": 35639,
+      "sha256": "245db98913cdbe15db3e326aab0835ae5ebc2a3aaa70f121f9d555d52bbff4ec"
+    },
+    {
+      "path": "private/registry/sony-6006523004.html",
+      "bytes": 20967,
+      "sha256": "8910c846f24d295851e94b201d7b3708b91e623619ed5df154ba2eab9b303f64"
+    },
+    {
+      "path": "private/registry/sony-csl-temporal-2026.html",
+      "bytes": 14430,
+      "sha256": "b870ee98495592541a9ebdfee515d03e9a44729b810ba66af3b18a6173c14a98"
+    },
+    {
+      "path": "private/registry/spotify_generative_audio.html",
+      "bytes": 28969,
+      "sha256": "bf6d1a32bf408180bda9fc809adf8f6e10fa154c3a9c30c3663b0d685b84585e"
+    },
+    {
+      "path": "private/registry/spotify_senior_speech.html",
+      "bytes": 17560,
+      "sha256": "3cbd91327b5d68e37adbf9104393e360949f66d6b801662a663f73f85e740f87"
+    },
+    {
+      "path": "private/registry/stability-watch.html",
+      "bytes": 17146,
+      "sha256": "15afb7a2d1270e613c25f7b82901e64f008f60c7daf32b3c5ff0ea18b46fda69"
+    },
+    {
+      "path": "private/registry/surrey-021025-closed.html",
+      "bytes": 14595,
+      "sha256": "93cf7c6544b9b143aa546f756591cdffb70192c3ec59766bedd8b10496fbdc8c"
+    },
+    {
+      "path": "private/registry/synthesia-ae716439.html",
+      "bytes": 19352,
+      "sha256": "e5d5858b37b26f6ce52336d98e2342e8b0fcdf3df4a33190adc97e72ba11a7a5"
+    },
+    {
+      "path": "private/registry/tencent-R107821.html",
+      "bytes": 26601,
+      "sha256": "417bc882020b05147fbb6aba8bcbea9690727d06f6a09d93c7c49ade04169b51"
+    },
+    {
+      "path": "private/registry/tencent-R108173.html",
+      "bytes": 21688,
+      "sha256": "6306c5b749600f1e11b32ec9e5b41850f3559973f2c85da5b201c7676dc17278"
+    },
+    {
+      "path": "private/registry/turku_tias_postdoc_2027.html",
+      "bytes": 25675,
+      "sha256": "dfe0d64ab6031bec16b40e1219316a33ea4dfc60126b86f23283c934c638766a"
+    },
+    {
+      "path": "private/registry/turku_ties2_2027.html",
+      "bytes": 27941,
+      "sha256": "56b155f9de0f933718eb98e49f94543b82df68e3041632240421232530dc6867"
+    },
+    {
+      "path": "private/registry/umg-19885-history.html",
+      "bytes": 13814,
+      "sha256": "6f696baf3fa3611dc3c25725f3f543080cf91e6db9e27ea923bd1e927cb68893"
+    },
+    {
+      "path": "private/registry/umg-23931-history.html",
+      "bytes": 13520,
+      "sha256": "c21c089aacf4fa192451c831b02793a3ff32dcbb0c9209b75f819aaa858ae18b"
+    },
+    {
+      "path": "private/registry/umg-27186.html",
+      "bytes": 20596,
+      "sha256": "e4afa7d08d517a589f570c49d5f98c0ffca2a9d74c3b6ca258a6250e7edda64a"
+    },
+    {
+      "path": "private/registry/upf-mtg-2026-closed.html",
+      "bytes": 13714,
+      "sha256": "a459eae081f5ccf6e92794d4f1e082bd21c91bb7c080a692eaae1f71646bed38"
+    },
+    {
+      "path": "private/registry/watch-0f4b4ba80276.html",
+      "bytes": 13609,
+      "sha256": "ae7315936d28599b94e470d8be4ba8c15e23d71592872804df5854aac6d2da9a"
+    },
+    {
+      "path": "private/registry/watch-17c7af5018a5.html",
+      "bytes": 13588,
+      "sha256": "42ff2919f88c45b1c9af08efa2e3488c12fceb25b0169ff5d3b9e198a157581f"
+    },
+    {
+      "path": "private/registry/watch-256d535ae691.html",
+      "bytes": 14039,
+      "sha256": "344552398c223a60b4086ae9ade0e7fe79234f95b8e6cda3a4d235e9c2033a90"
+    },
+    {
+      "path": "private/registry/watch-557960947d89.html",
+      "bytes": 13607,
+      "sha256": "67c35b44152b3c2c33b4edb9657dc62247ef84ef08d6fcf0c955d11ea1809cbd"
+    },
+    {
+      "path": "private/registry/watch-61c110d69343.html",
+      "bytes": 13488,
+      "sha256": "0bd4cf3a5978626654505fec2bce90b75f4599162fa233fb97c5a7628acee158"
+    },
+    {
+      "path": "private/registry/watch-628bac0b1e49.html",
+      "bytes": 13534,
+      "sha256": "9018e5a9422b14d41ffe17a55e01934be06d9dc67675bfd73edf019e6cf02add"
+    },
+    {
+      "path": "private/registry/watch-62fc2ef56cc1.html",
+      "bytes": 14497,
+      "sha256": "7cd7e8d3c7e516175aec8a7976769957c0f4d23fb4afbf8a3c7691be0b110af7"
+    },
+    {
+      "path": "private/registry/watch-a10bea77c448.html",
+      "bytes": 13827,
+      "sha256": "aabb91665b0133c8a7076dff933e9e1128669c4a8ad3514b1a54890916a1022a"
+    },
+    {
+      "path": "private/registry/watch-b27cb7783965.html",
+      "bytes": 13514,
+      "sha256": "08f26ee2df4330add53d03dd0b648a4c39d97fe87a3526a931dd9cd4ceab3df2"
+    },
+    {
+      "path": "private/registry/watch-b71699e49241.html",
+      "bytes": 13512,
+      "sha256": "6b4b28e8944f36f59cd603d7986a397c9613ffe1ecaae36aa21c4466cca53a2d"
+    },
+    {
+      "path": "private/registry/watch-b7a0de69b885.html",
+      "bytes": 14503,
+      "sha256": "cb6712e59c1df9c2b4922e2711efc107d17c969ffbc9c8bf4ef6cc80142642b4"
     },
     {
       "path": "private/screenshots/apple_speech-desktop.jpg",
       "bytes": 73517,
-      "sha256": "ad249f14f76870286fa045d450a76be124faac2d7f537f0103e84696d3109ac2",
-      "privacy": "public_by_explicit_user_approval"
+      "sha256": "ad249f14f76870286fa045d450a76be124faac2d7f537f0103e84696d3109ac2"
     },
     {
       "path": "private/screenshots/apple_speech-mobile.jpg",
       "bytes": 33655,
-      "sha256": "75ac3a6a298dfb6ee6710abbf4a89c223754bd6526baa321fbe4b106c215de19",
-      "privacy": "public_by_explicit_user_approval"
+      "sha256": "75ac3a6a298dfb6ee6710abbf4a89c223754bd6526baa321fbe4b106c215de19"
     },
     {
       "path": "private/screenshots/cambridge_GT51091-desktop.jpg",
       "bytes": 94759,
-      "sha256": "f43fcf37ad4f94443ce600392d6b590fed7a8590f84a7585b30fbf27aa0d39cb",
-      "privacy": "public_by_explicit_user_approval"
+      "sha256": "f43fcf37ad4f94443ce600392d6b590fed7a8590f84a7585b30fbf27aa0d39cb"
     },
     {
       "path": "private/screenshots/cambridge_GT51091-mobile.jpg",
       "bytes": 39105,
-      "sha256": "76a36a7e1e9a3413960166c1121994c092f750e5345830e6fecd5c7347605402",
-      "privacy": "public_by_explicit_user_approval"
+      "sha256": "76a36a7e1e9a3413960166c1121994c092f750e5345830e6fecd5c7347605402"
     },
     {
       "path": "private/screenshots/elevenlabs_research_engineer-desktop.jpg",
       "bytes": 69204,
-      "sha256": "a0514aa880041d750338c97f54bc87efe84647dcf9b324aab597f2f36fa6e32f",
-      "privacy": "public_by_explicit_user_approval"
+      "sha256": "a0514aa880041d750338c97f54bc87efe84647dcf9b324aab597f2f36fa6e32f"
     },
     {
       "path": "private/screenshots/elevenlabs_research_engineer-mobile.jpg",
       "bytes": 32969,
-      "sha256": "21d5b955ef0c38a12a14f8e4505940590439735ecf37801f703bd4f54cdf280b",
-      "privacy": "public_by_explicit_user_approval"
+      "sha256": "21d5b955ef0c38a12a14f8e4505940590439735ecf37801f703bd4f54cdf280b"
     },
     {
       "path": "private/screenshots/home-desktop.jpg",
       "bytes": 177504,
-      "sha256": "73b7bb1c810ec1e6b6346fe045dc83f9a3e3e3d68d969eef0c5582ecccaf6362",
-      "privacy": "public_by_explicit_user_approval"
+      "sha256": "73b7bb1c810ec1e6b6346fe045dc83f9a3e3e3d68d969eef0c5582ecccaf6362"
     },
     {
       "path": "private/screenshots/home-mobile.jpg",
       "bytes": 149345,
-      "sha256": "65a1b6590944243b7c3828c581346afb43b5af1adf5316ee49140cc13b0247ff",
-      "privacy": "public_by_explicit_user_approval"
+      "sha256": "65a1b6590944243b7c3828c581346afb43b5af1adf5316ee49140cc13b0247ff"
     },
     {
       "path": "private/screenshots/public-safe-home-desktop.jpg",
       "bytes": 137980,
-      "sha256": "020e5e1f2d1c230c64f5bcf287bf62af9163cf2c42ec64d9ee9fc6e73bd49ec7",
-      "privacy": "public_by_explicit_user_approval"
+      "sha256": "020e5e1f2d1c230c64f5bcf287bf62af9163cf2c42ec64d9ee9fc6e73bd49ec7"
     },
     {
       "path": "private/screenshots/public-safe-home-mobile.jpg",
       "bytes": 117130,
-      "sha256": "8655ccc6991b3e4350564a0b669344c2e561037d636edba4f005a9630d9cec39",
-      "privacy": "public_by_explicit_user_approval"
+      "sha256": "8655ccc6991b3e4350564a0b669344c2e561037d636edba4f005a9630d9cec39"
     },
     {
       "path": "private/screenshots/spotify-evidence-mobile-expanded.jpg",
       "bytes": 51629,
-      "sha256": "e33078bda00331e92a0049fec2dc23661e5860a1e215b1b09d0a12af3d02ed10",
-      "privacy": "public_by_explicit_user_approval"
+      "sha256": "e33078bda00331e92a0049fec2dc23661e5860a1e215b1b09d0a12af3d02ed10"
     },
     {
       "path": "private/screenshots/spotify-resume-mobile-expanded.jpg",
       "bytes": 49678,
-      "sha256": "ebfcec006c338fe43a9bf02c6ef27922b078aae9447d63e4421d4a811807b4be",
-      "privacy": "public_by_explicit_user_approval"
+      "sha256": "ebfcec006c338fe43a9bf02c6ef27922b078aae9447d63e4421d4a811807b4be"
     },
     {
       "path": "private/screenshots/spotify_generative_audio-desktop.jpg",
       "bytes": 84663,
-      "sha256": "2276c6ca4bd805b9e6a70f65e4bc731aed15a60706ce19087ece21582be84fd4",
-      "privacy": "public_by_explicit_user_approval"
+      "sha256": "2276c6ca4bd805b9e6a70f65e4bc731aed15a60706ce19087ece21582be84fd4"
     },
     {
       "path": "private/screenshots/spotify_generative_audio-mobile.jpg",
       "bytes": 37461,
-      "sha256": "75bc906897462d761a524b3055219935c3cdf15b70f0de2f0eb3decda0e8e349",
-      "privacy": "public_by_explicit_user_approval"
+      "sha256": "75bc906897462d761a524b3055219935c3cdf15b70f0de2f0eb3decda0e8e349"
     },
     {
       "path": "private/shared/all_questions.html",
       "bytes": 6229,
-      "sha256": "0067fae19a5c1ceaa76947131a87be8d1cbc4d3a1caf12216db1b9f6264e3f3e",
-      "privacy": "public_by_explicit_user_approval"
+      "sha256": "0067fae19a5c1ceaa76947131a87be8d1cbc4d3a1caf12216db1b9f6264e3f3e"
     },
     {
       "path": "private/shared/all_questions.md",
       "bytes": 4292,
-      "sha256": "e7140429c6fb0e29c8c68fe958041651eaf0c250a92eb01d297686ad54156f1d",
-      "privacy": "public_by_explicit_user_approval"
+      "sha256": "e7140429c6fb0e29c8c68fe958041651eaf0c250a92eb01d297686ad54156f1d"
     },
     {
       "path": "private/shared/browser_layout_verification.json",
       "bytes": 1762,
-      "sha256": "5bba71c93adadad913bc079a49ebbfed638f98e15d6c2c89a39d7d088376f69a",
-      "privacy": "public_by_explicit_user_approval"
+      "sha256": "5bba71c93adadad913bc079a49ebbfed638f98e15d6c2c89a39d7d088376f69a"
     },
     {
       "path": "private/shared/cross_role_comparison.html",
       "bytes": 6911,
-      "sha256": "470a6d7f1d15d4e8e54640324cbc3549fdd2203360cf63cd4ac8af74e71c850a",
-      "privacy": "public_by_explicit_user_approval"
+      "sha256": "470a6d7f1d15d4e8e54640324cbc3549fdd2203360cf63cd4ac8af74e71c850a"
     },
     {
       "path": "private/shared/cross_role_comparison.md",
       "bytes": 5425,
-      "sha256": "3e319b74b14ce8a79b5c25c987da7eb3fee2508eacf6d370bf94f3af3d5d8774",
-      "privacy": "public_by_explicit_user_approval"
+      "sha256": "3e319b74b14ce8a79b5c25c987da7eb3fee2508eacf6d370bf94f3af3d5d8774"
     },
     {
       "path": "private/shared/de_duplicated_questions.html",
       "bytes": 4389,
-      "sha256": "9b11512cba6fa42dd62f327c4bb1bfa22f04470f15483a664fead78994c1e2ce",
-      "privacy": "public_by_explicit_user_approval"
+      "sha256": "9b11512cba6fa42dd62f327c4bb1bfa22f04470f15483a664fead78994c1e2ce"
     },
     {
       "path": "private/shared/de_duplicated_questions.md",
       "bytes": 2870,
-      "sha256": "5aa5fa2d17d3545f6b9c6fc7c06766103e034ba6bc99c35442bf63a45499741e",
-      "privacy": "public_by_explicit_user_approval"
+      "sha256": "5aa5fa2d17d3545f6b9c6fc7c06766103e034ba6bc99c35442bf63a45499741e"
     },
     {
       "path": "private/shared/delivery_status.json",
       "bytes": 1678,
-      "sha256": "44d9edf73cb3654d78a8b4c8802733c9d3858ea089c9102732938961d67105da",
-      "privacy": "public_by_explicit_user_approval"
+      "sha256": "44d9edf73cb3654d78a8b4c8802733c9d3858ea089c9102732938961d67105da"
     },
     {
       "path": "private/shared/document_render_verification.json",
       "bytes": 1238,
-      "sha256": "dae1dc086352e678ea47e31c0a3fc0887f4a418998d9307d74640596d8316408",
-      "privacy": "public_by_explicit_user_approval"
+      "sha256": "dae1dc086352e678ea47e31c0a3fc0887f4a418998d9307d74640596d8316408"
     },
     {
       "path": "private/shared/http_download_verification.json",
       "bytes": 3096,
-      "sha256": "214a262fff631f285913233b924c195c6b7a8fe45a6d834d35dad43d54d894df",
-      "privacy": "public_by_explicit_user_approval"
+      "sha256": "214a262fff631f285913233b924c195c6b7a8fe45a6d834d35dad43d54d894df"
     },
     {
       "path": "private/shared/independent_qa.html",
       "bytes": 10146,
-      "sha256": "0349406ba29a4563e98172d3e50a33d902f52e6d5b986bf59a87d8312a45b5a3",
-      "privacy": "public_by_explicit_user_approval"
+      "sha256": "0349406ba29a4563e98172d3e50a33d902f52e6d5b986bf59a87d8312a45b5a3"
     },
     {
       "path": "private/shared/independent_qa.md",
       "bytes": 7998,
-      "sha256": "a63993e6db082e3c6f33e6e936e124dc96d6a8ac8408ee175c203d12ac7702cd",
-      "privacy": "public_by_explicit_user_approval"
+      "sha256": "a63993e6db082e3c6f33e6e936e124dc96d6a8ac8408ee175c203d12ac7702cd"
     },
     {
       "path": "private/shared/independent_qa_snapshot.json",
       "bytes": 8323,
-      "sha256": "9efbd9630f2319411d1ec3b0ebcea3041922dab0587fbb8f8d5176d04d1e47a4",
-      "privacy": "public_by_explicit_user_approval"
+      "sha256": "9efbd9630f2319411d1ec3b0ebcea3041922dab0587fbb8f8d5176d04d1e47a4"
     },
     {
       "path": "private/shared/independent_qa_source_integrity.json",
       "bytes": 654,
-      "sha256": "dc4a26626f627e2cfd3b62e94574007d11cb7bfe8ca04eeb70acbca41ee0cafe",
-      "privacy": "public_by_explicit_user_approval"
+      "sha256": "dc4a26626f627e2cfd3b62e94574007d11cb7bfe8ca04eeb70acbca41ee0cafe"
     },
     {
       "path": "private/shared/local_verification.json",
       "bytes": 951,
-      "sha256": "c67d8d6c745c85bff8a3720344ec3ae07b9691c0502c11c9c5a53f59f62781dc",
-      "privacy": "public_by_explicit_user_approval"
+      "sha256": "c67d8d6c745c85bff8a3720344ec3ae07b9691c0502c11c9c5a53f59f62781dc"
     },
     {
       "path": "private/shared/portfolio_page_review_20261021.json",
       "bytes": 1008,
-      "sha256": "a56864057ecb365d20223e7baa8860b85036e594361da166c6df8dce3af5fdbf",
-      "privacy": "public_by_explicit_user_approval"
+      "sha256": "a56864057ecb365d20223e7baa8860b85036e594361da166c6df8dce3af5fdbf"
     },
     {
       "path": "private/shared/project_evidence_template.html",
       "bytes": 6999,
-      "sha256": "b34b87d15ac802b614dab981188b2d41497b4922ada895a7ca0acad112d0bf8c",
-      "privacy": "public_by_explicit_user_approval"
+      "sha256": "b34b87d15ac802b614dab981188b2d41497b4922ada895a7ca0acad112d0bf8c"
     },
     {
       "path": "private/shared/project_evidence_template.md",
       "bytes": 5825,
-      "sha256": "b10d58340fcf36789d4d119476ae7ccca0e3bb5213b46208b0a11439f404e9df",
-      "privacy": "public_by_explicit_user_approval"
+      "sha256": "b10d58340fcf36789d4d119476ae7ccca0e3bb5213b46208b0a11439f404e9df"
     },
     {
       "path": "private/shared/project_evidence_template.txt",
       "bytes": 2554,
-      "sha256": "d43af27d0ddc069c4f1d6b68fcd68ad1575b1a0658a8ad303a1c6d44bd56430c",
-      "privacy": "public_by_explicit_user_approval"
+      "sha256": "d43af27d0ddc069c4f1d6b68fcd68ad1575b1a0658a8ad303a1c6d44bd56430c"
+    },
+    {
+      "path": "private/shared/round2_online_guide.html",
+      "bytes": 1946,
+      "sha256": "0f340032212f85e3b6c127f34696119454883f65c2152a430aa6cac78a20d84d"
     },
     {
       "path": "private/shared/runtime_provenance.json",
       "bytes": 502,
-      "sha256": "787d27ca5611d6831ff141b698fbd9b93cc9fb78641971fb6519ee89c0317802",
-      "privacy": "public_by_explicit_user_approval"
+      "sha256": "787d27ca5611d6831ff141b698fbd9b93cc9fb78641971fb6519ee89c0317802"
     },
     {
       "path": "private/shared/source_conflict_sfproxy.json",
       "bytes": 1232,
-      "sha256": "6ef20789796a5be6839528f491827c3f6380426fd9c17e3dcae87210f69b4901",
-      "privacy": "public_by_explicit_user_approval"
+      "sha256": "6ef20789796a5be6839528f491827c3f6380426fd9c17e3dcae87210f69b4901"
     },
     {
       "path": "private/shared/source_integrity_after.json",
       "bytes": 332,
-      "sha256": "f92c992e41ed765b70685678e36ae07c5c0d7994e6231ce7ba89304413842910",
-      "privacy": "public_by_explicit_user_approval"
+      "sha256": "f92c992e41ed765b70685678e36ae07c5c0d7994e6231ce7ba89304413842910"
     },
     {
       "path": "private/shared/source_integrity_before.json",
       "bytes": 455,
-      "sha256": "a37eb56aa467472d6e29d62551b617c2b495ab0d9dabc26f18ec516213d24f07",
-      "privacy": "public_by_explicit_user_approval"
+      "sha256": "a37eb56aa467472d6e29d62551b617c2b495ab0d9dabc26f18ec516213d24f07"
     },
     {
       "path": "private/shared/sponsor_register_verified_extract.json",
       "bytes": 1085,
-      "sha256": "70bc34be6306d6136ceff6a77a12a33c86d5a5008f7fb254cec5e784a63c4f88",
-      "privacy": "public_by_explicit_user_approval"
+      "sha256": "70bc34be6306d6136ceff6a77a12a33c86d5a5008f7fb254cec5e784a63c4f88"
     },
     {
       "path": "private/shared/visa_manifest.json",
       "bytes": 957,
-      "sha256": "388068d703d0b782e5ddac8fab9d81c39e7e424173cfcf7a59b77a66100fe37f",
-      "privacy": "public_by_explicit_user_approval"
+      "sha256": "388068d703d0b782e5ddac8fab9d81c39e7e424173cfcf7a59b77a66100fe37f"
     },
     {
       "path": "private/shared/visa_per_role.json",
       "bytes": 15839,
-      "sha256": "b9ea6f6ebe0819a653abfd3d020e1d736f8088b545c27efa8537cf93642cc920",
-      "privacy": "public_by_explicit_user_approval"
+      "sha256": "b9ea6f6ebe0819a653abfd3d020e1d736f8088b545c27efa8537cf93642cc920"
     },
     {
       "path": "private/shared/visa_routes_official_evidence.csv",
       "bytes": 12284,
-      "sha256": "ac141864463a74d2436af141d7235ad69307e4da5bbaa59192825dc715404d84",
-      "privacy": "public_by_explicit_user_approval"
+      "sha256": "ac141864463a74d2436af141d7235ad69307e4da5bbaa59192825dc715404d84"
     },
     {
       "path": "private/shared/visa_routes_official_evidence.html",
       "bytes": 24460,
-      "sha256": "fe59eb12ec067f2168bd9b09219203304a6d66abd565eb236dca642748580c4c",
-      "privacy": "public_by_explicit_user_approval"
+      "sha256": "fe59eb12ec067f2168bd9b09219203304a6d66abd565eb236dca642748580c4c"
     },
     {
       "path": "private/shared/visa_routes_official_evidence.md",
       "bytes": 20720,
-      "sha256": "5b60d40909b7f748198f40fa4eece849a757978b1b16c3f6ad1ffe8a3e1cef40",
-      "privacy": "public_by_explicit_user_approval"
+      "sha256": "5b60d40909b7f748198f40fa4eece849a757978b1b16c3f6ad1ffe8a3e1cef40"
     },
     {
-      "path": "public-safe/assets/style.css",
-      "bytes": 4854,
-      "sha256": "7d9e02281fbdfe55cc8f7fbb43a90a039c914e47b5bbdaf6f4b6559838af2922",
-      "privacy": "public_by_explicit_user_approval"
+      "path": "private/submitted_materials/cambridge_20261021/Zhanhong_He_UWA_20261021.docx",
+      "bytes": 171896,
+      "sha256": "3b2b237347ae5bf979e04752bcb68a9003e5b6c84bdda45986d03ba0f8facee3"
     },
     {
-      "path": "public-safe/example_data.json",
-      "bytes": 2284,
-      "sha256": "579a13198c1e46c32057942158fa1a46811bad54d8feffde58efa9c1455f1e0e",
-      "privacy": "public_by_explicit_user_approval"
+      "path": "private/submitted_materials/cambridge_20261021/Zhanhong_He_UWA_20261021.pdf",
+      "bytes": 310326,
+      "sha256": "a80a947bb9bc85653be554cd023285ab418a81a342165f6126afa17955242b5a"
+    },
+    {
+      "path": "public-safe/assets/available-artifacts.json",
+      "bytes": 1149,
+      "sha256": "56f03015798c6d7cd6e639fb2c70253bf657569ad9674e2f0ecd2566ce61990a"
+    },
+    {
+      "path": "public-safe/assets/registry.css",
+      "bytes": 20041,
+      "sha256": "3de85e66b6ce9181a69b6a1854813b02da0eda4d3d6dc0f11c5dde5ea05b9556"
+    },
+    {
+      "path": "public-safe/assets/registry.js",
+      "bytes": 33917,
+      "sha256": "8b513ea88e54bdb12c350722922b99734a35c3dca086eed607fa9be443026d32"
+    },
+    {
+      "path": "public-safe/data/jobs.csv",
+      "bytes": 51470,
+      "sha256": "8b8155bdf219fa265037ec7b537cd3c9124953b7bd29d30d7f9b70663532c7b1"
+    },
+    {
+      "path": "public-safe/data/jobs.json",
+      "bytes": 125448,
+      "sha256": "f6f67d7ddf424e10f4f9fc278eaafdb24f7a10bae8a172e05efea63c106a490b"
     },
     {
       "path": "public-safe/index.html",
-      "bytes": 3881,
-      "sha256": "64649e567e5cb2492616cab58174473a11678f2b63f2480e99babf237d54c6a7",
-      "privacy": "public_by_explicit_user_approval"
+      "bytes": 5951,
+      "sha256": "7e3fc1639b72b9d6accc01f4dc846836dc6eb06caab809f56b12d1bc8d4f702c"
     },
     {
-      "path": "public-safe/jobs/example_a/index.html",
-      "bytes": 3343,
-      "sha256": "47d2651949f021102387c9b024c559031987c0d5e01f88411f195c71bd51b1a3",
-      "privacy": "public_by_explicit_user_approval"
+      "path": "public-safe/registry/aalto-cowama-2026.html",
+      "bytes": 8668,
+      "sha256": "8cd52e182a57fbd2ae5afea5df177a2448fe4c4221426ad0d77939f9c9f12395"
     },
     {
-      "path": "public-safe/jobs/example_b/index.html",
-      "bytes": 3006,
-      "sha256": "af83168f9e8d6d1c779b9c79fd5b20f99c073dc7ad711852273dbcab14a84910",
-      "privacy": "public_by_explicit_user_approval"
+      "path": "public-safe/registry/apple_speech.html",
+      "bytes": 8218,
+      "sha256": "6c1d0c987dc76960ede73677564917e847680aa577828d14adaf7814df7d60c8"
     },
     {
-      "path": "public-safe/jobs/example_c/index.html",
-      "bytes": 2988,
-      "sha256": "5c51d8b14d998faa0080d7787c46618a2e0af5ce1f5efacc26998ed2d133ed7d",
-      "privacy": "public_by_explicit_user_approval"
+      "path": "public-safe/registry/audiostack-watch.html",
+      "bytes": 7149,
+      "sha256": "5bb0d5a5a0afb9ccc2e9758217e7ead4c7b94fd174faec90169c6c0746239efd"
     },
     {
-      "path": "public-safe/jobs/example_d/index.html",
-      "bytes": 3006,
-      "sha256": "09e3603533e16064abc87a511b6e876d8482ed6dad6ce8e60d89c9b0a71637db",
-      "privacy": "public_by_explicit_user_approval"
+      "path": "public-safe/registry/bose-R28343.html",
+      "bytes": 7383,
+      "sha256": "de8c4c84eac63cdc5842f0ba1d22b8bde32d74fe6b6a7553ef2bdc971bb25789"
     },
     {
-      "path": "publication.json",
-      "bytes": 910,
-      "sha256": "6386ba2e5434ea8b2f34e3bf5313d9705554012c10b8b9da85219c4bc72fade4",
-      "privacy": "public_by_explicit_user_approval"
+      "path": "public-safe/registry/brahma_audio.html",
+      "bytes": 7912,
+      "sha256": "4957c38979b01482418c6bcbd27c36aa7602db0ed3b5a35e40dd8ba7437f7101"
     },
     {
-      "path": "scripts/build.py",
-      "bytes": 16940,
-      "sha256": "67cee7e138c416b1cb2235a99f9ceb9fb7652a74affb4cda2e195f83ae32ff17",
-      "privacy": "public_by_explicit_user_approval"
+      "path": "public-safe/registry/cambridge_GT51091.html",
+      "bytes": 8192,
+      "sha256": "d766d7687dc089f976011f21eee4845038450d99ad523c8e33767905196e5182"
     },
     {
-      "path": "scripts/prepare_pages.py",
-      "bytes": 2202,
-      "sha256": "c0865519a9d008fd7bbadc2ea45eed97295831a89675a9fc2d4bf62ecc3d9aaf",
-      "privacy": "public_by_explicit_user_approval"
+      "path": "public-safe/registry/cartesia-7ecc288b.html",
+      "bytes": 7879,
+      "sha256": "46b5b59449b63d9f95663ec97998654d4d527d0b9849b6fe9fc276dc5868e06b"
     },
     {
-      "path": "scripts/render_resumes.py",
-      "bytes": 3280,
-      "sha256": "86ad18604111c0cda638d1a048b7307177410778bc5582cb9c2b2caa77d60582",
-      "privacy": "public_by_explicit_user_approval"
+      "path": "public-safe/registry/elevenlabs_research_engineer.html",
+      "bytes": 7872,
+      "sha256": "8a33ef2060dff089a04df76bf93f92e3c789cdfa6a66a93d626ee18563cfe919"
     },
     {
-      "path": "scripts/serve.py",
-      "bytes": 1187,
-      "sha256": "37a1661fbafc68f5ea701be4faf690885262dbe31c1c3a49745126ff35c23e57",
-      "privacy": "public_by_explicit_user_approval"
+      "path": "public-safe/registry/focusrite-1A46D2C5E7.html",
+      "bytes": 7815,
+      "sha256": "be31c72bc0fa10dac7543290ed9b0957a3f2c903eda80c241bd8ad237dc55403"
     },
     {
-      "path": "scripts/verify.py",
-      "bytes": 4312,
-      "sha256": "a1aeabf3b4eecb427c6b0befb64ba536d4007e00647c61daaaea8b47aa7b95c4",
-      "privacy": "public_by_explicit_user_approval"
+      "path": "public-safe/registry/focusrite-7D70C84FE2.html",
+      "bytes": 7897,
+      "sha256": "3120a8881ef6855d6bd43ef2d99a902f460cea3a2556f986891012b386479ee0"
+    },
+    {
+      "path": "public-safe/registry/halbestunde_senior_ml.html",
+      "bytes": 7842,
+      "sha256": "27fccb9e2a28cf439b3df3ba5513341efde2b9f81a3646e847b0fad59561b423"
+    },
+    {
+      "path": "public-safe/registry/helsinki_ai_engineering_5251.html",
+      "bytes": 8198,
+      "sha256": "ce5560842650537236d6e6cd602d3cc173c0d63dd027d5322b0ef964e7af0638"
+    },
+    {
+      "path": "public-safe/registry/history-36b8ec851cce.html",
+      "bytes": 6785,
+      "sha256": "ba20a552cd8ab311fd1062750b9e3d94e9e9ba2bd92a44c649f0102384852430"
+    },
+    {
+      "path": "public-safe/registry/history-594fcc4ce61e.html",
+      "bytes": 6894,
+      "sha256": "f72a2fc91e01d5337e7f56b5435c43506a70f54339b28785606cc56d4638dc13"
+    },
+    {
+      "path": "public-safe/registry/ircam-avatars-mechanical-2026.html",
+      "bytes": 7845,
+      "sha256": "7bd9eaf81d40eaf246c059a4f01ba4c48a76de93da10d386982bde9659c6b2ed"
+    },
+    {
+      "path": "public-safe/registry/kth_974287.html",
+      "bytes": 8104,
+      "sha256": "c38547f155b84bd4d3419fe7cef6ddb90b69020519a3947b5b9b21a02d1e664c"
+    },
+    {
+      "path": "public-safe/registry/logitech-147367.html",
+      "bytes": 7265,
+      "sha256": "88a1f55412ff199d3779aa0a0012e94865e4bf9724aa65d8e8c21e3daca9e217"
+    },
+    {
+      "path": "public-safe/registry/roli-watch.html",
+      "bytes": 7038,
+      "sha256": "eb73370312a3bf8af7dd972e78bf0d85f6d5c98afba24b65978056b7aa81d078"
+    },
+    {
+      "path": "public-safe/registry/salford_bioacoustics_1087.html",
+      "bytes": 8164,
+      "sha256": "4c85ca6af0a6ceb02733245711285b73a865fc5b946a744579faee7f51a557da"
+    },
+    {
+      "path": "public-safe/registry/scrime_postdoc_2027.html",
+      "bytes": 8238,
+      "sha256": "0786034c0d8e2d01e736124700b2f8d7ebeb7c4add338bd08a2eb0936d82c787"
+    },
+    {
+      "path": "public-safe/registry/sony-6006523004.html",
+      "bytes": 7930,
+      "sha256": "424d376f98173187334fa2622e960da49101d8ee55bd31c45540c96a00cc3e12"
+    },
+    {
+      "path": "public-safe/registry/spotify_generative_audio.html",
+      "bytes": 8021,
+      "sha256": "0d7add7a0aa644cc6def4acc489b8b7183ae9c53cc62590a5fa848b15661cabd"
+    },
+    {
+      "path": "public-safe/registry/spotify_senior_speech.html",
+      "bytes": 7918,
+      "sha256": "ab5e873d3c7d7f6d9f135a95e1de8000b3c5415c985ae2c155c8d2a6924b25d9"
+    },
+    {
+      "path": "public-safe/registry/stability-watch.html",
+      "bytes": 6983,
+      "sha256": "9bbe33d4c0e27cc17d9cf3539ac3a64cd2a581289391d8968d86d8a95f94ced2"
+    },
+    {
+      "path": "public-safe/registry/synthesia-ae716439.html",
+      "bytes": 8015,
+      "sha256": "3c49bf77fce68d221528521dae37f334ee4e0bee78ab834fa8c53fd629a7943b"
+    },
+    {
+      "path": "public-safe/registry/tencent-R107821.html",
+      "bytes": 8296,
+      "sha256": "4ca3539f31034841f7e694e03a84ec3e12e90f5858a3aed535ca05b4a5017371"
+    },
+    {
+      "path": "public-safe/registry/tencent-R108173.html",
+      "bytes": 7885,
+      "sha256": "9b7814d468fdd12530bb892b0f7fbdf6fb1d279c19636726e2a6879676d4f3e0"
+    },
+    {
+      "path": "public-safe/registry/turku_tias_postdoc_2027.html",
+      "bytes": 8578,
+      "sha256": "265f1d107ef1dafcde3e2927ecadd6630cd9c6df3f51b42f82ad86d6693981e6"
+    },
+    {
+      "path": "public-safe/registry/turku_ties2_2027.html",
+      "bytes": 8692,
+      "sha256": "82a01c023c9a1ff2bf2b33d32b18cedfcca978f5d43e8b01c679bc9e79d94bae"
+    },
+    {
+      "path": "public-safe/registry/umg-27186.html",
+      "bytes": 8151,
+      "sha256": "a3e6c13951d4fe05ee5d99474671635bc6b9e0df7f02ca9e4664a04a54c6a98f"
+    },
+    {
+      "path": "public-safe/registry/watch-0f4b4ba80276.html",
+      "bytes": 6787,
+      "sha256": "f8d723d64d561625237f7e086cf5b3703e477198d404ffa33562a1c1ed90cfb3"
+    },
+    {
+      "path": "public-safe/registry/watch-17c7af5018a5.html",
+      "bytes": 6684,
+      "sha256": "b7ae5a5c119b313300404281d97b3c28bfc2a61894ed318c037c34109ed0f25c"
+    },
+    {
+      "path": "public-safe/registry/watch-256d535ae691.html",
+      "bytes": 6714,
+      "sha256": "7b676724ef6bc460c9cfa8341a83369b2b97d306eb9efdd789931582688165fd"
+    },
+    {
+      "path": "public-safe/registry/watch-557960947d89.html",
+      "bytes": 6792,
+      "sha256": "8ccd2df94be51ec5044347a57f3e643247e8f38d1af5c8647610db383ce26112"
+    },
+    {
+      "path": "public-safe/registry/watch-61c110d69343.html",
+      "bytes": 6734,
+      "sha256": "9493a03a271e100ce82d8be614910a4cb4e02e2a91e787fbd95deca3e0dc906e"
+    },
+    {
+      "path": "public-safe/registry/watch-628bac0b1e49.html",
+      "bytes": 6756,
+      "sha256": "6fc702c7247bc83b8edb0c7b2cf6448e5aee53da107a41ed56bc160a329a7607"
+    },
+    {
+      "path": "public-safe/registry/watch-62fc2ef56cc1.html",
+      "bytes": 6691,
+      "sha256": "a801821d1aa69f36e939dd60fe003081937ae9b206394dc8080a3895f85a5270"
+    },
+    {
+      "path": "public-safe/registry/watch-a10bea77c448.html",
+      "bytes": 6837,
+      "sha256": "647dae9606e579e2c37ad236801f7d13bc67747be92585ec7e6309699ab41aac"
+    },
+    {
+      "path": "public-safe/registry/watch-b27cb7783965.html",
+      "bytes": 6780,
+      "sha256": "110941fa296d0bd6a268c3f9017c2190a861f4fd21bd968e679870ea4565b65a"
+    },
+    {
+      "path": "public-safe/registry/watch-b71699e49241.html",
+      "bytes": 6707,
+      "sha256": "58b5ddba61113c4804e5fc348277b462cb116b71c7c2461a30f64f3d5fb94007"
+    },
+    {
+      "path": "public-safe/registry/watch-b7a0de69b885.html",
+      "bytes": 6710,
+      "sha256": "6e8d1db05d4de3b855adcb8abea6a62b28efa4035a7fa5b1b37d6a24508b2855"
+    },
+    {
+      "path": "index.html",
+      "bytes": 432,
+      "sha256": "3f20e6929c050bd39ff895e27ff79b0ec9ed9d8a9e1fc42f5516cb16d70080db"
+    },
+    {
+      "path": ".nojekyll",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
     }
-  ],
-  "self_hash_note": "Root manifest excludes its own hash to avoid recursion; per-role manifests include actual new files.",
-  "repository": "https://github.com/zhanh-he/finding-jobs",
-  "publication_copy": true
+  ]
 }

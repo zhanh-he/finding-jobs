@@ -1,0 +1,138 @@
+{
+  "id": "scrime_postdoc_2027",
+  "organization": "University of Bordeaux / Bordeaux INP / LaBRI",
+  "title": "Postdoctoral position in MIR / Sound and Music Computing (2027 call)",
+  "reviewer": "round2_europe",
+  "as_of": "2026-10-21",
+  "version": "20261021_v1",
+  "recommendation": "B",
+  "provisional_overall": 80.08,
+  "coverage_pct": 65,
+  "career_fit_score": 81.33,
+  "career_fit_coverage_pct": 100,
+  "scores": {
+    "research": {
+      "value": 92,
+      "weight": 20,
+      "reason": "MIR/audio-symbolic/dynamics directly aligns with analysis,composition,performance; guitar tablature implementation not shown",
+      "evidence_refs": [
+        "r2eu_scrime",
+        "candidate_cv"
+      ]
+    },
+    "technical": {
+      "value": 82,
+      "weight": 20,
+      "reason": "Python/PyTorch/music modeling supported; guitar-specific transcription/tab conversion unproven",
+      "evidence_refs": [
+        "r2eu_scrime",
+        "candidate_cv"
+      ]
+    },
+    "academic": {
+      "value": 80,
+      "weight": 10,
+      "reason": "PhD research and four CV-listed conference entries; formal doctorate gate and bibliographic conflicts unresolved",
+      "evidence_refs": [
+        "r2eu_scrime",
+        "candidate_cv"
+      ]
+    },
+    "engineering": {
+      "value": 60,
+      "weight": 10,
+      "reason": "Research code and physical music prototype; sustained web tooling/release/testing scale unproven",
+      "evidence_refs": [
+        "r2eu_scrime",
+        "candidate_cv"
+      ]
+    },
+    "location_life": {
+      "value": null,
+      "weight": 25,
+      "reason": "London cohabitation/attendance/cross-border arrangement unknown",
+      "evidence_refs": [
+        "r2eu_scrime",
+        "candidate_cv"
+      ]
+    },
+    "salary_career": {
+      "value": null,
+      "weight": 10,
+      "reason": "Salary by experience no amount; 12month renewal uncertain; candidate floor unknown",
+      "evidence_refs": [
+        "r2eu_scrime",
+        "candidate_cv"
+      ]
+    },
+    "interview_competitiveness": {
+      "value": 65,
+      "weight": 5,
+      "reason": "Distinct music trajectory supports interview narrative; metrics/individual ownership/guitar depth missing",
+      "evidence_refs": [
+        "r2eu_scrime",
+        "candidate_cv"
+      ]
+    }
+  },
+  "london_cohabitation_score": null,
+  "hard_gate_status": "pending_doctoral_timing",
+  "ai_application_policy": {
+    "status": "unknown",
+    "evidence": "本岗位完整JD未见申请AI条款；不等于雇主已明确允许。门户最终声明待人工核对",
+    "source_ids": [
+      "r2eu_scrime"
+    ]
+  },
+  "status": "complete_local_drafts_render_verified",
+  "decision": "有条件值得申请；待本人核稿与硬资格确认，未提交",
+  "deadline_conflict": true,
+  "deadline_evidence": [
+    {
+      "source_id": "r2eu_scrime",
+      "date": "2026-11-08",
+      "quote": "Application deadline : November 8th 2026"
+    },
+    {
+      "source_id": "r2eu_scrime_email",
+      "date": "2026-11-11",
+      "quote": "Application deadline : November 11th, 2026"
+    }
+  ],
+  "planning_deadline": "2026-11-08",
+  "artifacts": [
+    {
+      "type": "resume_docx",
+      "path": "03_Zhanhong_He_SCRIME_Postdoc_20261021_v1.docx",
+      "status": "draft_verified",
+      "version": "20261021_v1",
+      "sha256": "1a33cb1183262437b06073ce94e78b61061f78e4589eac9805baa34138285ad2"
+    },
+    {
+      "type": "resume_pdf",
+      "path": "03_Zhanhong_He_SCRIME_Postdoc_20261021_v1.pdf",
+      "status": "draft_verified",
+      "version": "20261021_v1",
+      "sha256": "da8897274baf905ea42287853da46c009e7f1c1e05b0a8d53d470bd3375e8155"
+    },
+    {
+      "type": "resume_txt",
+      "path": "03_Zhanhong_He_SCRIME_Postdoc_20261021_v1.txt",
+      "status": "draft_verified",
+      "version": "20261021_v1",
+      "sha256": "1c6f2b275ce247f84e352904b35fd5e1dd308cf751c7a9711a703303b50cd1fe"
+    },
+    {
+      "type": "cover_letter",
+      "path": "05_cover_letter_draft.txt",
+      "status": "draft_verified",
+      "version": "20261021_v1"
+    },
+    {
+      "type": "research_proposal",
+      "path": "11_short_research_proposal_DRAFT.txt",
+      "status": "draft_verified",
+      "version": "20261021_v1"
+    }
+  ]
+}

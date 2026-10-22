@@ -1,0 +1,24 @@
+'use strict';
+const assert=require('node:assert/strict');
+const p=require('../site-assets/progress.js');
+let checks=0;const check=(v,m)=>{assert(v,m);checks++;};
+check(p.initialStage({application_stage:'not_found_in_audit'})==='not_applied_unconfirmed','audit gap is not a confirmed non-application');
+check(p.initialStage({application_stage:'draft'})==='preparing','draft means preparing, never applied');
+check(p.initialStage({application_stage:'rejected'})==='rejected','real rejection preserved');
+check(!p.STAGES.includes('expired'),'expiry is separate from application stage');
+const entry={stage:'interview',updated_at:'2026-10-21T10:00:00Z',applied_at:'2026-10-20',follow_up_date:'2026-11-02',note:'A <script>literal</script> note'};
+const payload={schema_version:p.SCHEMA,entries:{a:entry}};
+const imported=p.validateLedger(JSON.parse(JSON.stringify(payload)),new Set(['a']));
+check(imported.entries.a.stage==='interview'&&imported.entries.a.note===entry.note,'backup fields round-trip without HTML execution');
+for(const [name,x] of [['bad schema',{...payload,schema_version:'other'}],['unknown id',{...payload,entries:{missing:entry}}],['invalid stage',{...payload,entries:{a:{...entry,stage:'expired'}}}],['invalid calendar date',{...payload,entries:{a:{...entry,applied_at:'2026-02-30'}}}],['oversized note',{...payload,entries:{a:{...entry,note:'x'.repeat(3001)}}}],['invalid timestamp',{...payload,entries:{a:{...entry,updated_at:'not a date'}}}]]){assert.throws(()=>p.validateLedger(x,new Set(['a'])),undefined,name);checks++;}
+check(Object.keys(p.validateLedger({schema_version:p.SCHEMA,entries:{}},new Set()).entries).length===0,'empty ledger is valid');
+check(p.expiry({vacancy_status:'closed'}).expired,'explicitly closed');
+check(p.expiry({deadline_iso:'2026-10-21T23:00:00Z'},new Date('2026-10-22T00:00:00Z')).expired,'exact expiry derived');
+check(!p.expiry({deadline_date:'2026-10-21'},new Date('2026-10-21T03:00:00Z')).expired,'date-only deadline not fabricated as exact time');
+const datePassed=p.expiry({deadline_date:'2026-10-20',deadline_timezone:'Europe/London'},new Date('2026-10-21T03:00:00Z'));
+check(datePassed.expired&&datePassed.label.includes('时刻未明'),'date passed labeled imprecise');
+check(!p.expiry({planning_deadline:'2026-10-01'},new Date('2026-10-21T00:00:00Z')).expired,'planning target never expires official vacancy');
+check(p.calendarDate(new Date('2026-10-24T23:30:00Z'),'Europe/London')==='2026-10-25','BST calendar boundary');
+check(p.calendarDate(new Date('2026-10-26T23:30:00Z'),'Europe/London')==='2026-10-26','GMT calendar boundary');
+check(!p.expiry({deadline_date:'2026-10-20'},new Date('2026-10-21T03:00:00Z')).expired,'unknown timezone waits until all global dates have passed');
+console.log(JSON.stringify({status:'passed',assertions:checks,scope:'progress enum, no submission inference, backup validation, calendar/DST expiry'},null,2));

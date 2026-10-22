@@ -18,6 +18,7 @@ class Parser(HTMLParser):
   if 'id' in a:self.ids.add(a['id'])
   if tag in ['a','link','script','img']:
    self.urls.extend(a[k] for k in ['href','src'] if k in a)
+if (OUT/'private/source_library').exists():raise SystemExit('Raw local source library must not be published')
 failures=[];links=0
 for file in OUT.rglob('*.html'):
  p=Parser();p.feed(file.read_text())
@@ -37,7 +38,8 @@ for f in OUT.rglob('*'):
  if f.suffix in ['.html','.md','.txt','.json','.css','.js']:
   t=f.read_text(errors='replace')
   if re.search(r'(?:gh[pousr]_[A-Za-z0-9]{25,}|sk-[A-Za-z0-9]{25,}|BEGIN (?:RSA |OPENSSH )?PRIVATE KEY)',t):secrets.append(str(f.relative_to(OUT)))
-  if re.search(r'[/]Users/',t):secrets.append(str(f.relative_to(OUT)))
+  if re.search(r'[/]Users/|file:///|/workspace/shared/|mail\.google\.com/mail/',t):secrets.append(str(f.relative_to(OUT)))
+  if f.name in ['email_audit.json','email_audit.md'] or 'announcement_PRIVATE' in f.name:secrets.append(str(f.relative_to(OUT)))
 if failures or secrets:
  print(json.dumps({'missing_or_unsafe_links':failures,'secret_or_local_path_files':secrets},ensure_ascii=False));raise SystemExit(1)
 print(json.dumps({'pages':len(list(OUT.rglob('*.html'))),'relative_links_verified':links,'files':len([f for f in OUT.rglob('*') if f.is_file()]),'status':'passed'}))

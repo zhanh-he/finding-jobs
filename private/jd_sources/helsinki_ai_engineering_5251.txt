@@ -1,0 +1,178 @@
+POSTDOCTORAL RESEARCHER in AI engineering Työn tiedot | University of Helsinki
+Käytämme evästeitä parhaan mahdollisen sivustokokemuksen tarjoamiseksi. Evästeasetuksesi tallennetaan selaimesi paikalliseen tallennustilaan. Evästeisiin kuuluvat myös sivuston toiminnan kannalta välttämättömät evästeet. Lisäksi voit vapaasti päättää, hyväksytkö verkkosivuston suorituskykyä parantavat evästeet ja sellaiset evästeet, joiden avulla näytetään kiinnostuksesi mukaan räätälöity sisältö. Jos et hyväksy kaikkia evästeitä, se voi vaikuttaa sivustokokemukseesi ja palveluihin, joita voimme tarjota.
+Muuta evästeasetuksia
+Hyväksy kaikki evästeet
+Siirry pääsisältöön
+Näytä kaikki työpaikat
+Kategoria
+Professorit ja apulaisprofessorit
+Opetus- ja tutkimustehtävät
+Johto-, asiantuntija- ja tukitehtävät
+Urasivut
+Kieli
+English
+Suomi
+Svenska
+Profiili
+Työntekijän kirjautuminen
+Näytä kaikki työpaikat
+Kategoria
+Professorit ja apulaisprofessorit
+Opetus- ja tutkimustehtävät
+Johto-, asiantuntija- ja tukitehtävät
+Urasivut
+Kieli
+English
+Suomi
+Svenska
+Profiili
+Työntekijän kirjautuminen
+NÄYTÄ KAIKKI TYÖPAIKAT
+KATEGORIA
+Professorit ja apulaisprofessorit
+Opetus- ja tutkimustehtävät
+Johto-, asiantuntija- ja tukitehtävät
+URASIVUT
+Kieli
+English
+Suomi
+Svenska
+Profiili
+Työntekijän kirjautuminen
+Etsi nimikettä, yksikköä tai yksittäistä sanaa
+Valitse, kuinka usein (päivinä) hälytys vastaanotetaan:
+Luo hälytys
+×
+Valitse, kuinka usein (päivinä) hälytys vastaanotetaan:
+Hae nyt »
+POSTDOCTORAL RESEARCHER in AI engineering
+The University of Helsinki (
+https://www.helsinki.fi/en
+), founded in 1640, is one of the world’s leading universities for multidisciplinary research. The university has an international academic community of 40,000 students and staff members. The Department of Chemistry (
+https://www.helsinki.fi/en/faculty-science/faculty/chemistry
+) at the Faculty of Science (
+https://www.helsinki.fi/en/faculty-science
+) carries out research on chemistry and its applications at an international level and provides academic teaching based on high quality research.
+The Department of Computer Science
+is a leading unit in Finland in its area and responsible for the teaching and research in computer science at the University of Helsinki. The main research fields at the department are artificial intelligence, big data frameworks, bioinformatics, data analysis, data science, discrete and machine learning algorithms, distributed, intelligent, and interactive systems, networks, security, and software and database systems. The department has extensive international collaboration with companies and universities. Within teaching, the department’s professors and staff are in charge of the Bachelor’s, Master’s, and Doctoral Programmes in Computer Science, as well as the separate Master’s Programme in Data Science, in which other departments also participate.
+The Department of Computer Sciences invites applications for a
+POSTDOCTORAL RESEARCHER in AI Engineering.
+The AI Engineering research group at the University of Helsinki consists of close to twenty persons working on questions related to the development, deployment, and operation of AI based software systems. Some of the main themes include monitoring, cost-efficiency, and operational processes over the lifetime of the systems. The position is a fixed-term project for 2.5 years with a possible extension.
+Position description
+The work is related to the national and European projects where we work for research-based solutions to challenges defined together with our industry partners. A brief description of the ongoing projects can be found at
+https://www.helsinki.fi/en/researchgroups/empirical-software-engineering/ai-engineering
+. Our work covers a spectrum of aspects from data science to software engineering. The detailed content of the work can be tailored to the background and interests of the applicant. Besides research, the work involves project management, mentoring of junior researchers, and thesis supervision.
+The position has a trial period of 6 months.
+Requirements
+The ideal candidate has a PhD in data science, computer science, or software engineering with a focus on the practice of AI. Teamworking and communication skills are important as our project involves working together with our industry partners. Creativity and agility are important in this fast-moving area. Good written and oral communication skills in English are necessary to succeed in this role.
+Salary and benefits
+The salary will be in accordance with the University salary system (requirement level 5). In addition, the appointee will be paid a salary component based on personal performance. The starting salary will be approximately 4000-4400 €/month.
+University of Helsinki offers comprehensive services to its employees, including occupational health care, sports facilities, and ample opportunities for professional development and language studies. The International Staff Services office (
+https://www.helsinki.fi/en/university/working-at-the-university
+) assists employees from abroad with their transition to work and life in Finland.
+A diverse and equitable study and work culture is important to the University of Helsinki. That is why we do our best to promote an inclusive university community. We encourage all qualified applicants from different gender identities, linguistic and cultural backgrounds, and minorities to apply for the position. You can read about the accessibility and inclusivity of our university via this link.
+How to apply
+Applications should include:
+a CV with a list of publications,
+a brief description of your research interests (1 page) with clear indication on the motivation to apply for this position,
+a copy of a PhD degree certificate.
+If you are interviewed, you will be asked for contact details for two references.
+Please send us an application that you have crafted yourself, reflecting your own capability and thoughts. Applications generated by AI do not meet our expectations.
+The deadline for applications is 2.11.
+The ideal start date is as soon as possible, at the latest January 1st 2027.
+External applicants, please submit your application via the Apply Now button.
+Internal applicants, who have a helsinki.fi username and a valid employment/grant/visitor contract, please submit your application via the Employee login button.
+Additional information
+For further inquiries regarding the position, please contact Professor Jukka K. Nurminen (
+jukka.k.nurminen@helsinki.fi
+).
+Support with the recruitment system can be obtained at
+recruitment@helsinki.fi
+.
+Here you can find further information about the research group
+https://www.helsinki.fi/en/researchgroups/empirical-software-engineering/ai-engineering
+.
+Onko sinulla helsinki.fi -käyttäjätunnukset ja voimassa oleva työsopimus, apurahatutkijan sopimus, vierailevan tutkijan tai vierailevan professorin sopimus Helsingin yliopistossa? Kirjaudu ensin tästä hakeaksesi avoimia tehtäviämme
+Työntekijän kirjautuminen
+Avoin työpaikka
+Haku päättyy:
+2.11.2026
+(23.59 Eurooppa/Helsinki aika)
+Yksikkö:
+Matemaattis- luonnontieteellinen tiedekunta
+Alayksikkö:
+Tietojenkäsittelytieteen osasto
+Tunniste:
+5251
+Työtä maailman parhaaksi
+Tieteen voimalla voidaan muuttaa maailmaa. Olemme yksi maailman parhaista tutkimusyliopistoista – yli 30 000 opiskelijan ja 8 000 työntekijän kansainvälinen tieteen, tutkimuksen, oppimisen ja rohkean ajattelun yhteisö.
+Meidät tunnetaan monitieteisyydestä. Uskomme tieteidenvälisen tutkimuksen ja rajoja rikkovan yhteistyön voimaan löytää ratkaisuja ja luoda toivoa paremman ja kestävämmän tulevaisuuden puolesta.
+Meitä yhdistävät arvomme totuus, sivistys, vapaus ja yhteisöllisyys, sekä halu tehdä merkityksellisiä töitä.
+Tule mukaan: tee työtä tulevaisuudelle – maailman parhaaksi.
+Kysyttävää?
+Katso ohjeet rekrytointijärjestelmän käyttöön
+Hae nyt »
+Etsi samankaltaisia työpaikkoja:
+Opetus- ja tutkimustehtävät
+Avautuu uudessa välilehdessä.
+Avautuu uudessa välilehdessä.
+Avautuu uudessa välilehdessä.
+Avautuu uudessa välilehdessä.
+Avautuu uudessa välilehdessä.
+YHTEYSTIEDOT
+Tietosuoja
+Ota yhteyttä
+MIKSI ME?
+Miksi valita Helsingin yliopisto
+URASIVUT
+Ura Helsingin yliopistossa
+TIEDEKUNNAT JA YKSIKÖT
+Flamma-intranet
+Tiedekunnat ja yksiköt
+© Helsingin yliopisto 2022
+×
+Evästeiden hyväksynnän hallinta
+Kun vierailet millä tahansa verkkosivustolla, se voi tallentaa tietoja selaimellesi tai hakea niitä sieltä. Tämä tapahtuu enimmäkseen evästeiden muodossa. Koska kunnioitamme oikeuttasi yksityisyyteen, voit päättää olla sallimatta tietyntyyppisiä evästeitä. Tietyntyyppisten evästeiden estäminen voi kuitenkin vaikuttaa kokemukseesi sivustosta ja palveluista, joita voimme tarjota.
+Pakolliset evästeet
+Näitä evästeitä tarvitaan tämän verkkosivuston käyttämiseen, eikä niitä voi poistaa käytöstä
+Pakolliset evästeet
+Näytä lisätietoja
+Pakolliset evästeet
+Tarjoaja
+Kuvaus
+Käytössä
+SAP as service provider
+Käytämme seuraavia istuntoevästeitä, jotka kaikki ovat välttämättömiä verkkosivuston toiminnan mahdollistamiseksi:
+evästettä "route" käytetään istunnon hitautta varten
+evästettä "careerSiteCompanyId" käytetään lähettämään pyyntö oikeaan palvelinkeskukseen
+eväste  "JSESSIONID" asetetaan kävijän laitteeseen istunnon aikana, jotta palvelin voi tunnistaa kävijän
+"Load balancer cookie" (evästeen todellinen nimi voi vaihdella) estää kävijän ponnahtamasta instanssista toiseen
+Tarjoajan SAPasserviceprovider evästeet ovat pakollisia, eikä niitä voi poistaa käytöstä
+Mainontaevästeet
+Nämä evästeet näyttävät kiinnostuksen kohteitasi vastaavia mainoksia. Voit hyväksyä tai hylätä nämä evästeet milloin tahansa. Huomaa, että evästeiden hylkääminen voi vaikuttaa tiettyihin näiden kolmansien osapuolten tarjoamiin toimintoihin.
+Hyväksy kaikki Mainontaevästeet
+Näytä lisätietoja
+Mainontaevästeet
+Tarjoaja
+Kuvaus
+Käytössä
+Google Tag Manager
+Google Tag Manager on tagien hallintajärjestelmä tulosseurannalle, sivustoanalytiikalle, uudelleenmarkkinoinnille ja muulle.
+Tietosuojakäytäntö
+Käyttöehdot
+Tarjoajan GoogleTagManager evästeiden hyväksyntä
+Google Analytics
+Google Analytics on Googlen tarjoama verkkoanalyysipalvelu, joka seuraa ja raportoi verkkosivustojen liikennettä.
+Evästetiedot
+Tietosuojakäytäntö
+Käyttöehdot
+Tarjoajan GoogleAnalytics evästeiden hyväksyntä
+LinkedIn
+LinkedIn on työllisyyteen suuntautunut sosiaalisen verkostoitumisen palvelu. Käytämme Apply with LinkedIn -toimintoa, jotta voit hakea töitä LinkedIn-profiilisi avulla. LinkedIn-evästeiden poistaminen käytöstä poistaa mahdollisuuden käyttää Apply with LinkedIn -toimintoa.
+Evästekäytäntö
+Evästetaulu
+Tietosuojakäytäntö
+Käyttöehdot
+Tarjoajan LinkedIn evästeiden hyväksyntä
+Vahvista valintani
+Hyväksy kaikki evästeet

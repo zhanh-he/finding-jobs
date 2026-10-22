@@ -1,0 +1,13 @@
+PRIVATE FILL IN TEMPLATE - NOT AN APPLICATION CLAIM
+Choose one public or disclosure-cleared project. Do not supply confidential Huawei data or internal architecture details.
+Project/public URL:
+Problem and why it matters:
+My exact contribution versus collaborators:
+What can be disclosed and who cleared it:
+Public/licensed data and train/validation/test protocol:
+Model/implementation choices I personally made:
+Baseline and evaluation protocol:
+Verified result and uncertainty (leave blank if unknown):
+One failed approach and what I changed:
+Code/commit I can explain and reproduce:
+What is transferable to speech/audio, and what I have not yet done:

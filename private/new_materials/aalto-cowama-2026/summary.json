@@ -1,0 +1,132 @@
+{
+  "id": "aalto-cowama-2026",
+  "organization": "Aalto University",
+  "title": "Postdoctoral Researcher in Speech and Language Technology",
+  "reviewer": "round2_europe",
+  "as_of": "2026-10-21",
+  "version": "20261021_v1",
+  "recommendation": "B",
+  "provisional_overall": 77.33,
+  "coverage_pct": 75,
+  "career_fit_score": 78.33,
+  "career_fit_coverage_pct": 100,
+  "scores": {
+    "research": {
+      "value": 86,
+      "weight": 20,
+      "reason": "Strong generative-audio/perceptual link; watermarking is a new research objective",
+      "evidence_refs": [
+        "r2eu_aalto",
+        "candidate_cv"
+      ]
+    },
+    "technical": {
+      "value": 78,
+      "weight": 20,
+      "reason": "Deep learning/PyTorch/synthesis proxies present; codecs/diffusion/watermark attacks/HPC ownership not proven",
+      "evidence_refs": [
+        "r2eu_aalto",
+        "candidate_cv"
+      ]
+    },
+    "academic": {
+      "value": 80,
+      "weight": 10,
+      "reason": "Near-completion expressly accepted; papers as CV-listed and citations must be checked",
+      "evidence_refs": [
+        "r2eu_aalto",
+        "candidate_cv"
+      ]
+    },
+    "engineering": {
+      "value": 62,
+      "weight": 10,
+      "reason": "Research implementation/listening tests, but reproducible-release and HPC depth unknown",
+      "evidence_refs": [
+        "r2eu_aalto",
+        "candidate_cv"
+      ]
+    },
+    "location_life": {
+      "value": null,
+      "weight": 25,
+      "reason": "Otaniemi primary workplace and hybrid; attendance and UK remote permission unknown",
+      "evidence_refs": [
+        "r2eu_aalto",
+        "candidate_cv"
+      ]
+    },
+    "salary_career": {
+      "value": 80,
+      "weight": 10,
+      "reason": "Advert EUR4220 monthly,2years optional2extension; career network strong; no personal cost fit or tax model",
+      "evidence_refs": [
+        "r2eu_aalto",
+        "candidate_cv"
+      ]
+    },
+    "interview_competitiveness": {
+      "value": 60,
+      "weight": 5,
+      "reason": "Plausible audio researcher transition, watermarking-specific competition and quantitative evidence remain risks",
+      "evidence_refs": [
+        "r2eu_aalto",
+        "candidate_cv"
+      ]
+    }
+  },
+  "london_cohabitation_score": null,
+  "hard_gate_status": "provisionally_satisfied_near_completion",
+  "ai_application_policy": {
+    "status": "unknown",
+    "evidence": "本岗位完整JD未见申请AI条款；不等于雇主已明确允许。门户最终声明待人工核对",
+    "source_ids": [
+      "r2eu_aalto"
+    ]
+  },
+  "status": "complete_local_drafts_render_verified",
+  "decision": "有条件值得申请；待本人核稿与硬资格确认，未提交",
+  "deadline_conflict": false,
+  "deadline_evidence": [
+    {
+      "source_id": "r2eu_aalto",
+      "quote": "31st October 2026 23.59pm (EET)"
+    }
+  ],
+  "planning_deadline": "2026-10-30",
+  "artifacts": [
+    {
+      "type": "resume_docx",
+      "path": "03_Zhanhong_He_Aalto_COWAMA_Postdoc_20261021_v1.docx",
+      "status": "draft_verified",
+      "version": "20261021_v1",
+      "sha256": "c1bb3ea5cd4f43cc369bc1adb61ab96af7a611d291ddad38d4e19831e2b0b308"
+    },
+    {
+      "type": "resume_pdf",
+      "path": "03_Zhanhong_He_Aalto_COWAMA_Postdoc_20261021_v1.pdf",
+      "status": "draft_verified",
+      "version": "20261021_v1",
+      "sha256": "18f6fc474f20053f87e883704ba10dde9748f332d544f122d2a42cfdd6df4c0c"
+    },
+    {
+      "type": "resume_txt",
+      "path": "03_Zhanhong_He_Aalto_COWAMA_Postdoc_20261021_v1.txt",
+      "status": "draft_verified",
+      "version": "20261021_v1",
+      "sha256": "7d813f3f5008270fc0b1a20b21f2a29288bc1e5b7b08e05fbc7d34069b66f717"
+    },
+    {
+      "type": "cover_letter",
+      "path": "05_cover_letter_draft.txt",
+      "status": "draft_verified",
+      "version": "20261021_v1"
+    },
+    {
+      "type": "optional_research_note",
+      "path": "11_short_research_proposal_DRAFT.txt",
+      "status": "draft_verified",
+      "version": "20261021_v1"
+    }
+  ]
+}

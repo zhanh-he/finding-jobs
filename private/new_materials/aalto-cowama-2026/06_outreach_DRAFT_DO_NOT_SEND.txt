@@ -1,0 +1,14 @@
+DRAFT — DO NOT SEND
+To: Professor Lauri Juvela <lauri.juvela@aalto.fi>
+Subject: COWAMA postdoctoral position — research fit and starting arrangements
+
+Dear Professor Juvela,
+
+I am considering the COWAMA postdoctoral position. My research at UWA concerns audio-symbolic modelling, differentiable SoundFont proxies and perceptual evaluation, with generative-music research experience at Dolby. I have completed my doctoral defence and expect my graduation certificate in November 2026.
+
+I am interested in contributing to perceptual and content-aware robustness evaluation while developing expertise in audio watermarking. Could you clarify the expected division between method development and evaluation in the first year, and the usual campus attendance pattern for this position?
+
+I would also appreciate guidance on the degree-completion documentation and researcher-permit arrangements needed before starting. I understand the formal application is through the recruitment portal.
+
+Best regards,
+Zhanhong He

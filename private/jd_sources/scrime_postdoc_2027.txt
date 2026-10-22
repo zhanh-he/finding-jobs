@@ -1,0 +1,88 @@
+Postdoc : Algorithms to enhance music analysis, composition, and performance :: scrime
+Aller au contenu
+Dyslexie
+Contraste
+Menu
+Accueil
+SCRIME
+SCRIME
+Membres du scrime
+Equipements
+Equipements
+Studio Elise
+Dôme 3D
+Hémicyclia
+Médiathèque
+Evènements
+Résidences
+Résidences
+Era Sòuta
+Le verre et les Hommes
+Regards
+Contact
+SCRIME
+Recherche
+Recherche
+Performance et méta-instruments
+Performance et méta-instruments
+Méta-instruments à vent
+TABASCO
+TABASCO
+Guitar tablature composition tools
+Spatialisation sonore
+Spatialisation sonore
+Praetorian : Around Space
+Ossia score
+SEGMent² Study and Education Game Maker
+Publications
+Pédagogie
+Pédagogie
+Enseignement supérieur
+Enseignement supérieur
+UE "Le studio et les musiques expérimentales"
+Éducation Artistique et Culturelle
+Jobs
+Accès rapide
+Recherche
+Mots-clés
+Recherche
+Accès rapide
+Université de Bordeaux
+Accueil
+Jobs
+Postdoc : Algorithms to enhance music analysis, composition, and performance
+Postdoc : Algorithms to enhance music analysis, composition, and performance
+start
+: january 2027
+duration
+: 12 months (renewable)
+salary
+: to be determined, based on experience
+Application deadline
+: November 8th 2026
+Application
+: please
+send by mail
+a CV and a short research project proposition following information below.
+We welcome applications from candidates wishing to propose a research project in the fields of MIR and/or SMC. The project should align with our team's broader objective of developing tools that enrich and broaden access to music analysis, composition, and/or performance. Given our current research interests, we particularly encourage proposals involving the processing of audio and/or symbolic guitar data.
+Research topics of interest to the team include, among others :
+Computational analysis of large score/tablature corpora
+Contextual generation of score/tablature regions (inpainting, outpainting)
+Style transfer on score/tablatures
+Position estimation from MIDI content (MIDI to tab)
+Automatic transcription of audio content (audio to MIDI, audio to tab)
+The researcher's activities may include supervising internships at the M1 or M2 level as well as student projects in computer science at ENSEIRB-MATMECA or the University of Bordeaux, in connection with the proposed research project. As artistic creation and music education play an essential role in the team's projects, the researcher will be encouraged to develop collaborations with artists and educators. The researcher will also be encouraged to publish and present their work at conferences and seminars organized by the community, as well as at outreach events aimed at the general public.
+Finally, the researcher will take full part in the daily life of the team, which may involve, for example, organizing various cultural events for the general public or giving presentations to students.
+Required profile
+The candidate must have a PhD in computer science, or a related field, preferably on a topic related to sound or music data processing. Solid programming experience is essential. Significant experience in data science and machine learning will be highly appreciated.
+The candidate must enjoy working in a team while demonstrating autonomy in their research project.
+Musical practice, or at least a strong interest in music, is highly desirable.
+SCRIME
+351, Cours de la Libération
+33400 Talence
+Nous contacter
+Plan du site
+Mentions légales
+Accessibilité : non conforme
+Gestion des cookies
+Université de Bordeaux

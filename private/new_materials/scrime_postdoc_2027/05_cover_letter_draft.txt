@@ -1,0 +1,14 @@
+Dear Louis Bigo and the SCRIME selection committee,
+
+I am applying for the 2027 postdoctoral position in algorithms to enhance music analysis, composition and performance. My doctoral research at the University of Western Australia examines musical dynamics through audio and symbolic representations. I have completed my doctoral defence and expect my graduation certificate in November 2026.
+
+SCRIME's emphasis on guitar audio and symbolic data connects with my work on cross-instrument MIDI velocity estimation. In Beyond Piano, we developed differentiable SoundFont proxies to guide adaptation from piano to other instruments through audio-loudness supervision. My related work uses a score-informed Transformer to refine velocities from transcription systems and a multitask network to model dynamics and musical structure. These projects give me a foundation for investigating how structural information and expressive controls can support useful musical tools.
+
+For SCRIME, I propose studying performance-aware dynamics for aligned guitar audio and symbolic material. The initial goal would be to recover and edit expressive dynamics while preserving note content, with explicit evaluation of renderer dependence and transfer between recordings. Extensions toward tablature would be guided by available data and collaboration with the team; I would first establish the relevant notation and fingering constraints rather than assume that piano methods transfer unchanged. The accompanying short proposal sets out a feasible first-year scope.
+
+My research internships at Dolby and Huawei added experience in generative music modelling and human-preference evaluation. At Dolby, I worked with U-Net, VAE and masked Transformer models and designed professional listening tests. I also supported signal-processing teaching and co-supervised Honours projects at UWA. As a guitar and piano enthusiast with experience in electronic music and a small MIDI instrument prototype, I value a research setting that involves artists, educators and practical musical feedback.
+
+I would welcome the opportunity to contribute research software, student supervision and clear demonstrations within SCRIME. Thank you for considering my application.
+
+Yours sincerely,
+Zhanhong He

@@ -1,0 +1,43 @@
+Checked 2026-10-21; official web-rendered text follows. Full job content preserved; duplicated navigation may appear.
+Spotify - Senior Applied Research Scientist - Personalization (https://jobs.lever.co/spotify/a4c49acb-a095-4452-ad9e-69e4b778c256)
+citeturn39view0 [wordlim: 200] Crawled: today; Content type: text/html; Source: open({"ref_id":"https://jobs.lever.co/spotify/a4c49acb-a095-4452-ad9e-69e4b778c256","lineno":null}); Total lines: 43
+L0: ## Senior Applied Research Scientist - Personalization
+L1:
+L2: London / Stockholm
+L3:
+L4: Data and Analytics – Personalization /
+L5:
+L6: Permanent /
+L7:
+L8: Remote
+L9:
+L10: cite0†apply for this job L11: The Personalization team makes deciding what to play next easier and more enjoyable for every listener. From Blend to Discover Weekly, we're behind some of Spotify's most-loved features. We built them by understanding the world of music and podcasts better than anyone else. Join us and you'll keep millions of users listening by making great recommendations to each and every one of them.
+L12: Within Personalization, the Speak Team owns the development of Spotify's state-of-the-art speech models, contributing to speech recognition, speech synthesis, and speech-to-speech models. We craft voice models that match human-level emotional expressiveness, so we can deeply engage our listeners and support creators at scale.
+L13: Our groundbreaking work on speech synthesis relies on state-of-the-art deep learning methods and evaluation techniques, highly efficient data processing and model serving, and capturing audio of outstanding quality from our voice talent pool.
+L14: We're looking for a senior applied research scientist with experience in developing novel ML techniques and architectures and with a strong interest in working across a full production pipeline to produce state-of-the-art generative conversational speech-to-speech models.
+L15: You'll collaborate with our engineering teams to help develop our production pipelines, explore new ideas and methods to improve quality, understanding and realism, as well as push the frontiers of what is possible with our speech technology.
+L16: ### What You'll Do
+L17:   * Develop and experiment with new methods for speech synthesis and speech recognition, along with end-to-end approaches, building on the latest research and ideas.
+L18:   * Work towards the expansion of our speech use-cases targeting different markets and products.
+L19:   * Be part of a highly motivated research team dedicated to building and creating models at scale to power the Spotify platform.
+L20:   * Champion best practices for research and development, sharing your knowledge and experience with other researchers within Speak.
+L21:   * Collaborate with our engineering and data teams on ideas requiring new infrastructure or new high-quality data, as well as to help improve our speech recognition and speech synthesis pipelines, and help turn proven ideas into scalable products.
+L22: ### Who You Are
+L23:   * You have a strong background in ML (PhD degree on top of professional experience), and experience in working with any of the following: transformers, GANs, diffusion models, flow matching, VAEs, audio codecs.
+L24:   * You have experience in developing generative models for speech synthesis, speech recognition, audio/music, natural language processing, or computer vision.
+L25:   * You have strong experience with Python, particularly PyTorch.
+L26:   * You have strong communication skills and the ability to explain technical ideas with clarity to technical and non-technical people alike.
+L27:   * You have experience in an academic or professional setting conducting high-quality research.
+L28: ### Where You'll Be
+L29:
+L30:   * This role is based in London or Stockholm.
+L31:   * We offer you the flexibility to work where you work best! There will be some in person meetings, but still allows for flexibility to work from home
+L32: Spotify is an equal opportunity employer. You are welcome at Spotify for who you are, no matter where you come from, what you look like, or what’s playing in your headphones. Our platform is for everyone, and so is our workplace. The more voices we have represented and amplified in our business, the more we will all thrive, contribute, and be forward-thinking! So bring us your personal experience, your perspectives, and your background.
+L33: It’s in our differences that we will find the power to keep revolutionizing the way the world listens.
+L34:
+L35:
+L36: At Spotify, we are passionate about inclusivity and making sure our entire recruitment process is accessible to everyone. We have ways to request reasonable accommodations during the interview process and help assist in what you need. If you need accommodations at any stage of the application or interview process, please let us know - we’re here to support you in any way we can.
+L37: We may use artificial intelligence (AI) tools to support parts of the hiring process, such as reviewing applications, analyzing resumes, or assessing responses. These tools assist our recruitment team but do not replace human judgment. Final hiring decisions are ultimately made by humans. If you would like more information about how your data is processed, please contact us. Find our AI notice here: https://lifeatspotify.com/ai-notice
+L38:
+L39: cite0†apply for this job L40:
+L41: cite1†Spotify Home Page†spotifyjobs.com L42: cite2†Jobs powered by†www.lever.co

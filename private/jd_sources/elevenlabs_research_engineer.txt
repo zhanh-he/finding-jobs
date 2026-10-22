@@ -1,0 +1,229 @@
+Checked 2026-10-21; official web-rendered text follows. Full job content preserved; duplicated navigation may appear.
+Research Engineer | ElevenLabs careers (https://elevenlabs.io/careers/3d650946-5ac2-4729-9ae4-129c43fcd0b5/research-engineer)
+citeturn35view0 [wordlim: 200] Crawled: today; Content type: text/html; Source: open({"ref_id":"https://elevenlabs.io/careers/3d650946-5ac2-4729-9ae4-129c43fcd0b5/research-engineer","lineno":null}); Total lines: 247
+L0: Careers
+L1:
+L2: cite0†ElevenLabs home cite1†Our culture L3:
+L4: Voice chat
+L5:
+L6: cite2†Image L7:
+L8: Voice chat
+L9:
+L10:   * cite3†157 All departments L11:   * cite4†049 Engineering & Product L12:   * cite5†008 Finance L13:   * cite6†017 Growth L14:   * cite7†009 Legal L15:   * cite8†008 Operations L16:   * cite9†005 Research & Research Engineering L17:   * cite10†061 Revenue L18:
+L19: 11
+L20:
+L21: London
+L22:
+L23: 113 employees
+L24:
+L25: 11
+L26:
+L27: New York
+L28:
+L29: 75 employees
+L30:
+L31: 11
+L32:
+L33: San Francisco
+L34:
+L35: 43 employees
+L36:
+L37: 11
+L38:
+L39: Warsaw
+L40:
+L41: 26 employees
+L42: # Research Engineer
+L43:
+L44: Department
+L45:     Research & Research Engineering
+L46:
+L47: Location
+L48:     Remote
+L49:     Poland
+L50:     United States
+L51:     Germany
+L52:     United Kingdom
+L53:     Bulgaria
+L54:
+L55: Employment type
+L56:     Full time
+L57:
+L58: About the role
+L59:
+L60: Application
+L61: ## About ElevenLabs
+L62:
+L63: ElevenLabs is an AI research and product company transforming how we interact with technology.
+L64: We launched in January 2023 with the first human-like AI voice model. Today, we serve millions of users and thousands of businesses - from fast-growing startups to large enterprises like Deutsche Telekom and Meta. Our investors are some of the world's most prominent, including Andreessen Horowitz, ICONIQ Growth and Sequoia. We've raised $781M in funding and our last valuation was $22B - multiples of 11, always.
+L65: We have expanded from voice into three main platforms:
+L66:   * ElevenAgents enables businesses to deliver seamless and intelligent customer experiences, with the integrations, testing, monitoring, and reliability necessary to deploy voice and chat agents at scale.
+L67:
+L68:   * ElevenCreative empowers creators and marketers to generate and edit speech, music, image, and video across 70+ languages.
+L69:
+L70:   * ElevenAPI gives developers access to our leading AI audio foundational models.
+L71: Everything we do is the result of the creativity and commitment of our team - builders doing the best work of their lives. We are researchers, engineers, and operators. IOI medalists and ex-founders. If you want to work hard and create lasting positive impact, we want to hear from you.
+L72: ## How we work
+L73:
+L74:   * High-velocity: Rapid experimentation, lean autonomous teams, and minimal bureaucracy.
+L75:
+L76:   * Impact not job titles: We don’t have job titles. Instead, it’s about the impact you have. No task is above or beneath you.
+L77:
+L78:   * AI first: We use AI to move faster with higher-quality results. We do this across the whole company—from engineering to growth to operations.
+L79:
+L80:   * Excellence everywhere: Everything we do should match the quality of our AI models.
+L81:   * Global team: We prioritize your talent, not your location.
+L82: ## What we offer
+L83:
+L84:   * Innovative culture: You’ll be part of a generational opportunity to define the trajectory of AI, surrounded by a team pushing the boundaries of what’s possible.
+L85:
+L86:   * Growth paths: Joining ElevenLabs means joining a dynamic team with countless opportunities to drive impact - beyond your immediate role and responsibilities.
+L87:
+L88:   * Learning & development: ElevenLabs proactively supports professional development through an annual discretionary stipend.
+L89:   * Social travel: We also provide an annual discretionary stipend to meet up with colleagues each year, however you choose.
+L90:
+L91:   * Annual company offsite: Each year, we bring the entire team together in a new location - past offsites have included Croatia and Italy.
+L92:
+L93:   * Co-working: If you’re not located near one of our main hubs, we offer a monthly co-working stipend.
+L94: ## About the role
+L95:
+L96: We are looking for a Research Engineer to join the research team at ElevenLabs. You'll work at the frontier of audio AI, shaping the models behind products used by millions of people. You will thrive in this role if you enjoy:
+L97:
+L98:   * Training state-of-the-art models - across any modality.
+L99:
+L100:   * Pushing existing models further through post-training, data curation, architectural improvements, and novel training paradigms.
+L101:   * Designing rigorous benchmarks and evaluations that tell us whether a new model iteration is genuinely better - and why.
+L102: ## Requirements
+L103:
+L104: We do not require any formal certifications or degrees. Instead, we are seeking enthusiastic engineers who can showcase solving impressively hard problems with artifacts such as past projects, designs, or GitHub contributions.
+L105:
+L106: Ideally you bring:
+L107:
+L108:   * 3+ years of experience in the field of AI, with an emphasis on implementing, training, and improving machine learning models.
+L109:   * Demonstrated capacity to autonomously evaluate novel concepts or enhance existing machine learning projects, potentially contributing to published work.
+L110:
+L111:   * Experience conducting exploratory research to improve the quality of gathered data.
+L112: ## Location
+L113:
+L114: This role is remote and can be executed globally. If you prefer, you can work from our offices in London, New York, San Francisco, and Warsaw.
+L115: #LI-Remote
+L116:
+L117: We are an equal opportunity employer and do not discriminate on the basis of race, religion, national origin, gender, sexual orientation, age, veteran status, disability or other legally protected statuses.
+L118:
+L119: [Button: Apply now]
+L120:
+L121: Voice chat
+L122:
+L123: cite2†Image L124:
+L125: Voice chat
+L126:
+L127: Careers
+L128:
+L129: cite0†ElevenLabs home cite1†Our culture L130:
+L131: Voice chat
+L132:
+L133: cite2†Image L134:
+L135: Voice chat
+L136:   * cite3†157 All departments L137:   * cite4†049 Engineering & Product L138:   * cite5†008 Finance L139:   * cite6†017 Growth L140:   * cite7†009 Legal L141:   * cite8†008 Operations L142:   * cite9†005 Research & Research Engineering L143:   * cite10†061 Revenue L144:
+L145: 11
+L146:
+L147: London
+L148:
+L149: 113 employees
+L150:
+L151: 11
+L152:
+L153: New York
+L154:
+L155: 75 employees
+L156:
+L157: 11
+L158:
+L159: San Francisco
+L160:
+L161: 43 employees
+L162:
+L163: 11
+L164:
+L165: Warsaw
+L166:
+L167: 26 employees
+L168: # Research Engineer
+L169:
+L170: Department
+L171:     Research & Research Engineering
+L172:
+L173: Location
+L174:     Remote
+L175:     Poland
+L176:     United States
+L177:     Germany
+L178:     United Kingdom
+L179:     Bulgaria
+L180:
+L181: Employment type
+L182:     Full time
+L183:
+L184: About the role
+L185:
+L186: Application
+L187: ## About ElevenLabs
+L188:
+L189: ElevenLabs is an AI research and product company transforming how we interact with technology.
+L190: We launched in January 2023 with the first human-like AI voice model. Today, we serve millions of users and thousands of businesses - from fast-growing startups to large enterprises like Deutsche Telekom and Meta. Our investors are some of the world's most prominent, including Andreessen Horowitz, ICONIQ Growth and Sequoia. We've raised $781M in funding and our last valuation was $22B - multiples of 11, always.
+L191: We have expanded from voice into three main platforms:
+L192:   * ElevenAgents enables businesses to deliver seamless and intelligent customer experiences, with the integrations, testing, monitoring, and reliability necessary to deploy voice and chat agents at scale.
+L193:
+L194:   * ElevenCreative empowers creators and marketers to generate and edit speech, music, image, and video across 70+ languages.
+L195:
+L196:   * ElevenAPI gives developers access to our leading AI audio foundational models.
+L197: Everything we do is the result of the creativity and commitment of our team - builders doing the best work of their lives. We are researchers, engineers, and operators. IOI medalists and ex-founders. If you want to work hard and create lasting positive impact, we want to hear from you.
+L198: ## How we work
+L199:
+L200:   * High-velocity: Rapid experimentation, lean autonomous teams, and minimal bureaucracy.
+L201:
+L202:   * Impact not job titles: We don’t have job titles. Instead, it’s about the impact you have. No task is above or beneath you.
+L203:
+L204:   * AI first: We use AI to move faster with higher-quality results. We do this across the whole company—from engineering to growth to operations.
+L205:
+L206:   * Excellence everywhere: Everything we do should match the quality of our AI models.
+L207:   * Global team: We prioritize your talent, not your location.
+L208: ## What we offer
+L209:
+L210:   * Innovative culture: You’ll be part of a generational opportunity to define the trajectory of AI, surrounded by a team pushing the boundaries of what’s possible.
+L211:
+L212:   * Growth paths: Joining ElevenLabs means joining a dynamic team with countless opportunities to drive impact - beyond your immediate role and responsibilities.
+L213:
+L214:   * Learning & development: ElevenLabs proactively supports professional development through an annual discretionary stipend.
+L215:   * Social travel: We also provide an annual discretionary stipend to meet up with colleagues each year, however you choose.
+L216:
+L217:   * Annual company offsite: Each year, we bring the entire team together in a new location - past offsites have included Croatia and Italy.
+L218:
+L219:   * Co-working: If you’re not located near one of our main hubs, we offer a monthly co-working stipend.
+L220: ## About the role
+L221:
+L222: We are looking for a Research Engineer to join the research team at ElevenLabs. You'll work at the frontier of audio AI, shaping the models behind products used by millions of people. You will thrive in this role if you enjoy:
+L223:
+L224:   * Training state-of-the-art models - across any modality.
+L225:
+L226:   * Pushing existing models further through post-training, data curation, architectural improvements, and novel training paradigms.
+L227:   * Designing rigorous benchmarks and evaluations that tell us whether a new model iteration is genuinely better - and why.
+L228: ## Requirements
+L229:
+L230: We do not require any formal certifications or degrees. Instead, we are seeking enthusiastic engineers who can showcase solving impressively hard problems with artifacts such as past projects, designs, or GitHub contributions.
+L231:
+L232: Ideally you bring:
+L233:
+L234:   * 3+ years of experience in the field of AI, with an emphasis on implementing, training, and improving machine learning models.
+L235:   * Demonstrated capacity to autonomously evaluate novel concepts or enhance existing machine learning projects, potentially contributing to published work.
+L236:
+L237:   * Experience conducting exploratory research to improve the quality of gathered data.
+L238: ## Location
+L239:
+L240: This role is remote and can be executed globally. If you prefer, you can work from our offices in London, New York, San Francisco, and Warsaw.
+L241:
+L242: #LI-Remote
+L243:
+L244: We are an equal opportunity employer and do not discriminate on the basis of race, religion, national origin, gender, sexual orientation, age, veteran status, disability or other legally protected statuses.
+L245:
+L246: [Button: Apply now]

@@ -1,0 +1,42 @@
+Zhanhong He
+Audio Generative Modelling | Music Model Post Training | Perceptual Evaluation
+zhanh.he@research.uwa.edu.au | https://github.com/zhanh-he/
+https://www.linkedin.com/in/zhanhong-he/
+
+PROFILE
+Music and audio machine learning researcher with doctoral research in musical expression and research internships at Huawei and Dolby. Experience spans DPO/GRPO-based music-model post-training, music-specific rewards and preference data, generative modelling, and human listening evaluation. Works with audio and symbolic music models in Python and PyTorch.
+
+RESEARCH AND INDUSTRY EXPERIENCE
+Research Intern - Huawei Hongkong Research Centre | Started June 2026
+- Applied DPO and GRPO to music-generation post-training, including rollout workflows and music-specific reward design.
+- Developed rewards informed by music information retrieval and signal processing, and contributed to human-preference data collection and analysis.
+
+Research Intern - Dolby Laboratories, Sydney | May-September 2024
+- Developed music-generation models using U-Net, variational autoencoder and masked Transformer architectures.
+- Designed and conducted professional human listening tests to evaluate generated musical expression.
+
+Doctoral Research - University of Western Australia | February 2022-present
+- Contributed to research on multi-task CRNN models for musical dynamics, beats, downbeats and structural changes, including a PyTorch implementation of a Bark-scale specific-loudness feature extractor.
+- Contributed to cross-instrument MIDI-velocity estimation research using differentiable SoundFont proxies and audio-based supervision in settings with limited velocity labels.
+- Contributed to a score-informed Transformer approach for refining MIDI-velocity estimates from automatic music transcription systems.
+- Contributed to adapting a U-Net image-colourisation approach to MIDI-velocity prediction and to a listening evaluation with professional listeners.
+
+Tutor and Lab Facilitator - University of Western Australia | February 2023-December 2025
+- Taught Signal Processing and Engineering Practices, and co-supervised a Computer Science Honours project.
+
+SELECTED PUBLICATIONS AND RESEARCH
+He, Z., Meng, H., Huang, D., and Togneri, R. Joint Estimation of Piano Dynamics and Metrical Structure with a Multi-Task Multi-Scale Network. ICASSP, 2026. DOI: 10.1109/ICASSP55912.2026.11460839.
+He, Z., Meng, H., Huang, D. D., and Togneri, R. Beyond Piano: Cross-Instrument MIDI Velocity Estimation via Differentiable SoundFont Proxies. arXiv:2608.08985, 2026. https://arxiv.org/abs/2608.08985
+Score-Informed Transformer for Refining MIDI Velocity in Automatic Music Transcription. Research project and implementation: https://github.com/zhanh-he/score-informed-amt
+Filling MIDI Velocity using U-Net Image Colorizer. Research project and implementation: https://github.com/zhanh-he/midi-velocity-colorizer
+
+EDUCATION
+PhD research in Electrical and Electronic Engineering - University of Western Australia | February 2022-present
+Doctoral defence completed; graduation certificate expected November 2026.
+BSc (Honours) in Engineering Science - University of Western Australia | October 2018-December 2021
+First Class Honours | GPA 7/7 | WAM 87.7/100
+Honours thesis: Improving Spectrogram-based Music Source Separation using Phase Information.
+
+TECHNICAL PRACTICE
+Python; PyTorch; audio and symbolic music processing; DPO/GRPO; music reward design; human-preference data; listening evaluation; U-Net, VAE, Transformer and CRNN research implementations.
+Ableton Live; Max/MSP; MuseScore. Guitar and piano as a music enthusiast.

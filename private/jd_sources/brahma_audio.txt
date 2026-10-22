@@ -1,0 +1,52 @@
+Checked 2026-10-21; official web-rendered text follows. Full job content preserved; duplicated navigation may appear.
+BRAHMA Careers - Machine Learning Researcher (Speech/Audio) (https://jobs.jobvite.com/brahma/job/obRaAfww)
+citeturn37view0 [wordlim: 200] Crawled: today; Content type: text/html; Source: open({"ref_id":"https://jobs.jobvite.com/brahma/job/obRaAfww","lineno":null}); Total lines: 53
+L0: # cite0†BRAHMA Careers L1:
+L2: ## Machine Learning Researcher (Speech/Audio)
+L3:
+L4: Technology Remote, London, United Kingdom
+L5:
+L6: * * *
+L7:
+L8: cite1†Apply L9: ### Description
+L10:
+L11: Brahma is a pioneering enterprise AI company developing Astras, AI-native products built to help enterprises and creators innovate at scale. Brahma enables teams to break creative bottlenecks, accelerate storytelling, and deliver standout content with speed and efficiency. Part of the DNEG Group, Brahma brings together Hollywood’s leading creative technologists, innovators in AI and Generative AI, and thought leaders in the ethical creation of AI content.
+L12: We are looking for a Machine Learning Researcher for Audio to join our team and help develop next-generation voice synthesis models. You'll research and build deep learning systems that can generate expressive, natural-sounding speech from text or audio prompts, and collaborate with cross-functional teams to integrate your work into production-ready pipelines.
+L13:
+L14:
+L15:
+L16: Key Responsibilities
+L17:   * Research and develop state-of-the-art voice synthesis models (e.g., TTS, voice cloning, speech-to-speech).
+L18:   * Build and fine-tune models using frameworks like PyTorch and HuggingFace.
+L19:   * Design training pipelines and datasets for scalable voice model training.
+L20:   * Explore techniques for emotional expressiveness, multilingual synthesis, and speaker adaptation.
+L21:   * Work closely with product and creative teams to ensure models meet quality and production constraints.
+L22:   * Stay on top of academic and industrial trends in speech synthesis and related fields.
+L23: Must Haves
+L24:   * Strong background in machine learning and deep learning, with focus on speech/audio.
+L25:   * Hands-on experience with TTS, voice cloning, or related voice synthesis tasks.
+L26:   * Proficiency with Python and PyTorch; experience with libraries like torchaudio, ESPnet, or similar.
+L27:   * Experience training models at scale and working with large audio datasets.
+L28:   * Familiarity with vocoders and transformer-based architectures.
+L29:   * Strong problem-solving skills, ability to work autonomously in a remote-first environment.
+L30: Nice to Have
+L31:
+L32:   * PhD degree in Computer Science/ Machine Learning and publications in top venues.
+L33:   * Contributions to open-source speech research or participation in relevant benchmarks.
+L34:   * Familiarity with adjacent areas like lip-syncing, audio-driven animation, or expressive speech control.
+L35:   * Experience with voice datasets or proprietary pipelines.
+L36: About BRAHMA AI:
+L37: BRAHMA AI is the next generation of enterprise media technology formed through the integration of Prime Focus Technologies and Metaphysic. By combining CLEAR®, CLEAR® AI, ATMAN, and VAANI into one ecosystem, BRAHMA AI enables enterprises to manage, create, and distribute content with intelligence, security, and efficiency.
+L38: Proven, scalable, and enterprise-tested, BRAHMA AI is helping global organizations accelerate growth, efficiency, and creative impact in the AI-powered era.
+L39: cite1†Apply Apply Later
+L40:
+L41: cite0†← Back to Current Openings L42:
+L43: * * *
+L44:
+L45: * * *
+L46: ### Similar Jobs
+L47:
+L48: cite2†{{ job.title }} L49:
+L50: * * *
+L51:
+L52: cite3†Powered by Jobvite†www.jobvite.com

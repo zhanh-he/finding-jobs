@@ -1,0 +1,13 @@
+Perceptual and content aware evaluation for generated audio watermarking
+Zhanhong He
+Optional research discussion note
+
+This note proposes an initial research direction for COWAMA; it describes planned work, not completed watermarking research. The advertised application requires a motivation letter rather than a separate proposal.
+
+I would investigate when musical content remains perceptually recognisable after transformations while a watermark detector loses reliability. The initial study would use an agreed open baseline and legally usable generated speech or music. It would separate detection quality, false positives, perceptual degradation and content retention rather than collapse them into one score.
+
+An initial protocol would distinguish held-out content and generators, then evaluate transformations such as resampling, compression, equalisation, time modification and controlled edits, subject to the baseline's intended threat model. Transformation strength would be specified and reported. My background in loudness-aware differentiable modelling and listening evaluation could contribute to identifying attacks that alter the signal substantially but preserve the intended musical content. I would learn and validate the watermarking and detection components with the group.
+
+The next stage would examine whether self-supervised representations and alignment can help distinguish content change from watermark removal. These representations would be evaluated for failure modes and dependence on instrument, style and speech/music domain; robustness would not be assumed from embedding similarity alone. Integration with diffusion or neural-codec language models would follow a successful baseline and an agreed division of work.
+
+The first three months would target reproducible baselines and a documented evaluation suite. Later experiments would test one content-aware hypothesis with ablations and a listening pilot. Release plans would cover licences, model/data restrictions, seeds and environment details. No confidential Huawei assets or unconfirmed results would enter the project.

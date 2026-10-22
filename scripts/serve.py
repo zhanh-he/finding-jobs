@@ -8,7 +8,7 @@ class Handler(SimpleHTTPRequestHandler):
  def log_message(self,*args):pass
  def list_directory(self,path):self.send_error(403,'Directory listing disabled');return None
  def end_headers(self):
-  self.send_header('Cache-Control','no-store');self.send_header('X-Content-Type-Options','nosniff');self.send_header('Content-Security-Policy',"default-src 'self'; img-src 'self' data:; style-src 'self'; script-src 'none'; frame-ancestors 'none'; base-uri 'none'; form-action 'none'");super().end_headers()
+  self.send_header('Cache-Control','no-store');self.send_header('X-Content-Type-Options','nosniff');self.send_header('Content-Security-Policy',"default-src 'self'; img-src 'self' data:; style-src 'self'; script-src 'self'; frame-ancestors 'none'; base-uri 'none'; form-action 'none'");super().end_headers()
 handler=functools.partial(Handler,directory=str(root))
 server=ThreadingHTTPServer(('127.0.0.1',a.port),handler)
 print(f'Local {a.view} preview: http://127.0.0.1:{a.port}/',flush=True)

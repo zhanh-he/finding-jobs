@@ -1,0 +1,46 @@
+Official page embedded public job data; checked 2026-10-21. Original HTML and JSON retained.
+
+postingTitle:
+Generative AI Research Engineer, Siri Speech
+
+postingDateMeta:
+2026-10-15
+
+standardWeeklyHours:
+35
+
+employmentType:
+Standard
+
+jobSummary:
+Be part of the next revolution in human-computer interaction. Contribute to products that are redefining mobile computing. Create groundbreaking technology for large-scale systems, speech synthesis, and generative artificial intelligence. Work with the team building the intelligent assistant that helps millions of people get things done every day.
+
+description:
+The Siri Speech (TTS) Team is seeking a highly qualified, creative, and hands-on Early Career Research Engineer eager to advance the state-of-the-art in generative speech models and improve the user experience across Apple devices. In this role, you will collaborate with world-class product and research teams to integrate novel generative AI paradigms into on-device user experiences.
+
+As a Research Engineer on the End-to-End Neural TTS team, your primary focus will be researching and developing techniques to enhance the steerability, expressiveness, and fine-grained control of Large Language Models and Generative Speech Decoders on Apple devices.
+
+responsibilities:
+Investigate innovative conditioning, alignment, and guided inference methods to reliably control attributes such as prosody, emotion, speaker identity, and pacing in generative audio pipelines.
+Build proof-of-concept prototypes, benchmark new algorithmic approaches, and write high-quality software libraries to bridge cutting-edge research with production capabilities.
+
+Collaborate across multidisciplinary teams to ensure next-generation speech synthesis technology runs efficiently, reliably, and accessibly for everyone, everywhere.
+
+Adapt quickly to evolving research trends and shifting priorities in a fast-paced environment.
+
+minimumQualifications:
+Deep Learning Foundations: Strong theoretical background in modern deep learning architectures, sequence modeling, and generative AI frameworks (e.g., Transformers, Flow Matching, Diffusion, VAEs).
+
+Mathematical Rigor: Solid foundation in optimization, probability theory, linear algebra, and statistical machine learning.
+
+Engineering Excellence: Excellent programming skills in Python and PyTorch, with experience writing clean, scalable code for model training and inference.
+
+On-Device & System Awareness: Exposure to or strong interest in efficient model execution, quantization, and deployment constraints for edge/on-device computing.
+
+
+preferredQualifications:
+Research Mindset: Strong problem-solving abilities, high curiosity, and a passion for exploring novel frontiers in speech and language modeling.
+
+Degree: Master’s degree (MSc) or equivalent in Computer Science, Mathematics, Data Science, Physics, or a related quantitative field.
+
+Experience: Early career: post-degree experience or practical industry/academic research experience demonstrated through publication, open-source codebases, or high-impact projects

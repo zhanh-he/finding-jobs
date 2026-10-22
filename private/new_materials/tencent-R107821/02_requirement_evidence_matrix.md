@@ -1,0 +1,25 @@
+# Tencent R107821 要求证据矩阵
+
+D=原DOCX非空段；PDF为原两页物理页。not_evidenced=未证明，非明确不会。S2/S3等见10来源。
+
+|requirement_id|kind|jd_section|requirement_paraphrase|candidate_evidence|pdf_page|docx_paragraphs|assessment|gap_type|claim_boundary|next_action|
+|---|---|---|---|---|---|---|---|---|---|---|
+|R01|responsibility|What the Role Entails 1|LLM/multimodal based speech synthesis incl TTS/voice conversion/sound/music generation|音乐DPO/GRPO后训练；Dolby U-Net/VAE/masked Transformer|2|P040–042;P048–050|partial_direct_music_only|capability_transfer|不声称TTS/voice conversion已做|说明音乐后训练个人贡献及对speech可迁移/不可迁移部分|
+|R02|responsibility|What the Role Entails 2|Improve online synthesis effectiveness/quality|奖励、偏好数据、专业听测|2|P038;P041–042;P050|partial|evidence_gap|无线上提升结果/指标|补可披露评估协议与结果，不能填数|
+|R03|responsibility|What the Role Entails 2|Online efficiency and scalability|研究实现可见；无服务规模/性能证据|2|P035;P049|not_evidenced|evidence_or_capability_gap|不能称生产大规模/低延迟系统|准备profiling计划与研究到生产边界|
+|R04|responsibility|What the Role Entails 3|Streaming/full-duplex real-time spoken interaction|无直接项目证据|1–2|P006;P041仅相邻方向|not_evidenced|capability_gap_or_unknown|音乐序列不等同流式对话|建立因果/分块/打断/回声评估知识|
+|R05|responsibility|What the Role Entails 4|Cross-functional collaboration prototype through production|Dolby听测；UWA共同指导/合作论文|2|P038;P045–050|partial_research_collaboration|evidence_gap|未证明负责生产上线|准备一个协作决策实例并清楚责任|
+|E01|essential|Who We Look For 1|PhD CS/EE/signal processing or closely related|UWA EE博士研究，已答辩，预计Nov证书；正式授予未核|1|P014+user_update_20261021|pending_timing|qualification_pending|不称已获PhD；JD未写等同替代|必要时用正式completion/award证明核招聘方接受时点|
+|E02|essential|Who We Look For 2|Strong speech/audio processing foundation|音频MIR、source separation honours、Bark specific loudness|1–2|P006;P018;P033–035|direct_audio_partial_speech|transfer_gap|不能把音乐工作扩为全部speech技术|以音频特征/时频/感知阐明基础|
+|E03|essential|Who We Look For 2|Modern generative-model foundation; diffusion/flow/autoregressive/codec examples|VAE/U-Net/masked Transformer与音乐LLM后训练|2|P041;P049|partial|capability_or_evidence_gap|未证明独立diffusion/flow/codec实现；例子非全选硬清单|准备不同范式训练/采样/质量延迟比较|
+|E04|essential|Who We Look For 3|Hands-on extending LLMs to speech/audio modalities|音乐LLM后训练，不披露内部模型/任务细节|2|P041–042|partial_core_needs_demonstration|core_evidence_gap|post-training不自动证明从零模态扩展|明确本人改动的输入输出/数据/奖励/训练边界|
+|E05|essential_example|Who We Look For 3|Speech tokenizers as example of modality extension|无直接speech tokenizer项目|1–2|未证明|not_evidenced|capability_or_evidence_gap|不能由token序列写懂/实现speech codec|可用公开授权示例形成独立练习|
+|E06|essential_example|Who We Look For 3|Multimodal adapters or speech-text joint training examples|无直接个人实现证据|1–2|未证明|not_evidenced|core_evidence_gap|不用合作者论文替代个人实现|核对过去真实贡献；无则诚实说学习方向|
+|E07|essential|Who We Look For 4|Proficient Python|CV proficiency及多个研究实现|1–2|P009;P033–035;P049|direct|expression|不增加NumPy/生产代码规模未证明技能|前移Python与可读repo|
+|E08|essential|Who We Look For 4|Deep learning framework e.g. PyTorch|Bark loudness PyTorch重实现与研究repo|1–2|P009;P035|direct|expression|repo存在不等于审过质量/可复现|准备最熟悉模块解释与shape/loss调试|
+|E09|essential|Who We Look For 5|Top venue publication track record incl ICASSP|ICASSP2026原CV与UWA Published/DOI记录；ISMIR预印本报accepted|1–2|P028;P033;S2;S3|direct_venue_evidence|bibliographic_and_contribution|under-review不算published；不套合作者贡献|挑两篇稳定成果说明本人贡献|
+|P01|preferred|Who We Look For 3 plus|Full-duplex/streaming dialogue/real-time interaction|没有直接证据|1–2|未证明|not_evidenced_not_disqualifying_alone|preferred_gap|原文明示plus，不升为绝对硬门槛|准备实际限制与安全回退设计|
+|P02|preferred|Who We Look For 4 plus|Distributed training|原CV无个人分布式执行证据|1–2|P009/P041不足以证明|not_evidenced_not_disqualifying_alone|preferred_gap|repo多GPU命令不证明本人经验|问清原真实训练职责；无则不写|
+|C01|condition|Workday fields|London Onsite Full time|用户可接受任意工作安排；伦敦偏好|—|user_update_20261021|acceptable_preference_unknown_details|logistics|不推断当前住伦敦/跨境remote|核办公室/到岗/起始与搬迁|
+|C02|condition|No sponsorship statement|THIS ROLE CoS/UK work permission|用户需要UK路线；L&Q OASIS在当日全量register未匹配|—|user_update+visa_recheck|unknown|hard_gate_pending|未匹配不是绝对无牌照；GT不等于CoS|由用户未来核合同与CoS实体，不联系|
+|C03|condition|Policy search and full JD|AI-assisted application policy|职位正文未披露明确AI政策|—|S1;official_targeted_search|unknown|process|unknown不写allowed|提交前用户读门户政策，当前只本地草稿|

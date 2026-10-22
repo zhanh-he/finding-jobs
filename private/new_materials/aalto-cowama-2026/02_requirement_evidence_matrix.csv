@@ -1,0 +1,19 @@
+id,category,requirement,candidate_evidence_pdf_docx,evidence_status,meaning_and_limit,source,verified_at
+E1,essential,相关doctorate或near-completion,P1 D14–15; latest user update,supported,明确接受near-completion；答辩已完成，证书预计11月,local_candidate_and_official_JD,2026-10-21
+E2,essential,强deep learning/generative models,P1–2 D28–38; P2 D48–50,supported,U-Net/VAE/masked Transformer与音乐ML,local_candidate_and_official_JD,2026-10-21
+E3,essential,现代ML研究编程，Python/framework优先,P1 D9; P2 D35,supported,PyTorch特征重实现及模型,local_candidate_and_official_JD,2026-10-21
+E4,essential,列出领域之一的兴趣,P1 D6–7; P2 D48–50,supported,music generation/quality/representations满足兴趣项；并非必须已有所有方向,local_candidate_and_official_JD,2026-10-21
+E5,essential,独立研究与优质venue发表,P1–2 D28–38,partial,CV列4篇会议，个人贡献/状态需确认,local_candidate_and_official_JD,2026-10-21
+E6,essential,open science与reproducibility动机,P1–2 publication code links,partial,有代码链接；CI/license/reproducible training未证,local_candidate_and_official_JD,2026-10-21
+E7,essential,国际合作沟通,P2 D40–52,supported,跨机构研究与教学,local_candidate_and_official_JD,2026-10-21
+E8,essential,流利英语,P1 D12; P2 D45–52,supported,自述及英语教学，不推断考试分数,local_candidate_and_official_JD,2026-10-21
+P1,preferred,博士/硕士指导,P2 D47,partial,honours co-supervision相关，不能称PhD/master独立指导,local_candidate_and_official_JD,2026-10-21
+R1,responsibilities,主导content-based audio watermark,P2 D48–50,unproven,目标工作，无已完成watermark项目,local_candidate_and_official_JD,2026-10-21
+R2,responsibilities,detection/perceptual quality评估,"P2 D35,38,50",partial,psychoacoustic/listening强；watermark detection未做,local_candidate_and_official_JD,2026-10-21
+R3,responsibilities,MIR/fingerprint/alignment/SSL/reference-free quality,P1–2 D28–35; P2 D44,partial,MIR/score conditioning/MERT exposure；fingerprinting和quality predictor未证明,local_candidate_and_official_JD,2026-10-21
+R4,responsibilities,生成模型集成，包括diffusion与codec LM,P2 D48–49,partial,生成模型经验；diffusion/codec实现未证,local_candidate_and_official_JD,2026-10-21
+R5,responsibilities,语义/时长/韵律长期内容嵌入,P1–2 D28–38,partial,dynamics和结构可转移；semantic watermark无证,local_candidate_and_official_JD,2026-10-21
+R6,responsibilities,robustness/可微augmentation/攻击,P1–2 D28–30,partial,differentiable proxy可转移；adversarial attack经验未证,local_candidate_and_official_JD,2026-10-21
+R7,responsibilities,publication/open software/model/reproducible outputs,P1–2 D28–38,partial,论文及代码链接；开放权重/数据许可/训练复现待证,local_candidate_and_official_JD,2026-10-21
+R8,responsibilities,实验设计/HPC/客观指标/主观听测,"P2 D35,38,50",partial,听测/实现直接；HPC与统计规模未证,local_candidate_and_official_JD,2026-10-21
+R9,responsibilities,与doctoral researcher和国际网络合作,"P2 D40–50,47",partial,合作与共同指导相关；项目管理权责未知,local_candidate_and_official_JD,2026-10-21

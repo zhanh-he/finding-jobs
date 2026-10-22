@@ -1,0 +1,23 @@
+Performance aware dynamics for guitar audio and symbolic music
+Zhanhong He
+Short research project proposal
+
+Motivation
+Guitar scores and tablatures describe note content and some performance instructions, while recordings contain expressive dynamics shaped by the performer and renderer. A useful tool should help musicians recover and edit those dynamics without treating an arbitrary synthesizer's response as ground truth. I propose a focused MIR/SMC project linking aligned guitar recordings and symbolic notes with interpretable dynamics controls. This is proposed work, extending my experience in MIDI velocity estimation; it does not assume previous expertise in tablature fingering or a completed guitar transcription system.
+
+Research questions
+How well can renderer-conditioned velocity estimates preserve the relative dynamics of a guitar performance? Which errors arise from note alignment, timbre mismatch or the velocity-to-loudness mapping? Can score context help users edit coherent expressive regions while retaining the original notes?
+
+Approach
+The first stage would audit legally usable guitar audio and aligned symbolic resources with the team. I would document note, timing, articulation and velocity assumptions, then implement simple constant-velocity and loudness-based baselines alongside a differentiable SoundFont proxy baseline. Splits would separate performances and, where feasible, instruments or renderers to expose leakage and transfer failures.
+
+The second stage would test score-informed refinement and region-level dynamics editing. The initial scope would preserve note content and concentrate on expressive intensity. Any tablature-facing extension would require an agreed representation and explicit instrument-tuning and fingering constraints. I would prioritise one supported task rather than promise audio-to-tablature, inpainting and style transfer simultaneously.
+
+Evaluation
+Objective analysis would report note alignment, dynamics reconstruction and cross-renderer consistency separately. A small pilot with the team's artists or educators would identify musically meaningful failure cases, followed by a listening protocol with randomised presentation and an appropriate statistical analysis. Participant recruitment, consent and ethics requirements would be agreed before data collection. Sample sizes, outcomes and gains are not assumed in advance.
+
+First-year plan and outputs
+Months 1-3: data and licence audit, baselines and reproducible evaluation. Months 4-6: score-informed dynamics refinement and ablations. Months 7-9: interactive examples and a musician/educator pilot, if feasible. Months 10-12: consolidate a paper, documented software and an accessible demonstration. Data access or alignment problems would trigger a narrower renderer-conditioned benchmark rather than an unsupported claim of general transcription.
+
+Fit and boundaries
+My differentiable-proxy, score-informed refinement and listening-evaluation work supplies the methodological starting point. I would develop guitar-specific notation and evaluation expertise with SCRIME. No confidential industry data, models or results would be used. The project aims to contribute to music analysis and performance while creating a practical route toward composition tools.

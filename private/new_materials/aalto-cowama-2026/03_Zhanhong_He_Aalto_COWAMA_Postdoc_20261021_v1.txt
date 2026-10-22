@@ -1,0 +1,52 @@
+ZHANHONG HE
+Music and Audio Machine Learning Researcher
+zhanh.he@research.uwa.edu.au
+https://github.com/zhanh-he/ | https://www.linkedin.com/in/zhanhong-he/
+
+RESEARCH PROFILE
+Audio ML researcher with experience in music generation, differentiable synthesis-informed learning and perceptual evaluation. Research connects audio representations with expressive symbolic controls. Interested in robust, perceptually grounded methods for identifying and tracing generated audio, building on generative-model research and listening evaluation.
+
+SELECTED RESEARCH
+Perceptually informed cross-instrument modelling
+- Contributed to differentiable SoundFont proxies to supervise MIDI velocity from rendered-audio loudness and adapt a piano-pretrained estimator to other instruments.
+- Studied supervision that reduces reliance on scarce non-piano velocity labels.
+Psychoacoustic features and multitask learning
+- Contributed to reimplementing a Bark-scale specific-loudness extractor in PyTorch.
+- Contributed to a multitask CRNN for piano dynamics, beat/downbeat and structural-change estimation.
+Generation and subjective evaluation
+- Contributed to adapting a U-Net image-colourisation approach to per-note MIDI velocity generation; designed a listening study supported by Dolby professional listeners.
+Score-informed model refinement
+- Contributed to a Transformer correction module using score onset and frame information to refine velocities from piano transcription models.
+Project repository: https://github.com/zhanh-he/sfproxy-velocity-estimation
+
+RESEARCH EXPERIENCE
+Huawei Hongkong Research Centre | Research Intern, full time
+Appointment commencing June 2026; six-month appointment.
+- Conducted research on music-model post-training and human-preference evaluation.
+Dolby Laboratories, Sydney | Research Intern, full time | May-September 2024
+- Developed music-generation models using U-Net, VAE and masked Transformer architectures.
+- Designed and conducted professional listening tests for musical audio.
+Great Bay University | Visiting Student Researcher, part time
+Appointment commencing March 2026; three-month appointment.
+- Explored pretrained music representations, including MERT, and agentic workflows for MIR research.EDUCATION
+University of Western Australia | PhD research in Electrical and Electronic Engineering
+February 2022-present. Doctoral defence completed; graduation certificate expected November 2026.
+Research on musical dynamics, audio-symbolic modelling and machine learning. University International Fee Scholarship; University Postgraduate Awards; 2026 UWA Data Institute Award.
+University of Western Australia | BSc Honours in Engineering Science
+October 2018-December 2021. First Class Honours; GPA 7/7; WAM 87.7/100.
+Honours thesis: Improving Spectrogram-based Music Source Separation using Phase Information.
+
+SELECTED PUBLICATIONS
+Zhanhong He, Hanyu Meng, David Defeng Huang and Roberto Togneri. Beyond Piano: Cross-Instrument MIDI Velocity Estimation via Differentiable SoundFont Proxies. Accepted to ISMIR 2026; arXiv:2608.08985. https://arxiv.org/abs/2608.08985
+Zhanhong He, Hanyu Meng, David Huang and Roberto Togneri. Joint Estimation of Piano Dynamics and Metrical Structure with a Multi-task Multi-Scale Network. ICASSP, 2026. DOI: 10.1109/ICASSP55912.2026.11460839.
+Zhanhong He, David Cooper, Defeng Huang and Roberto Togneri. Filling MIDI Velocity using U-Net Image Colorizer. Proceedings of CMMR 2025, pp. 949-960. https://arxiv.org/abs/2508.07751
+
+TEACHING AND MUSIC PRACTICE
+University of Western Australia | Tutor and Lab Facilitator | February 2023-December 2025
+- Supported Signal Processing and Engineering Practices teaching; co-supervised Computer Science Honours projects and final-year designs.
+- Guitar and piano enthusiast; UWA music coursework included electronic composition, Max/MSP music generation and ensemble performance.
+- Built an Arduino-based MIDI theremin programmed in C at a Physical Interaction Design for Music workshop in 2023.
+
+TECHNICAL SKILLS
+Python; PyTorch; audio and symbolic representations; differentiable synthesis proxies; psychoacoustic features; CRNN, Transformer, U-Net and VAE research; music generation; objective and listening evaluation.
+Languages: English fluent; Chinese and Cantonese native.

@@ -1,0 +1,14 @@
+Dear LIGHTSPEED STUDIOS Hiring Team,
+
+I am applying for the Senior Researcher, Speech Synthesis and Multimodal LLM position, R107821, in London. My research connects music generation, model post-training and perceptual evaluation. I have completed my doctoral defence in Electrical and Electronic Engineering at the University of Western Australia and expect my graduation certificate in November 2026.
+
+The role's inclusion of sound and music generation, alongside speech synthesis, particularly interests me. In my Huawei research internship, I have worked on DPO and GRPO for music-generation post-training, including music-specific reward design, rollout workflows and human-preference data. At Dolby, I developed music-generation models using U-Net, variational autoencoder and masked Transformer architectures and designed professional listening evaluations. These experiences have taught me to examine whether a model improvement is reflected in the qualities listeners value.
+
+My doctoral work adds a complementary perspective on controllable musical expression. My doctoral work includes models for dynamics and metrical structure, a PyTorch implementation of a Bark-scale specific-loudness feature extractor, and audio-supervised cross-instrument velocity estimation. My work includes an ICASSP 2026 paper and publicly available research implementations. I would bring this combination of audio modelling and evaluation to the team's work on expressive generative systems.
+
+I am interested in extending this foundation to speech and multimodal models, particularly the relationship between conditioning, perceived quality and efficient interaction. My strongest direct experience is in music and audio research. I would welcome a technical discussion of how my post-training and evaluation work could contribute to the team's speech-generation programme and where further development would be needed.
+
+Thank you for considering my application. I would be glad to discuss my research contributions, public work and availability.
+
+Yours sincerely,
+Zhanhong He
